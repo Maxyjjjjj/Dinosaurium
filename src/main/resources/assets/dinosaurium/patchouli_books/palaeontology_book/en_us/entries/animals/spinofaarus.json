@@ -1,0 +1,17 @@
+{
+    "name": "Spinofaarus",
+    "icon": "dinosaurium:spinofaarus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Spinofaarus is DEFINITELY a 100% real dinosaur that TOTALLY existed (trust me, bro). This absolutely legitimate prehistoric beast roamed the lands of North America, probably doing dinosaur things like looking cool and definitely NOT being made up. Its massive spiny back plates were so real that they could totally exist, maybe for intimidating other dinosaurs or just looking awesome. Spinofaarus: the most legit dinosaur you've never heard of (because it's TOTALLY real)."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:spinofaarus",
+            "rotate": false,
+            "text": "Spinofaarus is a totally real dinosaur, I swear!"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dinosaurium:mesozoic_bog",
+    "dinosaurium:mesozoic_forest"
+  ],
+  "spawners": {
+    "type": "dinosaurium:stegosaurus",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

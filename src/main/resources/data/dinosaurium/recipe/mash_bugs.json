@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "dinosaurium:mashable_bugs"
+    },
+    {
+      "tag": "dinosaurium:mashable_bugs"
+    },
+    {
+      "tag": "dinosaurium:mashable_bugs"
+    },
+    {
+      "tag": "dinosaurium:mashable_bugs"
+    },
+    {
+      "tag": "dinosaurium:mashable_bugs"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:mashed_bugs",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Compsognathus",
+    "icon": "dinosaurium:compsognathus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Compsognathus was a small theropod dinosaur that lived during the Late Jurassic Period (approximately 155-145 million years ago) in what is now Germany. It was characterized by its small size"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:compsognathus",
+            "rotate": false,
+            "text": "smol dino boi"
+        }
+    ]
+}

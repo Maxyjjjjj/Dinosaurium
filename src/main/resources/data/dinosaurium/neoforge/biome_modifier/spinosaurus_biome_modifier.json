@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "dinosaurium:mesozoic_bog",
+  "spawners": {
+    "type": "dinosaurium:spinosaurus",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

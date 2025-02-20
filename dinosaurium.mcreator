@@ -1,0 +1,5260 @@
+{
+  "mod_elements": [
+    {
+      "name": "DinosauriumTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurium_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MesozoicDesert",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_desert.json"
+        ]
+      }
+    },
+    {
+      "name": "Mesozoic",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/world/teleporter/MesozoicTeleporter.java",
+          "src/main/resources/assets/dinosaurium/blockstates/mesozoic_portal.json",
+          "src/main/resources/assets/dinosaurium/models/block/mesozoic_portal_ns.json",
+          "src/main/java/com/dinosaurium/world/dimension/MesozoicDimension.java",
+          "src/main/java/com/dinosaurium/block/MesozoicPortalBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/mesozoic_portal_ew.json",
+          "src/main/java/com/dinosaurium/item/MesozoicItem.java",
+          "src/main/resources/data/dinosaurium/dimension_type/mesozoic.json",
+          "src/main/resources/assets/dinosaurium/models/item/mesozoic.json",
+          "src/main/resources/data/dinosaurium/dimension/mesozoic.json",
+          "src/main/java/com/dinosaurium/world/teleporter/MesozoicPortalShape.java"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicBog",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_bog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_bog.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/mesozoic_bog_tree.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/mesozoic_bog_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicPortalFrameBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_portal_frame_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/mesozoic_portal_frame_block.json",
+          "src/main/java/com/dinosaurium/block/MesozoicPortalFrameBlockBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/mesozoic_portal_frame_block.json",
+          "src/main/resources/assets/dinosaurium/blockstates/mesozoic_portal_frame_block.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/mesozoic_portal_frame_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/particle/PortalParticleParticle.java",
+          "src/main/resources/assets/dinosaurium/particles/portal_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_forest.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/mesozoic_forest_tree.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/mesozoic_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Velociraptor",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/velociraptor_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/velociraptor_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/VelociraptorModel.java",
+          "src/main/java/com/dinosaurium/entity/VelociraptorEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/VelociraptorRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Shuvuuia",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shuvuuia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/shuvuuia_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/ShuvuuiaRenderer.java",
+          "src/main/java/com/dinosaurium/entity/ShuvuuiaEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/ShuvuuiaModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/shuvuuia_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Austroraptor",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "austroraptor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/AustroraptorEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/AustroraptorRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/austroraptor_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/AustroraptorModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/austroraptor_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BabyScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/BabyScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Diplodocus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplodocus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/DiplodocusModel.java",
+          "src/main/java/com/dinosaurium/entity/DiplodocusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/diplodocus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/DiplodocusRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/diplodocus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Quetzalcoatlus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quetzalcoatlus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/QuetzalcoatlusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/QuetzalcoatlusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/QuetzalcoatlusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/quetzalcoatlus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/quetzalcoatlus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Microraptor",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microraptor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/microraptor_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/MicroraptorModel.java",
+          "src/main/java/com/dinosaurium/entity/MicroraptorEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/microraptor_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/MicroraptorRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Hatzegopteryx",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hatzegopteryx",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/HatzegopteryxModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/hatzegopteryx_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/HatzegopteryxEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/hatzegopteryx_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/HatzegopteryxRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Arambourgiania",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arambourgiania",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/ArambourgianiaRenderer.java",
+          "src/main/java/com/dinosaurium/entity/ArambourgianiaEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/ArambourgianiaModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/arambourgiania_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/arambourgiania_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "DiplodocusBabyScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplodocus_baby_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/DiplodocusBabyScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiplodocusBoundingBoxScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplodocus_bounding_box_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/DiplodocusBoundingBoxScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FancyTimeTravel",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fancy_time_travel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/fancy_time_travel.json"
+        ]
+      }
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/AmberItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/amber.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/amber_ore.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/amber_ore_biome_modifier.json",
+          "src/main/java/com/dinosaurium/block/AmberOreBlock.java",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/amber_ore.json",
+          "src/main/resources/assets/dinosaurium/blockstates/amber_ore.json",
+          "src/main/resources/assets/dinosaurium/models/item/amber_ore.json",
+          "src/main/resources/assets/dinosaurium/models/block/amber_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/amber_block.json",
+          "src/main/resources/assets/dinosaurium/models/item/amber_block.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/amber_block.json",
+          "src/main/java/com/dinosaurium/block/AmberBlockBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/amber_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/amber_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/amber_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/amber_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateAmberOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_amber_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/deepslate_amber_ore.json",
+          "src/main/resources/assets/dinosaurium/blockstates/deepslate_amber_ore.json",
+          "src/main/resources/assets/dinosaurium/models/item/deepslate_amber_ore.json",
+          "src/main/java/com/dinosaurium/block/DeepslateAmberOreBlock.java",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/deepslate_amber_ore.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/deepslate_amber_ore_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/block/deepslate_amber_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberDeepslateOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_deepslate_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/amber_deepslate_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "FiresticksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesticks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/firesticks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicPortalFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_portal_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/mesozoic_portal_frame_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BurmeseOrBaltic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burmese_or_baltic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/burmese_or_baltic.json"
+        ]
+      }
+    },
+    {
+      "name": "Ichthyosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichthyosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/IchthyosaurusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/ichthyosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/IchthyosaurusRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/ichthyosaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/IchthyosaurusModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Asphalt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/AsphaltBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/asphalt.json",
+          "src/main/resources/assets/dinosaurium/blockstates/asphalt.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/asphalt.json",
+          "src/main/resources/assets/dinosaurium/models/block/asphalt.json"
+        ]
+      }
+    },
+    {
+      "name": "Ankylosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/ankylosaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/AnkylosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/AnkylosaurusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/ankylosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/AnkylosaurusEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "InTheBog",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_the_bog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/painting_variant/in_the_bog.json"
+        ]
+      }
+    },
+    {
+      "name": "Gallimimus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallimimus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/gallimimus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/GallimimusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/GallimimusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/GallimimusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/gallimimus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Deinocheirus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deinocheirus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/DeinocheirusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/deinocheirus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/DeinocheirusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/DeinocheirusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/deinocheirus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "RawOrnithomimosaur",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ornithomimosaur",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/RawOrnithomimosaurItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/raw_ornithomimosaur.json"
+        ]
+      }
+    },
+    {
+      "name": "CookedOrnithomimosaur",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_ornithomimosaur",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/CookedOrnithomimosaurItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/cooked_ornithomimosaur.json"
+        ]
+      }
+    },
+    {
+      "name": "GallimimusDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallimimus_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/entities/gallimimus.json"
+        ]
+      }
+    },
+    {
+      "name": "Stegosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/stegosaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/StegosaurusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/StegosaurusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/StegosaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/stegosaurus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Triceratops",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/TriceratopsRenderer.java",
+          "src/main/java/com/dinosaurium/entity/TriceratopsEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/TriceratopsModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/triceratops_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/triceratops_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "DiplodocusPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplodocus_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/painting_variant/diplodocus_painting.json"
+        ]
+      }
+    },
+    {
+      "name": "Tyrannosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/TyrannosaurusEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/TyrannosaurusRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/tyrannosaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/TyrannosaurusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/tyrannosaurus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "TyrannosaurusEntityVisualScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_entity_visual_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/TyrannosaurusEntityVisualScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TyrannosaurusBoundingBoxScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_bounding_box_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/TyrannosaurusBoundingBoxScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TyrannosaurusImmuneToWarden",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_immune_to_warden",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/TyrannosaurusImmuneToWardenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Onchopristis",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onchopristis",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/OnchopristisModel.java",
+          "src/main/java/com/dinosaurium/entity/OnchopristisEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/onchopristis_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/OnchopristisRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/onchopristis_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Spinosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/SpinosaurusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/spinosaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/SpinosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/SpinosaurusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/spinosaurus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Amargasaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amargasaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/AmargasaurusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/amargasaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/AmargasaurusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/amargasaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/AmargasaurusRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SawfishSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawfish_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/sawfish_sword.json",
+          "src/main/java/com/dinosaurium/item/SawfishSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PoachingInItsFinest",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poaching_in_its_finest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/poaching_in_its_finest.json"
+        ]
+      }
+    },
+    {
+      "name": "OnchopristisDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onchopristis_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/entities/onchopristis.json"
+        ]
+      }
+    },
+    {
+      "name": "Therizinosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "therizinosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/TherizinosaurusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/TherizinosaurusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/therizinosaurus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/therizinosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/TherizinosaurusRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Parasaurolophus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasaurolophus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/ParasaurolophusRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/parasaurolophus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/ParasaurolophusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/parasaurolophus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/ParasaurolophusEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Sinosauropteryx",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinosauropteryx",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/SinosauropteryxEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/sinosauropteryx_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/SinosauropteryxModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/SinosauropteryxRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/sinosauropteryx_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Nigersaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nigersaurus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/nigersaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/NigersaurusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/NigersaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/NigersaurusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/nigersaurus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Iguanodon",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iguanodon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/iguanodon_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/IguanodonEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/iguanodon_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/IguanodonModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/IguanodonRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SmallPreyAttacked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_prey_attacked",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/SmallPreyAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Compsognathus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/CompsognathusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/CompsognathusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/CompsognathusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/compsognathus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/compsognathus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "OviraptorEntityVisualScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_entity_visual_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/OviraptorEntityVisualScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OviraptorBoundingBoxScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_bounding_box_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/OviraptorBoundingBoxScaleProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Oviraptor",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/OviraptorEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/OviraptorRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/oviraptor_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/OviraptorModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/oviraptor_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Pteranodon",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/PteranodonEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/PteranodonRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/pteranodon_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/pteranodon_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/PteranodonModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Bruhathkayosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bruhathkayosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/BruhathkayosaurusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/BruhathkayosaurusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/bruhathkayosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/BruhathkayosaurusRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/bruhathkayosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Nyctosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/NyctosaurusEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/NyctosaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/nyctosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/NyctosaurusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/nyctosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Brachytrachelopan",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachytrachelopan",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/BrachytrachelopanModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/brachytrachelopan_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/BrachytrachelopanRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/brachytrachelopan_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/BrachytrachelopanEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicForestSteppe",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_forest_steppe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_forest_steppe.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/mesozoic_forest_steppe_tree.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/mesozoic_forest_steppe_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "VelociraptorFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/VelociraptorFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/velociraptor_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "DinosauriumFossils",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurium_fossils",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ShuvuuiaFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shuvuuia_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/shuvuuia_fossil.json",
+          "src/main/java/com/dinosaurium/item/ShuvuuiaFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AustroraptorFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "austroraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/AustroraptorFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/austroraptor_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "DiplodocusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diplodocus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/diplodocus_fossil.json",
+          "src/main/java/com/dinosaurium/item/DiplodocusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "QuetzalcoatlusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quetzalcoatlus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/quetzalcoatlus_fossil.json",
+          "src/main/java/com/dinosaurium/item/QuetzalcoatlusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MicroraptorFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/MicroraptorFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/microraptor_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "HatzegopteryxFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hatzegopteryx_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/hatzegopteryx_fossil.json",
+          "src/main/java/com/dinosaurium/item/HatzegopteryxFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AramourgianiaFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aramourgiania_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/AramourgianiaFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/aramourgiania_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "IchthyosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichthyosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/IchthyosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/ichthyosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "AnkylosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/ankylosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/AnkylosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GallimimusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gallimimus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/GallimimusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/gallimimus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "DeinocheirusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deinocheirus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/deinocheirus_fossil.json",
+          "src/main/java/com/dinosaurium/item/DeinocheirusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StegosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/stegosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/StegosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TricepatopsFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tricepatops_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/TricepatopsFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/tricepatops_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "TyrannosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/tyrannosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/TyrannosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SpinosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/SpinosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/spinosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "AmargasaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amargasaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/amargasaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/AmargasaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TherizinosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "therizinosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/TherizinosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/therizinosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "ParasaurolophusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasaurolophus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/parasaurolophus_fossil.json",
+          "src/main/java/com/dinosaurium/item/ParasaurolophusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SinosauropteryxFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinosauropteryx_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/SinosauropteryxFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/sinosauropteryx_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "NigersaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nigersaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/NigersaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/nigersaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "IguanodonFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iguanodon_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/iguanodon_fossil.json",
+          "src/main/java/com/dinosaurium/item/IguanodonFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CompsognathusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/CompsognathusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/compsognathus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "OviraptorFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/oviraptor_fossil.json",
+          "src/main/java/com/dinosaurium/item/OviraptorFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PteranodonFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/pteranodon_fossil.json",
+          "src/main/java/com/dinosaurium/item/PteranodonFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PachycephalosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/PachycephalosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/pachycephalosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "BruhathkayosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bruhathkayosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/BruhathkayosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/bruhathkayosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "NyctosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/NyctosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/nyctosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "BrachytrachelopanFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachytrachelopan_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/BrachytrachelopanFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/brachytrachelopan_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "AltarGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/world/inventory/AltarGUIMenu.java",
+          "src/main/java/com/dinosaurium/client/gui/AltarGUIScreen.java",
+          "src/main/java/com/dinosaurium/network/AltarGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ResurrectionAltar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resurrection_altar",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/ResurrectionAltarBlock.java",
+          "src/main/java/com/dinosaurium/block/entity/ResurrectionAltarBlockEntity.java",
+          "src/main/resources/assets/dinosaurium/blockstates/resurrection_altar.json",
+          "src/main/resources/assets/dinosaurium/models/item/resurrection_altar.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/resurrection_altar.json",
+          "src/main/resources/assets/dinosaurium/models/block/resurrection_altar.json"
+        ]
+      }
+    },
+    {
+      "name": "ResurrectAnimal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resurrect_animal",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/ResurrectAnimalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnindentifiedFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unidentified_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/unidentified_fossil.json",
+          "src/main/java/com/dinosaurium/item/UnindentifiedFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PalaeontologyTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaeontology_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/palaeontology_table.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/palaeontology_table.json",
+          "src/main/java/com/dinosaurium/block/PalaeontologyTableBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/palaeontology_table.json",
+          "src/main/resources/assets/dinosaurium/blockstates/palaeontology_table.json",
+          "src/main/java/com/dinosaurium/block/entity/PalaeontologyTableBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateFossilBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_fossil_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/deepslate_fossil_block.json",
+          "src/main/resources/assets/dinosaurium/blockstates/deepslate_fossil_block.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/deepslate_fossil_block.json",
+          "src/main/java/com/dinosaurium/block/DeepslateFossilBlockBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/deepslate_fossil_block.json",
+          "src/main/resources/assets/dinosaurium/models/block/deepslate_fossil_block.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/deepslate_fossil_block_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "FossilBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/FossilBlockBlock.java",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/fossil_block.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/fossil_block.json",
+          "src/main/resources/assets/dinosaurium/models/item/fossil_block.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/fossil_block_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/block/fossil_block.json",
+          "src/main/resources/assets/dinosaurium/blockstates/fossil_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DinosauriumTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurium_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PaleontologyGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paleontology_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/gui/PaleontologyGUIScreen.java",
+          "src/main/java/com/dinosaurium/world/inventory/PaleontologyGUIMenu.java",
+          "src/main/java/com/dinosaurium/network/PaleontologyGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "MiragaiaFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miragaia_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/MiragaiaFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/miragaia_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "Horsetail",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsetail",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/HorsetailBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/horsetail.json",
+          "src/main/resources/assets/dinosaurium/models/item/horsetail.json",
+          "src/main/resources/assets/dinosaurium/blockstates/horsetail.json"
+        ]
+      }
+    },
+    {
+      "name": "TallHorsetail",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_horsetail",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/tall_horsetail.json",
+          "src/main/resources/assets/dinosaurium/models/block/tall_horsetail_bottom.json",
+          "src/main/resources/assets/dinosaurium/blockstates/tall_horsetail.json",
+          "src/main/resources/assets/dinosaurium/models/block/tall_horsetail.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/tall_horsetail.json",
+          "src/main/java/com/dinosaurium/block/TallHorsetailBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "HorsetailFields",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsetail_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/horsetail_fields.json"
+        ]
+      }
+    },
+    {
+      "name": "Miragaia",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miragaia",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/MiragaiaEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/MiragaiaModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/miragaia_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/MiragaiaRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/miragaia_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicHorsetailFields",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_horsetail_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_horsetail_fields.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/mesozoic_horsetail_fields_tree.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/mesozoic_horsetail_fields_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "HorsetailPatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsetail_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/horsetail_patch.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/horsetail_patch.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/horsetail_patch_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "IdentifyFossils",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "identify_fossils",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/IdentifyFossilsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HorsetailBreak",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsetail_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/horsetail.json"
+        ]
+      }
+    },
+    {
+      "name": "TallHorsetailBreak",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_horsetail_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/tall_horsetail.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateFossilBlockDig",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_fossil_block_dig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/deepslate_fossil_block.json"
+        ]
+      }
+    },
+    {
+      "name": "FossilBlockDig",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_block_dig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/fossil_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberOreDig",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore_dig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/amber_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateAmberOreDig",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_amber_ore_dig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/deepslate_amber_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Palaeontology",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaeontology",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/palaeontology.json"
+        ]
+      }
+    },
+    {
+      "name": "EnigmaFound",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enigma_found",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/enigma_found.json"
+        ]
+      }
+    },
+    {
+      "name": "TyrannosaurusPreyItems",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_prey_items",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/TyrannosaurusPreyItemsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MesozoicPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_plains.json"
+        ]
+      }
+    },
+    {
+      "name": "Tuojiangosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuojiangosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/TuojiangosaurusEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/TuojiangosaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/tuojiangosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/TuojiangosaurusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/tuojiangosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TuojiangosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuojiangosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/tuojiangosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/TuojiangosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Protoceratops",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protoceratops",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/ProtoceratopsEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/protoceratops_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/ProtoceratopsRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/ProtoceratopsModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/protoceratops_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Archaeopteryx",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archaeopteryx",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/ArchaeopteryxModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/archaeopteryx_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/archaeopteryx_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/ArchaeopteryxRenderer.java",
+          "src/main/java/com/dinosaurium/entity/ArchaeopteryxEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ProtoceratopsFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protoceratops_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/protoceratops_fossil.json",
+          "src/main/java/com/dinosaurium/item/ProtoceratopsFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ArchaeopteryxFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archaeopteryx_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/ArchaeopteryxFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/archaeopteryx_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "ArchaeopteryxPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archaeopteryx_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/painting_variant/archaeopteryx_painting.json"
+        ]
+      }
+    },
+    {
+      "name": "Olorotitan",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olorotitan",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/OlorotitanEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/olorotitan_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/olorotitan_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/OlorotitanRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/OlorotitanModel.java"
+        ]
+      }
+    },
+    {
+      "name": "OlorotitanFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olorotitan_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/OlorotitanFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/olorotitan_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "Otozamites",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otozamites",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/otozamites.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/otozamites.json",
+          "src/main/resources/assets/dinosaurium/models/block/otozamites.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/otozamites_biome_modifier.json",
+          "src/main/java/com/dinosaurium/block/OtozamitesBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/otozamites.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/otozamites.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/otozamites.json"
+        ]
+      }
+    },
+    {
+      "name": "DinosauriumPlants",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurium_plants",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ephedra",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/ephedra.json",
+          "src/main/resources/assets/dinosaurium/blockstates/ephedra.json",
+          "src/main/resources/assets/dinosaurium/models/item/ephedra.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/ephedra_biome_modifier.json",
+          "src/main/java/com/dinosaurium/block/EphedraBlock.java",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/ephedra.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/ephedra.json",
+          "src/main/resources/assets/dinosaurium/models/block/ephedra.json"
+        ]
+      }
+    },
+    {
+      "name": "Welwitschia",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welwitschia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/welwitschia_biome_modifier.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/welwitschia.json",
+          "src/main/java/com/dinosaurium/block/WelwitschiaBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/welwitschia.json",
+          "src/main/resources/assets/dinosaurium/models/item/welwitschia.json",
+          "src/main/resources/assets/dinosaurium/models/block/welwitschia.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/welwitschia.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/welwitschia.json"
+        ]
+      }
+    },
+    {
+      "name": "Magyarosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magyarosaurus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/magyarosaurus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/magyarosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/MagyarosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/MagyarosaurusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/MagyarosaurusModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Nemegtosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nemegtosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/NemegtosaurusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/NemegtosaurusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/NemegtosaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/nemegtosaurus_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/nemegtosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MagyarosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magyarosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/magyarosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/MagyarosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NemegtosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nemegtosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/NemegtosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/nemegtosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/zamites_wood.json",
+          "src/main/java/com/dinosaurium/block/ZamitesWoodBlock.java",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_wood.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_wood.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/zamites_log.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_log.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_log.json",
+          "src/main/java/com/dinosaurium/block/ZamitesLogBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_log.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/zamites_planks.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_planks.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_planks.json",
+          "src/main/java/com/dinosaurium/block/ZamitesPlanksBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_stairs_outer.json",
+          "src/main/java/com/dinosaurium/block/ZamitesStairsBlock.java",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/zamites_slab_full.json",
+          "src/main/java/com/dinosaurium/block/ZamitesSlabBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_slab.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_slab.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_slab.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_slab_top.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_fence.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_fence.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence_post.json",
+          "src/main/java/com/dinosaurium/block/ZamitesFenceBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_fence.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence_inventory.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/zamites_fence_gate.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence_gate.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_fence_gate.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence_gate_open.json",
+          "src/main/java/com/dinosaurium/block/ZamitesFenceGateBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_fence_gate.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence_gate_wall.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_fence_gate_wall_open.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_pressure_plate.json",
+          "src/main/java/com/dinosaurium/block/ZamitesPressurePlateBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_pressure_plate.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_pressure_plate_down.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_pressure_plate.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_button.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_button.json",
+          "src/main/java/com/dinosaurium/block/ZamitesButtonBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_button.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_button_pressed.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_button.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesFrondBlockValidPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_frond_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/ZamitesFrondBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZamitesCone",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_cone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_cone.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_cone.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_cone.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_cone.json",
+          "src/main/java/com/dinosaurium/block/ZamitesConeBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesCrown",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_crown",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/ZamitesCrownBlock.java",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_crown.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_crown.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_crown.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_crown.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesFrond",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_frond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/zamites_frond.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_frond.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_frond.json",
+          "src/main/java/com/dinosaurium/block/ZamitesFrondBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_frond.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicJungle",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/mesozoic_jungle_tree.json",
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_jungle.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/mesozoic_jungle_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/zamites_tree.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/zamites_tree.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/zamites_tree_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "Laelaps",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laelaps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/painting_variant/laelaps.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_sapling.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_sapling.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_sapling.json",
+          "src/main/java/com/dinosaurium/block/ZamitesSaplingBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_sapling.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicTundra",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_tundra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_tundra.json"
+        ]
+      }
+    },
+    {
+      "name": "Pachyrhinosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachyrhinosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/PachyrhinosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/PachyrhinosaurusModel.java",
+          "src/main/java/com/dinosaurium/entity/PachyrhinosaurusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/pachyrhinosaurus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/pachyrhinosaurus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "PachyrhinosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachyrhinosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/pachyrhinosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/PachyrhinosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nanuqsaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanuqsaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/NanuqsaurusEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/NanuqsaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/nanuqsaurus_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/nanuqsaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/NanuqsaurusModel.java"
+        ]
+      }
+    },
+    {
+      "name": "NanuqsaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanuqsaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/nanuqsaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/NanuqsaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ResurrectionAltarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resurrection_altar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/resurrection_altar_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PalaeontologyTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaeontology_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/palaeontology_table_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Parapuzosia",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parapuzosia",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/ParapuzosiaRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/ParapuzosiaModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/parapuzosia_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/ParapuzosiaEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/parapuzosia_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Orodromeus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orodromeus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/OrodromeusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/orodromeus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/OrodromeusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/orodromeus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/OrodromeusRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ParapuzosiaFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parapuzosia_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/parapuzosia_fossil.json",
+          "src/main/java/com/dinosaurium/item/ParapuzosiaFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrodromeusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orodromeus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/orodromeus_fossil.json",
+          "src/main/java/com/dinosaurium/item/OrodromeusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_top_left.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_top_left_open.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_top_right_open.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_bottom_right_open.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_door.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_bottom_left.json",
+          "src/main/java/com/dinosaurium/block/ZamitesDoorBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_door.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_bottom_left_open.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_bottom_right.json",
+          "src/main/resources/assets/dinosaurium/models/item/zamites_door.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_door_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/zamites_trapdoor.json",
+          "src/main/resources/assets/dinosaurium/blockstates/zamites_trapdoor.json",
+          "src/main/java/com/dinosaurium/block/ZamitesTrapdoorBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_trapdoor.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_trapdoor_open.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/zamites_trapdoor.json",
+          "src/main/resources/assets/dinosaurium/models/block/zamites_trapdoor_top.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_door.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedZamitesLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_zamites_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/stripped_zamites_log.json",
+          "src/main/java/com/dinosaurium/block/StrippedZamitesLogBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/stripped_zamites_log.json",
+          "src/main/resources/assets/dinosaurium/models/item/stripped_zamites_log.json",
+          "src/main/resources/assets/dinosaurium/models/block/stripped_zamites_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedZamitesWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_zamites_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/blockstates/stripped_zamites_wood.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/stripped_zamites_wood.json",
+          "src/main/java/com/dinosaurium/block/StrippedZamitesWoodBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/stripped_zamites_wood.json",
+          "src/main/resources/assets/dinosaurium/models/block/stripped_zamites_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StripLogs",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_logs",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/StripLogsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrippedZamitesWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_zamites_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/stripped_zamites_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPlankStrippedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_plank_stripped_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_plank_stripped_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZamitesPlankStripped2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zamites_plank_stripped_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/zamites_plank_stripped_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cephaloleichnites",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cephaloleichnites",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/CephaloleichnitesModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/cephaloleichnites_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/cephaloleichnites_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/CephaloleichnitesEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/CephaloleichnitesRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Kol",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kol",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/KolModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/kol_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/kol_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/KolRenderer.java",
+          "src/main/java/com/dinosaurium/entity/KolEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KolFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kol_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/kol_fossil.json",
+          "src/main/java/com/dinosaurium/item/KolFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Anzu",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anzu",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/AnzuModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/AnzuRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/anzu_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/AnzuEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/anzu_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Beipiaosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beipiaosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/BeipiaosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/BeipiaosaurusModel.java",
+          "src/main/java/com/dinosaurium/entity/BeipiaosaurusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/beipiaosaurus_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/beipiaosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "AnzuFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anzu_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/anzu_fossil.json",
+          "src/main/java/com/dinosaurium/item/AnzuFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BeipiaosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beipiaosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/beipiaosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/BeipiaosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zhenyuanlong",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhenyuanlong",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/zhenyuanlong_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/ZhenyuanlongModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/zhenyuanlong_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/ZhenyuanlongRenderer.java",
+          "src/main/java/com/dinosaurium/entity/ZhenyuanlongEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ZhenyuanlongFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhenyuanlong_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/ZhenyuanlongFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/zhenyuanlong_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "Dilophosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/DilophosaurusEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/DilophosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/DilophosaurusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/dilophosaurus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/dilophosaurus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "DilophosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/DilophosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/dilophosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "CephaloleichnitesItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cephaloleichnites_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/CephaloleichnitesItemItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/cephaloleichnites_item.json"
+        ]
+      }
+    },
+    {
+      "name": "BugNet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bug_net",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/BugNetItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/bug_net.json"
+        ]
+      }
+    },
+    {
+      "name": "Osmunda",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmunda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/osmunda.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/osmunda_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/block/osmunda.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/osmunda.json",
+          "src/main/resources/assets/dinosaurium/blockstates/osmunda.json",
+          "src/main/java/com/dinosaurium/block/OsmundaBlock.java",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/osmunda.json",
+          "src/main/resources/assets/dinosaurium/models/item/osmunda.json"
+        ]
+      }
+    },
+    {
+      "name": "CatchBugs",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catch_bugs",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/CatchBugsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Edmontosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edmontosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/EdmontosaurusModel.java",
+          "src/main/java/com/dinosaurium/entity/EdmontosaurusEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/EdmontosaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/edmontosaurus_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/edmontosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "EdmontosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edmontosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/EdmontosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/edmontosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/PachycephalosaurusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/PachycephalosaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/pachycephalosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/PachycephalosaurusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/pachycephalosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Cretaraneus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cretaraneus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/CretaraneusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/CretaraneusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/cretaraneus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/cretaraneus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/CretaraneusModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Mongolarachne",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mongolarachne",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/mongolarachne_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/mongolarachne_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/MongolarachneModel.java",
+          "src/main/java/com/dinosaurium/entity/MongolarachneEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/MongolarachneRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Coelophysis",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coelophysis",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/CoelophysisRenderer.java",
+          "src/main/java/com/dinosaurium/entity/CoelophysisEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/coelophysis_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/CoelophysisModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/coelophysis_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "CoelophysisFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coelophysis_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/CoelophysisFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/coelophysis_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "CollectBugs",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collect_bugs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/collect_bugs.json"
+        ]
+      }
+    },
+    {
+      "name": "CretaraneusItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cretaraneus_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/cretaraneus_item.json",
+          "src/main/java/com/dinosaurium/item/CretaraneusItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MongolarachneItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mongolarachne_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/mongolarachne_item.json",
+          "src/main/java/com/dinosaurium/item/MongolarachneItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Osmundacaulis",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmundacaulis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/blockstates/osmundacaulis.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/osmundacaulis.json",
+          "src/main/resources/assets/dinosaurium/models/item/osmundacaulis.json",
+          "src/main/resources/assets/dinosaurium/models/block/osmundacaulis.json",
+          "src/main/java/com/dinosaurium/block/OsmundacaulisBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Laurozamites",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laurozamites",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/laurozamites_biome_modifier.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/laurozamites.json",
+          "src/main/resources/assets/dinosaurium/models/item/laurozamites.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/laurozamites.json",
+          "src/main/resources/assets/dinosaurium/models/block/laurozamites.json",
+          "src/main/resources/assets/dinosaurium/blockstates/laurozamites.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/laurozamites.json",
+          "src/main/java/com/dinosaurium/block/LaurozamitesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FriedSpider",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/FriedSpiderItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/fried_spider.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltSpider",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_spider",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/smelt_spider.json"
+        ]
+      }
+    },
+    {
+      "name": "SmokeSpider",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_spider",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/smoke_spider.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltGallimimusMeat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_gallimimus_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/smelt_gallimimus_meat.json"
+        ]
+      }
+    },
+    {
+      "name": "SmokeGallimimusMeat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_gallimimus_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/smoke_gallimimus_meat.json"
+        ]
+      }
+    },
+    {
+      "name": "CampfireSpider",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_spider",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/campfire_spider.json"
+        ]
+      }
+    },
+    {
+      "name": "CampfireGallimimusMeat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_gallimimus_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/campfire_gallimimus_meat.json"
+        ]
+      }
+    },
+    {
+      "name": "WelcomeToCambodia",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_cambodia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/welcome_to_cambodia.json"
+        ]
+      }
+    },
+    {
+      "name": "Benettitales",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benettitales",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/benettitales_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/blockstates/benettitales.json",
+          "src/main/resources/assets/dinosaurium/models/item/benettitales.json",
+          "src/main/java/com/dinosaurium/block/BenettitalesBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/benettitales.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/benettitales.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/benettitales.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/benettitales.json"
+        ]
+      }
+    },
+    {
+      "name": "Palaeontologist",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaeontologist",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/textures/entity/villager/profession/palaeontologist.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "BugNetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bug_net_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/bug_net_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sinew",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinew",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/sinew.json",
+          "src/main/java/com/dinosaurium/item/SinewItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pycnofiber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pycnofiber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/pycnofiber.json",
+          "src/main/java/com/dinosaurium/item/PycnofiberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PterosaurDops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pterosaur_dops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/entities/jeholopterus.json"
+        ]
+      }
+    },
+    {
+      "name": "Jeholopterus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeholopterus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/JeholopterusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/JeholopterusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/jeholopterus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/jeholopterus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/JeholopterusRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Halszkaraptor",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halszkaraptor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/halszkaraptor_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/halszkaraptor_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/HalszkaraptorEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/HalszkaraptorRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/HalszkaraptorModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HalszkaraptorFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halszkaraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/HalszkaraptorFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/halszkaraptor_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "JeholopterusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeholopterus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/JeholopterusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/jeholopterus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "CompsognathusDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/entities/compsognathus.json"
+        ]
+      }
+    },
+    {
+      "name": "StringRecipePycnofiberSinew",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string_recipe_pycnofiber_sinew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/string.json"
+        ]
+      }
+    },
+    {
+      "name": "Psittacosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psittacosaurus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/psittacosaurus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/psittacosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/PsittacosaurusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/PsittacosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/PsittacosaurusEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Yutyrannus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yutyrannus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/YutyrannusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/YutyrannusModel.java",
+          "src/main/java/com/dinosaurium/client/renderer/YutyrannusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/yutyrannus_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/yutyrannus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PsittacosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psittacosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/PsittacosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/psittacosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "YutyrannusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yutyrannus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/YutyrannusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/yutyrannus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "BabiesTargetsCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "babies_targets_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/BabiesTargetsConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Repenomamus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repenomamus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/RepenomamusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/RepenomamusModel.java",
+          "src/main/java/com/dinosaurium/entity/RepenomamusEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/repenomamus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/repenomamus_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "WhackAMole",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whack_a_mole",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/whack_a_mole.json"
+        ]
+      }
+    },
+    {
+      "name": "RepenomamusKilled",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repenomamus_killed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/RepenomamusKilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RepenomamusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repenomamus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/RepenomamusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/repenomamus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "Mamenchisaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamenchisaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/model/MamenchisaurusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/mamenchisaurus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/MamenchisaurusRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/mamenchisaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/MamenchisaurusEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MamenchisaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamenchisaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/mamenchisaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/MamenchisaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PalaeontologistsHut",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaeontologists_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/template_pool/palaeontologists_hut.json",
+          "src/main/resources/data/dinosaurium/worldgen/structure_set/palaeontologists_hut.json",
+          "src/main/resources/data/dinosaurium/worldgen/structure/palaeontologists_hut.json"
+        ]
+      }
+    },
+    {
+      "name": "AprilFools",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "april_fools",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/AprilFoolsProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Spinofaarus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinofaarus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/spinofaarus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/SpinofaarusRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/spinofaarus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/SpinofaarusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/SpinofaarusModel.java"
+        ]
+      }
+    },
+    {
+      "name": "SpinosaurusSpinofaarus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_spinofaarus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/procedures/SpinosaurusSpinofaarusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Omma",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omma",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/omma_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/omma_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/OmmaEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/OmmaRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/OmmaModel.java"
+        ]
+      }
+    },
+    {
+      "name": "OmmaItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omma_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/omma_item.json",
+          "src/main/java/com/dinosaurium/item/OmmaItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HorsetailPatchAbundant",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsetail_patch_abundant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/horsetail_patch_abundant.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/horsetail_patch_abundant_biome_modifier.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/horsetail_patch_abundant.json"
+        ]
+      }
+    },
+    {
+      "name": "CommonConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_config",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/configuration/CommonConfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "MashedBugs",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mashed_bugs",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/MashedBugsItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/mashed_bugs.json"
+        ]
+      }
+    },
+    {
+      "name": "MashBugs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mash_bugs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/mash_bugs.json"
+        ]
+      }
+    },
+    {
+      "name": "Nannogomphus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nannogomphus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/nannogomphus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/NannogomphusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/NannogomphusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/NannogomphusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/nannogomphus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GiantCicad",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_cicada",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/GiantCicadRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/GiantCicadModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/giant_cicada_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/GiantCicadEntity.java",
+          "src/main/resources/assets/dinosaurium/models/item/giant_cicada_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "DinosauriumFoodstuffs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurium_foodstuffs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NannogomphusItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nannogomphus_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/nannogomphus_item.json",
+          "src/main/java/com/dinosaurium/item/NannogomphusItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GiantCicadItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_cicada_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/GiantCicadItemItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/giant_cicada_item.json"
+        ]
+      }
+    },
+    {
+      "name": "YummyBugs",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yummy_bugs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/yummy_bugs.json"
+        ]
+      }
+    },
+    {
+      "name": "RepenomamusDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repenomamus_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/entities/repenomamus.json"
+        ]
+      }
+    },
+    {
+      "name": "Lambeosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lambeosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/LambeosaurusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/model/LambeosaurusModel.java",
+          "src/main/java/com/dinosaurium/entity/LambeosaurusEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/lambeosaurus_biome_modifier.json",
+          "src/main/resources/assets/dinosaurium/models/item/lambeosaurus_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Ouranosaurus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouranosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/OuranosaurusEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/OuranosaurusModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/ouranosaurus_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/ouranosaurus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/OuranosaurusRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "LambeosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lambeosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/lambeosaurus_fossil.json",
+          "src/main/java/com/dinosaurium/item/LambeosaurusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OuranosaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouranosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/OuranosaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/ouranosaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "CrassostreaOyster",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crassostrea_oyster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/crassostrea_oyster.json",
+          "src/main/java/com/dinosaurium/item/CrassostreaOysterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dsungaripterus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsungaripterus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/dsungaripterus_spawn_egg.json",
+          "src/main/java/com/dinosaurium/entity/model/DsungaripterusModel.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/dsungaripterus_biome_modifier.json",
+          "src/main/java/com/dinosaurium/client/renderer/DsungaripterusRenderer.java",
+          "src/main/java/com/dinosaurium/entity/DsungaripterusEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "OysterSoup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oyster_soup",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/OysterSoupItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/oyster_soup.json"
+        ]
+      }
+    },
+    {
+      "name": "RawOyster",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_oyster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/raw_oyster.json",
+          "src/main/java/com/dinosaurium/item/RawOysterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OysterSoupRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oyster_soup_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/oyster_soup.json"
+        ]
+      }
+    },
+    {
+      "name": "CrassostreaOysterBlock",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crassostrea_oyster_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/blockstates/crassostrea_oyster_block.json",
+          "src/main/resources/assets/dinosaurium/models/block/crassostrea_oyster_block.json",
+          "src/main/java/com/dinosaurium/block/CrassostreaOysterBlockBlock.java",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/crassostrea_oyster_block.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/crassostrea_oyster_block.json",
+          "src/main/resources/assets/dinosaurium/models/item/crassostrea_oyster_block.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/crassostrea_oyster_block_biome_modifier.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/crassostrea_oyster_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Pterodaustro",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pterodaustro",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/client/renderer/PterodaustroRenderer.java",
+          "src/main/java/com/dinosaurium/entity/PterodaustroEntity.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/pterodaustro_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/PterodaustroModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/pterodaustro_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MesozoicOcean",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesozoic_ocean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/worldgen/biome/mesozoic_ocean.json"
+        ]
+      }
+    },
+    {
+      "name": "PterodaustroFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pterodaustro_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/PterodaustroFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/pterodaustro_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "DsungaripterusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsungaripterus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/DsungaripterusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/dsungaripterus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "BrushFossil",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brush_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/brush_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "ResurrectAnAnimal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resurrect_an_animal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/advancement/resurrect_an_animal.json"
+        ]
+      }
+    },
+    {
+      "name": "Lisowicia",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lisowicia",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/LisowiciaEntity.java",
+          "src/main/java/com/dinosaurium/entity/model/LisowiciaModel.java",
+          "src/main/resources/assets/dinosaurium/models/item/lisowicia_spawn_egg.json",
+          "src/main/java/com/dinosaurium/client/renderer/LisowiciaRenderer.java",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/lisowicia_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "LisowiciaFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lisowicia_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/LisowiciaFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/lisowicia_fossil.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "entity.tyrannosaurus.roar",
+      "files": [
+        "tyrannosaurus_roar"
+      ],
+      "category": "neutral",
+      "subtitle": "Tyrannosaurus roars"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:HorsetailFields"
+    ],
+    "ENTITIES:mod:ceratopsians": [
+      "CUSTOM:Triceratops",
+      "CUSTOM:Pachyrhinosaurus"
+    ],
+    "ENTITIES:mod:small_prey": [
+      "CUSTOM:Shuvuuia",
+      "EntityRabbit",
+      "EntityChicken"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:ZamitesWood",
+      "CUSTOM:ZamitesLog",
+      "CUSTOM:StrippedZamitesLog",
+      "CUSTOM:StrippedZamitesWood"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:ZamitesSapling"
+    ],
+    "ENTITIES:minecraft:aquatic": [
+      "~CUSTOM:Parapuzosia",
+      "~CUSTOM:Ichthyosaurus"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:ZamitesSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:DeepslateAmberOre",
+      "~CUSTOM:AmberBlock",
+      "~CUSTOM:AmberOre"
+    ],
+    "ENTITIES:mod:capturable_bugs": [
+      "CUSTOM:Cephaloleichnites",
+      "CUSTOM:Cretaraneus",
+      "CUSTOM:Mongolarachne",
+      "CUSTOM:Omma",
+      "CUSTOM:Nannogomphus",
+      "CUSTOM:GiantCicad"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:ZamitesStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SawfishSword"
+    ],
+    "ITEMS:mod:fossils": [
+      "CUSTOM:VelociraptorFossil",
+      "CUSTOM:ShuvuuiaFossil",
+      "CUSTOM:AustroraptorFossil",
+      "CUSTOM:DiplodocusFossil",
+      "CUSTOM:QuetzalcoatlusFossil",
+      "CUSTOM:MicroraptorFossil",
+      "CUSTOM:HatzegopteryxFossil",
+      "CUSTOM:AramourgianiaFossil",
+      "CUSTOM:IchthyosaurusFossil",
+      "CUSTOM:AnkylosaurusFossil",
+      "CUSTOM:GallimimusFossil",
+      "CUSTOM:DeinocheirusFossil",
+      "CUSTOM:StegosaurusFossil",
+      "CUSTOM:TricepatopsFossil",
+      "CUSTOM:TyrannosaurusFossil",
+      "CUSTOM:SpinosaurusFossil",
+      "CUSTOM:AmargasaurusFossil",
+      "CUSTOM:TherizinosaurusFossil",
+      "CUSTOM:ParasaurolophusFossil",
+      "CUSTOM:SinosauropteryxFossil",
+      "CUSTOM:NigersaurusFossil",
+      "CUSTOM:IguanodonFossil",
+      "CUSTOM:CompsognathusFossil",
+      "CUSTOM:OviraptorFossil",
+      "CUSTOM:PteranodonFossil",
+      "CUSTOM:PachycephalosaurusFossil",
+      "CUSTOM:BruhathkayosaurusFossil",
+      "CUSTOM:NyctosaurusFossil",
+      "CUSTOM:BrachytrachelopanFossil",
+      "CUSTOM:MiragaiaFossil",
+      "CUSTOM:TuojiangosaurusFossil",
+      "CUSTOM:ProtoceratopsFossil",
+      "CUSTOM:ArchaeopteryxFossil",
+      "CUSTOM:OlorotitanFossil",
+      "CUSTOM:MagyarosaurusFossil",
+      "CUSTOM:NemegtosaurusFossil",
+      "CUSTOM:PachyrhinosaurusFossil",
+      "CUSTOM:NanuqsaurusFossil",
+      "CUSTOM:ParapuzosiaFossil",
+      "CUSTOM:OrodromeusFossil",
+      "CUSTOM:AnzuFossil",
+      "CUSTOM:BeipiaosaurusFossil",
+      "CUSTOM:ZhenyuanlongFossil",
+      "CUSTOM:KolFossil",
+      "CUSTOM:DilophosaurusFossil",
+      "CUSTOM:EdmontosaurusFossil",
+      "CUSTOM:CoelophysisFossil",
+      "CUSTOM:HalszkaraptorFossil",
+      "CUSTOM:JeholopterusFossil",
+      "CUSTOM:PsittacosaurusFossil",
+      "CUSTOM:YutyrannusFossil",
+      "CUSTOM:RepenomamusFossil",
+      "CUSTOM:MamenchisaurusFossil",
+      "CUSTOM:LambeosaurusFossil",
+      "CUSTOM:OuranosaurusFossil",
+      "CUSTOM:PterodaustroFossil",
+      "CUSTOM:DsungaripterusFossil"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:ZamitesPlanks"
+    ],
+    "ENTITIES:mod:large_herbivorous_theropods": [
+      "CUSTOM:Deinocheirus",
+      "CUSTOM:Therizinosaurus"
+    ],
+    "ITEMS:minecraft:wolf_food": [
+      "CUSTOM:RawOrnithomimosaur",
+      "CUSTOM:CookedOrnithomimosaur"
+    ],
+    "ENTITIES:mod:hadrosaurs": [
+      "CUSTOM:Parasaurolophus",
+      "CUSTOM:Olorotitan"
+    ],
+    "ITEMS:minecraft:beacon_payment_items": [
+      "CUSTOM:Amber"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MesozoicPortalFrameBlock"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:HorsetailFields"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:ZamitesFence",
+      "CUSTOM:ZamitesFenceGate"
+    ],
+    "ITEMS:mod:mashable_bugs": [
+      "CUSTOM:CephaloleichnitesItem",
+      "CUSTOM:OmmaItem",
+      "TAG:mod:fryable_spiders",
+      "CUSTOM:NannogomphusItem",
+      "CUSTOM:GiantCicadItem"
+    ],
+    "ENTITIES:minecraft:arthropod": [
+      "~CUSTOM:GiantCicad",
+      "~CUSTOM:Nannogomphus",
+      "~CUSTOM:Omma",
+      "~CUSTOM:Mongolarachne",
+      "~CUSTOM:Cretaraneus",
+      "~CUSTOM:Cephaloleichnites"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:HorsetailFields"
+    ],
+    "ENTITIES:mod:sauropods": [
+      "CUSTOM:Diplodocus",
+      "CUSTOM:Amargasaurus",
+      "CUSTOM:Bruhathkayosaurus",
+      "CUSTOM:Brachytrachelopan",
+      "CUSTOM:Magyarosaurus",
+      "CUSTOM:Nemegtosaurus"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:CookedOrnithomimosaur",
+      "~CUSTOM:RawOrnithomimosaur"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.SAND#0",
+      "~Blocks.STONE#0",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ],
+    "BIOMES:mod:is_mesozoic": [
+      "CUSTOM:MesozoicBog",
+      "CUSTOM:MesozoicDesert",
+      "CUSTOM:MesozoicForest",
+      "CUSTOM:MesozoicOcean",
+      "CUSTOM:MesozoicForestSteppe",
+      "CUSTOM:MesozoicHorsetailFields",
+      "CUSTOM:MesozoicPlains"
+    ],
+    "ITEMS:mod:knife_openables": [
+      "CUSTOM:CrassostreaOyster"
+    ],
+    "ENTITIES:mod:tyrannosaurus_prey": [
+      "#minecraft:raiders",
+      "#mod:large_prey"
+    ],
+    "ENTITIES:mod:warden_immune": [
+      "CUSTOM:Tyrannosaurus",
+      "#mod:sauropods"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FossilBlock",
+      "~CUSTOM:DeepslateFossilBlock",
+      "~CUSTOM:ResurrectionAltar",
+      "~CUSTOM:Asphalt",
+      "~CUSTOM:DeepslateAmberOre",
+      "~CUSTOM:AmberBlock",
+      "~CUSTOM:AmberOre",
+      "~CUSTOM:MesozoicPortalFrameBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedZamitesWood",
+      "~CUSTOM:StrippedZamitesLog",
+      "~CUSTOM:ZamitesPlanks",
+      "~CUSTOM:ZamitesLog",
+      "~CUSTOM:ZamitesWood"
+    ],
+    "BIOMES:mod:overworld_and_mesozoic": [
+      "#minecraft:is_overworld",
+      "#mod:is_mesozoic"
+    ],
+    "ENTITIES:mod:large_prey": [
+      "#mod:sauropods",
+      "#mod:ceratopsians",
+      "#mod:large_herbivorous_theropods",
+      "#mod:hadrosaurs",
+      "EntityWarden"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:ZamitesFence",
+      "CUSTOM:ZamitesFenceGate"
+    ],
+    "ENTITIES:mod:animals_in_fossil_record": [
+      "CUSTOM:Amargasaurus",
+      "CUSTOM:Ankylosaurus",
+      "CUSTOM:Arambourgiania",
+      "CUSTOM:Austroraptor",
+      "CUSTOM:Brachytrachelopan",
+      "CUSTOM:Bruhathkayosaurus",
+      "CUSTOM:Compsognathus",
+      "CUSTOM:Deinocheirus",
+      "CUSTOM:Diplodocus",
+      "CUSTOM:Gallimimus",
+      "CUSTOM:Hatzegopteryx",
+      "CUSTOM:Ichthyosaurus",
+      "CUSTOM:Iguanodon",
+      "CUSTOM:Microraptor",
+      "CUSTOM:Nigersaurus",
+      "CUSTOM:Nyctosaurus",
+      "CUSTOM:Onchopristis",
+      "CUSTOM:Oviraptor",
+      "CUSTOM:Pachycephalosaurus",
+      "CUSTOM:Parasaurolophus",
+      "CUSTOM:Pteranodon",
+      "CUSTOM:Quetzalcoatlus",
+      "CUSTOM:Shuvuuia",
+      "CUSTOM:Sinosauropteryx",
+      "CUSTOM:Spinosaurus",
+      "CUSTOM:Stegosaurus",
+      "CUSTOM:Therizinosaurus",
+      "CUSTOM:Triceratops",
+      "CUSTOM:Tyrannosaurus",
+      "CUSTOM:Velociraptor",
+      "EntitySniffer",
+      "EntitySalmon",
+      "EntityCod",
+      "EntityTurtle",
+      "CUSTOM:Archaeopteryx",
+      "CUSTOM:Magyarosaurus",
+      "CUSTOM:Miragaia",
+      "CUSTOM:Nemegtosaurus",
+      "CUSTOM:Olorotitan",
+      "CUSTOM:Protoceratops",
+      "CUSTOM:Tuojiangosaurus",
+      "CUSTOM:Nanuqsaurus",
+      "CUSTOM:Pachyrhinosaurus",
+      "CUSTOM:Orodromeus",
+      "CUSTOM:Parapuzosia"
+    ],
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "Blocks.SAND#0"
+    ],
+    "ITEMS:mod:fryable_spiders": [
+      "CUSTOM:CretaraneusItem",
+      "CUSTOM:MongolarachneItem"
+    ],
+    "ENTITIES:mod:prehistoric_spiders": [
+      "CUSTOM:Cretaraneus",
+      "CUSTOM:Mongolarachne"
+    ],
+    "BLOCKS:minecraft:beacon_base_blocks": [
+      "CUSTOM:AmberBlock"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:HorsetailFields"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:DinosauriumTab": [
+      "Velociraptor",
+      "Shuvuuia",
+      "Austroraptor",
+      "Diplodocus",
+      "Quetzalcoatlus",
+      "Microraptor",
+      "Hatzegopteryx",
+      "Arambourgiania",
+      "Ichthyosaurus",
+      "Ankylosaurus",
+      "Gallimimus",
+      "Deinocheirus",
+      "Stegosaurus",
+      "Triceratops",
+      "Tyrannosaurus",
+      "Onchopristis",
+      "Spinosaurus",
+      "Amargasaurus",
+      "Therizinosaurus",
+      "Parasaurolophus",
+      "Sinosauropteryx",
+      "Nigersaurus",
+      "Iguanodon",
+      "Compsognathus",
+      "Oviraptor",
+      "Pteranodon",
+      "Bruhathkayosaurus",
+      "Nyctosaurus",
+      "Brachytrachelopan",
+      "Miragaia",
+      "Tuojiangosaurus",
+      "Protoceratops",
+      "Archaeopteryx",
+      "Olorotitan",
+      "Magyarosaurus",
+      "Nemegtosaurus",
+      "Pachyrhinosaurus",
+      "Nanuqsaurus",
+      "Parapuzosia",
+      "Orodromeus",
+      "Cephaloleichnites",
+      "Kol",
+      "Anzu",
+      "Beipiaosaurus",
+      "Zhenyuanlong",
+      "Dilophosaurus",
+      "Edmontosaurus",
+      "Pachycephalosaurus",
+      "Cretaraneus",
+      "Mongolarachne",
+      "Coelophysis",
+      "Jeholopterus",
+      "Halszkaraptor",
+      "Psittacosaurus",
+      "Yutyrannus",
+      "Repenomamus",
+      "Mamenchisaurus",
+      "Omma",
+      "Nannogomphus",
+      "MesozoicPortalFrameBlock",
+      "Mesozoic",
+      "SawfishSword",
+      "DeepslateAmberOre",
+      "AmberOre",
+      "AmberBlock",
+      "Asphalt",
+      "Amber",
+      "ResurrectionAltar",
+      "PalaeontologyTable",
+      "DeepslateFossilBlock",
+      "FossilBlock",
+      "ZamitesWood",
+      "ZamitesLog",
+      "ZamitesPlanks",
+      "ZamitesStairs",
+      "ZamitesSlab",
+      "ZamitesFence",
+      "ZamitesFenceGate",
+      "ZamitesPressurePlate",
+      "ZamitesButton",
+      "ZamitesDoor",
+      "ZamitesTrapdoor",
+      "StrippedZamitesLog",
+      "StrippedZamitesWood",
+      "BugNet",
+      "Sinew",
+      "Pycnofiber",
+      "GiantCicad",
+      "Lambeosaurus",
+      "Ouranosaurus",
+      "Dsungaripterus",
+      "CrassostreaOysterBlock",
+      "Pterodaustro",
+      "Lisowicia"
+    ],
+    "CUSTOM:DinosauriumFossils": [
+      "UnindentifiedFossil",
+      "DeepslateFossilBlock",
+      "FossilBlock",
+      "VelociraptorFossil",
+      "ShuvuuiaFossil",
+      "AustroraptorFossil",
+      "DiplodocusFossil",
+      "QuetzalcoatlusFossil",
+      "MicroraptorFossil",
+      "HatzegopteryxFossil",
+      "AramourgianiaFossil",
+      "IchthyosaurusFossil",
+      "AnkylosaurusFossil",
+      "GallimimusFossil",
+      "DeinocheirusFossil",
+      "StegosaurusFossil",
+      "TricepatopsFossil",
+      "TyrannosaurusFossil",
+      "SpinosaurusFossil",
+      "AmargasaurusFossil",
+      "TherizinosaurusFossil",
+      "ParasaurolophusFossil",
+      "SinosauropteryxFossil",
+      "NigersaurusFossil",
+      "IguanodonFossil",
+      "CompsognathusFossil",
+      "OviraptorFossil",
+      "PteranodonFossil",
+      "PachycephalosaurusFossil",
+      "BruhathkayosaurusFossil",
+      "NyctosaurusFossil",
+      "BrachytrachelopanFossil",
+      "MiragaiaFossil",
+      "TuojiangosaurusFossil",
+      "ProtoceratopsFossil",
+      "ArchaeopteryxFossil",
+      "OlorotitanFossil",
+      "MagyarosaurusFossil",
+      "NemegtosaurusFossil",
+      "PachyrhinosaurusFossil",
+      "NanuqsaurusFossil",
+      "ParapuzosiaFossil",
+      "OrodromeusFossil",
+      "KolFossil",
+      "AnzuFossil",
+      "BeipiaosaurusFossil",
+      "ZhenyuanlongFossil",
+      "DilophosaurusFossil",
+      "EdmontosaurusFossil",
+      "CoelophysisFossil",
+      "HalszkaraptorFossil",
+      "JeholopterusFossil",
+      "PsittacosaurusFossil",
+      "YutyrannusFossil",
+      "RepenomamusFossil",
+      "MamenchisaurusFossil",
+      "LambeosaurusFossil",
+      "OuranosaurusFossil",
+      "PterodaustroFossil",
+      "DsungaripterusFossil",
+      "LisowiciaFossil"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.dinosaurium.tricepatops_fossil": "Tricepatops Fossil",
+      "item.dinosaurium.cretaraneus_item": "Cretaraneus",
+      "biome.dinosaurium.mesozoic_jungle": "Mesozoic Jungle",
+      "item.dinosaurium.onchopristis_spawn_egg": "Onchopristis Spawn Egg",
+      "item.dinosaurium.mashed_bugs": "Mashed Bugs",
+      "entity.dinosaurium.bruhathkayosaurus": "Bruhathkayosaurus",
+      "item.dinosaurium.orodromeus_fossil": "Orodromeus Fossil",
+      "advancements.yummy_bugs.title": "Bon Appétit",
+      "item_group.dinosaurium.dinosaurium_tab": "Dinosaurium",
+      "advancements.palaeontology.descr": "Let adventures of fossil study begin!",
+      "advancements.poaching_in_its_finest.descr": "Obtain Sawfish Sword",
+      "block.dinosaurium.zamites_slab": "Zamites Slab",
+      "biome.dinosaurium.mesozoic_horsetail_fields": "Mesozoic Horsetail Fields",
+      "item.dinosaurium.iguanodon_fossil": "Iguanodon Fossil",
+      "item.dinosaurium.oyster_soup": "Oyster Soup",
+      "block.dinosaurium.zamites_frond": "Zamites Frond",
+      "item.dinosaurium.yutyrannus_spawn_egg": "Yutyrannus Spawn Egg",
+      "entity.dinosaurium.zhenyuanlong": "Zhenyuanlong",
+      "block.dinosaurium.zamites_fence_gate": "Zamites Fence Gate",
+      "entity.dinosaurium.onchopristis": "Onchopristis",
+      "item.dinosaurium.pachycephalosaurus_fossil": "Pachycephalosaurus Fossil",
+      "item.dinosaurium.protoceratops_spawn_egg": "Protoceratops Spawn Egg",
+      "entity.dinosaurium.diplodocus": "Diplodocus",
+      "block.dinosaurium.deepslate_amber_ore": "Deepslate Amber Ore",
+      "gui.dinosaurium.altar_gui.button_resurrect": "Resurrect",
+      "item.dinosaurium.omma_spawn_egg": "Omma Spawn Egg",
+      "item.dinosaurium.halszkaraptor_spawn_egg": "Halszkaraptor Spawn Egg",
+      "entity.dinosaurium.pteranodon": "Pteranodon",
+      "item.dinosaurium.microraptor_fossil": "Microraptor Fossil",
+      "item.dinosaurium.therizinosaurus_fossil": "Therizinosaurus Fossil",
+      "block.dinosaurium.zamites_trapdoor": "Zamites Trapdoor",
+      "entity.dinosaurium.edmontosaurus": "Edmontosaurus",
+      "entity.dinosaurium.spinosaurus": "Spinosaurus",
+      "item.dinosaurium.pachycephalosaurus_spawn_egg": "Pachycephalosaurus Spawn Egg",
+      "block.dinosaurium.zamites_fence": "Zamites Fence",
+      "advancements.fancy_time_travel.descr": "Enter the Mesozoic",
+      "entity.dinosaurium.iguanodon": "Iguanodon",
+      "item.dinosaurium.raw_oyster": "Raw Oyster",
+      "advancements.brush_fossil.title": "Yeah, That\u0027s an Animal!",
+      "entity.dinosaurium.magyarosaurus": "Magyarosaurus",
+      "entity.dinosaurium.triceratops": "Triceratops",
+      "entity.dinosaurium.austroraptor": "Austroraptor",
+      "advancements.welcome_to_cambodia.title": "Welcome To Cambodia",
+      "entity.dinosaurium.repenomamus": "Repenomamus",
+      "block.dinosaurium.zamites_planks": "Zamites Planks",
+      "item.dinosaurium.parasaurolophus_fossil": "Parasaurolophus Fossil",
+      "advancements.enigma_found.descr": "find a fossil of Bruhathkayosaurus",
+      "item.dinosaurium.deinocheirus_fossil": "Deinocheirus Fossil",
+      "painting.dinosaurium.archaeopteryx_painting.author": "Mother Nature herself",
+      "item.dinosaurium.kol_fossil": "Kol Fossil",
+      "entity.dinosaurium.gallimimus": "Gallimimus",
+      "item.dinosaurium.mamenchisaurus_fossil": "Mamenchisaurus Fossil",
+      "item.dinosaurium.nigersaurus_fossil": "Nigersaurus Fossil",
+      "item.dinosaurium.bug_net": "Bug Net",
+      "item.dinosaurium.spinofaarus_spawn_egg": "Spinofaarus Spawn Egg",
+      "entity.dinosaurium.lambeosaurus": "Lambeosaurus",
+      "item.dinosaurium.triceratops_spawn_egg": "Triceratops Spawn Egg",
+      "entity.dinosaurium.nemegtosaurus": "Nemegtosaurus",
+      "item.dinosaurium.lisowicia_fossil": "Lisowicia Fossil",
+      "item.dinosaurium.ichthyosaurus_spawn_egg": "Ichthyosaurus Spawn Egg",
+      "block.dinosaurium.mesozoic_portal_frame_block": "Mesozoic Portal Frame",
+      "item.dinosaurium.oviraptor_spawn_egg": "Oviraptor Spawn Egg",
+      "block.dinosaurium.tall_horsetail": "Tall Horsetail",
+      "entity.dinosaurium.beipiaosaurus": "Beipiaosaurus",
+      "item_group.dinosaurium.dinosaurium_foodstuffs": "Dinosaurium Foodstuffs",
+      "entity.dinosaurium.mamenchisaurus": "Mamenchisaurus",
+      "item.dinosaurium.compsognathus_spawn_egg": "Compsognathus Spawn Egg",
+      "entity.dinosaurium.dilophosaurus": "Dilophosaurus",
+      "item.dinosaurium.raw_ornithomimosaur": "Raw Ornithomimosaur",
+      "item.dinosaurium.dsungaripterus_fossil": "Dsungaripterus Fossil",
+      "item.dinosaurium.beipiaosaurus_spawn_egg": "Beipiaosaurus Spawn Egg",
+      "item.dinosaurium.repenomamus_spawn_egg": "Repenomamus Spawn Egg",
+      "entity.dinosaurium.dsungaripterus": "Dsungaripterus",
+      "entity.dinosaurium.nyctosaurus": "Nyctosaurus",
+      "item.dinosaurium.gallimimus_spawn_egg": "Gallimimus Spawn Egg",
+      "item.dinosaurium.magyarosaurus_spawn_egg": "Magyarosaurus Spawn Egg",
+      "biome.dinosaurium.horsetail_fields": "Horsetail Fields",
+      "entity.dinosaurium.tyrannosaurus": "Tyrannosaurus",
+      "item.dinosaurium.dilophosaurus_fossil": "Dilophosaurus Fossil",
+      "item.dinosaurium.ichthyosaurus_fossil": "Ichthyosaurus Fossil",
+      "item.dinosaurium.edmontosaurus_fossil": "Edmontosaurus Fossil",
+      "block.dinosaurium.fossil_block": "Fossil Block",
+      "entity.dinosaurium.pterodaustro": "Pterodaustro",
+      "entity.dinosaurium.pachycephalosaurus": "Pachycephalosaurus",
+      "item.dinosaurium.orodromeus_spawn_egg": "Orodromeus Spawn Egg",
+      "item.dinosaurium.beipiaosaurus_fossil": "Beipiaosaurus Fossil",
+      "item.dinosaurium.anzu_fossil": "Anzu Fossil",
+      "item_group.dinosaurium.dinosaurium_plants": "Dinosaurium Plants",
+      "item.dinosaurium.tyrannosaurus_spawn_egg": "Tyrannosaurus Spawn Egg",
+      "entity.dinosaurium.oviraptor": "Oviraptor",
+      "entity.dinosaurium.brachytrachelopan": "Brachytrachelopan",
+      "entity.dinosaurium.quetzalcoatlus": "Quetzalcoatlus",
+      "item.dinosaurium.stegosaurus_spawn_egg": "Stegosaurus Spawn Egg",
+      "block.dinosaurium.amber_block": "Block of Amber",
+      "item.dinosaurium.edmontosaurus_spawn_egg": "Edmontosaurus Spawn Egg",
+      "item.dinosaurium.ankylosaurus_fossil": "Ankylosaurus Fossil",
+      "item.dinosaurium.nanuqsaurus_fossil": "Nanuqsaurus Fossil",
+      "block.dinosaurium.benettitales": "Benettitales",
+      "gui.dinosaurium.altar_gui.label_resurrection_altar": "Resurrection Altar",
+      "item.dinosaurium.tuojiangosaurus_fossil": "Tuojiangosaurus Fossil",
+      "entity.dinosaurium.ichthyosaurus": "Ichthyosaurus",
+      "block.dinosaurium.zamites_door": "Zamites Door",
+      "item.dinosaurium.parapuzosia_spawn_egg": "Parapuzosia Spawn Egg",
+      "entity.dinosaurium.cephaloleichnites": "Cephaloleichnites",
+      "item.dinosaurium.halszkaraptor_fossil": "Halszkaraptor Fossil",
+      "painting.dinosaurium.archaeopteryx_painting.title": "Archaeopteryx",
+      "painting.dinosaurium.laelaps.author": "Charles Knight",
+      "advancements.collect_bugs.title": "Gotta Catch \u0027em All!",
+      "biome.dinosaurium.mesozoic_plains": "Mesozoic Plains",
+      "item.dinosaurium.dsungaripterus_spawn_egg": "Dsungaripterus Spawn Egg",
+      "entity.dinosaurium.archaeopteryx": "Archaeopteryx",
+      "item.dinosaurium.mongolarachne_spawn_egg": "Mongolarachne Spawn Egg",
+      "item.dinosaurium.anzu_spawn_egg": "Anzu Spawn Egg",
+      "item.dinosaurium.zhenyuanlong_fossil": "Zhenyuanlong Fossil",
+      "block.dinosaurium.stripped_zamites_log": "Stripped Zamites Log",
+      "gui.dinosaurium.paleontology_gui.label_palaeontology_table": "Palaeontology Table",
+      "entity.dinosaurium.velociraptor": "Velociraptor",
+      "advancements.resurrect_an_animal.descr": "Resurrect an animal",
+      "item.dinosaurium.fried_spider": "Fried Spider",
+      "item.dinosaurium.spinosaurus_fossil": "Spinosaurus Fossil",
+      "entity.dinosaurium.sinosauropteryx": "Sinosauropteryx",
+      "advancements.enigma_found.title": "Bruh Moment",
+      "block.dinosaurium.osmundacaulis": "Osmundacaulis",
+      "item.dinosaurium.nannogomphus_spawn_egg": "Nannogomphus Spawn Egg",
+      "item.dinosaurium.amber": "Amber",
+      "advancements.whack_a_mole.title": "Whack-A-Mole",
+      "entity.dinosaurium.stegosaurus": "Stegosaurus",
+      "item.dinosaurium.compsognathus_fossil": "Compsognathus Fossil",
+      "advancements.burmese_or_baltic.title": "Burmese Or Baltic?",
+      "item.dinosaurium.cooked_ornithomimosaur": "Cooked Ornithomimosaur",
+      "entity.dinosaurium.orodromeus": "Orodromeus",
+      "item.dinosaurium.protoceratops_fossil": "Protoceratops Fossil",
+      "item.dinosaurium.psittacosaurus_fossil": "Psittacosaurus Fossil",
+      "entity.dinosaurium.pachyrhinosaurus": "Pachyrhinosaurus",
+      "entity.dinosaurium.coelophysis": "Coelophysis",
+      "entity.dinosaurium.therizinosaurus": "Therizinosaurus",
+      "item.dinosaurium.giant_cicada_item": "Giant Cicada",
+      "block.dinosaurium.welwitschia": "Welwitschia",
+      "entity.dinosaurium.parasaurolophus": "Parasaurolophus",
+      "item.dinosaurium.shuvuuia_spawn_egg": "Shuvuuia Spawn Egg",
+      "item.dinosaurium.nyctosaurus_spawn_egg": "Nyctosaurus Spawn Egg",
+      "block.dinosaurium.horsetail": "Horsetail",
+      "item.dinosaurium.arambourgiania_spawn_egg": "Arambourgiania Spawn Egg",
+      "entity.dinosaurium.parapuzosia": "Parapuzosia",
+      "block.dinosaurium.zamites_pressure_plate": "Zamites Pressure Plate",
+      "item.dinosaurium.pachyrhinosaurus_fossil": "Pachyrhinosaurus Fossil",
+      "item.dinosaurium.therizinosaurus_spawn_egg": "Therizinosaurus Spawn Egg",
+      "item.dinosaurium.pycnofiber": "Pycnofiber",
+      "entity.dinosaurium.ouranosaurus": "Ouranosaurus",
+      "item.dinosaurium.archaeopteryx_fossil": "Archaeopteryx Fossil",
+      "item.dinosaurium.coelophysis_spawn_egg": "Coelophysis Spawn Egg",
+      "entity.dinosaurium.anzu": "Anzu",
+      "item.dinosaurium.microraptor_spawn_egg": "Microraptor Spawn Egg",
+      "item.dinosaurium.austroraptor_spawn_egg": "Austroraptor Spawn Egg",
+      "biome.dinosaurium.mesozoic_forest_steppe": "Mesozoic Forest-Steppe",
+      "item.dinosaurium.crassostrea_oyster": "Crassostrea Oyster",
+      "item.dinosaurium.jeholopterus_spawn_egg": "Jeholopterus Spawn Egg",
+      "entity.minecraft.villager.dinosaurium.palaeontologist": "Palaeontologist",
+      "item.dinosaurium.spinosaurus_spawn_egg": "Spinosaurus Spawn Egg",
+      "block.dinosaurium.stripped_zamites_wood": "Stripped Zamites Wood",
+      "block.dinosaurium.zamites_log": "Zamites Log",
+      "block.dinosaurium.zamites_crown": "Zamites Crown",
+      "entity.dinosaurium.mongolarachne": "Mongolarachne",
+      "item.dinosaurium.unidentified_fossil": "Unidentified Fossil",
+      "advancements.burmese_or_baltic.descr": "Find Amber",
+      "item.dinosaurium.nigersaurus_spawn_egg": "Nigersaurus Spawn Egg",
+      "item.dinosaurium.iguanodon_spawn_egg": "Iguanodon Spawn Egg",
+      "item.dinosaurium.nannogomphus_item": "Nannogomphus",
+      "item.dinosaurium.gallimimus_fossil": "Gallimimus Fossil",
+      "item.dinosaurium.miragaia_spawn_egg": "Miragaia Spawn Egg",
+      "item.dinosaurium.pterodaustro_fossil": "Pterodaustro Fossil",
+      "item.dinosaurium.stegosaurus_fossil": "Stegosaurus Fossil",
+      "entity.dinosaurium.amargasaurus": "Amargasaurus",
+      "item.dinosaurium.tyrannosaurus_fossil": "Tyrannosaurus Fossil",
+      "entity.dinosaurium.psittacosaurus": "Psittacosaurus",
+      "item.dinosaurium.yutyrannus_fossil": "Yutyrannus Fossil",
+      "item.dinosaurium.lambeosaurus_fossil": "Lambeosaurus Fossil",
+      "entity.dinosaurium.olorotitan": "Olorotitan",
+      "block.dinosaurium.zamites_cone": "Zamites Cone",
+      "item.dinosaurium.nanuqsaurus_spawn_egg": "Nanuqsaurus Spawn Egg",
+      "item.dinosaurium.nemegtosaurus_spawn_egg": "Nemegtosaurus Spawn Egg",
+      "item.dinosaurium.coelophysis_fossil": "Coelophysis Fossil",
+      "painting.dinosaurium.diplodocus_painting.title": "Diplodocus",
+      "item.dinosaurium.nemegtosaurus_fossil": "Nemegtosaurus Fossil",
+      "item.dinosaurium.austroraptor_fossil": "Austroraptor Fossil",
+      "item.dinosaurium.jeholopterus_fossil": "Jeholopterus Fossil",
+      "advancements.fancy_time_travel.title": "Fancy Time Travel",
+      "entity.dinosaurium.omma": "Omma",
+      "entity.dinosaurium.nigersaurus": "Nigersaurus",
+      "entity.dinosaurium.miragaia": "Miragaia",
+      "item.dinosaurium.sawfish_sword": "Sawfish Sword",
+      "item.dinosaurium.quetzalcoatlus_fossil": "Quetzalcoatlus Fossil",
+      "item.dinosaurium.bruhathkayosaurus_fossil": "Bruhathkayosaurus Fossil",
+      "item.dinosaurium.pteranodon_spawn_egg": "Pteranodon Spawn Egg",
+      "block.dinosaurium.amber_ore": "Amber Ore",
+      "item.dinosaurium.sinew": "Sinew",
+      "item.dinosaurium.amargasaurus_spawn_egg": "Amargasaurus Spawn Egg",
+      "item.dinosaurium.cephaloleichnites_spawn_egg": "Cephaloleichnites Spawn Egg",
+      "item.dinosaurium.pterodaustro_spawn_egg": "Pterodaustro Spawn Egg",
+      "entity.dinosaurium.cretaraneus": "Cretaraneus",
+      "biome.dinosaurium.mesozoic_tundra": "Mesozoic Tundra",
+      "entity.dinosaurium.lisowicia": "Lisowicia",
+      "item.dinosaurium.sinosauropteryx_spawn_egg": "Sinosauropteryx Spawn Egg",
+      "item.dinosaurium.ouranosaurus_spawn_egg": "Ouranosaurus Spawn Egg",
+      "item.dinosaurium.mamenchisaurus_spawn_egg": "Mamenchisaurus Spawn Egg",
+      "item.dinosaurium.ankylosaurus_spawn_egg": "Ankylosaurus Spawn Egg",
+      "item.dinosaurium.repenomamus_fossil": "Repenomamus Fossil",
+      "item.dinosaurium.parapuzosia_fossil": "Parapuzosia Fossil",
+      "entity.dinosaurium.nannogomphus": "Nannogomphus",
+      "item.dinosaurium.cephaloleichnites_item": "Cephaloleichnites",
+      "advancements.collect_bugs.descr": "Collect the all the (prehistoric) bugs",
+      "item.dinosaurium.brachytrachelopan_fossil": "Brachytrachelopan Fossil",
+      "painting.dinosaurium.in_the_bog.title": "In The Bog",
+      "item.dinosaurium.brachytrachelopan_spawn_egg": "Brachytrachelopan Spawn Egg",
+      "gui.dinosaurium.paleontology_gui.button_investigate": "Identify",
+      "biome.dinosaurium.mesozoic_desert": "Mesozoic Desert",
+      "block.dinosaurium.otozamites": "Otozamites",
+      "block.dinosaurium.deepslate_fossil_block": "Deepslate Fossil Block",
+      "item.dinosaurium.palaeontology_book": "Palaeontology Book",
+      "advancements.yummy_bugs.descr": "Make Mashed Bugs",
+      "block.dinosaurium.zamites_wood": "Zamites Wood",
+      "item.dinosaurium.parasaurolophus_spawn_egg": "Parasaurolophus Spawn Egg",
+      "biome.dinosaurium.mesozoic_forest": "Mesozoic Forest",
+      "painting.dinosaurium.diplodocus_painting.author": "Heinrich Harder",
+      "item.dinosaurium.velociraptor_fossil": "Velociraptor Fossil",
+      "item.dinosaurium.zhenyuanlong_spawn_egg": "Zhenyuanlong Spawn Egg",
+      "block.dinosaurium.osmunda": "Osmunda",
+      "block.dinosaurium.zamites_button": "Zamites Button",
+      "advancements.poaching_in_its_finest.title": "Poaching At Its Finest",
+      "entity.dinosaurium.spinofaarus": "Spinofaarus",
+      "item.dinosaurium.olorotitan_fossil": "Olorotitan Fossil",
+      "item.dinosaurium.miragaia_fossil": "Miragaia Fossil",
+      "advancements.resurrect_an_animal.title": "Stayin\u0027 Alive",
+      "block.dinosaurium.resurrection_altar": "Resurrection Altar",
+      "subtitles.entity.tyrannosaurus.roar": "Tyrannosaurus roars",
+      "entity.dinosaurium.kol": "Kol",
+      "item_group.dinosaurium.dinosaurium_fossils": "Dinosaurium Fossils",
+      "entity.dinosaurium.ankylosaurus": "Ankylosaurus",
+      "entity.dinosaurium.microraptor": "Microraptor",
+      "entity.dinosaurium.arambourgiania": "Arambourgiania",
+      "item.dinosaurium.archaeopteryx_spawn_egg": "Archaeopteryx Spawn Egg",
+      "advancements.palaeontology.title": "Palaeontology",
+      "item.dinosaurium.cretaraneus_spawn_egg": "Cretaraneus Spawn Egg",
+      "entity.dinosaurium.yutyrannus": "Yutyrannus",
+      "item.dinosaurium.velociraptor_spawn_egg": "Velociraptor Spawn Egg",
+      "painting.dinosaurium.laelaps.title": "Laelaps",
+      "entity.dinosaurium.jeholopterus": "Jeholopterus",
+      "item.dinosaurium.hatzegopteryx_spawn_egg": "Hatzegopteryx Spawn Egg",
+      "item.dinosaurium.mongolarachne_item": "Mongolarachne",
+      "item.dinosaurium.ouranosaurus_fossil": "Ouranosaurus Fossil",
+      "block.dinosaurium.crassostrea_oyster_block": "Crassostrea Oyster",
+      "item.dinosaurium.nyctosaurus_fossil": "Nyctosaurus Fossil",
+      "entity.dinosaurium.compsognathus": "Compsognathus",
+      "item.dinosaurium.magyarosaurus_fossil": "Magyarosaurus Fossil",
+      "item.dinosaurium.lambeosaurus_spawn_egg": "Lambeosaurus Spawn Egg",
+      "item.dinosaurium.tuojiangosaurus_spawn_egg": "Tuojiangosaurus Spawn Egg",
+      "item.dinosaurium.amargasaurus_fossil": "Amargasaurus Fossil",
+      "text.dinosaurium.palaeontology_book.landing_page": "This book contains all possible information about the Mesozoic and its mysteries",
+      "entity.dinosaurium.giant_cicada": "Giant Cicada",
+      "block.dinosaurium.asphalt": "Asphalt",
+      "item.dinosaurium.pachyrhinosaurus_spawn_egg": "Pachyrhinosaurus Spawn Egg",
+      "advancements.brush_fossil.descr": "Identify a fossil on Palaeontology Table",
+      "biome.dinosaurium.mesozoic_bog": "Mesozoic Bog",
+      "item.dinosaurium.psittacosaurus_spawn_egg": "Psittacosaurus Spawn Egg",
+      "entity.dinosaurium.shuvuuia": "Shuvuuia",
+      "item.dinosaurium.lisowicia_spawn_egg": "Lisowicia Spawn Egg",
+      "item.dinosaurium.deinocheirus_spawn_egg": "Deinocheirus Spawn Egg",
+      "item.dinosaurium.quetzalcoatlus_spawn_egg": "Quetzalcoatlus Spawn Egg",
+      "painting.dinosaurium.in_the_bog.author": "Andrey Atuchin",
+      "item.dinosaurium.olorotitan_spawn_egg": "Olorotitan Spawn Egg",
+      "entity.dinosaurium.hatzegopteryx": "Hatzegopteryx",
+      "item.dinosaurium.dilophosaurus_spawn_egg": "Dilophosaurus Spawn Egg",
+      "item.dinosaurium.hatzegopteryx_fossil": "Hatzegopteryx Fossil",
+      "entity.dinosaurium.protoceratops": "Protoceratops",
+      "item.dinosaurium.shuvuuia_fossil": "Shuvuuia Fossil",
+      "item.dinosaurium.kol_spawn_egg": "Kol Spawn Egg",
+      "block.dinosaurium.zamites_stairs": "Zamites Stairs",
+      "entity.dinosaurium.nanuqsaurus": "Nanuqsaurus",
+      "item.dinosaurium.aramourgiania_fossil": "Aramourgiania Fossil",
+      "advancements.whack_a_mole.descr": "Kill a Repenomamus",
+      "advancements.welcome_to_cambodia.descr": "Get Fried Spiders! Huh? What else did you need?",
+      "item.dinosaurium.sinosauropteryx_fossil": "Sinosauropteryx Fossil",
+      "block.dinosaurium.palaeontology_table": "Palaeontology Table",
+      "entity.dinosaurium.halszkaraptor": "Halszkaraptor",
+      "item.dinosaurium.omma_item": "Omma",
+      "block.dinosaurium.ephedra": "Ephedra",
+      "biome.dinosaurium.mesozoic_ocean": "Mesozoic Ocean",
+      "entity.dinosaurium.tuojiangosaurus": "Tuojiangosaurus",
+      "block.dinosaurium.laurozamites": "Laurozamites",
+      "block.dinosaurium.zamites_sapling": "Zamites Sapling",
+      "item.dinosaurium.oviraptor_fossil": "Oviraptor Fossil",
+      "entity.dinosaurium.deinocheirus": "Deinocheirus",
+      "item.dinosaurium.giant_cicada_spawn_egg": "Giant Cicada Spawn Egg",
+      "item.dinosaurium.mesozoic": "Firesticks",
+      "item.dinosaurium.diplodocus_fossil": "Diplodocus Fossil",
+      "item.dinosaurium.diplodocus_spawn_egg": "Diplodocus Spawn Egg",
+      "item.dinosaurium.bruhathkayosaurus_spawn_egg": "Bruhathkayosaurus Spawn Egg",
+      "item.dinosaurium.pteranodon_fossil": "Pteranodon Fossil"
+    },
+    "uk_ua": {
+      "item.dinosaurium.tricepatops_fossil": "Скам\u0027янілість трицератопса",
+      "biome.dinosaurium.mesozoic_jungle": "Мезозойські джунглі",
+      "item.dinosaurium.onchopristis_spawn_egg": "Онхопрістіс — яйце виклику",
+      "item.dinosaurium.cretaraneus_item": "Кретараней",
+      "item.dinosaurium.mashed_bugs": "Пюре з жуків",
+      "entity.dinosaurium.bruhathkayosaurus": "Бругаткайозавр",
+      "item.dinosaurium.orodromeus_fossil": "Скам\u0027янілість ородромея",
+      "advancements.yummy_bugs.title": "Смачного, гурмане!",
+      "item_group.dinosaurium.dinosaurium_tab": "Динозаври та інші вимерлі істоти",
+      "advancements.palaeontology.descr": "Почніть свої пригоди скам\u0027янілих решток",
+      "advancements.poaching_in_its_finest.descr": "Отримайте меч... з онхопрістіса?",
+      "block.dinosaurium.zamites_slab": "Замітова плита",
+      "biome.dinosaurium.mesozoic_horsetail_fields": "Мезозойські хвощеві поля",
+      "item.dinosaurium.iguanodon_fossil": "Скам\u0027янілість іґуанодона",
+      "item.dinosaurium.oyster_soup": "Суп з устрицями",
+      "block.dinosaurium.zamites_frond": "Замітове листя",
+      "item.dinosaurium.yutyrannus_spawn_egg": "Ютиран — яйце виклику",
+      "entity.dinosaurium.zhenyuanlong": "Чженьюаньлунь",
+      "block.dinosaurium.zamites_fence_gate": "Замітова хвіртка",
+      "entity.dinosaurium.onchopristis": "Онхопрістіс",
+      "item.dinosaurium.pachycephalosaurus_fossil": "Скам\u0027янілість пахіцефалозавра",
+      "item.dinosaurium.protoceratops_spawn_egg": "Протоцератопс — яйце виклику",
+      "entity.dinosaurium.diplodocus": "Диплодок",
+      "block.dinosaurium.deepslate_amber_ore": "Глибосланцева бурштинова руда",
+      "gui.dinosaurium.altar_gui.button_resurrect": "Відродити",
+      "item.dinosaurium.omma_spawn_egg": "Ома — яйце виклику",
+      "item.dinosaurium.halszkaraptor_spawn_egg": "Гальшкараптор — яйце виклику",
+      "entity.dinosaurium.pteranodon": "Птеранодон",
+      "item.dinosaurium.therizinosaurus_fossil": "Скам\u0027янілість теризинозавра",
+      "item.dinosaurium.microraptor_fossil": "Скам\u0027янілість мікрораптора",
+      "block.dinosaurium.zamites_trapdoor": "Замітовий лаз",
+      "entity.dinosaurium.edmontosaurus": "Едмонтозавр",
+      "entity.dinosaurium.spinosaurus": "Спінозавр",
+      "block.dinosaurium.zamites_fence": "Замітовий паркан",
+      "item.dinosaurium.pachycephalosaurus_spawn_egg": "Пахіцефалозавр — яйце виклику",
+      "entity.dinosaurium.iguanodon": "Іґуанодон",
+      "advancements.fancy_time_travel.descr": "Зайдіть в мезозой",
+      "item.dinosaurium.raw_oyster": "Сира устриця",
+      "advancements.brush_fossil.title": "Так, то звір!",
+      "entity.dinosaurium.magyarosaurus": "Мадярозавр",
+      "entity.dinosaurium.triceratops": "Трицератопс",
+      "entity.dinosaurium.austroraptor": "Австрораптор",
+      "advancements.welcome_to_cambodia.title": "Ласкаво просимо до Камбоджі",
+      "entity.dinosaurium.repenomamus": "Репеномам",
+      "block.dinosaurium.zamites_planks": "Замітові дошки",
+      "item.dinosaurium.parasaurolophus_fossil": "Скам\u0027янілість паразауролофа",
+      "advancements.enigma_found.descr": "Знайдіть рештки бругаткайозавра, контроверсійного гіганта",
+      "item.dinosaurium.deinocheirus_fossil": "Скам\u0027янілість дейнохейра",
+      "painting.dinosaurium.archaeopteryx_painting.author": "Матінка Природа",
+      "item.dinosaurium.kol_fossil": "Скам\u0027янілість кола",
+      "entity.dinosaurium.gallimimus": "Галімім",
+      "item.dinosaurium.mamenchisaurus_fossil": "Скам\u0027янілість маменсізавра",
+      "item.dinosaurium.nigersaurus_fossil": "Скам\u0027янілість ніжерзавра",
+      "item.dinosaurium.bug_net": "Сачок",
+      "item.dinosaurium.spinofaarus_spawn_egg": "Спінофаарус — яйце виклику",
+      "entity.dinosaurium.lambeosaurus": "Ламбеозавр",
+      "item.dinosaurium.triceratops_spawn_egg": "Трицератопс — яйце виклику",
+      "entity.dinosaurium.nemegtosaurus": "Немеґтозавр",
+      "item.dinosaurium.lisowicia_fossil": "Скам\u0027янілість лісовіціЇ",
+      "item.dinosaurium.ichthyosaurus_spawn_egg": "Іхтіозавр — яйце виклику",
+      "block.dinosaurium.mesozoic_portal_frame_block": "Рамка порталу в мезозой",
+      "item.dinosaurium.oviraptor_spawn_egg": "Овіраптор — яйце виклику",
+      "block.dinosaurium.tall_horsetail": "Високий хвощ",
+      "entity.dinosaurium.beipiaosaurus": "Бейпяозавр",
+      "item_group.dinosaurium.dinosaurium_foodstuffs": "Продукти харчування",
+      "entity.dinosaurium.mamenchisaurus": "Маменсізавр",
+      "item.dinosaurium.compsognathus_spawn_egg": "Компсогнат — яйце виклику",
+      "entity.dinosaurium.dilophosaurus": "Дилофозавр",
+      "item.dinosaurium.raw_ornithomimosaur": "Сирий орнітомімозавр",
+      "item.dinosaurium.dsungaripterus_fossil": "Скам\u0027янілість дзунґаріптера",
+      "item.dinosaurium.beipiaosaurus_spawn_egg": "Бейпяозавр — яйце виклику",
+      "item.dinosaurium.repenomamus_spawn_egg": "Репеномам — яйце виклику",
+      "entity.dinosaurium.dsungaripterus": "Дзунґаріптер",
+      "entity.dinosaurium.nyctosaurus": "Ніктозавр",
+      "item.dinosaurium.gallimimus_spawn_egg": "Галімім — яйце виклику",
+      "item.dinosaurium.magyarosaurus_spawn_egg": "Мадярозавр — яйце виклику",
+      "biome.dinosaurium.horsetail_fields": "Хвощеві поля",
+      "entity.dinosaurium.tyrannosaurus": "Тиранозавр",
+      "item.dinosaurium.dilophosaurus_fossil": "Скам\u0027янілість дилофозавра",
+      "item.dinosaurium.ichthyosaurus_fossil": "Скам\u0027янілість іхтіозавра",
+      "item.dinosaurium.edmontosaurus_fossil": "Скам\u0027янілість едмонтозавра",
+      "block.dinosaurium.fossil_block": "Родовище скам\u0027янілостей",
+      "entity.dinosaurium.pterodaustro": "Птеродавстро",
+      "entity.dinosaurium.pachycephalosaurus": "Пахіцефалозавр",
+      "item.dinosaurium.orodromeus_spawn_egg": "Ородромей — яйце виклику",
+      "item.dinosaurium.beipiaosaurus_fossil": "Скам\u0027янілість бейпяозавра",
+      "item.dinosaurium.anzu_fossil": "Скам\u0027янілість анзу",
+      "item_group.dinosaurium.dinosaurium_plants": "Рослини",
+      "item.dinosaurium.tyrannosaurus_spawn_egg": "Тиранозавр — яйце виклику",
+      "entity.dinosaurium.oviraptor": "Овіраптор",
+      "entity.dinosaurium.brachytrachelopan": "Брахітрахелопан",
+      "entity.dinosaurium.quetzalcoatlus": "Кетцалькоатль",
+      "item.dinosaurium.stegosaurus_spawn_egg": "Стегозавр — яйце виклику",
+      "item.dinosaurium.edmontosaurus_spawn_egg": "Едмонтозавр — яйце виклику",
+      "block.dinosaurium.amber_block": "Блок бурштину",
+      "item.dinosaurium.ankylosaurus_fossil": "Скам\u0027янілість анкілозавра",
+      "item.dinosaurium.nanuqsaurus_fossil": "Скам\u0027янілість нанукзавра",
+      "block.dinosaurium.benettitales": "Бенеттітал",
+      "gui.dinosaurium.altar_gui.label_resurrection_altar": "Алтар відродження",
+      "item.dinosaurium.tuojiangosaurus_fossil": "Скам\u0027янілість тоцзянозавра",
+      "entity.dinosaurium.ichthyosaurus": "Іхтіозавр",
+      "block.dinosaurium.zamites_door": "Замітові двері",
+      "item.dinosaurium.parapuzosia_spawn_egg": "Парапузосія — яйце виклику",
+      "entity.dinosaurium.cephaloleichnites": "Цефалолеїхнітес",
+      "item.dinosaurium.halszkaraptor_fossil": "Скам\u0027янілість гальшкараптора",
+      "painting.dinosaurium.archaeopteryx_painting.title": "Першоптах",
+      "painting.dinosaurium.laelaps.author": "Чарльз Найт",
+      "advancements.collect_bugs.title": "Злови Їх Усіх!",
+      "biome.dinosaurium.mesozoic_plains": "Мезозойські рівнини",
+      "item.dinosaurium.dsungaripterus_spawn_egg": "Дзунґаріптер — яйце виклику",
+      "entity.dinosaurium.archaeopteryx": "Першоптах",
+      "item.dinosaurium.mongolarachne_spawn_egg": "Монголарахна — яйце виклику",
+      "item.dinosaurium.anzu_spawn_egg": "Анзу — яйце виклику",
+      "item.dinosaurium.zhenyuanlong_fossil": "Скам\u0027янілість чженьюанюлуня",
+      "block.dinosaurium.stripped_zamites_log": "Обтесана замітова колода",
+      "gui.dinosaurium.paleontology_gui.label_palaeontology_table": "Стіл палеонтолога",
+      "entity.dinosaurium.velociraptor": "Велоциратор",
+      "advancements.resurrect_an_animal.descr": "Відроди травину",
+      "item.dinosaurium.fried_spider": "Смажений павук",
+      "item.dinosaurium.spinosaurus_fossil": "Скам\u0027янілість спінозавра",
+      "advancements.enigma_found.title": "У пошуках відповіді",
+      "entity.dinosaurium.sinosauropteryx": "Сінозавроптерикс",
+      "block.dinosaurium.osmundacaulis": "Осмундакауліс",
+      "item.dinosaurium.nannogomphus_spawn_egg": "Нанногомф — яйце виклику",
+      "item.dinosaurium.amber": "Бурштин",
+      "advancements.whack_a_mole.title": "Яду треба?",
+      "entity.dinosaurium.stegosaurus": "Стегозавр",
+      "item.dinosaurium.compsognathus_fossil": "Скам\u0027янілість компсогната",
+      "advancements.burmese_or_baltic.title": "З Рівного чи з Литви?",
+      "item.dinosaurium.cooked_ornithomimosaur": "Смажений орнітомімозавр",
+      "entity.dinosaurium.orodromeus": "Ородромей",
+      "item.dinosaurium.protoceratops_fossil": "Скам\u0027янілість протоцератопса",
+      "item.dinosaurium.psittacosaurus_fossil": "Скам\u0027янілість псітакозавра",
+      "entity.dinosaurium.pachyrhinosaurus": "Пахирінозавр",
+      "entity.dinosaurium.coelophysis": "Целофіз",
+      "entity.dinosaurium.therizinosaurus": "Теризинозавр",
+      "item.dinosaurium.giant_cicada_item": "Гігантська цикада",
+      "block.dinosaurium.welwitschia": "Вельвічія",
+      "entity.dinosaurium.parasaurolophus": "Паразауролоф",
+      "item.dinosaurium.shuvuuia_spawn_egg": "Шувуйя — яйце виклику",
+      "item.dinosaurium.nyctosaurus_spawn_egg": "Ніктозавр — яйце виклику",
+      "block.dinosaurium.horsetail": "Хвощ",
+      "entity.dinosaurium.parapuzosia": "Парапузосія",
+      "item.dinosaurium.arambourgiania_spawn_egg": "Арамбургіанія — яйце виклику",
+      "block.dinosaurium.zamites_pressure_plate": "Замітова натискна плита",
+      "item.dinosaurium.pachyrhinosaurus_fossil": "Скам\u0027янілість пахирінозавра",
+      "item.dinosaurium.therizinosaurus_spawn_egg": "Теризинозавр — яйце виклику",
+      "item.dinosaurium.pycnofiber": "Пікноволокно",
+      "entity.dinosaurium.ouranosaurus": "Уранозавр",
+      "item.dinosaurium.archaeopteryx_fossil": "Скам\u0027янілість першоптаха",
+      "item.dinosaurium.coelophysis_spawn_egg": "Целофіз — яйце виклику",
+      "entity.dinosaurium.anzu": "Анзу",
+      "item.dinosaurium.microraptor_spawn_egg": "Мікрораптор — яйце виклику",
+      "item.dinosaurium.austroraptor_spawn_egg": "Австрораптор — яйце виклику",
+      "biome.dinosaurium.mesozoic_forest_steppe": "Мезозойський лісостеп",
+      "item.dinosaurium.crassostrea_oyster": "Устриця",
+      "item.dinosaurium.jeholopterus_spawn_egg": "Жеголоптер — яйце виклику",
+      "entity.minecraft.villager.dinosaurium.palaeontologist": "Палеонтолог",
+      "item.dinosaurium.spinosaurus_spawn_egg": "Спінозавр — яйце виклику",
+      "block.dinosaurium.stripped_zamites_wood": "Обтесана замітова деревина",
+      "block.dinosaurium.zamites_log": "Замітова колода",
+      "block.dinosaurium.zamites_crown": "Замітова корона",
+      "entity.dinosaurium.mongolarachne": "Монголарахна",
+      "item.dinosaurium.unidentified_fossil": "Неідентифікована скам\u0027янілість",
+      "advancements.burmese_or_baltic.descr": "Знайдіть бурштин",
+      "item.dinosaurium.nigersaurus_spawn_egg": "Ніжерзавр — яйце виклику",
+      "item.dinosaurium.iguanodon_spawn_egg": "Іґуанодон — яйце виклику",
+      "item.dinosaurium.nannogomphus_item": "Нанногомф",
+      "item.dinosaurium.miragaia_spawn_egg": "Міраґайя — яйце виклику",
+      "item.dinosaurium.gallimimus_fossil": "Скам\u0027янілість галіміма",
+      "item.dinosaurium.pterodaustro_fossil": "Скам\u0027янілість птеродавстро",
+      "item.dinosaurium.stegosaurus_fossil": "Скам\u0027янілість стегозавра",
+      "entity.dinosaurium.amargasaurus": "Амарґазавр",
+      "item.dinosaurium.tyrannosaurus_fossil": "Скам\u0027янілість тиранозавра",
+      "entity.dinosaurium.psittacosaurus": "Псітакозавр",
+      "item.dinosaurium.yutyrannus_fossil": "Скам\u0027янілість ютирана",
+      "item.dinosaurium.lambeosaurus_fossil": "Скам\u0027янілість ламбеозавра",
+      "entity.dinosaurium.olorotitan": "Олоротитан",
+      "block.dinosaurium.zamites_cone": "Замітова шишка",
+      "item.dinosaurium.nanuqsaurus_spawn_egg": "Нанукзавр — яйце виклику",
+      "item.dinosaurium.nemegtosaurus_spawn_egg": "Немеґтозавр — яйце виклику",
+      "item.dinosaurium.coelophysis_fossil": "Скам\u0027янілість целофіза",
+      "painting.dinosaurium.diplodocus_painting.title": "Диплодок",
+      "item.dinosaurium.nemegtosaurus_fossil": "Скам\u0027янілість немеґтозавра",
+      "item.dinosaurium.austroraptor_fossil": "Скам\u0027янілість австрораптора",
+      "item.dinosaurium.jeholopterus_fossil": "Скам\u0027янілість жеголоптера",
+      "advancements.fancy_time_travel.title": "Минула епоха...",
+      "entity.dinosaurium.omma": "Ома",
+      "entity.dinosaurium.nigersaurus": "Ніжерзавр",
+      "entity.dinosaurium.miragaia": "Міраґайя",
+      "item.dinosaurium.sawfish_sword": "Меч із риби-пилки",
+      "item.dinosaurium.quetzalcoatlus_fossil": "Скам\u0027янілість кетцалькоатля",
+      "item.dinosaurium.bruhathkayosaurus_fossil": "Скам\u0027янілість бругаткайозавра",
+      "block.dinosaurium.amber_ore": "Бурштинова руда",
+      "item.dinosaurium.pteranodon_spawn_egg": "Птеранодон — яйце виклику",
+      "item.dinosaurium.sinew": "Сухожилля",
+      "item.dinosaurium.amargasaurus_spawn_egg": "Амарґазавр — яйце виклику",
+      "item.dinosaurium.cephaloleichnites_spawn_egg": "Цефалолеїхнітес — яйце виклику",
+      "item.dinosaurium.pterodaustro_spawn_egg": "Птеродавстро — яйце виклику",
+      "entity.dinosaurium.cretaraneus": "Кретараней",
+      "biome.dinosaurium.mesozoic_tundra": "Мезозойська тундра",
+      "entity.dinosaurium.lisowicia": "Лісовіція",
+      "item.dinosaurium.sinosauropteryx_spawn_egg": "Сінозавроптерикс — яйце виклику",
+      "item.dinosaurium.ouranosaurus_spawn_egg": "Уранозавр — яйце виклику",
+      "item.dinosaurium.mamenchisaurus_spawn_egg": "Маменсізавр — яйце виклику",
+      "item.dinosaurium.ankylosaurus_spawn_egg": "Анкілозавр — яйце виклику",
+      "item.dinosaurium.repenomamus_fossil": "Скам\u0027янілість репеномама",
+      "item.dinosaurium.parapuzosia_fossil": "Скам\u0027янілість парапузосії",
+      "entity.dinosaurium.nannogomphus": "Нанногомф",
+      "item.dinosaurium.cephaloleichnites_item": "Цефалолеїхнітес",
+      "advancements.collect_bugs.descr": "Зберіть всіх (доісторичних) жуків та павуків",
+      "item.dinosaurium.brachytrachelopan_fossil": "Скам\u0027янілість брахітрахелопана",
+      "painting.dinosaurium.in_the_bog.title": "В Болоті",
+      "item.dinosaurium.brachytrachelopan_spawn_egg": "Брахітрахелопан — яйце виклику",
+      "gui.dinosaurium.paleontology_gui.button_investigate": "Ідентифікувати",
+      "biome.dinosaurium.mesozoic_desert": "Мезозойська пустеля",
+      "block.dinosaurium.otozamites": "Отозаміт",
+      "block.dinosaurium.deepslate_fossil_block": "Глибосланцеве родовище скам\u0027янілостей",
+      "item.dinosaurium.palaeontology_book": "Довідник палеонтолога",
+      "advancements.yummy_bugs.descr": "Зробіть пюре з... жуків?!",
+      "block.dinosaurium.zamites_wood": "Замітова деревина",
+      "item.dinosaurium.parasaurolophus_spawn_egg": "Паразауролоф — яйце виклику",
+      "biome.dinosaurium.mesozoic_forest": "Мезозойський ліс",
+      "painting.dinosaurium.diplodocus_painting.author": "Генріх Гардер",
+      "item.dinosaurium.velociraptor_fossil": "Скам\u0027янілість велоцираптора",
+      "item.dinosaurium.zhenyuanlong_spawn_egg": "Чженьюаньлунь — яйце виклику",
+      "block.dinosaurium.osmunda": "Осмунда",
+      "block.dinosaurium.zamites_button": "Замітова кнопка",
+      "advancements.poaching_in_its_finest.title": "Доісторичний браконьєр",
+      "entity.dinosaurium.spinofaarus": "Спінофаарус",
+      "item.dinosaurium.olorotitan_fossil": "Скам\u0027янілість олоротитана",
+      "item.dinosaurium.miragaia_fossil": "Скам\u0027янілість міраґайї",
+      "advancements.resurrect_an_animal.title": "Воно ще живе!",
+      "block.dinosaurium.resurrection_altar": "Вівтар воскресіння",
+      "subtitles.entity.tyrannosaurus.roar": "Тиранозавр ричить",
+      "entity.dinosaurium.kol": "Кол",
+      "item_group.dinosaurium.dinosaurium_fossils": "Скам\u0027янілості",
+      "entity.dinosaurium.ankylosaurus": "Анкілозавр",
+      "entity.dinosaurium.microraptor": "Мікрораптор",
+      "entity.dinosaurium.arambourgiania": "Арамбургіанія",
+      "item.dinosaurium.archaeopteryx_spawn_egg": "Першоптах — яйце виклику",
+      "advancements.palaeontology.title": "Палеонтологія",
+      "item.dinosaurium.cretaraneus_spawn_egg": "Кретараней — яйце виклику",
+      "entity.dinosaurium.yutyrannus": "Ютиран",
+      "item.dinosaurium.velociraptor_spawn_egg": "Велоциратор — яйце виклику",
+      "painting.dinosaurium.laelaps.title": "Лелапси",
+      "entity.dinosaurium.jeholopterus": "Жеголоптер",
+      "item.dinosaurium.hatzegopteryx_spawn_egg": "Гацегоптерикс — яйце виклику",
+      "item.dinosaurium.mongolarachne_item": "Монголарахна",
+      "item.dinosaurium.ouranosaurus_fossil": "Скам\u0027янілість уранозавра",
+      "block.dinosaurium.crassostrea_oyster_block": "Устриці",
+      "item.dinosaurium.nyctosaurus_fossil": "Скам\u0027янілість ніктозавра",
+      "entity.dinosaurium.compsognathus": "Компсогнат",
+      "item.dinosaurium.magyarosaurus_fossil": "Скам\u0027янілість мадярозавра",
+      "item.dinosaurium.lambeosaurus_spawn_egg": "Ламбеозавр — яйце виклику",
+      "item.dinosaurium.tuojiangosaurus_spawn_egg": "Тоцзянозавр — яйце виклику",
+      "item.dinosaurium.amargasaurus_fossil": "Скам\u0027янілість амарґазавра",
+      "text.dinosaurium.palaeontology_book.landing_page": "Цей довідник містить всю можливу інформацію про Мезозой та його таємниці",
+      "entity.dinosaurium.giant_cicada": "Гігантська цикада",
+      "block.dinosaurium.asphalt": "Асфальт",
+      "item.dinosaurium.pachyrhinosaurus_spawn_egg": "Пахирінозавр — яйце виклику",
+      "advancements.brush_fossil.descr": "Визначте скам\u0027янілість на столі палеонтолога",
+      "biome.dinosaurium.mesozoic_bog": "Мезозойське болото",
+      "item.dinosaurium.psittacosaurus_spawn_egg": "Псітакозавр — яйце виклику",
+      "entity.dinosaurium.shuvuuia": "Шувуйя",
+      "item.dinosaurium.lisowicia_spawn_egg": "Лісовіція — яйце виклику",
+      "item.dinosaurium.deinocheirus_spawn_egg": "Дейнохейр — яйце виклику",
+      "item.dinosaurium.quetzalcoatlus_spawn_egg": "Кетцалькоатль — яйце виклику",
+      "painting.dinosaurium.in_the_bog.author": "Андрій Отучін",
+      "item.dinosaurium.olorotitan_spawn_egg": "Олоротитан — яйце виклику",
+      "entity.dinosaurium.hatzegopteryx": "Гацегоптерикс",
+      "item.dinosaurium.dilophosaurus_spawn_egg": "Дилофозавр — яйце виклику",
+      "item.dinosaurium.hatzegopteryx_fossil": "Скам\u0027янілість гацегоптерикса",
+      "entity.dinosaurium.protoceratops": "Протоцератопс",
+      "item.dinosaurium.shuvuuia_fossil": "Скам\u0027янілість шувуйї",
+      "item.dinosaurium.kol_spawn_egg": "Кол — яйце виклику",
+      "block.dinosaurium.zamites_stairs": "Замітові сходи",
+      "entity.dinosaurium.nanuqsaurus": "Нанукзавр",
+      "item.dinosaurium.aramourgiania_fossil": "Скам\u0027янілість арамбургіанії",
+      "advancements.whack_a_mole.descr": "Вбийте репеномама, паскудну щуряку з крейдяного періоду",
+      "advancements.welcome_to_cambodia.descr": "Отримайте смажених павуків! Що? Ви думали про щось інше?",
+      "item.dinosaurium.sinosauropteryx_fossil": "Скам\u0027янілість сінозавроптерикса",
+      "block.dinosaurium.palaeontology_table": "Стіл палеонтолога",
+      "entity.dinosaurium.halszkaraptor": "Гальшкараптор",
+      "item.dinosaurium.omma_item": "Ома",
+      "block.dinosaurium.ephedra": "Ставчак",
+      "biome.dinosaurium.mesozoic_ocean": "Мезозойський океан",
+      "entity.dinosaurium.tuojiangosaurus": "Тоцзянозавр",
+      "block.dinosaurium.laurozamites": "Лаурозаміт",
+      "block.dinosaurium.zamites_sapling": "Паросток заміта",
+      "item.dinosaurium.oviraptor_fossil": "Скам\u0027янілість овіраптора",
+      "entity.dinosaurium.deinocheirus": "Дейнохейр",
+      "item.dinosaurium.giant_cicada_spawn_egg": "Гігантська цикада — яйце виклику",
+      "item.dinosaurium.mesozoic": "Вогненні палички",
+      "item.dinosaurium.diplodocus_fossil": "Скам\u0027янілість диплодока  ",
+      "item.dinosaurium.diplodocus_spawn_egg": "Диплодок — яйце виклику",
+      "item.dinosaurium.bruhathkayosaurus_spawn_egg": "Бругаткайозавр — яйце виклику",
+      "item.dinosaurium.pteranodon_fossil": "Скам\u0027янілість птеранодона"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dinosaurium",
+    "modName": "Dinosaurium",
+    "version": "1.3.0",
+    "description": "Adds Mesozoic features-n-creatures to Minecraft",
+    "author": "Yumithirritj",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "quetzalcoatlus",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.dinosaurium"
+  },
+  "mcreatorVersion": 202400452410
+}

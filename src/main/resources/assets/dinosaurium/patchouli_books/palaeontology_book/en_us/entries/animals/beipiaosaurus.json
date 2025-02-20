@@ -1,0 +1,17 @@
+{
+    "name": "Beipiaosaurus",
+    "icon": "dinosaurium:beipiaosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Beipiaosaurus was a small therizinosaurid dinosaur from the Early Cretaceous of China. It had a long neck and tail, and a beak-like mouth with small teeth. Beipiaosaurus was covered in feathers, and its arms were tipped with long, curved claws. It likely used these claws to strip leaves and bark from trees, and may have also been an opportunistic carnivore, feeding on small animals and insects."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:beipiaosaurus",
+            "rotate": false,
+            "text": "Smol, but someday, it will be a killing machine named Therizinosaurus, but now, it is the door opener."
+        }
+    ]
+}

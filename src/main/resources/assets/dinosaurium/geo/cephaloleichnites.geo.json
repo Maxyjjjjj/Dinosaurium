@@ -1,0 +1,72 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cephaloleichnites",
+				"texture_width": 15,
+				"texture_height": 5,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-1, 1, 0], "size": [2, 1, 4], "uv": [2, 0]},
+						{"origin": [-0.5, 1, -2], "size": [1, 1, 2], "uv": [0, 1]},
+						{"origin": [0.5, 2, -4], "size": [0, 3, 2], "pivot": [0, 2, -2], "rotation": [50, -27.5, 0], "uv": [11, -2]},
+						{"origin": [-0.5, 2, -4], "size": [0, 3, 2], "pivot": [0, 2, -2], "rotation": [50, 27.5, 0], "uv": [11, -2]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "bone",
+					"pivot": [0.5, 1, -0.5],
+					"cubes": [
+						{"origin": [0.5, 1, -0.5], "size": [2, 0, 1], "pivot": [0.5, 1, 0], "rotation": [0, 22.5, 37.5], "uv": [10, 3]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "bone",
+					"pivot": [0.5, 1, 1],
+					"cubes": [
+						{"origin": [0.5, 1, 0.5], "size": [2, 0, 1], "pivot": [0.5, 1, 0.5], "rotation": [0, 0, 37.5], "uv": [10, 3]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "bone",
+					"pivot": [0.5, 1, 2],
+					"cubes": [
+						{"origin": [0.5, 1, 1.5], "size": [2, 0, 1], "pivot": [0.5, 1, 1.5], "rotation": [0, -22.5, 37.5], "uv": [10, 3]}
+					]
+				},
+				{
+					"name": "leg4",
+					"pivot": [-0.5, 1, -0.5],
+					"cubes": [
+						{"origin": [-2.5, 1, -0.5], "size": [2, 0, 1], "pivot": [-0.5, 1, 0], "rotation": [0, -22.5, -37.5], "uv": [10, 3]}
+					]
+				},
+				{
+					"name": "leg5",
+					"pivot": [-0.5, 1, 0.5],
+					"cubes": [
+						{"origin": [-2.5, 1, 0.5], "size": [2, 0, 1], "pivot": [-0.5, 1, 1], "rotation": [0, 0, -37.5], "uv": [10, 3]}
+					]
+				},
+				{
+					"name": "leg6",
+					"pivot": [-0.5, 1, 1.5],
+					"cubes": [
+						{"origin": [-2.5, 1, 1.5], "size": [2, 0, 1], "pivot": [-0.5, 1, 2], "rotation": [0, 22.5, -37.5], "uv": [10, 3]}
+					]
+				}
+			]
+		}
+	]
+}

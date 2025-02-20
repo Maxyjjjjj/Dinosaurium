@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "advancements.whack_a_mole.title"
+    },
+    "description": {
+      "translate": "advancements.whack_a_mole.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "whack_a_mole_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dinosaurium:fancy_time_travel"
+}

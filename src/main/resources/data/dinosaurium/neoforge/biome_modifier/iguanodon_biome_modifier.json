@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "dinosaurium:mesozoic_forest",
+  "spawners": {
+    "type": "dinosaurium:iguanodon",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

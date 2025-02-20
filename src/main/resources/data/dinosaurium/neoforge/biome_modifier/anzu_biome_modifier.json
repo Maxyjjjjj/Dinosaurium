@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_jungle"
+  ],
+  "spawners": {
+    "type": "dinosaurium:anzu",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

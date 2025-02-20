@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "forest",
+    "birch_forest",
+    "old_growth_birch_forest"
+  ],
+  "features": "dinosaurium:horsetail_patch",
+  "step": "vegetal_decoration"
+}

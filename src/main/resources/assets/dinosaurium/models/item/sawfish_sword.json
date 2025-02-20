@@ -1,0 +1,7 @@
+{
+  "parent": "dinosaurium:custom/saw_fish_sword",
+  "textures": {
+    "0": "dinosaurium:block/saw_fish_sword",
+    "particle": "dinosaurium:item/saw_fish_sword"
+  }
+}

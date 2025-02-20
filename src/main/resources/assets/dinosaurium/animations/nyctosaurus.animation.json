@@ -1,0 +1,452 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nyctosaurus.idle": {
+			"loop": true,
+			"animation_length": 0.0417,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"vector": [-75, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.nyctosaurus.walk": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"leftleg": {
+					"rotation": {
+						"0.0": {
+							"vector": [27.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [-27.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [27.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 2]
+						},
+						"0.375": {
+							"vector": [0, 2, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, -2]
+						},
+						"1.5": {
+							"vector": [0, 0, 2]
+						}
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-27.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [27.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [-27.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, -2]
+						},
+						"0.75": {
+							"vector": [0, 0, 2]
+						},
+						"1.125": {
+							"vector": [0, 2, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, -2]
+						}
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [-42.5, 0, 0]
+					}
+				},
+				"neck": {
+					"rotation": {
+						"0.0": {
+							"vector": [35, 0, 0]
+						},
+						"0.375": {
+							"vector": [20, 0, 0]
+						},
+						"0.75": {
+							"vector": [35, 0, 0]
+						},
+						"1.125": {
+							"vector": [20, 0, 0]
+						},
+						"1.5": {
+							"vector": [35, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-32.5, 0, 0]
+						},
+						"0.375": {
+							"vector": [-17.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [-32.5, 0, 0]
+						},
+						"1.125": {
+							"vector": [-17.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [-32.5, 0, 0]
+						}
+					}
+				},
+				"wingleft": {
+					"rotation": {
+						"0.0": {
+							"vector": [13.71217, 26.94622, 28.30005]
+						},
+						"0.75": {
+							"vector": [0, -30, 0]
+						},
+						"1.125": {
+							"vector": [-7.34114, 2.27927, -42.02613]
+						},
+						"1.5": {
+							"vector": [13.71217, 26.94622, 28.30005]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -0.31596, 0.87939]
+						},
+						"0.375": {
+							"vector": [0, 1.21939, -0.74404]
+						},
+						"0.75": {
+							"vector": [0, -1, -1]
+						},
+						"1.5": {
+							"vector": [0, -0.31596, 0.87939]
+						}
+					}
+				},
+				"handleft": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, -55, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"wingright": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 30, 0]
+						},
+						"0.375": {
+							"vector": [7.34114, -2.27927, 42.02613]
+						},
+						"0.75": {
+							"vector": [13.71217, -26.94622, -28.30005]
+						},
+						"1.5": {
+							"vector": [0, 30, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -0.06031, -1.34202]
+						},
+						"0.75": {
+							"vector": [0, -1, -1]
+						},
+						"1.125": {
+							"vector": [0, 1.21939, -0.74404]
+						},
+						"1.5": {
+							"vector": [0, -0.06031, -1.34202]
+						}
+					}
+				},
+				"handright": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -55, 0]
+						},
+						"0.75": {
+							"vector": [0, 40, 0]
+						},
+						"1.5": {
+							"vector": [0, -55, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 1]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.nyctosaurus.soar": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [20, 0, 7.5]
+						},
+						"2.5": {
+							"vector": [20, 0, -7.5]
+						},
+						"5.0": {
+							"vector": [20, 0, 7.5]
+						}
+					},
+					"position": {
+						"vector": [0, -4, 0]
+					}
+				},
+				"legs": {
+					"rotation": {
+						"vector": [77.5, 0, 0]
+					}
+				},
+				"neck": {
+					"rotation": {
+						"vector": [72.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-85, 0, 0]
+					}
+				},
+				"wingleft": {
+					"rotation": {
+						"vector": [0, 0, -70]
+					}
+				},
+				"wingleft2": {
+					"rotation": {
+						"vector": [0, 0, 145]
+					}
+				},
+				"wingright": {
+					"rotation": {
+						"vector": [0, 0, 70]
+					}
+				},
+				"wingright2": {
+					"rotation": {
+						"vector": [0, 0, -145]
+					}
+				}
+			}
+		},
+		"animation.nyctosaurus.fly": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [20, 0, 0]
+					}
+				},
+				"legs": {
+					"rotation": {
+						"vector": [77.5, 0, 0]
+					}
+				},
+				"neck": {
+					"rotation": {
+						"vector": [72.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-85, 0, 0]
+					}
+				},
+				"wingleft": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -10]
+						},
+						"0.5": {
+							"vector": [0, 0, -137.5]
+						},
+						"1.0": {
+							"vector": [0, 0, -10]
+						}
+					},
+					"position": {
+						"vector": [0, 2, -1]
+					}
+				},
+				"wingleft2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 162.5]
+						},
+						"0.5": {
+							"vector": [0, 0, 127.5]
+						},
+						"0.9583": {
+							"vector": [0, 0, 162.5]
+						}
+					}
+				},
+				"wingleft3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 10]
+						},
+						"0.5": {
+							"vector": [0, 0, -10]
+						},
+						"0.9583": {
+							"vector": [0, 0, 10]
+						}
+					}
+				},
+				"wingright": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 10]
+						},
+						"0.5": {
+							"vector": [0, 0, 137.5]
+						},
+						"1.0": {
+							"vector": [0, 0, 10]
+						}
+					},
+					"position": {
+						"vector": [0, 2, -1]
+					}
+				},
+				"wingright2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -162.5]
+						},
+						"0.5": {
+							"vector": [0, 0, -127.5]
+						},
+						"0.9583": {
+							"vector": [0, 0, -162.5]
+						}
+					}
+				},
+				"wingright3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -10]
+						},
+						"0.5": {
+							"vector": [0, 0, 10]
+						},
+						"0.9583": {
+							"vector": [0, 0, -10]
+						}
+					}
+				}
+			}
+		},
+		"animation.nyctosaurus.preen": {
+			"animation_length": 1.125,
+			"bones": {
+				"neck": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, -80, 0]
+						},
+						"0.4167": {
+							"vector": [117.46229, -74.43763, -83.82248]
+						},
+						"0.875": {
+							"vector": [117.46229, -74.43763, -83.82248]
+						},
+						"1.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"jaw": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4167": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"0.5833": {
+							"vector": [2.5, 0, 0]
+						},
+						"0.6667": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [2.5, 0, 0]
+						},
+						"0.8333": {
+							"vector": [0, 0, 0]
+						},
+						"1.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"wingleft": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4167": {
+							"vector": [0, 0, -27.5]
+						},
+						"0.875": {
+							"vector": [0, 0, -27.5]
+						},
+						"1.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

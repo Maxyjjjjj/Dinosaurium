@@ -1,0 +1,17 @@
+{
+    "name": "Amargasaurus",
+    "icon": "dinosaurium:amargasaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Amargasaurus was a medium-sized sauropod dinosaur that lived during the Early Cretaceous Period (129-124 million years ago) in what is now Argentina. It belonged to the family Dicraeosauridae and measured approximately 9-10 meters in length. Its most distinctive feature was a double row of elongated neural spines along its neck and back, which may have supported a sail-like structure or been covered in keratin sheaths. The genus name comes from La Amarga Formation where its fossils were discovered. Like other sauropods, it was herbivorous, likely feeding on low to mid-height vegetation using its pencil-like teeth. Known from a nearly complete skeleton, Amargasaurus provides important insights into dicraeosaurid diversity and evolution."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:amargasaurus",
+            "rotate": false,
+            "text": "Look at those epic neck spikes! Nature really said spiky boi hours"
+        }
+    ]
+}

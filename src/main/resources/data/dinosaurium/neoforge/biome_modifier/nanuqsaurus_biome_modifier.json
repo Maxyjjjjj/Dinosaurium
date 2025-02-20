@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "dinosaurium:mesozoic_tundra",
+  "spawners": {
+    "type": "dinosaurium:nanuqsaurus",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Nigersaurus",
+    "icon": "dinosaurium:nigersaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nigersaurus was a genus of rebbachisaurid sauropod dinosaur that lived during the Late Cretaceous Period (approximately 115-105 million years ago) in what is now Niger. It was characterized by its unusually wide, straight-edged muzzle filled with over 500 replaceable teeth, and is notable for being one of the few dinosaurs with a skull adapted for grazing at ground level. The genus reached around 9 meters (30 feet) in length and was distinguished by its relatively short neck for a sauropod, specialized vertebrae, and broad muzzle containing batteries of teeth."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:nigersaurus",
+            "rotate": false,
+            "text": "haha funny dino with controversial name go munch munch on prehistoric plants"
+        }
+    ]
+}

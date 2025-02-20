@@ -1,0 +1,17 @@
+{
+    "name": "Sinosauropteryx",
+    "icon": "dinosaurium:sinosauropteryx_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sinosauropteryx was a small compsognathid theropod dinosaur that lived during the Early Cretaceous Period (124.6-122 million years ago) in what is now Liaoning Province, China. It was the first dinosaur found with direct evidence of feathers, possessing a coat of primitive filamentous proto-feathers. These structures appeared as a downy covering across its body and formed a dark and light striped tail pattern. Sinosauropteryx was relatively small, measuring about 1.2 meters in length and weighing approximately 0.5-1 kg. It possessed a long tail, small arms, and a narrow skull with sharp teeth. As a carnivore, it likely preyed on small vertebrates, with preserved stomach contents revealing lizards, mammals, and small dinosaurs. The discovery of Sinosauropteryx in 1996 was groundbreaking as it provided the first undisputed evidence of feathered dinosaurs, helping cement the evolutionary link between dinosaurs and birds."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:sinosauropteryx",
+            "rotate": false,
+            "text": "The Fluffy Proto-Birb That Looks Like a Red Panda"
+        }
+    ]
+}

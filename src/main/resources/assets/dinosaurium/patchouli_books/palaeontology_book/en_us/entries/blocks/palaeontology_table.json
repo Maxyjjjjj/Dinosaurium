@@ -1,0 +1,20 @@
+{
+    "name": "Palaeontology Table",
+    "icon": "dinosaurium:palaeontology_table",
+    "category": "dinosaurium:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Palaeontology Table is a block that can be used to identify fossils. To use it, place a fossil in the left slot, brush in the middle slot and spyglass in the right slot, this will give you the information about the fossil and whose fossil it was."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:palaeontology_table"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dinosaurium:palaeontology_table_recipe",
+            "text": "Palaeontology Table crafting recipe"
+        }
+    ]
+}

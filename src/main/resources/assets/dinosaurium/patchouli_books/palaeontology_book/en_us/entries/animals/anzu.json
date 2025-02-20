@@ -1,0 +1,17 @@
+{
+    "name": "Anzu",
+    "icon": "dinosaurium:anzu_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Anzu was a large, bird-like dinosaur from the Late Cretaceous of North America. It had a long, toothless beak and a crest on its head, and was covered in feathers. Anzu was an omnivore, eating both plants and small animals. Fossil remains of Anzu have been found in the Hell Creek Formation of Montana and the Dakotas."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:anzu",
+            "rotate": false,
+            "text": "Anzu is named after a feathered demon from Mesopotamian mythology, which is pretty metal if you ask me"
+        }
+    ]
+}

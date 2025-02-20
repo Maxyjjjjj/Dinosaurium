@@ -1,0 +1,17 @@
+{
+    "name": "Ouranosaurus",
+    "icon": "dinosaurium:ouranosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ouranosaurus was a large, duck-billed dinosaur from the Early Cretaceous of North Africa. It had a long, toothless beak and hundreds of teeth in its cheeks, which it used to grind up tough plant material. Ouranosaurus was a social animal, living in herds and migrating across the landscape in search of food."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:ouranosaurus",
+            "rotate": false,
+            "text": "Funny sailback doot doot doofus"
+        }
+    ]
+}

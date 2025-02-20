@@ -1,0 +1,17 @@
+{
+    "name": "Tyrannosaurus",
+    "icon": "dinosaurium:tyrannosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tyrannosaurus was a large theropod dinosaur from the Late Cretaceous Period (Maastrichtian stage) of North America. It was the largest known predator of its time, and is one of the most well-known dinosaurs. It was about 12.9 meters long and weighed about 7,000 kilograms. Tyrannosaurus had a large, heavy skull with a large, serrated dentary bone that was used to crush the bones of its prey. It had a long, muscular tail used for balance, and two long, sickle-shaped claws on each hind limb. It was covered in feathers, which were probably used for insulation."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:tyrannosaurus",
+            "rotate": false,
+            "text": "Not your average Jurassic Park monster!"
+        }
+    ]
+}

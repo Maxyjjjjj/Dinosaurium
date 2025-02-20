@@ -1,0 +1,17 @@
+{
+    "name": "Nannogomphus",
+    "icon": "dinosaurium:nannogomphus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nannogomphus is an extinct genus of dragonfly from the Late Jurassic period. It belongs to the Jurassic dragonfly fauna, representing an important evolutionary stage in insect development. Nannogomphus likely inhabited terrestrial environments during the Mesozoic era, with morphological characteristics typical of early dragonfly lineages."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:nannogomphus",
+            "rotate": false,
+            "text": "Dragonfly"
+        }
+    ]
+}

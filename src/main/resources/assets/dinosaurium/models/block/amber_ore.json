@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dinosaurium:block/stone_amber_ore",
+    "particle": "dinosaurium:block/stone_amber_ore"
+  },
+  "render_type": "solid"
+}

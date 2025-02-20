@@ -1,0 +1,17 @@
+{
+    "name": "Olorotitan",
+    "icon": "dinosaurium:olorotitan_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Olorotitan was a genus of lambeosaurine hadrosaurid dinosaur that inhabited the Maastrichtian stage of the Late Cretaceous Period, approximately 70-66 million years ago, in the Amur Region of Far Eastern Russia. It was distinguished by its distinctive, elongated, and laterally compressed cranial crest, which likely served complex social communication and thermoregulatory functions. Fossil evidence suggests the genus reached approximately 8-9 meters (26-30 feet) in total body length, making it a moderately sized hadrosaur of its ecosystem."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:olorotitan",
+            "rotate": false,
+            "text": "haha funny dino with axe head go honk honk"
+        }
+    ]
+}

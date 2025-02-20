@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:cephaloleichnites_item",
+    "dinosaurium:omma_item",
+    "#dinosaurium:fryable_spiders",
+    "dinosaurium:nannogomphus_item",
+    "dinosaurium:giant_cicada_item"
+  ]
+}

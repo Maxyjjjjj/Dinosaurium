@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.9500000000000002,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:DeepslateAmberOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Amber"
+    },
+    "name": "amber_deepslate_ore_smelting",
+    "namespace": "mod"
+  }
+}

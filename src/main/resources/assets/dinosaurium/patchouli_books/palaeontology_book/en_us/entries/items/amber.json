@@ -1,0 +1,15 @@
+{
+    "name": "Amber",
+    "icon": "dinosaurium:amber",
+    "category": "dinosaurium:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Amber is one of the ore items that can be found in the world. It can be used to decorative blocks and portal frame to Mezsozoic."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:amber, dinosaurium:amber_block, dinosaurium:amber_ore, dinosaurium:deepslate_amber_ore"
+        }
+    ]
+}

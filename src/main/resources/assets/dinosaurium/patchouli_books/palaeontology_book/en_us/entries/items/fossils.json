@@ -1,0 +1,21 @@
+{
+    "name": "Fossils",
+    "icon": "dinosaurium:unidentified_fossil",
+    "category": "dinosaurium:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Fossils are a type of item that can be found in the world. They can be identified using Palaeontology Table to the and then — resurrected via Resurrection Altar."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:unidentified_fossil",
+            "text": "Unidentified Fossil"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tag:dinosaurium:fossils",
+            "text": "Fossils for all possible mobs"
+        }
+    ]
+}

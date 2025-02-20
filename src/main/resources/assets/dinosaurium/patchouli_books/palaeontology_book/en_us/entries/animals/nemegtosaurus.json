@@ -1,0 +1,17 @@
+{
+    "name": "Nemegtosaurus",
+    "icon": "dinosaurium:nemegtosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nemegtosaurus was a genus of titanosaurian sauropod dinosaur that lived during the Late Cretaceous Period (approximately 70-68 million years ago) in what is now Mongolia. It was characterized by its elongated neck, which was longer than that of most other sauropods, and its relatively small size, reaching around 8 meters (26 feet) in length. The genus was distinguished by its long, slender neck, elongated jaws, and specialized dental batteries for grinding plant material."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:nemegtosaurus",
+            "rotate": false,
+            "text": "NEMEGT MENTIONED?!?!?!?!?!?!?! RAAAAAAHHHHHHHH"
+        }
+    ]
+}

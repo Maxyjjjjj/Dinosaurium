@@ -1,0 +1,275 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.quetzalcoatlus",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 15,
+				"visible_bounds_height": 10,
+				"visible_bounds_offset": [0, 4, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 42, 8],
+					"cubes": [
+						{"origin": [-7, 34, -10], "size": [14, 12, 20], "uv": [115, 0]},
+						{"origin": [-2, 42, 10], "size": [4, 3, 5], "uv": [72, 52]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "Body",
+					"pivot": [7, 42, 8],
+					"cubes": [
+						{"origin": [4, 20, 5], "size": [4, 22, 6], "uv": [0, 148]}
+					]
+				},
+				{
+					"name": "LeftKnee",
+					"parent": "LeftLeg",
+					"pivot": [6, 20, 9],
+					"cubes": [
+						{"origin": [5, 0, 7], "size": [3, 20, 4], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "LeftFoot",
+					"parent": "LeftKnee",
+					"pivot": [6, 0, 7],
+					"cubes": [
+						{"origin": [5, 0, 4], "size": [3, 2, 3], "uv": [44, 36]},
+						{"origin": [8, 0, -1], "size": [0, 2, 5], "uv": [14, 14]},
+						{"origin": [5, 0, -1], "size": [0, 2, 5], "uv": [14, 12]},
+						{"origin": [6, 0, -1], "size": [0, 2, 5], "uv": [14, 10]},
+						{"origin": [7, 0, -1], "size": [0, 2, 5], "uv": [14, 8]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "Body",
+					"pivot": [-7, 42, 8],
+					"cubes": [
+						{"origin": [-8, 20, 5], "size": [4, 22, 6], "uv": [72, 0]}
+					]
+				},
+				{
+					"name": "RightKnee",
+					"parent": "RightLeg",
+					"pivot": [-6, 20, 9],
+					"cubes": [
+						{"origin": [-8, 0, 7], "size": [3, 20, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "RightFoot",
+					"parent": "RightKnee",
+					"pivot": [-6, 0, 7],
+					"cubes": [
+						{"origin": [-8, 0, 4], "size": [3, 2, 3], "uv": [44, 31]},
+						{"origin": [-5, 0, -1], "size": [0, 2, 5], "uv": [14, 6]},
+						{"origin": [-8, 0, -1], "size": [0, 2, 5], "uv": [14, 4]},
+						{"origin": [-7, 0, -1], "size": [0, 2, 5], "uv": [14, 2]},
+						{"origin": [-6, 0, -1], "size": [0, 2, 5], "uv": [14, 0]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "Body",
+					"pivot": [7, 42, -7.5],
+					"cubes": [
+						{"origin": [6, 28, -10], "size": [3, 14, 5], "uv": [46, 148]}
+					]
+				},
+				{
+					"name": "LeftWing",
+					"parent": "LeftArm",
+					"pivot": [8, 42, -5],
+					"cubes": [
+						{"origin": [8.1, 28, -5], "size": [0, 14, 33], "uv": [0, 101]},
+						{"origin": [7.9, 28, -5], "size": [0, 14, 33], "uv": [170, 5]}
+					]
+				},
+				{
+					"name": "LeftWingOnGround",
+					"parent": "LeftArm",
+					"pivot": [8, 42, -5],
+					"cubes": [
+						{"origin": [8.1, 12, -5], "size": [0, 30, 8], "uv": [122, 136]},
+						{"origin": [7.9, 12, -5], "size": [0, 30, 8], "uv": [160, 141]}
+					]
+				},
+				{
+					"name": "LeftElbow",
+					"parent": "LeftArm",
+					"pivot": [7.5, 28, -7.5]
+				},
+				{
+					"name": "LeftElbowFlying",
+					"parent": "LeftElbow",
+					"pivot": [7.5, 26, -5],
+					"cubes": [
+						{"origin": [6, 24, -15], "size": [3, 4, 10], "uv": [20, 148]}
+					]
+				},
+				{
+					"name": "LeftWing2",
+					"parent": "LeftElbowFlying",
+					"pivot": [8, 24, -5],
+					"cubes": [
+						{"origin": [8.1, -9, -15], "size": [0, 33, 10], "uv": [86, 130]},
+						{"origin": [7.9, -9, -15], "size": [0, 33, 10], "uv": [230, 139]}
+					]
+				},
+				{
+					"name": "LeftWrist",
+					"parent": "LeftElbowFlying",
+					"pivot": [7.5, 26, -15]
+				},
+				{
+					"name": "LeftWristFlyingg",
+					"parent": "LeftWrist",
+					"pivot": [7.5, 28, -16.5],
+					"cubes": [
+						{"origin": [6, -8, -18], "size": [3, 36, 3], "uv": [146, 59]}
+					]
+				},
+				{
+					"name": "LeftWing3",
+					"parent": "LeftWristFlyingg",
+					"pivot": [8, 28, -15],
+					"cubes": [
+						{"origin": [8.1, -8, -15], "size": [0, 36, 33], "uv": [80, 71]},
+						{"origin": [7.9, -8, -15], "size": [0, 36, 33], "uv": [169, 67]}
+					]
+				},
+				{
+					"name": "LeftWing4",
+					"parent": "LeftWristFlyingg",
+					"pivot": [8, -8, -15],
+					"cubes": [
+						{"origin": [8.1, -9, -15], "size": [0, 33, 40], "uv": [0, 61]},
+						{"origin": [7.9, -9, -15], "size": [0, 33, 40], "uv": [162, 24]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "Body",
+					"pivot": [-7, 42, -7.5],
+					"cubes": [
+						{"origin": [-9, 28, -10], "size": [3, 14, 5], "uv": [115, 0]}
+					]
+				},
+				{
+					"name": "RightWingOnGround",
+					"parent": "RightArm",
+					"pivot": [-8, 42, -5],
+					"cubes": [
+						{"origin": [-8.1, 12, -5], "size": [0, 30, 8], "uv": [106, 136]},
+						{"origin": [-7.9, 12, -5], "size": [0, 30, 8], "uv": [208, 145]}
+					]
+				},
+				{
+					"name": "RightWing",
+					"parent": "RightArm",
+					"pivot": [-8, 42, -5],
+					"cubes": [
+						{"origin": [-8.1, 28, -5], "size": [0, 14, 33], "uv": [72, 5]},
+						{"origin": [-7.9, 28, -5], "size": [0, 14, 33], "uv": [186, -15]}
+					]
+				},
+				{
+					"name": "RightElbow",
+					"parent": "RightArm",
+					"pivot": [-7.5, 28, -7.5]
+				},
+				{
+					"name": "RightElbowFlying",
+					"parent": "RightElbow",
+					"pivot": [-7.5, 26, -5],
+					"cubes": [
+						{"origin": [-9, 24, -15], "size": [3, 4, 10], "uv": [34, 46]}
+					]
+				},
+				{
+					"name": "RightWing2",
+					"parent": "RightElbowFlying",
+					"pivot": [-8, 24, -5],
+					"cubes": [
+						{"origin": [-8.1, -9, -15], "size": [0, 33, 10], "uv": [66, 130]},
+						{"origin": [-7.9, -9, -15], "size": [0, 33, 10], "uv": [184, 139]}
+					]
+				},
+				{
+					"name": "RightWrist",
+					"parent": "RightElbowFlying",
+					"pivot": [-7.5, 26, -15]
+				},
+				{
+					"name": "RightWristFlying",
+					"parent": "RightWrist",
+					"pivot": [-7.5, 28, -16.5],
+					"cubes": [
+						{"origin": [-9, -8, -18], "size": [3, 36, 3], "uv": [138, 144]}
+					]
+				},
+				{
+					"name": "RightWing4",
+					"parent": "RightWristFlying",
+					"pivot": [-8, -8, -15],
+					"cubes": [
+						{"origin": [-8.1, -9, -15], "size": [0, 33, 40], "uv": [0, 28]},
+						{"origin": [-7.9, -9, -15], "size": [0, 33, 40], "uv": [5, 142]}
+					]
+				},
+				{
+					"name": "RightWing3",
+					"parent": "RightWristFlying",
+					"pivot": [-8, 28, -15],
+					"cubes": [
+						{"origin": [-8.1, -8, -15], "size": [0, 36, 33], "uv": [80, 35]},
+						{"origin": [-7.9, -8, -15], "size": [0, 36, 33], "uv": [4, 185]}
+					]
+				},
+				{
+					"name": "Neck",
+					"parent": "Body",
+					"pivot": [0, 41, -10],
+					"cubes": [
+						{"origin": [-3, 37, -70], "size": [6, 8, 60], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Neck",
+					"pivot": [0, 41, -70],
+					"cubes": [
+						{"origin": [-3, 40, -94], "size": [6, 7, 24], "uv": [0, 0]},
+						{"origin": [0, 47, -91], "size": [0, 5, 20], "uv": [0, 31]},
+						{"origin": [-1, 44, -104], "size": [2, 10, 33], "uv": [163, 203]},
+						{"origin": [-2, 40, -128], "size": [4, 4, 34], "uv": [112, 106]}
+					]
+				},
+				{
+					"name": "Jaw",
+					"parent": "Head",
+					"pivot": [0, 40, -70],
+					"cubes": [
+						{"origin": [-3, 36, -93], "size": [6, 4, 23], "uv": [127, 32]},
+						{"origin": [-2, 37, -128], "size": [4, 3, 35], "uv": [72, 0]}
+					]
+				},
+				{
+					"name": "Throat",
+					"parent": "Jaw",
+					"pivot": [0, 36, -92],
+					"cubes": [
+						{"origin": [0, 16, -92], "size": [0, 20, 22], "uv": [0, 9]}
+					]
+				}
+			]
+		}
+	]
+}

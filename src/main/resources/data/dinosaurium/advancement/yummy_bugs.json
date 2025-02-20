@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:mashed_bugs"
+    },
+    "title": {
+      "translate": "advancements.yummy_bugs.title"
+    },
+    "description": {
+      "translate": "advancements.yummy_bugs.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yummy_bugs_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dinosaurium:mashed_bugs"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dinosaurium:collect_bugs"
+}

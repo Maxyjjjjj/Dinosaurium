@@ -1,0 +1,9 @@
+{
+  "parent": "dinosaurium:custom/zamites_crown",
+  "textures": {
+    "all": "dinosaurium:block/zamites_crown",
+    "particle": "dinosaurium:block/zamites_crown",
+    "0": "dinosaurium:block/zamites_crown"
+  },
+  "render_type": "cutout"
+}

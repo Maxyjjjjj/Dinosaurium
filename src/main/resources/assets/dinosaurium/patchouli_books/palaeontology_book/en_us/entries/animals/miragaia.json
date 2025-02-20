@@ -1,0 +1,17 @@
+{
+    "name": "Miragaia",
+    "icon": "dinosaurium:miragaia_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages":[
+        {
+            "type": "patchouli:text",
+            "text": "Miragaia was a stegosaurid dinosaur that lived during the Late Jurassic Period (approximately 150 million years ago) in what is now Portugal. It was characterized by its long neck, which contained at least 17 vertebrae - more than any other known stegosaurid. The dinosaur reached lengths of around 6 meters (20 feet) and likely weighed several tons. Like other stegosaurids, Miragaia possessed rows of plates along its back and spikes on its tail. Its skull was relatively small and elongated, with a beak-like structure for cropping vegetation. The teeth were small and leaf-shaped, typical of herbivorous dinosaurs. The type species, Miragaia longicollum, was named after the village of Miragaia where its fossils were discovered."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:miragaia",
+            "rotate": false,
+            "text": "Stegosaurian giraffe confirmed?!?!?!?!?!"
+        }
+    ]
+}

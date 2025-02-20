@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:amber"
+    },
+    "title": {
+      "translate": "advancements.burmese_or_baltic.title"
+    },
+    "description": {
+      "translate": "advancements.burmese_or_baltic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "burmese_or_baltic_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dinosaurium:amber"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dinosaurium:palaeontology"
+}

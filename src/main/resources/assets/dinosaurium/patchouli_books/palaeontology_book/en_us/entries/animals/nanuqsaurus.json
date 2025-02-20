@@ -1,0 +1,17 @@
+{
+    "name": "Nanuqsaurus",
+    "icon": "dinosaurium:nanuqsaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nanuqsaurus was a genus of tyrannosaurid dinosaur that lived during the Late Cretaceous Period (approximately 70-69 million years ago) in what is now Alaska, United States. It was characterized by its small size, reaching around 6-7 meters (20-23 feet) in length, and its unique adaptations to the cold, polar environment in which it lived. Nanuqsaurus is known from a partial skull and other skeletal remains, which suggest that it was a close relative of the larger, more well-known tyrannosaurs such as Tyrannosaurus rex. It represents an important example of the diversity of tyrannosaurids during the Late Cretaceous."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:nanuqsaurus",
+            "rotate": false,
+            "text": "Didcha know that Nanuqsaurus means \"polar bear lizard\" in Inuktitut? It's like a tiny T. rex, but in the Arctic!"
+        }
+    ]
+}

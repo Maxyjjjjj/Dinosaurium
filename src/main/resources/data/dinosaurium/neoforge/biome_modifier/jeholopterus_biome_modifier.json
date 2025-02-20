@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dinosaurium:mesozoic_bog",
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_jungle"
+  ],
+  "spawners": {
+    "type": "dinosaurium:jeholopterus",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

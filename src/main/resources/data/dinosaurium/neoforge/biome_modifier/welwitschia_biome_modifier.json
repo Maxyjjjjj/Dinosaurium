@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "dinosaurium:mesozoic_desert",
+    "desert"
+  ],
+  "features": "dinosaurium:welwitschia",
+  "step": "vegetal_decoration"
+}

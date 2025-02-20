@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Dinosaurium Fossils",
+    "icon": {
+      "value": "CUSTOM:VelociraptorFossil"
+    },
+    "showSearch": true
+  }
+}

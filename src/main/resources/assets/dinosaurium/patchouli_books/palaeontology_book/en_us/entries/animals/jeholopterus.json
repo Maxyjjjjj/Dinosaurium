@@ -1,0 +1,17 @@
+{
+    "name": "Jeholopterus",
+    "icon": "dinosaurium:jeholopterus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Jeholopterus is a genus of pterosaur from the Early Cretaceous period, approximately 120 million years ago. It was discovered in the Jiufotang Formation of Liaoning, China, and is known from several well-preserved specimens. Jeholopterus was a small, insect-eating pterosaur with a wingspan of around 60 centimeters. It had a unique, bat-like wing structure, with elongated fingers and a membrane of skin stretched between them. Jeholopterus likely hunted insects at night, using its keen eyesight and sharp teeth to catch prey."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:jeholopterus",
+            "rotate": false,
+            "text": "The bat of the Mesozoic"
+        }
+    ]
+}

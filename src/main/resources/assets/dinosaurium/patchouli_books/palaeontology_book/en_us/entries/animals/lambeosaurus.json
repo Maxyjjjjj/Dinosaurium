@@ -1,0 +1,17 @@
+{
+    "name": "Lambeosaurus",
+    "icon": "dinosaurium:lambeosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Lambeosaurus was a large, duck-billed dinosaur from the Late Cretaceous of North America. It had a long, toothless beak and hundreds of teeth in its cheeks, which it used to grind up tough plant material. Lambeosaurus was a social animal, living in herds and migrating across the landscape in search of food."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:lambeosaurus",
+            "rotate": false,
+            "text": "\"Thumbs up!\" ahh crest"
+        }
+    ]
+}

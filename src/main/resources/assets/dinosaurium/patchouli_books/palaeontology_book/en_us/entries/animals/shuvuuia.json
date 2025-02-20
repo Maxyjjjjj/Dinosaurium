@@ -1,0 +1,18 @@
+{
+    "name": "Shuvuuia",
+    "icon": "dinosaurium:shuvuuia_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages":
+    [
+        {
+            "type": "patchouli:text",
+            "text": "Shuvuuia was a small alvarezsaurid theropod from the Late Cretaceous of Mongolia, about the size of a chicken. It had specialized forelimbs with a single enlarged claw, and large eyes adapted for night vision. Its unique features suggest it was likely an insectivore, using its strong arms to dig into wood or termite mounds to catch prey."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:shuvuuia",
+            "rotate": false,
+            "text": "The name \"Shuvuuia\" comes from the Mongolian word for bird! *throat singing intensifies*"
+        }
+    ]
+}

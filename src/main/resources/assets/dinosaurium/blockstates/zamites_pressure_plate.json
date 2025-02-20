@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dinosaurium:block/zamites_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dinosaurium:block/zamites_pressure_plate_down"
+    }
+  }
+}

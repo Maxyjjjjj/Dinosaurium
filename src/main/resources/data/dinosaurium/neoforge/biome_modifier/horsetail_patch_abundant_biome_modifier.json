@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "dinosaurium:horsetail_fields",
+    "dinosaurium:mesozoic_bog",
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_forest_steppe",
+    "dinosaurium:mesozoic_horsetail_fields",
+    "dinosaurium:mesozoic_jungle",
+    "dinosaurium:mesozoic_plains"
+  ],
+  "features": "dinosaurium:horsetail_patch_abundant",
+  "step": "surface_structures"
+}

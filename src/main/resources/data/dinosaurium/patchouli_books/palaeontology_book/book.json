@@ -1,0 +1,7 @@
+{
+    "name": "item.dinosaurium.palaeontology_book",
+    "landing_text": "text.dinosaurium.palaeontology_book.landing_page",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": true
+}

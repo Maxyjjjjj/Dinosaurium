@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dinosaurium:block/stripped_zamites_log_top",
+    "up": "dinosaurium:block/stripped_zamites_log_top",
+    "north": "dinosaurium:block/stripped_zamites_log",
+    "east": "dinosaurium:block/stripped_zamites_log",
+    "south": "dinosaurium:block/stripped_zamites_log",
+    "west": "dinosaurium:block/stripped_zamites_log",
+    "particle": "dinosaurium:block/stripped_zamites_log_top"
+  },
+  "render_type": "solid"
+}

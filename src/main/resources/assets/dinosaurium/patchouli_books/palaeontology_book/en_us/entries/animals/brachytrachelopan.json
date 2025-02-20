@@ -1,0 +1,17 @@
+{
+    "name": "Brachytrachelopan",
+    "icon": "dinosaurium:brachytrachelopan_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Brachytrachelopan was a dicraeosaurid sauropod dinosaur from the Late Jurassic Period (Kimmeridgian stage) of Argentina. Unlike other sauropods, it had an unusually short neck with only 12 cervical vertebrae. At around 10 meters in length, it was relatively small for a sauropod. It is known from a single partial skeleton discovered in the Cañadón Calcáreo Formation of Chubut Province."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:brachytrachelopan",
+            "rotate": false,
+            "text": "The sauropod that skipped neck day at the gym"
+        }
+    ]
+}

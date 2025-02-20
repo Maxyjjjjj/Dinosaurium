@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:deepslate_amber_ore",
+    "dinosaurium:amber_block",
+    "dinosaurium:amber_ore"
+  ]
+}

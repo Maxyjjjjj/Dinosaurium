@@ -1,0 +1,17 @@
+{
+    "name": "Zhenyuanlong",
+    "icon": "dinosaurium:zhenyuanlong_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Zhenyuanlong was a small, feathered dinosaur from the Early Cretaceous of China. It had long, feathered arms and legs, and a long tail with a fan of feathers at the end. Zhenyuanlong was a close relative of the famous Velociraptor, and likely used its wings for display and to help it balance while running and jumping."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:zhenyuanlong",
+            "rotate": false,
+            "text": "BORB."
+        }
+    ]
+}

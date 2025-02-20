@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "dinosaurium:blocks/zamites_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dinosaurium:zamites_door",
+          "conditions": [
+            {
+              "block": "dinosaurium:zamites_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

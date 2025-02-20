@@ -1,0 +1,17 @@
+{
+    "name": "Iguanodon",
+    "icon": "dinosaurium:iguanodon_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Iguanodon was a large herbivorous ornithopod dinosaur that lived during the Early Cretaceous Period (approximately 125-122 million years ago) primarily in what is now Europe and Asia. It was characterized by its distinctive thumb spike, bipedal/quadrupedal stance, and specialized dental batteries for processing tough plant material. Notable features included its three-fingered hands, robust hind limbs, and stiff tail used for balance. First discovered in 1822, Iguanodon was one of the first dinosaurs ever scientifically described and has been crucial to our understanding of ornithischian dinosaur evolution."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:iguanodon",
+            "rotate": false,
+            "text": "Despite its name, Iguanodon is not just a big iguana - it's a whole different beast! Fun fact: early scientists thought it had its thumb spike on its nose, which would've been pretty wild!"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Spinosaurus",
+    "icon": "dinosaurium:spinosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Spinosaurus was a massive theropod dinosaur that lived during the Late Cretaceous Period (Cenomanian stage, approximately 100-93.5 million years ago) in North Africa. It was characterized by elongated neural spines forming a sail-like structure on its back, and possessed adaptations for a semi-aquatic lifestyle. Recent fossil evidence suggests Spinosaurus had short hind limbs, dense bones, and a paddle-like tail, indicating it was primarily aquatic. Its elongated skull contained conical teeth ideal for catching fish, and sensory adaptations similar to modern crocodilians. Measuring up to 15 meters in length, it was one of the largest known theropod dinosaurs. Paleontological evidence indicates it was a specialized piscivore, primarily hunting fish and other aquatic prey in the ancient river systems of North Africa."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:spinosaurus",
+            "rotate": false,
+            "text": "Is that a Spinosaurus or a giant crocodile? Yes."
+        }
+    ]
+}

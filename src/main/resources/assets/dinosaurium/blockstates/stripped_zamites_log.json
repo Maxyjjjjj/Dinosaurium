@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dinosaurium:block/stripped_zamites_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dinosaurium:block/stripped_zamites_log"
+    },
+    "axis=z": {
+      "model": "dinosaurium:block/stripped_zamites_log",
+      "x": 90
+    }
+  }
+}

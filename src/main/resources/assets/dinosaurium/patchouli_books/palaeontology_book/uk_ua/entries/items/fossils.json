@@ -1,0 +1,21 @@
+{
+    "name": "Скам'янілості",
+    "icon": "dinosaurium:unidentified_fossil",
+    "category": "dinosaurium:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Скам'янілості - це тип предмета, який можна знайти у світі. Їх можна ідентифікувати за допомогою столу палеонтолога, а потім — воскресити через Вівтар Воскресіння."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:unidentified_fossil",
+            "text": "Неідентифікована скам'янілість"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tag:dinosaurium:fossils",
+            "text": "Скам'янілості для всіх можливих мобів"
+        }
+    ]
+}

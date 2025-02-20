@@ -1,0 +1,18 @@
+{
+    "name": "Diplodocus",
+    "icon": "dinosaurium:diplodocus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages":
+    [
+        {
+            "type": "patchouli:text",
+            "text": "Diplodocus was a large herbivorous dinosaur from the Late Jurassic of North America. It had a long neck and tail, and was covered in large, bony plates. Diplodocus was one of the largest land animals of its time, and its long neck allowed it to reach vegetation that other dinosaurs couldn't."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:diplodocus",
+            "rotate": false,
+            "text": "This absolute unit of a dinosaur is so chonky that even Wardens run away in fear!"
+        }
+    ]
+}

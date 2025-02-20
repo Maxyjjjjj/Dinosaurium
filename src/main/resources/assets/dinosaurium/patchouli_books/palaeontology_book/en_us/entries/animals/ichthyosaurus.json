@@ -1,0 +1,17 @@
+{
+    "name": "Ichthyosaurus",
+    "icon": "dinosaurium:ichthyosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ichthyosaurus was a marine reptile that lived during the Early to Late Jurassic period, around 201-145 million years ago. Despite its fish-like appearance, it was not related to fish but rather evolved from land-dwelling reptiles. Ichthyosaurus had a dolphin-like body with four flippers, a dorsal fin, and a vertical tail fluke. It possessed large eyes for hunting in deep or murky waters and a pointed snout filled with numerous sharp teeth, which it used to catch fish, squid, and other marine creatures. Most species were moderate in size, typically 2-3 meters in length."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:ichthyosaurus",
+            "rotate": false,
+            "text": "haha fish go brrrrr (but actually a reptile)"
+        }
+    ]
+}

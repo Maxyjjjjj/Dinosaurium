@@ -1,0 +1,17 @@
+{
+    "name": "Omma",
+    "icon": "dinosaurium:omma_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Omma is a genus of beetles in the family Ommatidae. Omma is an example of a living fossil. The oldest species known, O. liassicum, lived during the final stage of the Triassic (Rhaetian), over 200 million years ago, though the placement of this species in Omma has been questioned. Numerous other fossil species are known from the Jurassic and Cretaceous of Europe and Asia. The only living species is Omma stanleyi, which is endemic to Australia. Three other extant species endemic to Australia that were formerly part of this genus were moved to the separate genus Beutelius in 2020."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:omma",
+            "rotate": false,
+            "text": "Omma: The Living Fossil Beetle"
+        }
+    ]
+}

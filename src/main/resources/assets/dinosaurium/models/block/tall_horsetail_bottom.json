@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dinosaurium:block/plant_horsetail_large_1",
+    "particle": "dinosaurium:block/plant_horsetail_large_2"
+  },
+  "render_type": "cutout"
+}

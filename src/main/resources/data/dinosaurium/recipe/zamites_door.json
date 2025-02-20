@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:zamites_planks"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:zamites_door",
+    "count": 3
+  }
+}

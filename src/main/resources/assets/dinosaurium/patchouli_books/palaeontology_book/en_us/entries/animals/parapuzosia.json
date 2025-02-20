@@ -1,0 +1,17 @@
+{
+    "name": "Parapuzosia",
+    "icon": "dinosaurium:parapuzosia_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Parapuzosia was a large ammonite that lived during the Late Cretaceous period, approximately 70-66 million years ago. Growing up to 2 meters in diameter, this prehistoric cephalopod was characterized by its distinctive coiled shell and tentacles. Parapuzosia inhabited warm, shallow seas and was a predator, feeding primarily on small fish and crustaceans. Fossil remains have been found in various locations around the world, including North America, Europe, and Africa."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:parapuzosia",
+            "rotate": false,
+            "text": "Imagine a snail the size of a car tire - that's basically what this ancient mollusk was"
+        }
+    ]
+}

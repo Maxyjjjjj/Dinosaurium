@@ -1,0 +1,17 @@
+{
+    "name": "Triceratops",
+    "icon": "dinosaurium:triceratops_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Triceratops was a large, herbivorous dinosaur from the Late Cretaceous Period. It had a large, bony frill on its head, and three horns on its snout. Triceratops was one of the largest land animals of its time, and its frill and horns provided protection from predators."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:triceratops",
+            "rotate": false,
+            "text": "The Absolute Unit of a Three-Horned Chonker"
+        }
+    ]
+}

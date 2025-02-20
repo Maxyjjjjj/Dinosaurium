@@ -1,0 +1,17 @@
+{
+    "name": "Pachycephalosaurus",
+    "icon": "dinosaurium:pachycephalosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pachycephalosaurus was a bipedal ornithischian dinosaur that inhabited western North America during the late Maastrichtian stage of the Late Cretaceous Period (approximately 70-66 million years ago). Known for its distinctive thick, domed skull (pachycephalosaur), which could reach up to 25 cm (10 inches) thick, this dinosaur likely used its robust cranial structure for intraspecific combat and display rather than purely defensive purposes. Measuring approximately 4.5 meters (15 feet) in length and weighing around 450 kilograms, Pachycephalosaurus was a member of the pachycephalosaurid family. Its diet consisted of low-growing plants, including ferns, cycads, and early flowering plants, suggesting it was an herbivorous browser adapted to the diverse Cretaceous vegetation. Recent paleontological research suggests that its thick skull was more likely used for ritualized head-butting contests among males during mating competitions, similar to modern-day bighorn sheep, rather than solely for predator defense."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:pachycephalosaurus",
+            "rotate": false,
+            "text": "Pachycephalosaurus: The king of the head butting competition."
+        }
+    ]
+}

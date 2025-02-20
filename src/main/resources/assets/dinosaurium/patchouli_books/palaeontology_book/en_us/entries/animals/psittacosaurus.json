@@ -1,0 +1,17 @@
+{
+    "name": "Psittacosaurus",
+    "icon": "dinosaurium:psittacosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Psittacosaurus was a genus of ceratopsian dinosaur that lived during the Early Cretaceous Period (approximately 126-101 million years ago) in what is now Asia. It was characterized by its parrot-like beak, which it used to strip leaves and branches from plants. Psittacosaurus was a small, bipedal dinosaur that likely fed on low-lying vegetation and insects. It belongs to the family Psittacosauridae and represents an important example of early ceratopsian diversity."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:psittacosaurus",
+            "rotate": false,
+            "text": "PAROT BRAINROT!"
+        }
+    ]
+}

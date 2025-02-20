@@ -1,0 +1,17 @@
+{
+    "name": "Edmontosaurus",
+    "icon": "dinosaurium:edmontosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Edmontosaurus was a large, duck-billed dinosaur from the Late Cretaceous of North America. It had a long, toothless beak and hundreds of teeth in its cheeks, which it used to grind up tough plant material. Edmontosaurus was a social animal, living in herds and migrating across the landscape in search of food."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:edmontosaurus",
+            "rotate": false,
+            "text": "OH LAWD HE COMIN'"
+        }
+    ]
+}

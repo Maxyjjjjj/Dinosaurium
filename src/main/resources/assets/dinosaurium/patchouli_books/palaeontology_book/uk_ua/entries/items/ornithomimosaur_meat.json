@@ -1,0 +1,15 @@
+{
+    "name": "М'ясо Орнітомімозавра",
+    "icon": "dinosaurium:raw_ornithomimosaur",
+    "category": "dinosaurium:items",
+    "pages":[
+        {
+            "type": "patchouli:text",
+            "text": "М'ясо Орнітомімозавра - це тип їжі, який можна отримати в Мезозої.<br>Його можна приготувати з Сирого Орнітомімозавра у Смаженого Орнітомімозавра.<br>Моби, які скидають цей предмет, - це Галіміми."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:raw_ornithomimosaur, dinosaurium:cooked_ornithomimosaur"
+        }
+    ]
+}

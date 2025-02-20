@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#dinosaurium:overworld_and_mesozoic",
+  "features": "dinosaurium:amber_ore",
+  "step": "underground_ores"
+}

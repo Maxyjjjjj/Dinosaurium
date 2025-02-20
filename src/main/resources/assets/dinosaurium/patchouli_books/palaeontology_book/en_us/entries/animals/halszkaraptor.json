@@ -1,0 +1,17 @@
+{
+    "name": "Halszkaraptor",
+    "icon": "dinosaurium:halszkaraptor_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Halszkaraptor is a genus of theropod dinosaur from the Late Cretaceous period, approximately 75 million years ago. It was discovered in the Gobi Desert of Mongolia, and is known from a single, well-preserved skeleton. Halszkaraptor was a small, bird-like dinosaur with a long neck, sharp teeth, and a unique semiaquatic lifestyle. It likely hunted fish and small animals in the water, using its long neck and sharp teeth to catch prey."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:halszkaraptor",
+            "rotate": false,
+            "text": "DOLAN DUCC, DOLAN DUCC, DOLAN DUCC"
+        }
+    ]
+}

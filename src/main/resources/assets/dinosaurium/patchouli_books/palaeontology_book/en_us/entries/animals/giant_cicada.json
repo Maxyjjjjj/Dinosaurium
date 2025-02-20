@@ -1,0 +1,17 @@
+{
+    "name": "Giant Cicad",
+    "icon": "dinosaurium:giant_cicada_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Palaeontinidae, commonly known as giant cicadas, is an extinct family of cicadomorphs. They existed from the Late Triassic to the Early Cretaceous. The family contains around 30 to 40 genera and around a hundred species. They are thought to have had a similar ecology to modern cicadas as feeders on plant xylem fluids. Despite being described as \"giant cicadas\"(with the wingspan of some species exceeding 15 centimetres (5.9 in)), they are not particularly closely related to true cicadas."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:giant_cicada",
+            "rotate": false,
+            "text": "ANNOYING ALERT!!! ANNOYING ALERT!!!"
+        }
+    ]
+}

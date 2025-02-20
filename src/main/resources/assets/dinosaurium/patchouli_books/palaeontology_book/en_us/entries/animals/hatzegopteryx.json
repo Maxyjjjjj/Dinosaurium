@@ -1,0 +1,17 @@
+{
+    "name": "Hatzegopteryx",
+    "icon": "dinosaurium:hatzegopteryx_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text": "Hatzegopteryx was a massive azhdarchid pterosaur that lived during the Late Cretaceous period, around 66 million years ago. Known from fossils found in Romania, it was one of the largest flying animals ever known, with a wingspan estimated at 10-12 meters. Unlike most pterosaurs, Hatzegopteryx had an unusually short, thick neck and robust skull, suggesting it was a powerful predator capable of hunting large prey. Its remains were found in what was then an island environment, where it likely served as the apex predator."
+        },
+        {
+            "type":"patchouli:entity",
+            "entity":"dinosaurium:hatzegopteryx",
+            "rotate": false,
+            "text": "Imagine a flying giraffe that eats dinosaurs for breakfast"
+        }
+    ]
+}

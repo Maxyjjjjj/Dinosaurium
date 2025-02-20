@@ -1,0 +1,198 @@
+{
+  "_fv": 73,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "plant_ephedra_stage0",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Ephedra",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:DinosauriumPlants"
+      }
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isWaterloggable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.DIRT#2"
+      },
+      {
+        "value": "Blocks.ROOTED_DIRT"
+      },
+      {
+        "value": "Blocks.FARMLAND"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.SAND#1"
+      },
+      {
+        "value": "Blocks.MOSS_BLOCK"
+      },
+      {
+        "value": "Blocks.HARDENED_CLAY"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#0"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#1"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#2"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#3"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#4"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#5"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#6"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#7"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#8"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#9"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#10"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#11"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#12"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#13"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#14"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#15"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 5,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MesozoicPlains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "beaches"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 64,
+    "generateAtAnyHeight": false
+  }
+}

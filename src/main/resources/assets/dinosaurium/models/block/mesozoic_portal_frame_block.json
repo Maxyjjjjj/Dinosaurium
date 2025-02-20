@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dinosaurium:block/portalframe_top",
+    "up": "dinosaurium:block/portalframe_top",
+    "north": "dinosaurium:block/portalframe",
+    "east": "dinosaurium:block/portalframe",
+    "south": "dinosaurium:block/portalframe",
+    "west": "dinosaurium:block/portalframe",
+    "particle": "dinosaurium:block/portalframe_top"
+  },
+  "render_type": "cutout_mipped"
+}

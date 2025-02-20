@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dinosaurium:mesozoic_bog",
+    "dinosaurium:mesozoic_desert",
+    "dinosaurium:mesozoic_forest"
+  ],
+  "spawners": {
+    "type": "dinosaurium:triceratops",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:mesozoic_portal_frame_block"
+    },
+    "title": {
+      "translate": "advancements.fancy_time_travel.title"
+    },
+    "description": {
+      "translate": "advancements.fancy_time_travel.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fancy_time_travel_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dinosaurium:mesozoic"
+      }
+    }
+  },
+  "parent": "dinosaurium:burmese_or_baltic"
+}

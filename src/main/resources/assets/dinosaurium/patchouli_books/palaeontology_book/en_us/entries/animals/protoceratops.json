@@ -1,0 +1,17 @@
+{
+    "name": "Protoceratops",
+    "icon": "dinosaurium:protoceratops_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Protoceratops was a genus of ceratopsian dinosaur that lived during the Late Cretaceous Period, approximately 75-71 million years ago, in what is now Mongolia. It was a small, quadrupedal herbivore that reached lengths of around 1.8 meters (6 feet) and weighed up to 400 kilograms (880 pounds). Protoceratops was characterized by its parrot-like beak, frill-less skull, and a small, bony neck frill that likely served as a display structure or for species recognition."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:protoceratops",
+            "rotate": false,
+            "text": "\"Wanted for murdering our kind and looking cute while doing it, punishment: getting eaten\" — every Velociraptor ever"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Пікноволокно",
+    "icon": "dinosaurium:pycnofiber",
+    "category": "dinosaurium:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Пікноволокно - це тип матеріалу, який можна отримати в Мезозої.<br>Його можна використовувати для створення мотузки."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:pycnofiber"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dinosaurium:string",
+            "text": "Рецепт створення нитки"
+        }
+    ]
+}

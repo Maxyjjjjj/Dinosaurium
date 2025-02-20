@@ -1,0 +1,17 @@
+{
+    "name": "Dilophosaurus",
+    "icon": "dinosaurium:dilophosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Dilophosaurus was a large, carnivorous dinosaur from the Early Jurassic of North America. It had a pair of thin, bony crests on its head, which may have been used for display or to help it cool off. Dilophosaurus was a fast and agile predator, using its sharp teeth and claws to catch small animals. Fossil remains of Dilophosaurus have been found in the Kayenta Formation of Arizona and Utah."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:dilophosaurus",
+            "rotate": false,
+            "text": "You thought it spat poison? Yeah? Well, you're wrong. It's just a cool dinosaur." 
+        }
+    ]
+}

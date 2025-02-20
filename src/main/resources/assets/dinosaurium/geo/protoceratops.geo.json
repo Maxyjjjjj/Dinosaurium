@@ -1,0 +1,92 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.protoceratops",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Boody",
+					"parent": "Root",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{"origin": [-3, 4, -5], "size": [6, 6, 9], "inflate": 0.1, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Boody",
+					"pivot": [0, 8, -5],
+					"cubes": [
+						{"origin": [-2, 6, -7], "size": [4, 6, 4], "pivot": [0, 0, 0], "rotation": [7.5, 0, 0], "uv": [18, 24]},
+						{"origin": [-1, 6, -9], "size": [2, 5, 2], "pivot": [0, 0, 0], "rotation": [7.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-1, 5, -9], "size": [2, 1, 0], "pivot": [0, 0, 0], "rotation": [7.5, 0, 0], "uv": [4, 7]},
+						{"origin": [0, 10, -9], "size": [0, 2, 2], "pivot": [0, 0, 0], "rotation": [5, 0, 0], "uv": [0, 5]},
+						{"origin": [1, 6, -6.9], "size": [2, 1, 2], "pivot": [0, 0, 0], "rotation": [5.96275, 4.55749, -37.26251], "uv": [21, 6]},
+						{"origin": [-3, 6, -6.9], "size": [2, 1, 2], "pivot": [0, 0, 0], "rotation": [5.96275, -4.55749, 37.26251], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "Casci",
+					"parent": "Head",
+					"pivot": [0, 9, -5],
+					"cubes": [
+						{"origin": [-5, 7, -8], "size": [10, 7, 2], "pivot": [0, 0, 0], "rotation": [-15, 0, 0], "uv": [13, 15]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Boody",
+					"pivot": [0, 9, 3],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-1, 7, -2], "size": [2, 4, 9], "pivot": [0, 0, 0], "rotation": [-27.5, 0, 0], "uv": [0, 15]},
+						{"origin": [0, 11, -3], "size": [0, 5, 8], "pivot": [0, 0, 0], "rotation": [-27.5, 0, 0], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "Sleg1",
+					"parent": "Root",
+					"pivot": [-2, 4, -3],
+					"cubes": [
+						{"origin": [-3, 0, -4], "size": [2, 4, 2], "uv": [21, 0]}
+					]
+				},
+				{
+					"name": "Sleg2",
+					"parent": "Root",
+					"pivot": [2, 4, -3],
+					"cubes": [
+						{"origin": [1, 0, -4], "size": [2, 4, 2], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "Sleg3",
+					"parent": "Root",
+					"pivot": [-3, 7, 3],
+					"cubes": [
+						{"origin": [-4, 0, 2], "size": [3, 7, 3], "uv": [31, 31]}
+					]
+				},
+				{
+					"name": "Sleg4",
+					"parent": "Root",
+					"pivot": [3, 7, 3],
+					"cubes": [
+						{"origin": [1, 0, 2], "size": [3, 7, 3], "uv": [30, 0]}
+					]
+				}
+			]
+		}
+	]
+}

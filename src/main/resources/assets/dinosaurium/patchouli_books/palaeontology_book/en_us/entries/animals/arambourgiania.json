@@ -1,0 +1,17 @@
+{
+    "name": "Arambourgiania",
+    "icon": "dinosaurium:arambourgiania_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Arambourgiania was a massive azhdarchid pterosaur from the Late Cretaceous of Jordan. With an estimated wingspan of 10-11 meters, it was one of the largest flying animals ever known. Its most distinctive feature was its extremely long neck, which could reach up to 3 meters in length. The creature likely used its height and long neck to hunt prey from a giraffe-like stance, feeding on small animals and possibly young dinosaurs."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:arambourgiania",
+            "rotate": false,
+            "text": "Imagine a flying giraffe with wings the size of a small plane - that's basically what this absolute unit was! While not technically a dinosaur (it's a pterosaur), this sky giant would definitely make you look twice if it flew overhead."
+        }
+    ]
+}

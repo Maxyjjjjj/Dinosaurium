@@ -1,0 +1,17 @@
+{
+    "name": "Archaeopteryx",
+    "icon": "dinosaurium:archaeopteryx_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Archaeopteryx was a genus of bird-like dinosaur that lived during the Late Jurassic Period, approximately 150.8-148.5 million years ago, in what is now Germany. It was characterized by its combination of bird-like and dinosaur-like features, such as feathers, wings, and a long, bony tail. Archaeopteryx is considered one of the earliest and most primitive birds, representing a transitional form between non-avian dinosaurs and modern birds. It was a small, carnivorous dinosaur that likely fed on insects, small vertebrates, and other prey."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:archaeopteryx",
+            "rotate": false,
+            "text": "bird or dinosaur? why not both?"
+        }
+    ]
+}

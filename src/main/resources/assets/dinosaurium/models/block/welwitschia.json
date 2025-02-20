@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dinosaurium:block/plant_welwitschia",
+    "particle": "dinosaurium:block/plant_welwitschia"
+  },
+  "render_type": "cutout"
+}

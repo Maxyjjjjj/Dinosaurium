@@ -1,0 +1,17 @@
+{
+    "name": "Repenomamus",
+    "icon": "dinosaurium:repenomamus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Repenomamus was a genus of mammal that lived during the Early Cretaceous Period (approximately 125-120 million years ago) in what is now China. It was a large, carnivorous mammal that likely fed on small dinosaurs and other animals. Repenomamus is known from several species, the largest of which was Repenomamus giganticus, which was about the size of a badger. It is one of the largest known Mesozoic mammals and represents an important example of early mammalian diversity."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:repenomamus",
+            "rotate": false,
+            "text": "Repenomamus: The Killer Rat who evaded a hammer in Whack-A-Mole many times."
+        }
+    ]
+}

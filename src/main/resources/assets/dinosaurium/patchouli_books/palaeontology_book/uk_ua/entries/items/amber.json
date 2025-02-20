@@ -1,0 +1,15 @@
+{
+    "name": "Бурштин",
+    "icon": "dinosaurium:amber",
+    "category": "dinosaurium:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Бурштин - це один з рудних предметів, які можна знайти у світі. Його можна використовувати для декоративних блоків та порталу до Мезозойської ери."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:amber, dinosaurium:amber_block, dinosaurium:amber_ore, dinosaurium:deepslate_amber_ore"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Bruhathkayosaurus",
+    "icon": "dinosaurium:bruhathkayosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Bruhathkayosaurus was a titanosaur sauropod dinosaur that lived during the Late Cretaceous Period (Maastrichtian stage) of India. While initially described as potentially one of the largest known dinosaurs, the fragmentary nature of its remains and subsequent loss of the original fossils have made accurate size estimates difficult. The holotype consisted of partial pelvic and leg bones found in the Kallamedu Formation of Tamil Nadu. Due to the limited fossil material and lack of proper scientific documentation, many paleontologists consider Bruhathkayosaurus to be a nomen dubium. The original size estimates suggested it could have reached lengths of 40-44 meters and potentially weighed 126-139 tonnes, though these figures are highly speculative."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:bruhathkayosaurus",
+            "rotate": false,
+            "text": "Bruhathkayosaurus was such a bruh moment that scientists mistook its fossils for a tree at first lmao"
+        }
+    ]
+}

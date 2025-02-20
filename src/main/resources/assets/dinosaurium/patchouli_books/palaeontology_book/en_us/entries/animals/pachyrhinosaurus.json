@@ -1,0 +1,17 @@
+{
+    "name": "Pachyrhinosaurus",
+    "icon": "dinosaurium:pachyrhinosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pachyrhinosaurus was a distinctive ceratopsian dinosaur from the Late Cretaceous Period, specifically found in the Dinosaur Park Formation of Alberta, Canada, and the North Slope of Alaska. Unlike other ceratopsians, it uniquely featured a thick, bony boss (or 'pad') on its snout instead of traditional horns. This pachyrhinosaur lived approximately 72-68 million years ago during the Campanian stage. As a large herbivorous quadrupedal dinosaur, it likely used its robust skull structure for intraspecific combat and defense against predators. Belonging to the Centrosaurinae subfamily of Ceratopsidae, Pachyrhinosaurus represents a fascinating example of ceratopsian morphological adaptation and regional diversity."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:pachyrhinosaurus",
+            "rotate": false,
+            "text": "No Horns? *Sad Triceratops Noises*"
+        }
+    ]
+}

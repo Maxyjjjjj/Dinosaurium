@@ -1,0 +1,17 @@
+{
+    "name": "Orodromeus",
+    "icon": "dinosaurium:orodromeus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Orodromeus was a small, fast dinosaur that lived during the Late Cretaceous period, approximately 75-65 million years ago. Growing up to 2 meters in length, this herbivorous dinosaur was characterized by its long legs and tail, which helped it to run quickly to escape predators. Orodromeus lived in herds and was a social animal, communicating with other members of its species through vocalizations and body language. Fossil remains have been found in North America, particularly in the state of Montana."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:orodromeus",
+            "rotate": false,
+            "text": "Smol Alert!"
+        }
+    ]
+}

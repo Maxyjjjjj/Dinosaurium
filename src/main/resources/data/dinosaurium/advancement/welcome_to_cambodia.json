@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:fried_spider"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_cambodia.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_cambodia.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_cambodia_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dinosaurium:fried_spider"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dinosaurium:collect_bugs"
+}

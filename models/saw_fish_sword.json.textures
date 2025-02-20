@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "saw_fish_sword"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Tuojiangosaurus",
+    "icon": "dinosaurium:tuojiangosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tuojiangosaurus was a genus of stegosaurian dinosaur that lived during the Late Jurassic Period (approximately 161-155 million years ago) in what is now China. It was characterized by its distinctive rows of plates and spikes along its back, which served as protection against predators and for display purposes. Tuojiangosaurus was a herbivorous dinosaur that likely fed on low-lying vegetation, using its beak-like mouth to strip leaves and branches. It belongs to the family Stegosauridae and represents an important example of stegosaur diversity."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:tuojiangosaurus",
+            "rotate": false,
+            "text": "Chinese Stegosaurus?! *Red Sun in the Sky intensifies* +1000 social credit points"
+        }
+    ]
+}

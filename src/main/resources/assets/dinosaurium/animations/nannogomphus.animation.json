@@ -1,0 +1,87 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nannogomphus.idle": {
+			"loop": true,
+			"animation_length": 0.0417
+		},
+		"animation.nannogomphus.walk": {
+			"loop": true,
+			"animation_length": 0.0833,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 2.5, 0]
+						},
+						"0.0417": {
+							"vector": [0, -2.5, 0]
+						},
+						"0.0833": {
+							"vector": [0, 2.5, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.nannogomphus.fly": {
+			"loop": true,
+			"animation_length": 0.0833,
+			"bones": {
+				"wing1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -55]
+						},
+						"0.0417": {
+							"vector": [0, 0, 55]
+						},
+						"0.0833": {
+							"vector": [0, 0, -55]
+						}
+					}
+				},
+				"wing3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 55]
+						},
+						"0.0417": {
+							"vector": [0, 0, -55]
+						},
+						"0.0833": {
+							"vector": [0, 0, 55]
+						}
+					}
+				},
+				"wing2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 55]
+						},
+						"0.0417": {
+							"vector": [0, 0, -55]
+						},
+						"0.0833": {
+							"vector": [0, 0, 55]
+						}
+					}
+				},
+				"wing4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -55]
+						},
+						"0.0417": {
+							"vector": [0, 0, 55]
+						},
+						"0.0833": {
+							"vector": [0, 0, -55]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

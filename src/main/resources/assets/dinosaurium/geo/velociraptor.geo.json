@@ -1,0 +1,117 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.velociraptor",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 8.5, 2],
+					"cubes": [
+						{"origin": [-1.5, 6, -5], "size": [3, 5, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "neck",
+					"parent": "body",
+					"pivot": [0, 9.5, -5],
+					"cubes": [
+						{"origin": [-1, 7.5, -8], "size": [2, 7, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "neck",
+					"pivot": [0, 12.5, -6],
+					"cubes": [
+						{"origin": [-1.5, 11.5, -10], "size": [3, 3, 4], "uv": [16, 0]},
+						{"origin": [-1, 11.5, -13], "size": [2, 2, 3], "uv": [31, 1]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 11, 5],
+					"cubes": [
+						{"origin": [-1, 9, 5], "size": [2, 2, 15], "uv": [23, 7]},
+						{"origin": [-2, 8.5, 9], "size": [4, 2, 13], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "wingleft",
+					"parent": "body",
+					"pivot": [1.5, 8.5, -4],
+					"rotation": [-17.5, 0, 0],
+					"cubes": [
+						{"origin": [1.5, 3.5, -4], "size": [1, 5, 4], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "wingright",
+					"parent": "body",
+					"pivot": [-1.5, 8.5, -4],
+					"rotation": [-17.5, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-2.5, 3.5, -4], "size": [1, 5, 4], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "haunchleft",
+					"pivot": [1.5, 9, 2],
+					"cubes": [
+						{"origin": [0.5, 4, 1], "size": [2, 5, 3], "uv": [46, 0]}
+					]
+				},
+				{
+					"name": "legleft",
+					"parent": "haunchleft",
+					"pivot": [1.5, 4, 2.5],
+					"cubes": [
+						{"origin": [1, 0, 2.5], "size": [1, 4, 0], "uv": [55, 11]}
+					]
+				},
+				{
+					"name": "footleft",
+					"parent": "legleft",
+					"pivot": [1.5, 0, 2.5],
+					"cubes": [
+						{"origin": [1.5, 0, 0.5], "size": [0, 3, 2], "pivot": [1.5, 0, 2.5], "rotation": [60, 0, 0], "uv": [51, 8]},
+						{"origin": [1.5, 0, 0.5], "size": [0, 2, 2], "pivot": [1.5, 0, 2.5], "rotation": [10, 15, 0], "uv": [46, 11]}
+					]
+				},
+				{
+					"name": "haunchright",
+					"pivot": [-1.5, 9, 2],
+					"cubes": [
+						{"origin": [-2.5, 4, 1], "size": [2, 5, 3], "uv": [46, 0]}
+					]
+				},
+				{
+					"name": "legright",
+					"parent": "haunchright",
+					"pivot": [-1.5, 4, 2.5],
+					"cubes": [
+						{"origin": [-2, 0, 2.5], "size": [1, 4, 0], "uv": [55, 11]}
+					]
+				},
+				{
+					"name": "footright",
+					"parent": "legright",
+					"pivot": [-1.5, 0, 2.5],
+					"cubes": [
+						{"origin": [-1.5, 0, 0.5], "size": [0, 2, 2], "pivot": [-1.5, 0, 2.5], "rotation": [10, -15, 0], "uv": [46, 11]},
+						{"origin": [-1.5, 0, 0.5], "size": [0, 3, 2], "pivot": [-1.5, 0, 2.5], "rotation": [60, 0, 0], "uv": [51, 8]}
+					]
+				}
+			]
+		}
+	]
+}

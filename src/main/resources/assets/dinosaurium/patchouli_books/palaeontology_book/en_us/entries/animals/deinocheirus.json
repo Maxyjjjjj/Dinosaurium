@@ -1,0 +1,17 @@
+{
+    "name": "Deinocheirus",
+    "icon": "dinosaurium:deinocheirus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Deinocheirus was a large ornithomimosaurian dinosaur that lived during the Late Cretaceous Period, approximately 70 million years ago in what is now Mongolia. Growing up to 11 meters in length and weighing around 6,400 kilograms, it possessed distinctive features including elongated arms with large claws, a duck-like bill, and a distinctive sail-like structure on its back. Recent fossil evidence suggests it was an omnivorous animal, feeding on both plants and small animals, with adaptations for a semi-aquatic lifestyle. Its remains were discovered in the Nemegt Formation, alongside other diverse Late Cretaceous fauna."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:deinocheirus",
+            "rotate": false,
+            "text": "Imagine a giant duck-billed camel with T-Rex arms... that's basically what this absolute unit was!"
+        }
+    ]
+}

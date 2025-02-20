@@ -1,0 +1,17 @@
+{
+    "name": "Onchopristis",
+    "icon": "dinosaurium:onchopristis_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Onchopristis was a large sawfish that lived during the Late Cretaceous period, approximately 100-94 million years ago. Growing up to 8 meters in length, this prehistoric fish was characterized by its distinctive elongated rostrum (snout) lined with specialized rostral teeth. These teeth were barbed and regularly shed and replaced, similar to modern sawfish. Onchopristis inhabited coastal marine environments and river systems, particularly in what is now North Africa. Like modern sawfish, it likely used its toothed rostrum to detect and stun prey, feeding primarily on fish and bottom-dwelling creatures. Fossil remains have been found in the famous Kem Kem Beds of Morocco, where it shared its habitat with other large predators such as Spinosaurus."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:onchopristis",
+            "rotate": false,
+            "text": "haha fish go brrrrr (now for real)"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "dinosaurium:mesozoic_horsetail_fields",
+  "spawners": {
+    "type": "dinosaurium:mamenchisaurus",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

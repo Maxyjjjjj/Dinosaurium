@@ -1,0 +1,194 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ichthyosaurus.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 10, 0]
+						},
+						"1.5": {
+							"vector": [0, -10, 0]
+						},
+						"3.0": {
+							"vector": [0, 10, 0]
+						}
+					}
+				},
+				"finleft": {
+					"rotation": {
+						"vector": [0, -45, 75]
+					}
+				},
+				"finright": {
+					"rotation": {
+						"vector": [0, 45, -75]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -10, 0]
+						},
+						"1.5": {
+							"vector": [0, 10, 0]
+						},
+						"3.0": {
+							"vector": [0, -10, 0]
+						}
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -10, 0]
+						},
+						"1.5": {
+							"vector": [0, 10, 0]
+						},
+						"3.0": {
+							"vector": [0, -10, 0]
+						}
+					}
+				},
+				"tail3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -15, 0]
+						},
+						"1.5": {
+							"vector": [0, 15, 0]
+						},
+						"3.0": {
+							"vector": [0, -15, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.ichthyosaurus.swim": {
+			"loop": true,
+			"animation_length": 0.375,
+			"bones": {
+				"finleft": {
+					"rotation": {
+						"vector": [0, -45, 75]
+					}
+				},
+				"finright": {
+					"rotation": {
+						"vector": [0, 45, -75]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -20, 0]
+						},
+						"0.2083": {
+							"vector": [0, 20, 0]
+						},
+						"0.375": {
+							"vector": [0, -20, 0]
+						}
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -20, 0]
+						},
+						"0.2083": {
+							"vector": [0, 20, 0]
+						},
+						"0.375": {
+							"vector": [0, -20, 0]
+						}
+					}
+				},
+				"tail3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -30, 0]
+						},
+						"0.2083": {
+							"vector": [0, 30, 0]
+						},
+						"0.375": {
+							"vector": [0, -30, 0]
+						}
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 10, 0]
+						},
+						"0.2083": {
+							"vector": [0, -10, 0]
+						},
+						"0.375": {
+							"vector": [0, 10, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.ichthyosaurus.beached": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [0, 10, -90]
+					},
+					"position": {
+						"vector": [0, 0.4924, -0.08682]
+					}
+				},
+				"jaw": {
+					"rotation": {
+						"0.0": {
+							"vector": [17.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [22.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [17.5, 0, 0]
+						}
+					}
+				},
+				"finleft": {
+					"rotation": {
+						"vector": [0, 0, 147.5]
+					}
+				},
+				"finright": {
+					"rotation": {
+						"vector": [10, 2.5, -90]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [0, -35, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"vector": [0, -5, 0]
+					}
+				},
+				"tail3": {
+					"rotation": {
+						"vector": [0, 15, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

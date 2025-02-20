@@ -1,0 +1,17 @@
+{
+    "name": "Kol",
+    "icon": "dinosaurium:kol_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Kol was a large alvarezsaurid theropod dinosaur that lived during the Late Cretaceous period, approximately 75-70 million years ago. Reaching up to 3-4 meters in length, this omnivorous dinosaur was characterized by its robust build, reduced forelimbs, and powerful hind legs. Endemic to the Gobi Desert region of Mongolia, Kol was likely adapted to harsh, arid environments. Fossil remains have been discovered in the Nemegt Formation, providing insights into the diversity of late Cretaceous theropod dinosaurs in Central Asia."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:kol",
+            "rotate": false,
+            "text": "WHERE'S THE KOL RIDING A HORSE DLC?!"
+        }
+    ]
+}

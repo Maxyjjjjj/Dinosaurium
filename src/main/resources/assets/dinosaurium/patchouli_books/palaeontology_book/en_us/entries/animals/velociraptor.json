@@ -1,0 +1,18 @@
+{
+    "name": "Velociraptor",
+    "icon": "dinosaurium:velociraptor_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages":
+    [
+        {
+            "type": "patchouli:text",
+            "text": "Velociraptor was a small, feathered predator from ancient Mongolia - not the large, scaly monster shown in popular movies. It was quick and agile, using its speed to hunt prey rather than being the human-sized threat depicted in films like Jurassic Park."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:velociraptor",
+            "rotate": false,
+            "text": "Don't believe everything you see in movies, kids! Those 'raptors' are about as accurate as a chocolate teapot."
+        }
+    ]
+}

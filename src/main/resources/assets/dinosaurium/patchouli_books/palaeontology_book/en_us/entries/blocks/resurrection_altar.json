@@ -1,0 +1,20 @@
+{
+    "name": "Resurrection Altar",
+    "icon": "dinosaurium:resurrection_altar",
+    "category": "dinosaurium:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Resurrection Altar is a block that can be used to resurrect fossils. To use it, place a fossil in the left slot, a bone in the middle slot and totem of undying in the right slot, this will spawn a mob of the fossil."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:resurrection_altar"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dinosaurium:resurrection_altar_recipe",
+            "text": "Resurrection Altar crafting recipe"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#dinosaurium:sauropods",
+    "#dinosaurium:ceratopsians",
+    "#dinosaurium:large_herbivorous_theropods",
+    "#dinosaurium:hadrosaurs",
+    "warden"
+  ]
+}

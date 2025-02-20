@@ -1,0 +1,17 @@
+{
+    "name": "Austroraptor",
+    "icon": "dinosaurium:austroraptor_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Austroraptor was a medium-sized dromaeosaurid theropod dinosaur that lived during the Late Cretaceous Period (70-66 million years ago) in what is now Argentina. It was characterized by its relatively large size for a dromaeosaurid, reaching approximately 6 meters (20 feet) in length."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:austroraptor",
+            "rotate": false,
+            "text": "Like a Velociraptor from Jurassic Park, but with feathers and a fish addiction lol"
+        }
+    ]
+}

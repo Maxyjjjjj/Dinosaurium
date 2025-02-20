@@ -1,0 +1,17 @@
+{
+    "name": "Therizinosaurus",
+    "icon": "dinosaurium:therizinosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Therizinosaurus was a large theropod dinosaur that lived during the Late Cretaceous Period (70-66 million years ago) in what is now Mongolia. It was characterized by its massive 2.5-3 meter long forelimbs ending in three enormous claws, which could reach up to 1 meter in length. Unlike what was previously thought, Therizinosaurus was likely herbivorous, using its elongated claws to pull down branches and strip vegetation. The creature stood approximately 6 meters tall and could reach lengths of 9-10 meters. While no complete skeleton has been found, fossil evidence suggests it was covered in primitive feathers like other therizinosaurs. Its unusual features, including a small head, long neck, wide pelvis, and leaf-shaped teeth, made it highly distinct among theropod dinosaurs."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:therizinosaurus",
+            "rotate": false,
+            "text": "Cardi B's nail tech would be proud of those claws fr fr"
+        }
+    ]
+}

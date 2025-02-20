@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:bruhathkayosaurus_fossil"
+    },
+    "title": {
+      "translate": "advancements.enigma_found.title"
+    },
+    "description": {
+      "translate": "advancements.enigma_found.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enigma_found_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dinosaurium:bruhathkayosaurus_fossil"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "dinosaurium:palaeontology"
+}

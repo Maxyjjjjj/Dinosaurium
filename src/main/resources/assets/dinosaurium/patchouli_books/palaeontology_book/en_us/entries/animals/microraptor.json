@@ -1,0 +1,17 @@
+{
+    "name": "Microraptor",
+    "category": "dinosaurium:animals",
+    "icon": "dinosaurium:microraptor_spawn_egg",
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text": "Microraptor was a small, feathered dinosaur that lived during the Early Cretaceous period, around 120 million years ago. It was a crow-sized dromaeosaurid that had four wings, with long flight feathers on both its arms and legs. Microraptor is one of the most important fossils showing the evolutionary link between birds and dinosaurs, and evidence suggests it was capable of powered flight or at least gliding between trees."
+        },
+        {
+            "type":"patchouli:entity",
+            "entity":"dinosaurium:microraptor",
+            "rotate": false,
+            "text": "Imagine a bird, but it's actually a dinosaur. That's basically what this little guy was - nature's first attempt at making a birb!"
+        }
+    ]
+}

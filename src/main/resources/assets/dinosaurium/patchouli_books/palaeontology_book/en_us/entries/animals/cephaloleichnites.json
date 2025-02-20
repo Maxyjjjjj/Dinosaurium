@@ -1,0 +1,17 @@
+{
+    "name": "Cephaloleichnites",
+    "icon": "dinosaurium:cephaloleichnites_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Cephaloleichnites is an ichnogenus of trace fossil representing the locomotion tracks of a leaf beetle from the Late Cretaceous period. These preserved trackways provide valuable insights into the movement and behavior of ancient invertebrate organisms, typically indicating walking patterns across prehistoric sedimentary environments."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:cephaloleichnites",
+            "rotate": false,
+            "text": "do NOT let cockroaches in your house! they are very hard to get rid of!"
+        }
+    ]
+}

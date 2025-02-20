@@ -1,0 +1,17 @@
+{
+    "name": "Gallimimus",
+    "icon": "dinosaurium:gallimimus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Gallimimus was a medium-sized ornithomimid dinosaur that lived during the Late Cretaceous Period, around 70 million years ago in what is now Mongolia. Growing up to 6 meters in length, it had a distinctive ostrich-like appearance with a toothless beak, long neck, and powerful hind limbs adapted for running. While initially thought to be purely herbivorous, recent studies suggest it was likely an omnivore, feeding on plants, small prey, and possibly eggs. Its body was likely covered in primitive feathers, as evidenced by its close evolutionary relationship to modern birds."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:gallimimus",
+            "rotate": false,
+            "text": "Who needs horses when you can ride this prehistoric chicken at mach speed?"
+        }
+    ]
+}

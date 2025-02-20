@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "dinosaurium:textures/screens/portalframe_top.png",
+    "icon": {
+      "id": "dinosaurium:unidentified_fossil"
+    },
+    "title": {
+      "translate": "advancements.palaeontology.title"
+    },
+    "description": {
+      "translate": "advancements.palaeontology.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "palaeontology_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dinosaurium:unidentified_fossil"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

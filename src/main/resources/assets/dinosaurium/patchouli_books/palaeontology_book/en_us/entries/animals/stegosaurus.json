@@ -1,0 +1,17 @@
+{
+    "name": "Stegosaurus",
+    "icon": "dinosaurium:stegosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages":[
+        {
+            "type": "patchouli:text",
+            "text": "Stegosaurus was a herbivorous dinosaur from the Late Jurassic of North America. It had a large, bony tail and a row of bony plates along its back. Stegosaurus is one of the most well-known dinosaurs, and its distinctive appearance has made it a popular subject of art and literature."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:stegosaurus",
+            "rotate": false,
+            "text": "\"My brain is the size of a walnut but at least I have cool plates\" — every Stegosaurus ever"
+        }
+    ]
+}

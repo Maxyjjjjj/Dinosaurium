@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "dinosaurium:mesozoic_ocean",
+  "features": "dinosaurium:crassostrea_oyster_block",
+  "step": "vegetal_decoration"
+}

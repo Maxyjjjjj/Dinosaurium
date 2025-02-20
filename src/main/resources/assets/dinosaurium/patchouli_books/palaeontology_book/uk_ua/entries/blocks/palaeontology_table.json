@@ -1,0 +1,20 @@
+{
+    "name": "Стіл палеонтолога",
+    "icon": "dinosaurium:palaeontology_table",
+    "category": "dinosaurium:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Стіл палеонтолога - це блок, який можна використовувати для ідентифікації викопних решток. Щоб використати його, покладіть викопну рештку в лівий слот, щітку в середній слот і підзорну трубу в правий слот, це надасть вам інформацію про викопну рештку та про те, кому вона належала."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:palaeontology_table"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dinosaurium:palaeontology_table_recipe",
+            "text": "Рецепт виготовлення столу палеонтолога."
+        }
+    ]
+}

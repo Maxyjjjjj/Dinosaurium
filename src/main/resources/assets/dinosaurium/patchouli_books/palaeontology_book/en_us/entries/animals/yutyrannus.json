@@ -1,0 +1,17 @@
+{
+    "name": "Yutyrannus",
+    "icon": "dinosaurium:yutyrannus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Yutyrannus is a genus of tyrannosauroid dinosaurs that lived in the early Cretaceous period of China. It is known for its feathers, which are the largest of any dinosaur. It is also known for its ability to scare other dinosaurs with its vocalizations."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:yutyrannus",
+            "rotate": false,
+            "text": "Feathered T-Rex!"
+        }
+    ]
+}

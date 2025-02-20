@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dinosaurium:block/osmunda",
+    "particle": "dinosaurium:block/osmunda"
+  },
+  "render_type": "cutout"
+}

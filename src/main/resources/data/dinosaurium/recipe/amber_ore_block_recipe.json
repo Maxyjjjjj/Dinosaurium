@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:amber"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:amber_block",
+    "count": 1
+  }
+}

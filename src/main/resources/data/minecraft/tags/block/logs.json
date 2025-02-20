@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:zamites_wood",
+    "dinosaurium:zamites_log",
+    "dinosaurium:stripped_zamites_log",
+    "dinosaurium:stripped_zamites_wood"
+  ]
+}

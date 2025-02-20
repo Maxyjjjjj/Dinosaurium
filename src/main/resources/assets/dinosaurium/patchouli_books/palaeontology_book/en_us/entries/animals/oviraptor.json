@@ -1,0 +1,17 @@
+{
+    "name": "Oviraptor",
+    "icon": "dinosaurium:oviraptor_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Oviraptor was a small, feathered oviraptorid theropod dinosaur that inhabited the Gobi Desert region during the Late Cretaceous Period (approximately 75-66 million years ago) in what is now Mongolia and China. Initially misunderstood, this dinosaur was approximately 1-2 meters (3-6.5 feet) in length and weighed around 20-30 kilograms (44-66 pounds). Characterized by a distinctive parrot-like skull with a toothless, keratinous beak and a prominent crest, Oviraptor was likely an omnivorous species, potentially consuming eggs, small vertebrates, invertebrates, and plant matter. Fossil evidence, particularly the famous 'brooding' specimens, suggests complex parental care behaviors, with individuals found positioned over nests in a manner indicating egg incubation. Its skeletal structure, including pneumatized bones and feathered body covering, indicates a close evolutionary relationship to modern birds. Recent paleontological research has transformed our understanding of Oviraptor from a mere 'egg thief' to a sophisticated, socially complex dinosaur."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:oviraptor",
+            "rotate": false,
+            "text": "Oviraptor: Professional Egg Enthusiast *chef's kiss* Yoink!"
+        }
+    ]
+}

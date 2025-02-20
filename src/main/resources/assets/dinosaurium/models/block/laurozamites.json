@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dinosaurium:block/laurozamites",
+    "particle": "dinosaurium:block/laurozamites"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Ankylosaurus",
+    "icon": "dinosaurium:ankylosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ankylosaurus was a large, armored dinosaur from the Late Cretaceous Period. It had a thick, bony armor covering its body, and a long, spiked tail. Ankylosaurus was a herbivore, feeding on plants and leaves. It was one of the largest land animals of its time, and its armor provided protection from predators."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:ankylosaurus",
+            "rotate": false,
+            "text": "Imagine a walking tank with spikes - that's an Ankylosaurus! Nature really said 'make it chonky and add armor' with this absolute unit!"
+        }
+    ]
+}

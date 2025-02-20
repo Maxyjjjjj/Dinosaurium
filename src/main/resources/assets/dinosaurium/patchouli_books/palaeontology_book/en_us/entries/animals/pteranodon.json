@@ -1,0 +1,17 @@
+{
+    "name": "Pteranodon",
+    "icon": "dinosaurium:pteranodon_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pteranodon was a large pterosaur that lived during the Late Cretaceous Period (approximately 86-65 million years ago) in what is now North America. Unlike dinosaurs, pterosaurs were flying reptiles belonging to the order Pterosauria. Typical Pteranodon specimens had wingspans of about 7 meters (23 feet), with males generally larger than females. It possessed a distinctive elongated toothless skull with a large cranial crest, and its wings were formed by a membrane of skin stretching between an extremely elongated fourth finger and its body. Pteranodon was a marine piscivore, primarily feeding on fish by diving and scooping prey from the surface of the Western Interior Seaway. Its lightweight, hollow bones and specialized wing structure allowed for efficient soaring and gliding rather than powered flight. Paleontologists have studied numerous well-preserved Pteranodon fossils, providing significant insights into pterosaur anatomy, behavior, and paleoenvironmental conditions of the Late Cretaceous marine ecosystems."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:pteranodon",
+            "rotate": false,
+            "text": "Sky Bro: The OG Flying Reptile"
+        }
+    ]
+}

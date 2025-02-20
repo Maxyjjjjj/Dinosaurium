@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.95,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "dinosaurium:deepslate_amber_ore"
+  },
+  "result": {
+    "id": "dinosaurium:amber"
+  }
+}

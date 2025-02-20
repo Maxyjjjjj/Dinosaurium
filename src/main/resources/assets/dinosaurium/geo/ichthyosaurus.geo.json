@@ -1,0 +1,77 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ichthyosaurus",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-6, 0, -12], "size": [12, 12, 24], "uv": [0, 0]},
+						{"origin": [-6, -3, 3], "size": [12, 3, 7], "uv": [34, 66]},
+						{"origin": [0, 12, -1], "size": [0, 6, 12], "uv": [70, 36]},
+						{"origin": [-2, 5, -26], "size": [4, 2, 14], "uv": [0, 36]},
+						{"origin": [-1.5, 4, -26], "size": [3, 1, 14], "inflate": -0.025, "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "jaw",
+					"parent": "body",
+					"pivot": [0, 5, -12],
+					"cubes": [
+						{"origin": [-1.5, 4, -26], "size": [3, 1, 14], "uv": [36, 36]},
+						{"origin": [-1.5, 5, -26], "size": [3, 1, 14], "inflate": -0.025, "uv": [36, 51]}
+					]
+				},
+				{
+					"name": "finleft",
+					"parent": "body",
+					"pivot": [6, 1, -7],
+					"cubes": [
+						{"origin": [6, 0, -7], "size": [10, 1, 7], "uv": [70, 54]}
+					]
+				},
+				{
+					"name": "finright",
+					"parent": "body",
+					"pivot": [-6, 1, -7],
+					"cubes": [
+						{"origin": [-16, 0, -7], "size": [10, 1, 7], "uv": [72, 0]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 6, 12],
+					"cubes": [
+						{"origin": [-4, 1, 12], "size": [8, 10, 6], "uv": [0, 67]}
+					]
+				},
+				{
+					"name": "tail2",
+					"parent": "tail",
+					"pivot": [0, 7.5, 18],
+					"cubes": [
+						{"origin": [-2, 4, 18], "size": [4, 7, 7], "uv": [72, 62]}
+					]
+				},
+				{
+					"name": "tail3",
+					"parent": "tail2",
+					"pivot": [0, 7.5, 25],
+					"cubes": [
+						{"origin": [0, 1, 25], "size": [0, 13, 9], "uv": [72, 8]}
+					]
+				}
+			]
+		}
+	]
+}

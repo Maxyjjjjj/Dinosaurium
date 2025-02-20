@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "dinosaurium:stripped_zamites_wood"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:zamites_planks",
+    "count": 4
+  }
+}

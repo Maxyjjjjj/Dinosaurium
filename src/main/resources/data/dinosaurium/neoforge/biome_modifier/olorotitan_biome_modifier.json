@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dinosaurium:mesozoic_horsetail_fields",
+    "dinosaurium:mesozoic_plains",
+    "dinosaurium:mesozoic_forest_steppe"
+  ],
+  "spawners": {
+    "type": "dinosaurium:olorotitan",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

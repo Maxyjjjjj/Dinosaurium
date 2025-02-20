@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "dinosaurium:block/tall_horsetail"
+    },
+    "half=lower": {
+      "model": "dinosaurium:block/tall_horsetail_bottom"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dinosaurium:block/paleo_table_bottom",
+    "up": "dinosaurium:block/paleo_table_top",
+    "north": "dinosaurium:block/paleo_table_side_1",
+    "east": "dinosaurium:block/paleo_table_side_4",
+    "south": "dinosaurium:block/paleo_table_side_3",
+    "west": "dinosaurium:block/paleo_table_side_2",
+    "particle": "dinosaurium:block/paleo_table_bottom"
+  },
+  "render_type": "solid"
+}

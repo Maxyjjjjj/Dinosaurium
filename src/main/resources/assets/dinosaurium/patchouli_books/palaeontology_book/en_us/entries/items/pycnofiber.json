@@ -1,0 +1,20 @@
+{
+    "name": "Pycnofiber",
+    "icon": "dinosaurium:pycnofiber",
+    "category": "dinosaurium:items",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pycnofiber is a type of material that can be acquired in Mesozoic.<br>It can be used to craft string."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:pycnofiber"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dinosaurium:string",
+            "text": "String crafting recipe"
+        }
+    ]
+}

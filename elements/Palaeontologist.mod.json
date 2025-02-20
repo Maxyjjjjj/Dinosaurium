@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Palaeontologist",
+    "pointOfInterest": {
+      "value": "CUSTOM:PalaeontologyTable"
+    },
+    "actionSound": {
+      "value": "item.brush.brushing"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "palaeontologist.png",
+    "zombifiedProfessionTextureFile": "palaeontologist.png"
+  }
+}

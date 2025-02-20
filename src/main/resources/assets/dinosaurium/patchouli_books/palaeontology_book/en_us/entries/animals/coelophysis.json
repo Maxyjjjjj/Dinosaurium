@@ -1,0 +1,17 @@
+{
+    "name": "Coelophysis",
+    "icon": "dinosaurium:coelophysis_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Coelophysis was a small, carnivorous theropod dinosaur from the Late Triassic period, approximately 203 to 196 million years ago. It was one of the earliest dinosaurs, and its fossils have been found in North America, particularly in the Chinle Formation of Arizona and New Mexico. Coelophysis was a bipedal dinosaur with a slender body, long tail, and sharp teeth. It likely hunted small animals and insects, using its speed and agility to catch prey."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:coelophysis",
+            "rotate": false,
+            "text": "The guy from Triassic Park."
+        }
+    ]
+}

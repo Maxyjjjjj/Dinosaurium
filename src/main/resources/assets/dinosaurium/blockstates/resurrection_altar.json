@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dinosaurium:block/resurrection_altar"
+    },
+    "facing=east": {
+      "model": "dinosaurium:block/resurrection_altar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dinosaurium:block/resurrection_altar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dinosaurium:block/resurrection_altar",
+      "y": 270
+    }
+  }
+}

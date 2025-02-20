@@ -1,0 +1,66 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.nannogomphus",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 0, -2], "size": [1, 1, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 0.5, -2],
+					"cubes": [
+						{"origin": [-1, 0, -3], "size": [2, 1, 1], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "wing1",
+					"parent": "body",
+					"pivot": [0.5, 1, -0.5],
+					"rotation": [0, 0, -5],
+					"cubes": [
+						{"origin": [0.5, 1, -1], "size": [7, 0, 2], "pivot": [0.5, 1, -0.5], "rotation": [0, 10, 0], "uv": [0, 9]}
+					]
+				},
+				{
+					"name": "wing3",
+					"parent": "body",
+					"pivot": [-0.5, 1, -0.5],
+					"rotation": [0, 0, 5],
+					"cubes": [
+						{"origin": [-7.5, 1, -1], "size": [7, 0, 2], "pivot": [-0.5, 1, -0.5], "rotation": [0, -10, 0], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "wing2",
+					"parent": "body",
+					"pivot": [0.5, 1, 0.5],
+					"cubes": [
+						{"origin": [0.5, 1, 0], "size": [7, 0, 2], "pivot": [0.5, 1, 0.5], "rotation": [0, -10, 0], "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "wing4",
+					"parent": "body",
+					"pivot": [-0.5, 1, 0.5],
+					"cubes": [
+						{"origin": [-7.5, 1, 0], "size": [7, 0, 2], "pivot": [-0.5, 1, 0.5], "rotation": [0, 10, 0], "uv": [0, 15]}
+					]
+				}
+			]
+		}
+	]
+}

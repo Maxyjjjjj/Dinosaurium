@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "dinosaurium:raw_oyster"
+    },
+    {
+      "item": "dinosaurium:raw_oyster"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:oyster_soup",
+    "count": 1
+  }
+}

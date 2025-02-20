@@ -1,0 +1,11 @@
+{
+  "entity.tyrannosaurus.roar": {
+    "subtitle": "subtitles.entity.tyrannosaurus.roar",
+    "sounds": [
+      {
+        "name": "dinosaurium:tyrannosaurus_roar",
+        "stream": false
+      }
+    ]
+  }
+}

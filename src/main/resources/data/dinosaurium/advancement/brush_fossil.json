@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:palaeontology_table"
+    },
+    "title": {
+      "translate": "advancements.brush_fossil.title"
+    },
+    "description": {
+      "translate": "advancements.brush_fossil.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brush_fossil_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dinosaurium:palaeontology"
+}

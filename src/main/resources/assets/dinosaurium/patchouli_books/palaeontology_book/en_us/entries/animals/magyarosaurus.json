@@ -1,0 +1,17 @@
+{
+    "name": "Magyarosaurus",
+    "icon": "dinosaurium:magyarosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Magyarosaurus was a titanosaurian sauropod dinosaur endemic to the Hațeg Island in the Late Cretaceous Period (approximately 70-66 million years ago). As a member of the dwarf sauropod fauna characteristic of this insular environment, Magyarosaurus was notably smaller than continental sauropods, reaching approximately 6 meters (20 feet) in length. Its reduced size was likely an evolutionary adaptation to limited island resources, a phenomenon known as insular dwarfism. The species possessed robust, shortened limbs and specialized dental morphology adapted for processing vegetation in its restricted habitat."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:magyarosaurus",
+            "rotate": false,
+            "text": "S M O L B O Y E"
+        }
+    ]
+}

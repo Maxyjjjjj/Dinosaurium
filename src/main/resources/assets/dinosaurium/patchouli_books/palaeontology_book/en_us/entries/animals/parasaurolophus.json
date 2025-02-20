@@ -1,0 +1,17 @@
+{
+    "name": "Parasaurolophus",
+    "icon": "dinosaurium:parasaurolophus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Parasaurolophus was a hadrosaurid ornithopod dinosaur that lived during the Late Cretaceous Period (76.5-73 million years ago) in what is now North America. Its most distinctive feature was an elaborate cranial crest that extended up to 1.8 meters behind its skull, which contained elongated nasal passages. This herbivorous dinosaur reached lengths of 9.5 meters and heights of 4 meters at the hip. It possessed a typical hadrosaurid dental battery with thousands of teeth specialized for processing tough plant material. While skin impressions show scales, there is currently no direct evidence of feathers in Parasaurolophus or other hadrosaurids. The crest likely served multiple functions including visual display, species recognition, and sound production through its resonating chambers. Three species are currently recognized: P. walkeri, P. tubicen, and P. cyrtocristatus."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:parasaurolophus",
+            "rotate": false,
+            "text": "The Doot Doot Dino"
+        }
+    ]
+}

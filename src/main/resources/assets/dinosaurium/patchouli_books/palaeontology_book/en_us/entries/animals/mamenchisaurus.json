@@ -1,0 +1,17 @@
+{
+    "name": "Mamenchisaurus",
+    "icon": "dinosaurium:mamenchisaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Mamenchisaurus was a genus of sauropod dinosaur that lived during the Late Jurassic Period (approximately 160-145 million years ago) in what is now China. It was characterized by its extremely long neck, which could reach lengths of up to 12 meters (39 feet). Mamenchisaurus was a large, quadrupedal herbivore that likely fed on tall vegetation, using its long neck to reach leaves and branches that were out of reach of other dinosaurs. It belongs to the family Mamenchisauridae and represents an important example of sauropod diversity."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:mamenchisaurus",
+            "rotate": false,
+            "text": "Why necc so long?!"
+        }
+    ]
+}

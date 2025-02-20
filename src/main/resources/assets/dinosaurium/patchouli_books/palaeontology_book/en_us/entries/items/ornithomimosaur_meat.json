@@ -1,0 +1,15 @@
+{
+    "name": "Ornithomimosaur Meat",
+    "icon": "dinosaurium:raw_ornithomimosaur",
+    "category": "dinosaurium:items",
+    "pages":[
+        {
+            "type": "patchouli:text",
+            "text": "Ornithomimosaur Meat is a type of food you can acquire in Mesozoic.<br>It can be cooked from Raw Ornithomimosaur into Cooked Ornithomimosaur.<br>Mobs who drop this item are Gallimimus."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:raw_ornithomimosaur, dinosaurium:cooked_ornithomimosaur"
+        }
+    ]
+}

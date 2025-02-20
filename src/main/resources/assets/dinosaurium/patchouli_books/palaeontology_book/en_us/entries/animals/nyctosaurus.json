@@ -1,0 +1,17 @@
+{
+    "name": "Nyctosaurus",
+    "icon": "dinosaurium:nyctosaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nyctosaurus was a genus of pterosaur that lived during the Late Cretaceous Period (approximately 85-84.5 million years ago) in what is now Kansas, United States. It was characterized by its distinctive vertical crest on its skull, wingspan of around 2-3 meters, and specialized features for aerial life. Unlike many other pterosaurs, Nyctosaurus lacked teeth and likely fed on fish and other marine prey. It belongs to the family Nyctosauridae and represents an important example of pterosaur specialization."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:nyctosaurus",
+            "rotate": false,
+            "text": "haha funny bone crest go brrr"
+        }
+    ]
+}
