@@ -1,9 +1,0 @@
-{
-  "parent": "dinosaurium:custom/altar",
-  "textures": {
-    "all": "dinosaurium:block/altar",
-    "particle": "dinosaurium:block/altar",
-    "0": "dinosaurium:block/altar"
-  },
-  "render_type": "solid"
-}

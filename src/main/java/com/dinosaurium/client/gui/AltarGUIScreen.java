@@ -1,7 +1,5 @@
 package com.dinosaurium.client.gui;
 
-import net.neoforged.neoforge.network.PacketDistributor;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -16,7 +14,6 @@ import java.util.HashMap;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 import com.dinosaurium.world.inventory.AltarGUIMenu;
-import com.dinosaurium.network.AltarGUIButtonMessage;
 
 public class AltarGUIScreen extends AbstractContainerScreen<AltarGUIMenu> {
 	private final static HashMap<String, Object> guistate = AltarGUIMenu.guistate;
@@ -72,10 +69,6 @@ public class AltarGUIScreen extends AbstractContainerScreen<AltarGUIMenu> {
 	public void init() {
 		super.init();
 		button_resurrect = Button.builder(Component.translatable("gui.dinosaurium.altar_gui.button_resurrect"), e -> {
-			if (true) {
-				PacketDistributor.sendToServer(new AltarGUIButtonMessage(0, x, y, z));
-				AltarGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
 		}).bounds(this.leftPos + 42, this.topPos + 50, 91, 20).build();
 		guistate.put("button:button_resurrect", button_resurrect);
 		this.addRenderableWidget(button_resurrect);

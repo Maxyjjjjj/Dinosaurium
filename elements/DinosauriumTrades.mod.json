@@ -204,15 +204,15 @@
           },
           {
             "price1": {
-              "value": "Items.GOLD_INGOT"
+              "value": "Blocks.GLASS_PANE"
             },
             "countPrice1": 1,
             "price2": {
               "value": "Items.EMERALD"
             },
-            "countPrice2": 16,
+            "countPrice2": 6,
             "offer": {
-              "value": "CUSTOM:ResurrectionAltar"
+              "value": "CUSTOM:EmptyVial"
             },
             "countOffer": 1,
             "level": 5,

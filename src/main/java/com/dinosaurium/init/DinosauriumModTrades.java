@@ -10,6 +10,7 @@ import net.neoforged.neoforge.common.BasicItemListing;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.npc.VillagerProfession;
@@ -41,7 +42,7 @@ public class DinosauriumModTrades {
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(DinosauriumModBlocks.ZAMITES_SAPLING.get()), new ItemStack(Items.EMERALD, 6), new ItemStack(DinosauriumModBlocks.ZAMITES_LOG.get()), 10, 15, 0.05f));
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNIDENTIFIED_FOSSIL.get()), new ItemStack(Items.EMERALD, 10), new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get()), 10, 50, 0.05f));
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNIDENTIFIED_FOSSIL.get()), new ItemStack(Items.EMERALD, 10), new ItemStack(DinosauriumModItems.SHUVUUIA_FOSSIL.get()), 10, 50, 0.05f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.GOLD_INGOT), new ItemStack(Items.EMERALD, 16), new ItemStack(DinosauriumModBlocks.RESURRECTION_ALTAR.get()), 10, 100, 0.05f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Blocks.GLASS_PANE), new ItemStack(Items.EMERALD, 6), new ItemStack(DinosauriumModItems.EMPTY_VIAL.get()), 10, 100, 0.05f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.LAPIS_LAZULI), new ItemStack(Items.EMERALD, 16), new ItemStack(DinosauriumModItems.BRUHATHKAYOSAURUS_FOSSIL.get()), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNIDENTIFIED_FOSSIL.get()), new ItemStack(Items.EMERALD), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNIDENTIFIED_FOSSIL.get(), 2), new ItemStack(Items.EMERALD, 3), 10, 10, 0.05f));

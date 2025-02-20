@@ -28,7 +28,6 @@ import com.dinosaurium.block.WelwitschiaBlock;
 import com.dinosaurium.block.TallHorsetailBlock;
 import com.dinosaurium.block.StrippedZamitesWoodBlock;
 import com.dinosaurium.block.StrippedZamitesLogBlock;
-import com.dinosaurium.block.ResurrectionAltarBlock;
 import com.dinosaurium.block.PalaeontologyTableBlock;
 import com.dinosaurium.block.OtozamitesBlock;
 import com.dinosaurium.block.OsmundacaulisBlock;
@@ -56,7 +55,6 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> AMBER_BLOCK = REGISTRY.register("amber_block", AmberBlockBlock::new);
 	public static final DeferredBlock<Block> DEEPSLATE_AMBER_ORE = REGISTRY.register("deepslate_amber_ore", DeepslateAmberOreBlock::new);
 	public static final DeferredBlock<Block> ASPHALT = REGISTRY.register("asphalt", AsphaltBlock::new);
-	public static final DeferredBlock<Block> RESURRECTION_ALTAR = REGISTRY.register("resurrection_altar", ResurrectionAltarBlock::new);
 	public static final DeferredBlock<Block> PALAEONTOLOGY_TABLE = REGISTRY.register("palaeontology_table", PalaeontologyTableBlock::new);
 	public static final DeferredBlock<Block> DEEPSLATE_FOSSIL_BLOCK = REGISTRY.register("deepslate_fossil_block", DeepslateFossilBlockBlock::new);
 	public static final DeferredBlock<Block> FOSSIL_BLOCK = REGISTRY.register("fossil_block", FossilBlockBlock::new);

@@ -86,7 +86,6 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.AMBER_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ASPHALT.get().asItem());
 				tabData.accept(DinosauriumModItems.AMBER.get());
-				tabData.accept(DinosauriumModBlocks.RESURRECTION_ALTAR.get().asItem());
 				tabData.accept(DinosauriumModBlocks.PALAEONTOLOGY_TABLE.get().asItem());
 				tabData.accept(DinosauriumModBlocks.DEEPSLATE_FOSSIL_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModBlocks.FOSSIL_BLOCK.get().asItem());
@@ -178,6 +177,44 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_FOSSIL.get());
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_GENETICS = REGISTRY.register("dinosaurium_genetics",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_genetics")).icon(() -> new ItemStack(DinosauriumModItems.EMPTY_VIAL.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DinosauriumModItems.EMPTY_VIAL.get());
+				tabData.accept(DinosauriumModItems.VELOCIRAPTOR_DNA.get());
+				tabData.accept(DinosauriumModItems.SHUVUUIA_DNA.get());
+				tabData.accept(DinosauriumModItems.AUSTRORAPTOR_DNA.get());
+				tabData.accept(DinosauriumModItems.DIPLODOCUS_DNA.get());
+				tabData.accept(DinosauriumModItems.QUETZALCOATLUS_DNA.get());
+				tabData.accept(DinosauriumModItems.MICRORAPTOR_DNA.get());
+				tabData.accept(DinosauriumModItems.HATZEGOPTERYX_DNA.get());
+				tabData.accept(DinosauriumModItems.ARAMBOURGIANIA_DNA.get());
+				tabData.accept(DinosauriumModItems.ICHTHYOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.ANKYLOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.GALLIMIMUS_DNA.get());
+				tabData.accept(DinosauriumModItems.DEINOCHEIRUS_DNA.get());
+				tabData.accept(DinosauriumModItems.STEGOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.TRICERATOPS_DNA.get());
+				tabData.accept(DinosauriumModItems.TYRANNOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.ONCHOPRISTIS_DNA.get());
+				tabData.accept(DinosauriumModItems.SPINOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.AMARGASAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.THERIZINOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.PARASAUROLOPHUS_DNA.get());
+				tabData.accept(DinosauriumModItems.SINOSAUROPTERYX_DNA.get());
+				tabData.accept(DinosauriumModItems.NIGERSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.IGUANODON_DNA.get());
+				tabData.accept(DinosauriumModItems.COMPSOGNATHUS_DNA.get());
+				tabData.accept(DinosauriumModItems.OVIRAPTOR_DNA.get());
+				tabData.accept(DinosauriumModItems.PTERANODON_DNA.get());
+				tabData.accept(DinosauriumModItems.BRUHATHKAYOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.NYCTOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.BRACHYTRACHELOPAN_DNA.get());
+				tabData.accept(DinosauriumModItems.MIRAGAIA_DNA.get());
+				tabData.accept(DinosauriumModItems.TUOJIANGOSAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.PROTOCERATOPS_DNA.get());
+				tabData.accept(DinosauriumModItems.ARCHAEOPTERYX_DNA.get());
+				tabData.accept(DinosauriumModItems.OLOROTITAN_DNA.get());
+			}).withTabsBefore(DINOSAURIUM_FOSSILS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOODSTUFFS = REGISTRY.register("dinosaurium_foodstuffs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_foodstuffs")).icon(() -> new ItemStack(DinosauriumModItems.RAW_ORNITHOMIMOSAUR.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DinosauriumModItems.RAW_ORNITHOMIMOSAUR.get());
@@ -193,7 +230,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.CRASSOSTREA_OYSTER.get());
 				tabData.accept(DinosauriumModItems.OYSTER_SOUP.get());
 				tabData.accept(DinosauriumModItems.RAW_OYSTER.get());
-			}).withTabsBefore(DINOSAURIUM_FOSSILS.getId()).build());
+			}).withTabsBefore(DINOSAURIUM_GENETICS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_PLANTS = REGISTRY.register("dinosaurium_plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_plants")).icon(() -> new ItemStack(DinosauriumModBlocks.HORSETAIL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DinosauriumModBlocks.HORSETAIL.get().asItem());

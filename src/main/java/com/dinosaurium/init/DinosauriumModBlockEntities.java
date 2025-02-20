@@ -15,14 +15,12 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import com.dinosaurium.block.entity.ResurrectionAltarBlockEntity;
 import com.dinosaurium.block.entity.PalaeontologyTableBlockEntity;
 import com.dinosaurium.DinosauriumMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class DinosauriumModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, DinosauriumMod.MODID);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> RESURRECTION_ALTAR = register("resurrection_altar", DinosauriumModBlocks.RESURRECTION_ALTAR, ResurrectionAltarBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> PALAEONTOLOGY_TABLE = register("palaeontology_table", DinosauriumModBlocks.PALAEONTOLOGY_TABLE, PalaeontologyTableBlockEntity::new);
 
 	// Start of user code block custom block entities
@@ -33,7 +31,6 @@ public class DinosauriumModBlockEntities {
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, RESURRECTION_ALTAR.get(), (blockEntity, side) -> ((ResurrectionAltarBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, PALAEONTOLOGY_TABLE.get(), (blockEntity, side) -> ((PalaeontologyTableBlockEntity) blockEntity).getItemHandler());
 	}
 }
