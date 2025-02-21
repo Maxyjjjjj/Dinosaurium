@@ -1,0 +1,17 @@
+{
+    "name": "Pterodaustro",
+    "icon": "dinosaurium:pterodaustro_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pterodaustro guinazui was a unique pterosaur from the Early Cretaceous period (approximately 105 million years ago), specifically found in the Lagarcito Formation of Argentina. Known for its distinctive flamingo-like feeding mechanism, it possessed over 1,000 thin, closely-packed teeth adapted for filter-feeding in shallow marine and freshwater environments. Its elongated, downward-curved beak and specialized dentition suggest it sieved small aquatic organisms like crustaceans and plankton, making it an exceptional example of pterosaur dietary adaptation."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:pterodaustro",
+            "rotate": false,
+            "text": "Haha whale pterosaur goes brrrrrrrrrrr"
+        }
+    ]
+}

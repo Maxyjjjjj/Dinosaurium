@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:tin_ingot"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:tin_block",
+    "count": 1
+  }
+}

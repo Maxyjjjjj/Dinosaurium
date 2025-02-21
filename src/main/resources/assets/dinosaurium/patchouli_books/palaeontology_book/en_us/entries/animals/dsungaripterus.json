@@ -1,0 +1,17 @@
+{
+    "name": "Dsungaripterus",
+    "icon": "dinosaurium:dsungaripterus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Dsungaripterus was a pterosaur from the Early Cretaceous period (approximately 125 million years ago), specifically found in the Junggar Basin of Xinjiang, China. As a member of the Dsungaripteridae family, it possessed a distinctive upturned beak and likely specialized in feeding on hard-shelled invertebrates like mollusks. With a wingspan estimated around 3-4 meters, Dsungaripterus was a medium-sized pterosaur adapted for aerial hunting and foraging in coastal and inland environments."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:dsungaripterus",
+            "rotate": false,
+            "text": "Ugly ass"
+        }
+    ]
+}

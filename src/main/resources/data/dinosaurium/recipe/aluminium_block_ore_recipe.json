@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dinosaurium:aluminium_block"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:aluminium_ingot",
+    "count": 9
+  }
+}

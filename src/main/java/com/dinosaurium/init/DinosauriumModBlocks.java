@@ -25,9 +25,12 @@ import com.dinosaurium.block.ZamitesCrownBlock;
 import com.dinosaurium.block.ZamitesConeBlock;
 import com.dinosaurium.block.ZamitesButtonBlock;
 import com.dinosaurium.block.WelwitschiaBlock;
+import com.dinosaurium.block.TinOreBlock;
+import com.dinosaurium.block.TinBlockBlock;
 import com.dinosaurium.block.TallHorsetailBlock;
 import com.dinosaurium.block.StrippedZamitesWoodBlock;
 import com.dinosaurium.block.StrippedZamitesLogBlock;
+import com.dinosaurium.block.RawTinBlockBlock;
 import com.dinosaurium.block.PalaeontologyTableBlock;
 import com.dinosaurium.block.OtozamitesBlock;
 import com.dinosaurium.block.OsmundacaulisBlock;
@@ -39,12 +42,16 @@ import com.dinosaurium.block.HorsetailBlock;
 import com.dinosaurium.block.FossilBlockBlock;
 import com.dinosaurium.block.EphedraBlock;
 import com.dinosaurium.block.DeepslateFossilBlockBlock;
+import com.dinosaurium.block.DeepslateBauxiteOreBlock;
 import com.dinosaurium.block.DeepslateAmberOreBlock;
 import com.dinosaurium.block.CrassostreaOysterBlockBlock;
 import com.dinosaurium.block.BenettitalesBlock;
+import com.dinosaurium.block.BauxiteOreBlock;
+import com.dinosaurium.block.BauxiteBlockBlock;
 import com.dinosaurium.block.AsphaltBlock;
 import com.dinosaurium.block.AmberOreBlock;
 import com.dinosaurium.block.AmberBlockBlock;
+import com.dinosaurium.block.AluminiumBlockBlock;
 import com.dinosaurium.DinosauriumMod;
 
 public class DinosauriumModBlocks {
@@ -85,6 +92,13 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> LAUROZAMITES = REGISTRY.register("laurozamites", LaurozamitesBlock::new);
 	public static final DeferredBlock<Block> BENETTITALES = REGISTRY.register("benettitales", BenettitalesBlock::new);
 	public static final DeferredBlock<Block> CRASSOSTREA_OYSTER_BLOCK = REGISTRY.register("crassostrea_oyster_block", CrassostreaOysterBlockBlock::new);
+	public static final DeferredBlock<Block> ALUMINIUM_BLOCK = REGISTRY.register("aluminium_block", AluminiumBlockBlock::new);
+	public static final DeferredBlock<Block> BAUXITE_ORE = REGISTRY.register("bauxite_ore", BauxiteOreBlock::new);
+	public static final DeferredBlock<Block> TIN_ORE = REGISTRY.register("tin_ore", TinOreBlock::new);
+	public static final DeferredBlock<Block> TIN_BLOCK = REGISTRY.register("tin_block", TinBlockBlock::new);
+	public static final DeferredBlock<Block> BAUXITE_BLOCK = REGISTRY.register("bauxite_block", BauxiteBlockBlock::new);
+	public static final DeferredBlock<Block> RAW_TIN_BLOCK = REGISTRY.register("raw_tin_block", RawTinBlockBlock::new);
+	public static final DeferredBlock<Block> DEEPSLATE_BAUXITE_ORE = REGISTRY.register("deepslate_bauxite_ore", DeepslateBauxiteOreBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

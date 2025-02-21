@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1.85,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "dinosaurium:amber_ore"
+  },
+  "result": {
+    "id": "dinosaurium:amber"
+  }
+}

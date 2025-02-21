@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:ankylosaurus_dna",
+    "dinosaurium:parasaurolophus_dna",
+    "dinosaurium:therizinosaurus_dna",
+    "dinosaurium:amargasaurus_dna",
+    "dinosaurium:spinosaurus_dna",
+    "dinosaurium:tyrannosaurus_dna",
+    "dinosaurium:triceratops_dna",
+    "dinosaurium:stegosaurus_dna",
+    "dinosaurium:deinocheirus_dna",
+    "dinosaurium:nigersaurus_dna",
+    "dinosaurium:iguanodon_dna",
+    "dinosaurium:brachytrachelopan_dna",
+    "dinosaurium:miragaia_dna",
+    "dinosaurium:tuojiangosaurus_dna",
+    "dinosaurium:nemegtosaurus_dna",
+    "dinosaurium:pachyrhinosaurus_dna",
+    "dinosaurium:nanuqsaurus_dna",
+    "dinosaurium:yutyrannus_dna",
+    "dinosaurium:ouranosaurus_dna",
+    "dinosaurium:lambeosaurus_dna"
+  ]
+}

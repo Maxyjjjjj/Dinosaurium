@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dinosaurium:tin_block"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:tin_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:austroraptor_dna",
+    "dinosaurium:gallimimus_dna",
+    "dinosaurium:oviraptor_dna",
+    "dinosaurium:pachycephalosaurus_dna",
+    "dinosaurium:anzu_dna",
+    "dinosaurium:magyarosaurus_dna",
+    "dinosaurium:coelophysis_dna"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:cephaloleichnites_dna",
+    "dinosaurium:cretaraneus_dna",
+    "dinosaurium:mongolarachne_dna",
+    "dinosaurium:nannogomphus_dna",
+    "dinosaurium:giant_cicada_dna"
+  ]
+}

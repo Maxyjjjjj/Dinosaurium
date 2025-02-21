@@ -1,0 +1,16 @@
+{
+    "name": "Lisowicia",
+    "icon": "dinosaurium:lisowicia_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Lisowicia bojani is a Late Triassic dicynodont therapsid discovered in Poland, representing one of the largest known non-mammalian synapsids of its time. Dated to approximately 210 million years ago, this dicynodont exhibited unique anatomical features, including an upright posture more similar to modern mammals than earlier synapsids. Its fossil remains provide critical insights into the evolutionary transition of terrestrial vertebrates during the late Triassic period."        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:lisowicia",
+            "rotate": false,
+            "text": "He liekz them big and chunky, he liekz them big, he liekz them chunky!"
+        }
+    ]
+}

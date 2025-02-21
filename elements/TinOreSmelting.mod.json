@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.5599999999999999,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:TinOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:TinIngot"
+    },
+    "name": "tin_ore_smelting",
+    "namespace": "mod"
+  }
+}
