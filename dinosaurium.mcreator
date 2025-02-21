@@ -1412,19 +1412,6 @@
       }
     },
     {
-      "name": "AltarGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "altar_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/com/dinosaurium/world/inventory/AltarGUIMenu.java",
-          "src/main/java/com/dinosaurium/client/gui/AltarGUIScreen.java"
-        ]
-      }
-    },
-    {
       "name": "UnindentifiedFossil",
       "type": "item",
       "compiles": true,
@@ -5842,7 +5829,6 @@
       "item.dinosaurium.protoceratops_spawn_egg": "Protoceratops Spawn Egg",
       "entity.dinosaurium.diplodocus": "Diplodocus",
       "block.dinosaurium.deepslate_amber_ore": "Deepslate Amber Ore",
-      "gui.dinosaurium.altar_gui.button_resurrect": "Resurrect",
       "item.dinosaurium.omma_spawn_egg": "Omma Spawn Egg",
       "item.dinosaurium.halszkaraptor_spawn_egg": "Halszkaraptor Spawn Egg",
       "entity.dinosaurium.pteranodon": "Pteranodon",
@@ -5934,7 +5920,6 @@
       "item.dinosaurium.ankylosaurus_fossil": "Ankylosaurus Fossil",
       "item.dinosaurium.nanuqsaurus_fossil": "Nanuqsaurus Fossil",
       "block.dinosaurium.benettitales": "Benettitales",
-      "gui.dinosaurium.altar_gui.label_resurrection_altar": "Resurrection Altar",
       "item.dinosaurium.anzu_dna": "Anzu DNA",
       "item.dinosaurium.tuojiangosaurus_fossil": "Tuojiangosaurus Fossil",
       "entity.dinosaurium.ichthyosaurus": "Ichthyosaurus",
@@ -6216,7 +6201,6 @@
       "item.dinosaurium.protoceratops_spawn_egg": "Протоцератопс — яйце виклику",
       "entity.dinosaurium.diplodocus": "Диплодок",
       "block.dinosaurium.deepslate_amber_ore": "Глибосланцева бурштинова руда",
-      "gui.dinosaurium.altar_gui.button_resurrect": "Відродити",
       "item.dinosaurium.omma_spawn_egg": "Ома — яйце виклику",
       "item.dinosaurium.halszkaraptor_spawn_egg": "Гальшкараптор — яйце виклику",
       "entity.dinosaurium.pteranodon": "Птеранодон",
@@ -6308,7 +6292,6 @@
       "item.dinosaurium.ankylosaurus_fossil": "Скам\u0027янілість анкілозавра",
       "item.dinosaurium.nanuqsaurus_fossil": "Скам\u0027янілість нанукзавра",
       "block.dinosaurium.benettitales": "Бенеттітал",
-      "gui.dinosaurium.altar_gui.label_resurrection_altar": "Алтар відродження",
       "item.dinosaurium.anzu_dna": "ДНК анзу",
       "item.dinosaurium.tuojiangosaurus_fossil": "Скам\u0027янілість тоцзянозавра",
       "entity.dinosaurium.ichthyosaurus": "Іхтіозавр",
