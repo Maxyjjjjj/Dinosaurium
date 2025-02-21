@@ -5277,39 +5277,6 @@
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:HorsetailFields"
     ],
-    "ITEMS:mod:land_invertebrate_dna": [
-      "CUSTOM:CephaloleichnitesDNA",
-      "CUSTOM:CretaraneusDNA",
-      "CUSTOM:MongolarachneDNA",
-      "CUSTOM:NannogomphusDNA",
-      "CUSTOM:GiantCicadaDNA"
-    ],
-    "ITEMS:mod:large_dinosaur_dna": [
-      "CUSTOM:AnkylosaurusDNA",
-      "CUSTOM:ParasaurolophusDNA",
-      "CUSTOM:TherizinosaurusDNA",
-      "CUSTOM:AmargasaurusDNA",
-      "CUSTOM:SpinosaurusDNA",
-      "CUSTOM:TyrannosaurusDNA",
-      "CUSTOM:TriceratopsDNA",
-      "CUSTOM:StegosaurusDNA",
-      "CUSTOM:DeinocheirusDNA",
-      "CUSTOM:NigersaurusDNA",
-      "CUSTOM:IguanodonDNA",
-      "CUSTOM:BrachytrachelopanDNA",
-      "CUSTOM:MiragaiaDNA",
-      "CUSTOM:TuojiangosaurusDNA",
-      "CUSTOM:NemegtosaurusDNA",
-      "CUSTOM:PachyrhinosaurusDNA",
-      "CUSTOM:NanuqsaurusDNA",
-      "CUSTOM:YutyrannusDNA",
-      "CUSTOM:OuranosaurusDNA",
-      "CUSTOM:LambeosaurusDNA"
-    ],
-    "ITEMS:mod:roe_dna": [
-      "CUSTOM:OnchopristisDNA",
-      "CUSTOM:ParapuzosiaDNA"
-    ],
     "ENTITIES:mod:ceratopsians": [
       "CUSTOM:Triceratops",
       "CUSTOM:Pachyrhinosaurus"
@@ -5359,15 +5326,6 @@
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:SawfishSword"
-    ],
-    "ITEMS:mod:medium_dinosaur_dna": [
-      "CUSTOM:AustroraptorDNA",
-      "CUSTOM:GallimimusDNA",
-      "CUSTOM:OviraptorDNA",
-      "CUSTOM:PachycephalosaurusDNA",
-      "CUSTOM:AnzuDNA",
-      "CUSTOM:MagyarosaurusDNA",
-      "CUSTOM:CoelophysisDNA"
     ],
     "ITEMS:mod:fossils": [
       "CUSTOM:VelociraptorFossil",
@@ -5453,11 +5411,6 @@
     "BIOMES:minecraft:has_structure/pillager_outpost": [
       "~CUSTOM:HorsetailFields"
     ],
-    "ITEMS:mod:colossal_dinosaur_dna": [
-      "CUSTOM:DiplodocusDNA",
-      "CUSTOM:BruhathkayosaurusDNA",
-      "CUSTOM:MamenchisaurusDNA"
-    ],
     "BLOCKS:minecraft:wooden_fences": [
       "CUSTOM:ZamitesFence",
       "CUSTOM:ZamitesFenceGate"
@@ -5468,20 +5421,6 @@
       "TAG:mod:fryable_spiders",
       "CUSTOM:NannogomphusItem",
       "CUSTOM:GiantCicadItem"
-    ],
-    "ITEMS:mod:small_dinosaur_dna": [
-      "CUSTOM:VelociraptorDNA",
-      "CUSTOM:ShuvuuiaDNA",
-      "CUSTOM:MicroraptorDNA",
-      "CUSTOM:OrodromeusDNA",
-      "CUSTOM:ArchaeopteryxDNA",
-      "CUSTOM:PsittacosaurusDNA",
-      "CUSTOM:ZhenyuanlongDNA",
-      "CUSTOM:BeipiaosaurusDNA",
-      "CUSTOM:KolDNA",
-      "CUSTOM:SinosauropteryxDNA",
-      "CUSTOM:CompsognathusDNA",
-      "CUSTOM:ProtoceratopsDNA"
     ],
     "ENTITIES:minecraft:arthropod": [
       "~CUSTOM:GiantCicad",
