@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:bronze_sword",
     "dinosaurium:sawfish_sword"
   ]
 }

@@ -75,7 +75,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": ""
     },
@@ -83,7 +83,7 @@
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""

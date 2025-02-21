@@ -16,12 +16,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import com.dinosaurium.block.entity.PalaeontologyTableBlockEntity;
+import com.dinosaurium.block.entity.DNAAnalyzerBlockEntity;
 import com.dinosaurium.DinosauriumMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class DinosauriumModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, DinosauriumMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> PALAEONTOLOGY_TABLE = register("palaeontology_table", DinosauriumModBlocks.PALAEONTOLOGY_TABLE, PalaeontologyTableBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> DNA_ANALYZER = register("dna_analyzer", DinosauriumModBlocks.DNA_ANALYZER, DNAAnalyzerBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -32,5 +34,6 @@ public class DinosauriumModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, PALAEONTOLOGY_TABLE.get(), (blockEntity, side) -> ((PalaeontologyTableBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, DNA_ANALYZER.get(), (blockEntity, side) -> ((DNAAnalyzerBlockEntity) blockEntity).getItemHandler());
 	}
 }

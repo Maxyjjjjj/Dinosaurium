@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:TinOre"
+      "value": "CUSTOM:RawTin"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:TinIngot"

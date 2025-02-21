@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:bronze_ingot"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:bronze_block",
+    "count": 1
+  }
+}

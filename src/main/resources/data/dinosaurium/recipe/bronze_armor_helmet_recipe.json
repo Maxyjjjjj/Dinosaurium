@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:bronze_ingot"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:bronze_armor_helmet",
+    "count": 1
+  }
+}

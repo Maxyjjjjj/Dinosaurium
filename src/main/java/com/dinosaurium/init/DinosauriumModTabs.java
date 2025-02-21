@@ -126,6 +126,9 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.BAUXITE_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModBlocks.RAW_TIN_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModBlocks.DEEPSLATE_BAUXITE_ORE.get().asItem());
+				tabData.accept(DinosauriumModBlocks.DEEPSLATE_TIN_ORE.get().asItem());
+				tabData.accept(DinosauriumModItems.BRONZE_INGOT.get());
+				tabData.accept(DinosauriumModBlocks.FRAMED_GLASS.get().asItem());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOSSILS = REGISTRY.register("dinosaurium_fossils",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_fossils")).icon(() -> new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get())).displayItems((parameters, tabData) -> {
@@ -258,6 +261,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_DNA.get());
 				tabData.accept(DinosauriumModItems.PTERODAUSTRO_DNA.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_DNA.get());
+				tabData.accept(DinosauriumModBlocks.DNA_ANALYZER.get().asItem());
 			}).withTabsBefore(DINOSAURIUM_FOSSILS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOODSTUFFS = REGISTRY.register("dinosaurium_foodstuffs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_foodstuffs")).icon(() -> new ItemStack(DinosauriumModItems.RAW_ORNITHOMIMOSAUR.get())).displayItems((parameters, tabData) -> {
@@ -295,6 +299,13 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.LAUROZAMITES.get().asItem());
 				tabData.accept(DinosauriumModBlocks.BENETTITALES.get().asItem());
 			}).withTabsBefore(DINOSAURIUM_FOODSTUFFS.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_WEAPONRY_AND_TOOLS = REGISTRY.register("dinosaurium_weaponry_and_tools",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_weaponry_and_tools")).icon(() -> new ItemStack(DinosauriumModItems.SAWFISH_SWORD.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_HELMET.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_CHESTPLATE.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_LEGGINGS.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_BOOTS.get());
+			}).withTabsBefore(DINOSAURIUM_PLANTS.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -303,6 +314,14 @@ public class DinosauriumModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DinosauriumModBlocks.TIN_ORE.get().asItem());
 			tabData.accept(DinosauriumModBlocks.TIN_BLOCK.get().asItem());
+			tabData.accept(DinosauriumModBlocks.BRONZE_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DinosauriumModItems.BRONZE_PICKAXE.get());
+			tabData.accept(DinosauriumModItems.BRONZE_AXE.get());
+			tabData.accept(DinosauriumModItems.BRONZE_SHOVEL.get());
+			tabData.accept(DinosauriumModItems.BRONZE_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(DinosauriumModItems.BRONZE_SWORD.get());
 		}
 	}
 }

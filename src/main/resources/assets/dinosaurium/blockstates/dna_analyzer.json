@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dinosaurium:block/dna_analyzer"
+    },
+    "facing=east": {
+      "model": "dinosaurium:block/dna_analyzer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dinosaurium:block/dna_analyzer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dinosaurium:block/dna_analyzer",
+      "y": 270
+    }
+  }
+}

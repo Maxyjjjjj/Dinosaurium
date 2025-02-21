@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:deepslate_tin_ore",
     "dinosaurium:deepslate_bauxite_ore",
     "dinosaurium:raw_tin_block",
     "dinosaurium:bauxite_block",

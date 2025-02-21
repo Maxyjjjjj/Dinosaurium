@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 
 public class CrassostreaOysterBlockBlock extends FlowerBlock {
 	public CrassostreaOysterBlockBlock() {
-		super(MobEffects.CONDUIT_POWER, 1000, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.STONE).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.CONDUIT_POWER, 1000, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.STONE).instabreak().noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

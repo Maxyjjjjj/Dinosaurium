@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:bronze_ingot",
+    "dinosaurium:bronze_block",
+    "dinosaurium:bronze_pickaxe",
+    "dinosaurium:bronze_axe",
+    "dinosaurium:bronze_sword",
+    "dinosaurium:bronze_shovel",
+    "dinosaurium:bronze_hoe",
+    "dinosaurium:bronze_armor_helmet",
+    "dinosaurium:bronze_armor_chestplate",
+    "dinosaurium:bronze_armor_leggings",
+    "dinosaurium:bronze_armor_boots"
+  ]
+}

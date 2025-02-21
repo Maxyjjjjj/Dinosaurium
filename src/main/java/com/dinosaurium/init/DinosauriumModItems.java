@@ -140,6 +140,13 @@ import com.dinosaurium.item.CephaloleichnitesDNAItem;
 import com.dinosaurium.item.BugNetItem;
 import com.dinosaurium.item.BruhathkayosaurusFossilItem;
 import com.dinosaurium.item.BruhathkayosaurusDNAItem;
+import com.dinosaurium.item.BronzeSwordItem;
+import com.dinosaurium.item.BronzeShovelItem;
+import com.dinosaurium.item.BronzePickaxeItem;
+import com.dinosaurium.item.BronzeIngotItem;
+import com.dinosaurium.item.BronzeHoeItem;
+import com.dinosaurium.item.BronzeAxeItem;
+import com.dinosaurium.item.BronzeArmorItem;
 import com.dinosaurium.item.BrachytrachelopanFossilItem;
 import com.dinosaurium.item.BrachytrachelopanDNAItem;
 import com.dinosaurium.item.BeipiaosaurusFossilItem;
@@ -420,6 +427,20 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> BAUXITE_BLOCK = block(DinosauriumModBlocks.BAUXITE_BLOCK);
 	public static final DeferredItem<Item> RAW_TIN_BLOCK = block(DinosauriumModBlocks.RAW_TIN_BLOCK);
 	public static final DeferredItem<Item> DEEPSLATE_BAUXITE_ORE = block(DinosauriumModBlocks.DEEPSLATE_BAUXITE_ORE);
+	public static final DeferredItem<Item> DEEPSLATE_TIN_ORE = block(DinosauriumModBlocks.DEEPSLATE_TIN_ORE);
+	public static final DeferredItem<Item> BRONZE_INGOT = REGISTRY.register("bronze_ingot", BronzeIngotItem::new);
+	public static final DeferredItem<Item> BRONZE_BLOCK = block(DinosauriumModBlocks.BRONZE_BLOCK);
+	public static final DeferredItem<Item> BRONZE_PICKAXE = REGISTRY.register("bronze_pickaxe", BronzePickaxeItem::new);
+	public static final DeferredItem<Item> BRONZE_AXE = REGISTRY.register("bronze_axe", BronzeAxeItem::new);
+	public static final DeferredItem<Item> BRONZE_SWORD = REGISTRY.register("bronze_sword", BronzeSwordItem::new);
+	public static final DeferredItem<Item> BRONZE_SHOVEL = REGISTRY.register("bronze_shovel", BronzeShovelItem::new);
+	public static final DeferredItem<Item> BRONZE_HOE = REGISTRY.register("bronze_hoe", BronzeHoeItem::new);
+	public static final DeferredItem<Item> BRONZE_ARMOR_HELMET = REGISTRY.register("bronze_armor_helmet", BronzeArmorItem.Helmet::new);
+	public static final DeferredItem<Item> BRONZE_ARMOR_CHESTPLATE = REGISTRY.register("bronze_armor_chestplate", BronzeArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> BRONZE_ARMOR_LEGGINGS = REGISTRY.register("bronze_armor_leggings", BronzeArmorItem.Leggings::new);
+	public static final DeferredItem<Item> BRONZE_ARMOR_BOOTS = REGISTRY.register("bronze_armor_boots", BronzeArmorItem.Boots::new);
+	public static final DeferredItem<Item> FRAMED_GLASS = block(DinosauriumModBlocks.FRAMED_GLASS);
+	public static final DeferredItem<Item> DNA_ANALYZER = block(DinosauriumModBlocks.DNA_ANALYZER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

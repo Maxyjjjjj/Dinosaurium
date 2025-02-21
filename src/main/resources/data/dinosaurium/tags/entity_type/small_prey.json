@@ -3,6 +3,9 @@
   "values": [
     "dinosaurium:shuvuuia",
     "rabbit",
-    "chicken"
+    "chicken",
+    "dinosaurium:orodromeus",
+    "dinosaurium:compsognathus",
+    "dinosaurium:sinosauropteryx"
   ]
 }

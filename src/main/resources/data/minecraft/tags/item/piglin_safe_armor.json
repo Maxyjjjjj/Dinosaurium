@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:bronze_armor_helmet",
+    "dinosaurium:bronze_armor_chestplate",
+    "dinosaurium:bronze_armor_leggings",
+    "dinosaurium:bronze_armor_boots"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:aluminium_nugget"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:aluminium_ingot",
+    "count": 1
+  }
+}

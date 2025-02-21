@@ -39,12 +39,16 @@ import com.dinosaurium.block.MesozoicPortalFrameBlockBlock;
 import com.dinosaurium.block.MesozoicPortalBlock;
 import com.dinosaurium.block.LaurozamitesBlock;
 import com.dinosaurium.block.HorsetailBlock;
+import com.dinosaurium.block.FramedGlassBlock;
 import com.dinosaurium.block.FossilBlockBlock;
 import com.dinosaurium.block.EphedraBlock;
+import com.dinosaurium.block.DeepslateTinOreBlock;
 import com.dinosaurium.block.DeepslateFossilBlockBlock;
 import com.dinosaurium.block.DeepslateBauxiteOreBlock;
 import com.dinosaurium.block.DeepslateAmberOreBlock;
+import com.dinosaurium.block.DNAAnalyzerBlock;
 import com.dinosaurium.block.CrassostreaOysterBlockBlock;
+import com.dinosaurium.block.BronzeBlockBlock;
 import com.dinosaurium.block.BenettitalesBlock;
 import com.dinosaurium.block.BauxiteOreBlock;
 import com.dinosaurium.block.BauxiteBlockBlock;
@@ -99,6 +103,10 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> BAUXITE_BLOCK = REGISTRY.register("bauxite_block", BauxiteBlockBlock::new);
 	public static final DeferredBlock<Block> RAW_TIN_BLOCK = REGISTRY.register("raw_tin_block", RawTinBlockBlock::new);
 	public static final DeferredBlock<Block> DEEPSLATE_BAUXITE_ORE = REGISTRY.register("deepslate_bauxite_ore", DeepslateBauxiteOreBlock::new);
+	public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = REGISTRY.register("deepslate_tin_ore", DeepslateTinOreBlock::new);
+	public static final DeferredBlock<Block> BRONZE_BLOCK = REGISTRY.register("bronze_block", BronzeBlockBlock::new);
+	public static final DeferredBlock<Block> FRAMED_GLASS = REGISTRY.register("framed_glass", FramedGlassBlock::new);
+	public static final DeferredBlock<Block> DNA_ANALYZER = REGISTRY.register("dna_analyzer", DNAAnalyzerBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
