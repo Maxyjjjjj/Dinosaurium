@@ -441,6 +441,12 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> BRONZE_ARMOR_BOOTS = REGISTRY.register("bronze_armor_boots", BronzeArmorItem.Boots::new);
 	public static final DeferredItem<Item> FRAMED_GLASS = block(DinosauriumModBlocks.FRAMED_GLASS);
 	public static final DeferredItem<Item> DNA_ANALYZER = block(DinosauriumModBlocks.DNA_ANALYZER);
+	public static final DeferredItem<Item> TIN_TILES = block(DinosauriumModBlocks.TIN_TILES);
+	public static final DeferredItem<Item> CUT_TIN = block(DinosauriumModBlocks.CUT_TIN);
+	public static final DeferredItem<Item> CUT_TIN_STAIRS = block(DinosauriumModBlocks.CUT_TIN_STAIRS);
+	public static final DeferredItem<Item> CUT_TIN_SLAB = block(DinosauriumModBlocks.CUT_TIN_SLAB);
+	public static final DeferredItem<Item> CHISELED_TIN = block(DinosauriumModBlocks.CHISELED_TIN);
+	public static final DeferredItem<Item> DNA_RECREATOR = block(DinosauriumModBlocks.DNA_RECREATOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items

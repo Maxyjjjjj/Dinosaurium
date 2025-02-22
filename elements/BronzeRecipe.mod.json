@@ -15,28 +15,28 @@
         "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "CUSTOM:TinIngot"
-      },
-      {
-        "value": "CUSTOM:TinIngot"
-      },
-      {
         "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "CUSTOM:TinIngot"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
+        "value": ""
       },
       {
         "value": "Items.COPPER_INGOT"
       },
       {
         "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

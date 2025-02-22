@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dinosaurium:block/cut_tin_slab"
+    },
+    "type=top": {
+      "model": "dinosaurium:block/cut_tin_slab_top"
+    },
+    "type=double": {
+      "model": "dinosaurium:block/cut_tin_slab_full"
+    }
+  }
+}

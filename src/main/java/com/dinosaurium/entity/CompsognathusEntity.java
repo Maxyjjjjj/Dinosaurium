@@ -21,11 +21,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FollowParentGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.goal.BreedGoal;
@@ -36,10 +34,8 @@ import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
@@ -56,7 +52,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import java.util.List;
 
-import com.dinosaurium.procedures.SmallPreyAttackedProcedure;
 import com.dinosaurium.init.DinosauriumModEntities;
 
 public class CompsognathusEntity extends TamableAnimal implements GeoEntity {
@@ -96,27 +91,10 @@ public class CompsognathusEntity extends TamableAnimal implements GeoEntity {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new BreedGoal(this, 1));
 		this.goalSelector.addGoal(2, new FollowParentGoal(this, 0.8));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, LivingEntity.class, false, false) {
-			@Override
-			public boolean canUse() {
-				double x = CompsognathusEntity.this.getX();
-				double y = CompsognathusEntity.this.getY();
-				double z = CompsognathusEntity.this.getZ();
-				Entity entity = CompsognathusEntity.this;
-				Level world = CompsognathusEntity.this.level();
-				return super.canUse() && SmallPreyAttackedProcedure.execute(entity);
-			}
-		});
-		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
-			@Override
-			protected boolean canPerformAttack(LivingEntity entity) {
-				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
-			}
-		});
-		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(6, new PanicGoal(this, 1.2));
-		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(8, new FloatGoal(this));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(4, new PanicGoal(this, 1.2));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
 
 	@Override

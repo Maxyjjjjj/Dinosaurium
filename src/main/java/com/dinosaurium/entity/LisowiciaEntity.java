@@ -173,12 +173,12 @@ public class LisowiciaEntity extends Animal implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 					&& !this.isAggressive()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("aniation.lisowicia.walk"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.lisowicia.walk"));
 			}
 			if (this.isAggressive() && event.isMoving()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("aniation.lisowicia.run"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.lisowicia.run"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("aniation.lisowicia.idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.lisowicia.idle"));
 		}
 		return PlayState.STOP;
 	}
@@ -196,7 +196,7 @@ public class LisowiciaEntity extends Animal implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("aniation.lisowicia.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.lisowicia.attack"));
 		}
 		return PlayState.CONTINUE;
 	}

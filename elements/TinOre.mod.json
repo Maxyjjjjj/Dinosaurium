@@ -44,15 +44,15 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:DinosauriumTab"
       }
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:TinIngot"
+      "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

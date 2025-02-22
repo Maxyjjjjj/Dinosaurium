@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:raw_tin_block"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:raw_tin",
+    "count": 9
+  }
+}

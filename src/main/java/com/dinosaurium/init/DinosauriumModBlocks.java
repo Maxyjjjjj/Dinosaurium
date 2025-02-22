@@ -25,6 +25,7 @@ import com.dinosaurium.block.ZamitesCrownBlock;
 import com.dinosaurium.block.ZamitesConeBlock;
 import com.dinosaurium.block.ZamitesButtonBlock;
 import com.dinosaurium.block.WelwitschiaBlock;
+import com.dinosaurium.block.TinTilesBlock;
 import com.dinosaurium.block.TinOreBlock;
 import com.dinosaurium.block.TinBlockBlock;
 import com.dinosaurium.block.TallHorsetailBlock;
@@ -46,8 +47,13 @@ import com.dinosaurium.block.DeepslateTinOreBlock;
 import com.dinosaurium.block.DeepslateFossilBlockBlock;
 import com.dinosaurium.block.DeepslateBauxiteOreBlock;
 import com.dinosaurium.block.DeepslateAmberOreBlock;
+import com.dinosaurium.block.DNARecreatorBlock;
 import com.dinosaurium.block.DNAAnalyzerBlock;
+import com.dinosaurium.block.CutTinStairsBlock;
+import com.dinosaurium.block.CutTinSlabBlock;
+import com.dinosaurium.block.CutTinBlock;
 import com.dinosaurium.block.CrassostreaOysterBlockBlock;
+import com.dinosaurium.block.ChiseledTinBlock;
 import com.dinosaurium.block.BronzeBlockBlock;
 import com.dinosaurium.block.BenettitalesBlock;
 import com.dinosaurium.block.BauxiteOreBlock;
@@ -107,6 +113,12 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> BRONZE_BLOCK = REGISTRY.register("bronze_block", BronzeBlockBlock::new);
 	public static final DeferredBlock<Block> FRAMED_GLASS = REGISTRY.register("framed_glass", FramedGlassBlock::new);
 	public static final DeferredBlock<Block> DNA_ANALYZER = REGISTRY.register("dna_analyzer", DNAAnalyzerBlock::new);
+	public static final DeferredBlock<Block> TIN_TILES = REGISTRY.register("tin_tiles", TinTilesBlock::new);
+	public static final DeferredBlock<Block> CUT_TIN = REGISTRY.register("cut_tin", CutTinBlock::new);
+	public static final DeferredBlock<Block> CUT_TIN_STAIRS = REGISTRY.register("cut_tin_stairs", CutTinStairsBlock::new);
+	public static final DeferredBlock<Block> CUT_TIN_SLAB = REGISTRY.register("cut_tin_slab", CutTinSlabBlock::new);
+	public static final DeferredBlock<Block> CHISELED_TIN = REGISTRY.register("chiseled_tin", ChiseledTinBlock::new);
+	public static final DeferredBlock<Block> DNA_RECREATOR = REGISTRY.register("dna_recreator", DNARecreatorBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

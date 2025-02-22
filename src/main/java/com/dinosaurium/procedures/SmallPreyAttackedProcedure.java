@@ -16,16 +16,16 @@ import javax.annotation.Nullable;
 public class SmallPreyAttackedProcedure {
 	@SubscribeEvent
 	public static void onEntitySetsAttackTarget(LivingChangeTargetEvent event) {
-		execute(event, event.getOriginalAboutToBeSetTarget());
+		execute(event, event.getEntity());
 	}
 
-	public static boolean execute(Entity entity) {
-		return execute(null, entity);
+	public static boolean execute(Entity sourceentity) {
+		return execute(null, sourceentity);
 	}
 
-	private static boolean execute(@Nullable Event event, Entity entity) {
-		if (entity == null)
+	private static boolean execute(@Nullable Event event, Entity sourceentity) {
+		if (sourceentity == null)
 			return false;
-		return entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("dinosaurium:small_prey")));
+		return sourceentity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("dinosaurium:small_prey")));
 	}
 }

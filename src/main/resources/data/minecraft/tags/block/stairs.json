@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:cut_tin_stairs",
     "dinosaurium:zamites_stairs"
   ]
 }

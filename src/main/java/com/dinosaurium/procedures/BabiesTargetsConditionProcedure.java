@@ -4,9 +4,9 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
 public class BabiesTargetsConditionProcedure {
-	public static boolean execute(Entity entity) {
-		if (entity == null)
+	public static boolean execute(Entity sourceentity) {
+		if (sourceentity == null)
 			return false;
-		return entity instanceof LivingEntity _livEnt0 && _livEnt0.isBaby();
+		return sourceentity instanceof LivingEntity _livEnt0 && _livEnt0.isBaby();
 	}
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "dinosaurium:amber_block"
+    "dinosaurium:amber_block",
+    "dinosaurium:bronze_block",
+    "dinosaurium:aluminium_block"
   ]
 }

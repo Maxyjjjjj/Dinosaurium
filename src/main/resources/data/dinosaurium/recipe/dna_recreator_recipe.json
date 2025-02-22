@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone_bricks"
+    },
+    "b": {
+      "item": "minecraft:egg"
+    },
+    "c": {
+      "item": "minecraft:experience_bottle"
+    },
+    "d": {
+      "item": "dinosaurium:bronze_ingot"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:dna_recreator",
+    "count": 1
+  }
+}

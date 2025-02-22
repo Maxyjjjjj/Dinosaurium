@@ -875,7 +875,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -1745,7 +1745,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -3493,7 +3493,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -5112,7 +5112,6 @@
       "metadata": {
         "files": [
           "src/main/java/com/dinosaurium/block/TinOreBlock.java",
-          "src/main/resources/data/dinosaurium/loot_table/blocks/tin_ore.json",
           "src/main/resources/data/dinosaurium/worldgen/placed_feature/tin_ore.json",
           "src/main/resources/data/dinosaurium/worldgen/configured_feature/tin_ore.json",
           "src/main/resources/assets/dinosaurium/blockstates/tin_ore.json",
@@ -5239,11 +5238,13 @@
       "registry_name": "deepslate_bauxite_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/deepslate_bauxite_ore_biome_modifier.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/deepslate_bauxite_ore.json",
           "src/main/resources/assets/dinosaurium/blockstates/deepslate_bauxite_ore.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/deepslate_bauxite_ore.json",
           "src/main/resources/assets/dinosaurium/models/item/deepslate_bauxite_ore.json",
           "src/main/resources/assets/dinosaurium/models/block/deepslate_bauxite_ore.json",
-          "src/main/java/com/dinosaurium/block/DeepslateBauxiteOreBlock.java",
-          "src/main/resources/data/dinosaurium/loot_table/blocks/deepslate_bauxite_ore.json"
+          "src/main/java/com/dinosaurium/block/DeepslateBauxiteOreBlock.java"
         ]
       }
     },
@@ -5256,8 +5257,10 @@
       "metadata": {
         "files": [
           "src/main/java/com/dinosaurium/block/DeepslateTinOreBlock.java",
-          "src/main/resources/data/dinosaurium/loot_table/blocks/deepslate_tin_ore.json",
+          "src/main/resources/data/dinosaurium/worldgen/configured_feature/deepslate_tin_ore.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/deepslate_tin_ore_biome_modifier.json",
           "src/main/resources/assets/dinosaurium/models/item/deepslate_tin_ore.json",
+          "src/main/resources/data/dinosaurium/worldgen/placed_feature/deepslate_tin_ore.json",
           "src/main/resources/assets/dinosaurium/models/block/deepslate_tin_ore.json",
           "src/main/resources/assets/dinosaurium/blockstates/deepslate_tin_ore.json"
         ]
@@ -5626,6 +5629,288 @@
           "src/main/java/com/dinosaurium/block/entity/DNAAnalyzerBlockEntity.java"
         ]
       }
+    },
+    {
+      "name": "TinTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/tin_tiles.json",
+          "src/main/resources/assets/dinosaurium/blockstates/tin_tiles.json",
+          "src/main/resources/assets/dinosaurium/models/block/tin_tiles.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/tin_tiles.json",
+          "src/main/java/com/dinosaurium/block/TinTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DNAAnalyzerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_analyzer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/dna_analyzer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FramedGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "framed_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/framed_glass_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumOreDeepslateBlast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore_deepslate_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/aluminium_ore_deepslate_blast.json"
+        ]
+      }
+    },
+    {
+      "name": "CutTin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/cut_tin.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/cut_tin.json",
+          "src/main/resources/assets/dinosaurium/blockstates/cut_tin.json",
+          "src/main/java/com/dinosaurium/block/CutTinBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin.json"
+        ]
+      }
+    },
+    {
+      "name": "CutTinStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_tin_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/cut_tin_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin_stairs_outer.json",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin_stairs_inner.json",
+          "src/main/java/com/dinosaurium/block/CutTinStairsBlock.java",
+          "src/main/resources/assets/dinosaurium/blockstates/cut_tin_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin_stairs.json",
+          "src/main/resources/assets/dinosaurium/models/item/cut_tin_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CutTinSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_tin_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/CutTinSlabBlock.java",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin_slab_full.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/cut_tin_slab.json",
+          "src/main/resources/assets/dinosaurium/models/item/cut_tin_slab.json",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin_slab_top.json",
+          "src/main/resources/assets/dinosaurium/blockstates/cut_tin_slab.json",
+          "src/main/resources/assets/dinosaurium/models/block/cut_tin_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledTin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_tin",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/block/ChiseledTinBlock.java",
+          "src/main/resources/assets/dinosaurium/models/item/chiseled_tin.json",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/chiseled_tin.json",
+          "src/main/resources/assets/dinosaurium/blockstates/chiseled_tin.json",
+          "src/main/resources/assets/dinosaurium/models/block/chiseled_tin.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateBauxiteMine",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_bauxite_mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/deepslate_bauxite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateTinMine",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tin_mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/deepslate_tin_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TinDig",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dig",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/tin_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DNARecreatorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_recreator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/world/inventory/DNARecreatorGUIMenu.java",
+          "src/main/java/com/dinosaurium/client/gui/DNARecreatorGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "DNARecreator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_recreator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/dna_recreator.json",
+          "src/main/resources/assets/dinosaurium/models/item/dna_recreator.json",
+          "src/main/java/com/dinosaurium/block/entity/DNARecreatorBlockEntity.java",
+          "src/main/resources/data/dinosaurium/loot_table/blocks/dna_recreator.json",
+          "src/main/resources/assets/dinosaurium/blockstates/dna_recreator.json",
+          "src/main/java/com/dinosaurium/block/DNARecreatorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TinOreDeepslateSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_deepslate_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/tin_ore_deepslate_smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "DNARecreatorStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_recreator_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/block/dna_recreator_states_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/bauxite_block_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteCraftFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_craft_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/bauxite_craft_from_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTinBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/raw_tin_block_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTinCraftFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_craft_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/raw_tin_craft_from_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DNARecreatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_recreator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/dna_recreator_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BottleOEnchantingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_o_enchanting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/bottle_o_enchanting_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -5640,11 +5925,11 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:chest_armor": [
-      "~CUSTOM:BronzeArmor.body"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:CrassostreaOysterBlock"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:BronzeArmor.body"
     ],
     "ENTITIES:mod:ceratopsians": [
       "CUSTOM:Triceratops",
@@ -5696,6 +5981,7 @@
       "~CUSTOM:BronzeAxe"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:CutTinStairs",
       "~CUSTOM:ZamitesStairs"
     ],
     "ITEMS:minecraft:head_armor": [
@@ -5761,18 +6047,20 @@
       "CUSTOM:DsungaripterusFossil",
       "CUSTOM:LisowiciaFossil"
     ],
-    "ITEMS:minecraft:beacon_payment_items": [
-      "CUSTOM:Amber"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:BronzeBlock",
-      "~CUSTOM:MesozoicPortalFrameBlock"
-    ],
     "ITEMS:minecraft:piglin_safe_armor": [
       "CUSTOM:BronzeArmor.helmet",
       "CUSTOM:BronzeArmor.body",
       "CUSTOM:BronzeArmor.legs",
       "CUSTOM:BronzeArmor.boots"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BronzeBlock",
+      "~CUSTOM:MesozoicPortalFrameBlock"
+    ],
+    "ITEMS:minecraft:beacon_payment_items": [
+      "CUSTOM:Amber",
+      "CUSTOM:BronzeIngot",
+      "CUSTOM:AluminiumIngot"
     ],
     "BLOCKS:minecraft:wooden_fences": [
       "CUSTOM:ZamitesFence",
@@ -5795,7 +6083,9 @@
       "~Blocks.DIRT#0",
       "~Blocks.GRASS"
     ],
-    "BIOMES:minecraft:is_overworld": [],
+    "BIOMES:minecraft:is_overworld": [
+      "CUSTOM:HorsetailFields"
+    ],
     "BIOMES:mod:is_mesozoic": [
       "CUSTOM:MesozoicBog",
       "CUSTOM:MesozoicDesert",
@@ -5809,6 +6099,12 @@
     ],
     "BLOCKS:minecraft:dirt": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DNAAnalyzer",
+      "~CUSTOM:CutTin",
+      "~CUSTOM:CutTinStairs",
+      "~CUSTOM:CutTinSlab",
+      "~CUSTOM:ChiseledTin",
+      "~CUSTOM:TinTiles",
       "~CUSTOM:BronzeBlock",
       "~CUSTOM:DeepslateTinOre",
       "~CUSTOM:DeepslateBauxiteOre",
@@ -5836,53 +6132,6 @@
       "~CUSTOM:ZamitesFence",
       "CUSTOM:ZamitesFenceGate"
     ],
-    "ENTITIES:mod:animals_in_fossil_record": [
-      "CUSTOM:Amargasaurus",
-      "CUSTOM:Ankylosaurus",
-      "CUSTOM:Arambourgiania",
-      "CUSTOM:Austroraptor",
-      "CUSTOM:Brachytrachelopan",
-      "CUSTOM:Bruhathkayosaurus",
-      "CUSTOM:Compsognathus",
-      "CUSTOM:Deinocheirus",
-      "CUSTOM:Diplodocus",
-      "CUSTOM:Gallimimus",
-      "CUSTOM:Hatzegopteryx",
-      "CUSTOM:Ichthyosaurus",
-      "CUSTOM:Iguanodon",
-      "CUSTOM:Microraptor",
-      "CUSTOM:Nigersaurus",
-      "CUSTOM:Nyctosaurus",
-      "CUSTOM:Onchopristis",
-      "CUSTOM:Oviraptor",
-      "CUSTOM:Pachycephalosaurus",
-      "CUSTOM:Parasaurolophus",
-      "CUSTOM:Pteranodon",
-      "CUSTOM:Quetzalcoatlus",
-      "CUSTOM:Shuvuuia",
-      "CUSTOM:Sinosauropteryx",
-      "CUSTOM:Spinosaurus",
-      "CUSTOM:Stegosaurus",
-      "CUSTOM:Therizinosaurus",
-      "CUSTOM:Triceratops",
-      "CUSTOM:Tyrannosaurus",
-      "CUSTOM:Velociraptor",
-      "EntitySniffer",
-      "EntitySalmon",
-      "EntityCod",
-      "EntityTurtle",
-      "CUSTOM:Archaeopteryx",
-      "CUSTOM:Magyarosaurus",
-      "CUSTOM:Miragaia",
-      "CUSTOM:Nemegtosaurus",
-      "CUSTOM:Olorotitan",
-      "CUSTOM:Protoceratops",
-      "CUSTOM:Tuojiangosaurus",
-      "CUSTOM:Nanuqsaurus",
-      "CUSTOM:Pachyrhinosaurus",
-      "CUSTOM:Orodromeus",
-      "CUSTOM:Parapuzosia"
-    ],
     "ITEMS:mod:fryable_spiders": [
       "CUSTOM:CretaraneusItem",
       "CUSTOM:MongolarachneItem"
@@ -5907,6 +6156,7 @@
       "~CUSTOM:Ichthyosaurus"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:CutTinSlab",
       "~CUSTOM:ZamitesSlab"
     ],
     "ITEMS:mod:openables": [
@@ -5985,7 +6235,8 @@
       "#mod:is_mesozoic"
     ],
     "BLOCKS:minecraft:animals_spawnable_on": [
-      "Blocks.SAND#0"
+      "Blocks.SAND#0",
+      "Blocks.SAND#1"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:BronzeShovel"
@@ -5995,7 +6246,9 @@
       "CUSTOM:Mongolarachne"
     ],
     "BLOCKS:minecraft:beacon_base_blocks": [
-      "CUSTOM:AmberBlock"
+      "CUSTOM:AmberBlock",
+      "CUSTOM:BronzeBlock",
+      "CUSTOM:AluminiumBlock"
     ],
     "ITEMS:minecraft:leg_armor": [
       "~CUSTOM:BronzeArmor.legs"
@@ -6064,7 +6317,6 @@
       "Nannogomphus",
       "MesozoicPortalFrameBlock",
       "Mesozoic",
-      "SawfishSword",
       "DeepslateAmberOre",
       "AmberOre",
       "AmberBlock",
@@ -6107,7 +6359,16 @@
       "DeepslateBauxiteOre",
       "DeepslateTinOre",
       "BronzeIngot",
-      "FramedGlass"
+      "FramedGlass",
+      "TinBlock",
+      "TinTiles",
+      "CutTin",
+      "CutTinStairs",
+      "CutTinSlab",
+      "ChiseledTin",
+      "TinOre",
+      "TinIngot",
+      "BronzeBlock"
     ],
     "CUSTOM:DinosauriumFossils": [
       "AmberFossil",
@@ -6174,6 +6435,8 @@
       "LisowiciaFossil"
     ],
     "CUSTOM:DinosauriumGenetics": [
+      "DNAAnalyzer",
+      "DNARecreator",
       "AmberFossil",
       "EmptyVial",
       "VelociraptorDNA",
@@ -6237,21 +6500,20 @@
       "OuranosaurusDNA",
       "DsungaripterusDNA",
       "PterodaustroDNA",
-      "LisowiciaDNA",
-      "DNAAnalyzer"
+      "LisowiciaDNA"
     ]
   },
   "language_map": {
     "en_us": {
       "item.dinosaurium.deinocheirus_dna": "Deinocheirus DNA",
-      "item.dinosaurium.cretaraneus_item": "Cretaraneus",
-      "biome.dinosaurium.mesozoic_jungle": "Mesozoic Jungle",
       "item.dinosaurium.onchopristis_spawn_egg": "Onchopristis Spawn Egg",
+      "biome.dinosaurium.mesozoic_jungle": "Mesozoic Jungle",
+      "item.dinosaurium.cretaraneus_item": "Cretaraneus",
       "item.dinosaurium.mashed_bugs": "Mashed Bugs",
       "entity.dinosaurium.bruhathkayosaurus": "Bruhathkayosaurus",
       "item_group.dinosaurium.dinosaurium_tab": "Dinosaurium",
-      "advancements.palaeontology.descr": "Let adventures of fossil study begin!",
       "item.dinosaurium.cretaraneus_dna": "Cretaraneus DNA",
+      "advancements.palaeontology.descr": "Let adventures of fossil study begin!",
       "advancements.poaching_in_its_finest.descr": "Obtain Sawfish Sword",
       "biome.dinosaurium.mesozoic_horsetail_fields": "Mesozoic Horsetail Fields",
       "item.dinosaurium.zhenyuanlong_dna": "Zhenyuanlong DNA",
@@ -6262,8 +6524,8 @@
       "item.dinosaurium.pachycephalosaurus_fossil": "Pachycephalosaurus Fossil",
       "entity.dinosaurium.onchopristis": "Onchopristis",
       "item.dinosaurium.protoceratops_spawn_egg": "Protoceratops Spawn Egg",
-      "entity.dinosaurium.diplodocus": "Diplodocus",
       "item.dinosaurium.bronze_ingot": "Bronze Ingot",
+      "entity.dinosaurium.diplodocus": "Diplodocus",
       "entity.dinosaurium.pteranodon": "Pteranodon",
       "item.dinosaurium.kol_dna": "Kol DNA",
       "block.dinosaurium.zamites_trapdoor": "Zamites Trapdoor",
@@ -6272,11 +6534,11 @@
       "item.dinosaurium.raw_oyster": "Raw Oyster",
       "entity.dinosaurium.magyarosaurus": "Magyarosaurus",
       "entity.dinosaurium.triceratops": "Triceratops",
-      "advancements.welcome_to_cambodia.title": "Welcome To Cambodia",
       "entity.dinosaurium.austroraptor": "Austroraptor",
-      "item.dinosaurium.velociraptor_dna": "Velociraptor DNA",
-      "block.dinosaurium.zamites_planks": "Zamites Planks",
+      "advancements.welcome_to_cambodia.title": "Welcome To Cambodia",
       "item.dinosaurium.bronze_pickaxe": "Bronze Pickaxe",
+      "block.dinosaurium.zamites_planks": "Zamites Planks",
+      "item.dinosaurium.velociraptor_dna": "Velociraptor DNA",
       "block.dinosaurium.tin_ore": "Tin Ore",
       "item.dinosaurium.mamenchisaurus_fossil": "Mamenchisaurus Fossil",
       "item.dinosaurium.nigersaurus_fossil": "Nigersaurus Fossil",
@@ -6352,14 +6614,16 @@
       "item.dinosaurium.parapuzosia_dna": "Parapuzosia DNA",
       "item.dinosaurium.microraptor_spawn_egg": "Microraptor Spawn Egg",
       "item.dinosaurium.jeholopterus_spawn_egg": "Jeholopterus Spawn Egg",
+      "block.dinosaurium.dna_recreator": "DNA Recreator",
       "item.dinosaurium.tyrannosaurus_dna": "Tyrannosaurus DNA",
       "block.dinosaurium.zamites_log": "Zamites Log",
       "block.dinosaurium.zamites_crown": "Zamites Crown",
-      "item.dinosaurium.tin_ingot": "Tin",
+      "item.dinosaurium.tin_ingot": "Tin Ingot",
+      "block.dinosaurium.cut_tin": "Cut Tin",
       "item.dinosaurium.unidentified_fossil": "Unidentified Fossil",
       "item.dinosaurium.jeholopterus_dna": "Jeholopterus DNA",
-      "item.dinosaurium.miragaia_spawn_egg": "Miragaia Spawn Egg",
       "item.dinosaurium.gallimimus_fossil": "Gallimimus Fossil",
+      "item.dinosaurium.miragaia_spawn_egg": "Miragaia Spawn Egg",
       "item.dinosaurium.stegosaurus_fossil": "Stegosaurus Fossil",
       "entity.dinosaurium.amargasaurus": "Amargasaurus",
       "entity.dinosaurium.olorotitan": "Olorotitan",
@@ -6394,8 +6658,8 @@
       "block.dinosaurium.zamites_button": "Zamites Button",
       "item.dinosaurium.aluminium_ingot": "Aluminium Ingot",
       "item.dinosaurium.miragaia_fossil": "Miragaia Fossil",
-      "item.dinosaurium.archaeopteryx_spawn_egg": "Archaeopteryx Spawn Egg",
       "item.dinosaurium.pachycephalosaurus_dna": "Pachycephalosaurus DNA",
+      "item.dinosaurium.archaeopteryx_spawn_egg": "Archaeopteryx Spawn Egg",
       "advancements.palaeontology.title": "Palaeontology",
       "item.dinosaurium.cretaraneus_spawn_egg": "Cretaraneus Spawn Egg",
       "item.dinosaurium.beipiaosaurus_dna": "Beipiaosaurus DNA",
@@ -6403,26 +6667,27 @@
       "painting.dinosaurium.laelaps.title": "Laelaps",
       "entity.dinosaurium.jeholopterus": "Jeholopterus",
       "item.dinosaurium.hatzegopteryx_spawn_egg": "Hatzegopteryx Spawn Egg",
-      "item.dinosaurium.lambeosaurus_spawn_egg": "Lambeosaurus Spawn Egg",
+      "block.dinosaurium.cut_tin_stairs": "Cut Tin Stairs",
       "item.dinosaurium.magyarosaurus_fossil": "Magyarosaurus Fossil",
+      "item.dinosaurium.lambeosaurus_spawn_egg": "Lambeosaurus Spawn Egg",
       "item.dinosaurium.tuojiangosaurus_spawn_egg": "Tuojiangosaurus Spawn Egg",
       "item.dinosaurium.amargasaurus_fossil": "Amargasaurus Fossil",
       "item.dinosaurium.pachyrhinosaurus_spawn_egg": "Pachyrhinosaurus Spawn Egg",
       "biome.dinosaurium.mesozoic_bog": "Mesozoic Bog",
       "entity.dinosaurium.shuvuuia": "Shuvuuia",
       "item.dinosaurium.deinocheirus_spawn_egg": "Deinocheirus Spawn Egg",
-      "item.dinosaurium.quetzalcoatlus_spawn_egg": "Quetzalcoatlus Spawn Egg",
       "item.dinosaurium.olorotitan_spawn_egg": "Olorotitan Spawn Egg",
+      "item.dinosaurium.quetzalcoatlus_spawn_egg": "Quetzalcoatlus Spawn Egg",
       "item.dinosaurium.hatzegopteryx_fossil": "Hatzegopteryx Fossil",
       "entity.dinosaurium.protoceratops": "Protoceratops",
       "item.dinosaurium.kol_spawn_egg": "Kol Spawn Egg",
       "block.dinosaurium.zamites_stairs": "Zamites Stairs",
-      "advancements.whack_a_mole.descr": "Kill a Repenomamus",
       "item.dinosaurium.oviraptor_dna": "Oviraptor DNA",
+      "advancements.whack_a_mole.descr": "Kill a Repenomamus",
       "entity.dinosaurium.halszkaraptor": "Halszkaraptor",
       "item.dinosaurium.bronze_sword": "Bronze Sword",
-      "block.dinosaurium.laurozamites": "Laurozamites",
       "item.dinosaurium.ouranosaurus_dna": "Ouranosaurus DNA",
+      "block.dinosaurium.laurozamites": "Laurozamites",
       "block.dinosaurium.zamites_sapling": "Zamites Sapling",
       "item.dinosaurium.oviraptor_fossil": "Oviraptor Fossil",
       "item.dinosaurium.giant_cicada_spawn_egg": "Giant Cicada Spawn Egg",
@@ -6432,6 +6697,7 @@
       "item.dinosaurium.tricepatops_fossil": "Tricepatops Fossil",
       "item.dinosaurium.shuvuuia_dna": "Shuvuuia DNA",
       "block.dinosaurium.dna_analyzer": "DNA Analyzer",
+      "block.dinosaurium.cut_tin_slab": "Cut Tin Slab",
       "item.dinosaurium.bauxite": "Bauxite",
       "item.dinosaurium.orodromeus_fossil": "Orodromeus Fossil",
       "advancements.yummy_bugs.title": "Bon Appétit",
@@ -6447,6 +6713,7 @@
       "item.dinosaurium.microraptor_fossil": "Microraptor Fossil",
       "item.dinosaurium.therizinosaurus_fossil": "Therizinosaurus Fossil",
       "entity.dinosaurium.edmontosaurus": "Edmontosaurus",
+      "block.dinosaurium.chiseled_tin": "Chiseled Tin",
       "entity.dinosaurium.spinosaurus": "Spinosaurus",
       "block.dinosaurium.zamites_fence": "Zamites Fence",
       "item.dinosaurium.bruhathkayosaurus_dna": "Bruhathkayosaurus DNA",
@@ -6494,6 +6761,7 @@
       "block.dinosaurium.zamites_door": "Zamites Door",
       "item.dinosaurium.dilophosaurus_dna": "Dilophosaurus DNA",
       "item.dinosaurium.parapuzosia_spawn_egg": "Parapuzosia Spawn Egg",
+      "block.dinosaurium.tin_tiles": "Tin Tiles",
       "advancements.collect_bugs.title": "Gotta Catch \u0027em All!",
       "biome.dinosaurium.mesozoic_plains": "Mesozoic Plains",
       "item.dinosaurium.dsungaripterus_spawn_egg": "Dsungaripterus Spawn Egg",
@@ -6522,6 +6790,7 @@
       "item.dinosaurium.microraptor_dna": "Microraptor DNA",
       "item.dinosaurium.pachyrhinosaurus_fossil": "Pachyrhinosaurus Fossil",
       "item.dinosaurium.therizinosaurus_spawn_egg": "Therizinosaurus Spawn Egg",
+      "gui.dinosaurium.dna_recreator_gui.label_dna_recreator": "DNA Recreator",
       "item.dinosaurium.pycnofiber": "Pycnofiber",
       "item.dinosaurium.protoceratops_dna": "Protoceratops DNA",
       "item.dinosaurium.hatzegopteryx_dna": "Hatzegopteryx DNA",
@@ -6579,6 +6848,7 @@
       "item.dinosaurium.parasaurolophus_spawn_egg": "Parasaurolophus Spawn Egg",
       "painting.dinosaurium.diplodocus_painting.author": "Heinrich Harder",
       "item_group.dinosaurium.dinosaurium_genetics": "Dinosaurium Genetics",
+      "gui.dinosaurium.dna_recreator_gui.button_recreate": "Recreate",
       "item.dinosaurium.pterodaustro_dna": "Pterodaustro DNA",
       "block.dinosaurium.osmunda": "Osmunda",
       "block.dinosaurium.framed_glass": "Framed Glass",
@@ -6741,10 +7011,12 @@
       "item.dinosaurium.parapuzosia_dna": "ДНК парапузосії",
       "item.dinosaurium.microraptor_spawn_egg": "Мікрораптор — яйце виклику",
       "item.dinosaurium.jeholopterus_spawn_egg": "Жеголоптер — яйце виклику",
+      "block.dinosaurium.dna_recreator": "Відтворювач ДНК",
       "item.dinosaurium.tyrannosaurus_dna": "ДНК тиранозавра",
       "block.dinosaurium.zamites_log": "Замітова колода",
       "block.dinosaurium.zamites_crown": "Замітова корона",
       "item.dinosaurium.tin_ingot": "Олов\u0027яний злиток",
+      "block.dinosaurium.cut_tin": "Тесане олово",
       "item.dinosaurium.unidentified_fossil": "Неідентифікована скам\u0027янілість",
       "item.dinosaurium.jeholopterus_dna": "ДНК жеголоптера",
       "item.dinosaurium.miragaia_spawn_egg": "Міраґайя — яйце виклику",
@@ -6792,6 +7064,7 @@
       "painting.dinosaurium.laelaps.title": "Лелапси",
       "entity.dinosaurium.jeholopterus": "Жеголоптер",
       "item.dinosaurium.hatzegopteryx_spawn_egg": "Гацегоптерикс — яйце виклику",
+      "block.dinosaurium.cut_tin_stairs": "Сходи з тесаного олова",
       "item.dinosaurium.magyarosaurus_fossil": "Скам\u0027янілість мадярозавра",
       "item.dinosaurium.lambeosaurus_spawn_egg": "Ламбеозавр — яйце виклику",
       "item.dinosaurium.tuojiangosaurus_spawn_egg": "Тоцзянозавр — яйце виклику",
@@ -6810,8 +7083,8 @@
       "advancements.whack_a_mole.descr": "Вбийте репеномама, паскудну щуряку з крейдяного періоду",
       "entity.dinosaurium.halszkaraptor": "Гальшкараптор",
       "item.dinosaurium.bronze_sword": "Бронзовий меч",
-      "item.dinosaurium.ouranosaurus_dna": "ДНК уранозавра",
       "block.dinosaurium.laurozamites": "Лаурозаміт",
+      "item.dinosaurium.ouranosaurus_dna": "ДНК уранозавра",
       "block.dinosaurium.zamites_sapling": "Паросток заміта",
       "item.dinosaurium.oviraptor_fossil": "Скам\u0027янілість овіраптора",
       "item.dinosaurium.giant_cicada_spawn_egg": "Гігантська цикада — яйце виклику",
@@ -6821,6 +7094,7 @@
       "item.dinosaurium.tricepatops_fossil": "Скам\u0027янілість трицератопса",
       "item.dinosaurium.shuvuuia_dna": "ДНК шувуйї",
       "block.dinosaurium.dna_analyzer": "Аналізатор ДНК",
+      "block.dinosaurium.cut_tin_slab": "Плита з тесаного олова",
       "item.dinosaurium.bauxite": "Бауксит",
       "item.dinosaurium.orodromeus_fossil": "Скам\u0027янілість ородромея",
       "advancements.yummy_bugs.title": "Смачного, гурмане!",
@@ -6836,6 +7110,7 @@
       "item.dinosaurium.therizinosaurus_fossil": "Скам\u0027янілість теризинозавра",
       "item.dinosaurium.microraptor_fossil": "Скам\u0027янілість мікрораптора",
       "entity.dinosaurium.edmontosaurus": "Едмонтозавр",
+      "block.dinosaurium.chiseled_tin": "Різьблене олово",
       "entity.dinosaurium.spinosaurus": "Спінозавр",
       "block.dinosaurium.zamites_fence": "Замітовий паркан",
       "item.dinosaurium.bruhathkayosaurus_dna": "ДНК бругаткайозавра",
@@ -6883,6 +7158,7 @@
       "block.dinosaurium.zamites_door": "Замітові двері",
       "item.dinosaurium.dilophosaurus_dna": "ДНК дилофозавра",
       "item.dinosaurium.parapuzosia_spawn_egg": "Парапузосія — яйце виклику",
+      "block.dinosaurium.tin_tiles": "Олов\u0027яні плитки",
       "advancements.collect_bugs.title": "Злови Їх Усіх!",
       "biome.dinosaurium.mesozoic_plains": "Мезозойські рівнини",
       "item.dinosaurium.dsungaripterus_spawn_egg": "Дзунґаріптер — яйце виклику",
@@ -6911,6 +7187,7 @@
       "item.dinosaurium.microraptor_dna": "ДНК мікорораптора",
       "item.dinosaurium.pachyrhinosaurus_fossil": "Скам\u0027янілість пахирінозавра",
       "item.dinosaurium.therizinosaurus_spawn_egg": "Теризинозавр — яйце виклику",
+      "gui.dinosaurium.dna_recreator_gui.label_dna_recreator": "Відтворювач ДНК",
       "item.dinosaurium.pycnofiber": "Пікноволокно",
       "item.dinosaurium.protoceratops_dna": "ДНК протоцератопса",
       "item.dinosaurium.hatzegopteryx_dna": "ДНК гацегоптерикса",
@@ -6968,6 +7245,7 @@
       "item.dinosaurium.parasaurolophus_spawn_egg": "Паразауролоф — яйце виклику",
       "painting.dinosaurium.diplodocus_painting.author": "Генріх Гардер",
       "item_group.dinosaurium.dinosaurium_genetics": "Генетика",
+      "gui.dinosaurium.dna_recreator_gui.button_recreate": "Відтворити",
       "item.dinosaurium.pterodaustro_dna": "ДНК птеродавстро",
       "block.dinosaurium.osmunda": "Осмунда",
       "block.dinosaurium.framed_glass": "Обрамлене скло",

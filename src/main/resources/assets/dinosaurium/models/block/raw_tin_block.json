@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "dinosaurium:block/raw_cassiterite_block",
-    "up": "dinosaurium:block/raw_cassiterite_block",
-    "north": "dinosaurium:block/raw_cassiterite_block",
-    "east": "dinosaurium:block/raw_cassiterite_block",
-    "south": "dinosaurium:block/raw_cassiterite_block",
-    "west": "dinosaurium:block/raw_cassiterite_block",
-    "particle": "dinosaurium:block/raw_cassiterite_block"
+    "down": "dinosaurium:block/raw_tin_block",
+    "up": "dinosaurium:block/raw_tin_block",
+    "north": "dinosaurium:block/raw_tin_block",
+    "east": "dinosaurium:block/raw_tin_block",
+    "south": "dinosaurium:block/raw_tin_block",
+    "west": "dinosaurium:block/raw_tin_block",
+    "particle": "dinosaurium:block/raw_tin_block"
   },
   "render_type": "solid"
 }

@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class TinBlockBlock extends Block {
 	public TinBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

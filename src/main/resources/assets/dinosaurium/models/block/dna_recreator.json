@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dinosaurium:block/reviver_top",
+    "up": "dinosaurium:block/reviver_top",
+    "north": "dinosaurium:block/reviver",
+    "east": "dinosaurium:block/reviver_side",
+    "south": "dinosaurium:block/reviver_side",
+    "west": "dinosaurium:block/reviver_side",
+    "particle": "dinosaurium:block/reviver_top"
+  },
+  "render_type": "solid"
+}

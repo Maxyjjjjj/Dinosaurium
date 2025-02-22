@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class DeepslateTinOreBlock extends Block {
 	public DeepslateTinOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

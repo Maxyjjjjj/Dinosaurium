@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:cut_tin_slab",
     "dinosaurium:zamites_slab"
   ]
 }

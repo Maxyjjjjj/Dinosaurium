@@ -21,6 +21,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.warden.Warden;
+import net.minecraft.world.entity.monster.Ravager;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
@@ -59,7 +61,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import java.util.List;
 
-import com.dinosaurium.procedures.TyrannosaurusPreyItemsProcedure;
 import com.dinosaurium.procedures.TyrannosaurusBoundingBoxScaleProcedure;
 import com.dinosaurium.init.DinosauriumModItems;
 import com.dinosaurium.init.DinosauriumModEntities;
@@ -112,29 +113,11 @@ public class TyrannosaurusEntity extends TamableAnimal implements GeoEntity {
 		});
 		this.goalSelector.addGoal(7, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LivingEntity.class, false, false) {
-			@Override
-			public boolean canUse() {
-				double x = TyrannosaurusEntity.this.getX();
-				double y = TyrannosaurusEntity.this.getY();
-				double z = TyrannosaurusEntity.this.getZ();
-				Entity entity = TyrannosaurusEntity.this;
-				Level world = TyrannosaurusEntity.this.level();
-				return super.canUse() && TyrannosaurusPreyItemsProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = TyrannosaurusEntity.this.getX();
-				double y = TyrannosaurusEntity.this.getY();
-				double z = TyrannosaurusEntity.this.getZ();
-				Entity entity = TyrannosaurusEntity.this;
-				Level world = TyrannosaurusEntity.this.level();
-				return super.canContinueToUse() && TyrannosaurusPreyItemsProcedure.execute(entity);
-			}
-		});
-		this.goalSelector.addGoal(10, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(11, new FloatGoal(this));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Ravager.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Warden.class, false, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, TriceratopsEntity.class, false, false));
+		this.goalSelector.addGoal(12, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(13, new FloatGoal(this));
 	}
 
 	@Override
@@ -288,7 +271,7 @@ public class TyrannosaurusEntity extends TamableAnimal implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.tyrannosaurus.attack1"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.tyrannosaurus.attack"));
 		}
 		return PlayState.CONTINUE;
 	}

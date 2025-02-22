@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.09,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "dinosaurium:deepslate_tin_ore"
+  },
+  "result": {
+    "id": "dinosaurium:tin_ingot"
+  }
+}

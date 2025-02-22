@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1.85,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "dinosaurium:deepslate_bauxite_ore"
+  },
+  "result": {
+    "id": "dinosaurium:aluminium_ingot"
+  }
+}

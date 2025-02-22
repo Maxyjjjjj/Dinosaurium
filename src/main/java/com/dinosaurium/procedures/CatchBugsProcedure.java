@@ -19,7 +19,9 @@ import javax.annotation.Nullable;
 
 import com.dinosaurium.init.DinosauriumModItems;
 import com.dinosaurium.entity.OmmaEntity;
+import com.dinosaurium.entity.NannogomphusEntity;
 import com.dinosaurium.entity.MongolarachneEntity;
+import com.dinosaurium.entity.GiantCicadEntity;
 import com.dinosaurium.entity.CretaraneusEntity;
 import com.dinosaurium.entity.CephaloleichnitesEntity;
 
@@ -67,6 +69,20 @@ public class CatchBugsProcedure {
 				if (entity instanceof OmmaEntity) {
 					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(DinosauriumModItems.OMMA_ITEM.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
+				}
+				if (entity instanceof NannogomphusEntity) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(DinosauriumModItems.NANNOGOMPHUS_ITEM.get()));
+						entityToSpawn.setPickUpDelay(10);
+						_level.addFreshEntity(entityToSpawn);
+					}
+				}
+				if (entity instanceof GiantCicadEntity) {
+					if (world instanceof ServerLevel _level) {
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(DinosauriumModItems.GIANT_CICADA_ITEM.get()));
 						entityToSpawn.setPickUpDelay(10);
 						_level.addFreshEntity(entityToSpawn);
 					}

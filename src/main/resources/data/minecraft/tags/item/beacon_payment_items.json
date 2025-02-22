@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "dinosaurium:amber"
+    "dinosaurium:amber",
+    "dinosaurium:bronze_ingot",
+    "dinosaurium:aluminium_ingot"
   ]
 }

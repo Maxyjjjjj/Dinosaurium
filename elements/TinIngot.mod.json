@@ -7,11 +7,11 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tin",
+    "name": "Tin Ingot",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MATERIALS"
+        "value": "CUSTOM:DinosauriumTab"
       }
     ],
     "stackSize": 64,

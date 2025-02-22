@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "dinosaurium:blocks/deepslate_bauxite_ore",
+  "random_sequence": "dinosaurium:blocks/tin_tiles",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dinosaurium:deepslate_bauxite_ore"
+          "name": "dinosaurium:tin_tiles"
         }
       ]
     }

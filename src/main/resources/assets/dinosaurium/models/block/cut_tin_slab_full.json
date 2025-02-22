@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "dinosaurium:block/cut_tin",
+    "bottom": "dinosaurium:block/cut_tin",
+    "top": "dinosaurium:block/cut_tin",
+    "side": "dinosaurium:block/cut_tin"
+  },
+  "render_type": "solid"
+}

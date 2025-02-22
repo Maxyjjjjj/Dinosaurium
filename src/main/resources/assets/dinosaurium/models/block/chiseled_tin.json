@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dinosaurium:block/chiseled_tin",
+    "particle": "dinosaurium:block/chiseled_tin"
+  },
+  "render_type": "solid"
+}

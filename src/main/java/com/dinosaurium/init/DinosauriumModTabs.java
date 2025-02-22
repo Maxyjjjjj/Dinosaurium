@@ -6,20 +6,15 @@ package com.dinosaurium.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import com.dinosaurium.DinosauriumMod;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class DinosauriumModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DinosauriumMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_TAB = REGISTRY.register("dinosaurium_tab",
@@ -85,7 +80,6 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.NANNOGOMPHUS_SPAWN_EGG.get());
 				tabData.accept(DinosauriumModBlocks.MESOZOIC_PORTAL_FRAME_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModItems.MESOZOIC.get());
-				tabData.accept(DinosauriumModItems.SAWFISH_SWORD.get());
 				tabData.accept(DinosauriumModBlocks.DEEPSLATE_AMBER_ORE.get().asItem());
 				tabData.accept(DinosauriumModBlocks.AMBER_ORE.get().asItem());
 				tabData.accept(DinosauriumModBlocks.AMBER_BLOCK.get().asItem());
@@ -129,6 +123,15 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.DEEPSLATE_TIN_ORE.get().asItem());
 				tabData.accept(DinosauriumModItems.BRONZE_INGOT.get());
 				tabData.accept(DinosauriumModBlocks.FRAMED_GLASS.get().asItem());
+				tabData.accept(DinosauriumModBlocks.TIN_BLOCK.get().asItem());
+				tabData.accept(DinosauriumModBlocks.TIN_TILES.get().asItem());
+				tabData.accept(DinosauriumModBlocks.CUT_TIN.get().asItem());
+				tabData.accept(DinosauriumModBlocks.CUT_TIN_STAIRS.get().asItem());
+				tabData.accept(DinosauriumModBlocks.CUT_TIN_SLAB.get().asItem());
+				tabData.accept(DinosauriumModBlocks.CHISELED_TIN.get().asItem());
+				tabData.accept(DinosauriumModBlocks.TIN_ORE.get().asItem());
+				tabData.accept(DinosauriumModItems.TIN_INGOT.get());
+				tabData.accept(DinosauriumModBlocks.BRONZE_BLOCK.get().asItem());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOSSILS = REGISTRY.register("dinosaurium_fossils",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_fossils")).icon(() -> new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get())).displayItems((parameters, tabData) -> {
@@ -197,6 +200,8 @@ public class DinosauriumModTabs {
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_GENETICS = REGISTRY.register("dinosaurium_genetics",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_genetics")).icon(() -> new ItemStack(DinosauriumModItems.EMPTY_VIAL.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DinosauriumModBlocks.DNA_ANALYZER.get().asItem());
+				tabData.accept(DinosauriumModBlocks.DNA_RECREATOR.get().asItem());
 				tabData.accept(DinosauriumModItems.AMBER_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.EMPTY_VIAL.get());
 				tabData.accept(DinosauriumModItems.VELOCIRAPTOR_DNA.get());
@@ -261,7 +266,6 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_DNA.get());
 				tabData.accept(DinosauriumModItems.PTERODAUSTRO_DNA.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_DNA.get());
-				tabData.accept(DinosauriumModBlocks.DNA_ANALYZER.get().asItem());
 			}).withTabsBefore(DINOSAURIUM_FOSSILS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOODSTUFFS = REGISTRY.register("dinosaurium_foodstuffs",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_foodstuffs")).icon(() -> new ItemStack(DinosauriumModItems.RAW_ORNITHOMIMOSAUR.get())).displayItems((parameters, tabData) -> {
@@ -279,6 +283,19 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.OYSTER_SOUP.get());
 				tabData.accept(DinosauriumModItems.RAW_OYSTER.get());
 			}).withTabsBefore(DINOSAURIUM_GENETICS.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_WEAPONRY_AND_TOOLS = REGISTRY.register("dinosaurium_weaponry_and_tools",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_weaponry_and_tools")).icon(() -> new ItemStack(DinosauriumModItems.SAWFISH_SWORD.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DinosauriumModItems.SAWFISH_SWORD.get());
+				tabData.accept(DinosauriumModItems.BRONZE_PICKAXE.get());
+				tabData.accept(DinosauriumModItems.BRONZE_AXE.get());
+				tabData.accept(DinosauriumModItems.BRONZE_SWORD.get());
+				tabData.accept(DinosauriumModItems.BRONZE_SHOVEL.get());
+				tabData.accept(DinosauriumModItems.BRONZE_HOE.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_HELMET.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_CHESTPLATE.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_LEGGINGS.get());
+				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_BOOTS.get());
+			}).withTabsBefore(DINOSAURIUM_FOODSTUFFS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_PLANTS = REGISTRY.register("dinosaurium_plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_plants")).icon(() -> new ItemStack(DinosauriumModBlocks.HORSETAIL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DinosauriumModBlocks.HORSETAIL.get().asItem());
@@ -298,30 +315,5 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.OSMUNDACAULIS.get().asItem());
 				tabData.accept(DinosauriumModBlocks.LAUROZAMITES.get().asItem());
 				tabData.accept(DinosauriumModBlocks.BENETTITALES.get().asItem());
-			}).withTabsBefore(DINOSAURIUM_FOODSTUFFS.getId()).build());
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_WEAPONRY_AND_TOOLS = REGISTRY.register("dinosaurium_weaponry_and_tools",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_weaponry_and_tools")).icon(() -> new ItemStack(DinosauriumModItems.SAWFISH_SWORD.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_HELMET.get());
-				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_CHESTPLATE.get());
-				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_LEGGINGS.get());
-				tabData.accept(DinosauriumModItems.BRONZE_ARMOR_BOOTS.get());
-			}).withTabsBefore(DINOSAURIUM_PLANTS.getId()).build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(DinosauriumModItems.TIN_INGOT.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(DinosauriumModBlocks.TIN_ORE.get().asItem());
-			tabData.accept(DinosauriumModBlocks.TIN_BLOCK.get().asItem());
-			tabData.accept(DinosauriumModBlocks.BRONZE_BLOCK.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(DinosauriumModItems.BRONZE_PICKAXE.get());
-			tabData.accept(DinosauriumModItems.BRONZE_AXE.get());
-			tabData.accept(DinosauriumModItems.BRONZE_SHOVEL.get());
-			tabData.accept(DinosauriumModItems.BRONZE_HOE.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(DinosauriumModItems.BRONZE_SWORD.get());
-		}
-	}
+			}).withTabsBefore(DINOSAURIUM_WEAPONRY_AND_TOOLS.getId()).build());
 }

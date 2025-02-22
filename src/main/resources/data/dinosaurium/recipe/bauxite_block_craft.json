@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:bauxite"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:bauxite_block",
+    "count": 1
+  }
+}

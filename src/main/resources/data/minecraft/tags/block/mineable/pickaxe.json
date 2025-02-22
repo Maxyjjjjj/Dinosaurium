@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:dna_analyzer",
+    "dinosaurium:cut_tin",
+    "dinosaurium:cut_tin_stairs",
+    "dinosaurium:cut_tin_slab",
+    "dinosaurium:chiseled_tin",
+    "dinosaurium:tin_tiles",
     "dinosaurium:bronze_block",
     "dinosaurium:deepslate_tin_ore",
     "dinosaurium:deepslate_bauxite_ore",
