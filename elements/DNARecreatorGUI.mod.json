@@ -3,10 +3,10 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 190,
-    "height": 190,
+    "width": 176,
+    "height": 166,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 12,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -21,8 +21,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 125,
-          "y": 31,
+          "x": 181,
+          "y": 40,
           "locked": false
         }
       },
@@ -41,7 +41,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 151,
-          "y": 61,
+          "y": 56,
           "locked": false
         }
       },
@@ -60,7 +60,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 151,
-          "y": 97,
+          "y": 92,
           "locked": false
         }
       },
@@ -73,7 +73,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 259,
-          "y": 78,
+          "y": 74,
           "locked": false
         }
       },
@@ -86,7 +86,23 @@
           "width": 54,
           "height": 20,
           "x": 187,
-          "y": 78,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 110,
           "locked": false
         }
       }

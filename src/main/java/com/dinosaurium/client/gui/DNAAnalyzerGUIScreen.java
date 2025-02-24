@@ -62,14 +62,15 @@ public class DNAAnalyzerGUIScreen extends AbstractContainerScreen<DNAAnalyzerGUI
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_analyzer_gui.label_dna_analyzer"), 7, 7, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_analyzer_gui.label_dna_analyzer"), 57, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_analyzer_gui.label_inventory"), 7, 72, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
 		button_analyze = Button.builder(Component.translatable("gui.dinosaurium.dna_analyzer_gui.button_analyze"), e -> {
-		}).bounds(this.leftPos + 60, this.topPos + 52, 55, 20).build();
+		}).bounds(this.leftPos + 61, this.topPos + 32, 54, 20).build();
 		guistate.put("button:button_analyze", button_analyze);
 		this.addRenderableWidget(button_analyze);
 	}

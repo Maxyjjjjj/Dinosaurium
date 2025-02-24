@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:netherite_knife",
+    "dinosaurium:diamond_knife",
+    "dinosaurium:bronze_knife",
+    "dinosaurium:iron_knife",
+    "dinosaurium:golden_knife",
+    "dinosaurium:stone_knife",
+    "dinosaurium:wooden_knife",
     "dinosaurium:bronze_sword",
     "dinosaurium:sawfish_sword"
   ]

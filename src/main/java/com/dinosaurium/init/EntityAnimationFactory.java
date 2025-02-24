@@ -48,6 +48,7 @@ import com.dinosaurium.entity.KolEntity;
 import com.dinosaurium.entity.JeholopterusEntity;
 import com.dinosaurium.entity.IguanodonEntity;
 import com.dinosaurium.entity.IchthyosaurusEntity;
+import com.dinosaurium.entity.HorseshoeCrabEntity;
 import com.dinosaurium.entity.HatzegopteryxEntity;
 import com.dinosaurium.entity.HalszkaraptorEntity;
 import com.dinosaurium.entity.GiantCicadEntity;
@@ -532,6 +533,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof LisowiciaEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof HorseshoeCrabEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

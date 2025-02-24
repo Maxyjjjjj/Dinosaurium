@@ -122,11 +122,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#mod:overworld_and_mesozoic"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"

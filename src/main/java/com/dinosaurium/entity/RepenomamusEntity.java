@@ -15,14 +15,15 @@ import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.FollowParentGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -32,10 +33,9 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.Difficulty;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -47,7 +47,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import java.util.List;
 
-import com.dinosaurium.procedures.BabiesTargetsConditionProcedure;
 import com.dinosaurium.init.DinosauriumModItems;
 import com.dinosaurium.init.DinosauriumModEntities;
 
@@ -86,37 +85,19 @@ public class RepenomamusEntity extends Animal implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PsittacosaurusEntity.class, false, false) {
-			@Override
-			public boolean canUse() {
-				double x = RepenomamusEntity.this.getX();
-				double y = RepenomamusEntity.this.getY();
-				double z = RepenomamusEntity.this.getZ();
-				Entity entity = RepenomamusEntity.this;
-				Level world = RepenomamusEntity.this.level();
-				return super.canUse() && BabiesTargetsConditionProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = RepenomamusEntity.this.getX();
-				double y = RepenomamusEntity.this.getY();
-				double z = RepenomamusEntity.this.getZ();
-				Entity entity = RepenomamusEntity.this;
-				Level world = RepenomamusEntity.this.level();
-				return super.canContinueToUse() && BabiesTargetsConditionProcedure.execute(entity);
-			}
-		});
-		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(1, new BreedGoal(this, 1));
+		this.goalSelector.addGoal(2, new FollowParentGoal(this, 0.8));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, PsittacosaurusEntity.class, false, false));
+		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected boolean canPerformAttack(LivingEntity entity) {
 				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(8, new FloatGoal(this));
 	}
 
 	@Override
@@ -173,8 +154,7 @@ public class RepenomamusEntity extends Animal implements GeoEntity {
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		event.register(DinosauriumModEntities.REPENOMAMUS.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)),
-				RegisterSpawnPlacementsEvent.Operation.REPLACE);
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8), RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

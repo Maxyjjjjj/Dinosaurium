@@ -93,7 +93,7 @@ public class DNAAnalyzerGUIMenu extends AbstractContainerMenu implements Supplie
 			private int x = DNAAnalyzerGUIMenu.this.x;
 			private int y = DNAAnalyzerGUIMenu.this.y;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 80, 34) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 80, 55) {
 			private final int slot = 2;
 			private int x = DNAAnalyzerGUIMenu.this.x;
 			private int y = DNAAnalyzerGUIMenu.this.y;

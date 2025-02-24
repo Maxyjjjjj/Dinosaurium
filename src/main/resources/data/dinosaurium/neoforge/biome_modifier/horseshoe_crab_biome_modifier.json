@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "beach",
+    "dinosaurium:mesozoic_ocean"
+  ],
+  "spawners": {
+    "type": "dinosaurium:horseshoe_crab",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

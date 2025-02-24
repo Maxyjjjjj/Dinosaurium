@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "dinosaurium:tin_block"
+  },
+  "result": {
+    "id": "dinosaurium:tin_tiles",
+    "count": 1
+  }
+}

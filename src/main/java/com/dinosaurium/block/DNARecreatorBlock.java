@@ -43,7 +43,7 @@ public class DNARecreatorBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public DNARecreatorBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).lightLevel(s -> (new Object() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
 					return 6;
@@ -60,6 +60,14 @@ public class DNARecreatorBlock extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		if (state.getValue(BLOCKSTATE) == 1) {
+			return switch (state.getValue(FACING)) {
+				default -> box(0, 0, 0, 16, 16, 16);
+				case NORTH -> box(0, 0, 0, 16, 16, 16);
+				case EAST -> box(0, 0, 0, 16, 16, 16);
+				case WEST -> box(0, 0, 0, 16, 16, 16);
+			};
+		}
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 0, 0, 16, 16, 16);
 			case NORTH -> box(0, 0, 0, 16, 16, 16);

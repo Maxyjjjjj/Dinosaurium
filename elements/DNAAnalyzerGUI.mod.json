@@ -63,7 +63,7 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 205,
-          "y": 70,
+          "y": 91,
           "locked": false
         }
       },
@@ -78,8 +78,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 133,
-          "y": 44,
+          "x": 183,
+          "y": 43,
           "locked": false
         }
       },
@@ -115,10 +115,26 @@
           "name": "button_analyze",
           "text": "Analyze",
           "isUndecorated": false,
-          "width": 55,
+          "width": 54,
           "height": 20,
-          "x": 186,
-          "y": 89,
+          "x": 187,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 109,
           "locked": false
         }
       }

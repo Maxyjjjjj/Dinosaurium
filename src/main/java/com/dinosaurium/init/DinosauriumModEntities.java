@@ -60,6 +60,7 @@ import com.dinosaurium.entity.KolEntity;
 import com.dinosaurium.entity.JeholopterusEntity;
 import com.dinosaurium.entity.IguanodonEntity;
 import com.dinosaurium.entity.IchthyosaurusEntity;
+import com.dinosaurium.entity.HorseshoeCrabEntity;
 import com.dinosaurium.entity.HatzegopteryxEntity;
 import com.dinosaurium.entity.HalszkaraptorEntity;
 import com.dinosaurium.entity.GiantCicadEntity;
@@ -307,7 +308,7 @@ public class DinosauriumModEntities {
 
 					.sized(1f, 2.2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<RepenomamusEntity>> REPENOMAMUS = register("repenomamus",
-			EntityType.Builder.<RepenomamusEntity>of(RepenomamusEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<RepenomamusEntity>of(RepenomamusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.4f, 0.4f));
 	public static final DeferredHolder<EntityType<?>, EntityType<MamenchisaurusEntity>> MAMENCHISAURUS = register("mamenchisaurus",
@@ -350,6 +351,10 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<LisowiciaEntity>of(LisowiciaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1.3f, 2.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<HorseshoeCrabEntity>> HORSESHOE_CRAB = register("horseshoe_crab",
+			EntityType.Builder.<HorseshoeCrabEntity>of(HorseshoeCrabEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 0.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -425,6 +430,7 @@ public class DinosauriumModEntities {
 		DsungaripterusEntity.init(event);
 		PterodaustroEntity.init(event);
 		LisowiciaEntity.init(event);
+		HorseshoeCrabEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -495,5 +501,6 @@ public class DinosauriumModEntities {
 		event.put(DSUNGARIPTERUS.get(), DsungaripterusEntity.createAttributes().build());
 		event.put(PTERODAUSTRO.get(), PterodaustroEntity.createAttributes().build());
 		event.put(LISOWICIA.get(), LisowiciaEntity.createAttributes().build());
+		event.put(HORSESHOE_CRAB.get(), HorseshoeCrabEntity.createAttributes().build());
 	}
 }

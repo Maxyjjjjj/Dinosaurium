@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:cut_tin"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:cut_tin_slab",
+    "count": 6
+  }
+}

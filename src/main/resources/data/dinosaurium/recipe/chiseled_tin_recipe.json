@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:cut_tin_slab"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:chiseled_tin",
+    "count": 1
+  }
+}

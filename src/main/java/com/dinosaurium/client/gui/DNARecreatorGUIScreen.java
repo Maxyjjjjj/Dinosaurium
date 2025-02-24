@@ -29,8 +29,8 @@ public class DNARecreatorGUIScreen extends AbstractContainerScreen<DNARecreatorG
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 190;
-		this.imageHeight = 190;
+		this.imageWidth = 176;
+		this.imageHeight = 166;
 	}
 
 	private static final ResourceLocation texture = ResourceLocation.parse("dinosaurium:textures/screens/dna_recreator_gui.png");
@@ -62,14 +62,15 @@ public class DNARecreatorGUIScreen extends AbstractContainerScreen<DNARecreatorG
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_recreator_gui.label_dna_recreator"), 6, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_recreator_gui.label_dna_recreator"), 55, 3, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_recreator_gui.label_inventory"), 6, 73, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
 		button_recreate = Button.builder(Component.translatable("gui.dinosaurium.dna_recreator_gui.button_recreate"), e -> {
-		}).bounds(this.leftPos + 68, this.topPos + 53, 54, 20).build();
+		}).bounds(this.leftPos + 61, this.topPos + 36, 54, 20).build();
 		guistate.put("button:button_recreate", button_recreate);
 		this.addRenderableWidget(button_recreate);
 	}

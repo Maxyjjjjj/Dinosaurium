@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CutTin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CutTin"
+      },
+      {
+        "value": "CUSTOM:CutTin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CutTin"
+      },
+      {
+        "value": "CUSTOM:CutTin"
+      },
+      {
+        "value": "CUSTOM:CutTin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CutTinStairs"
+    },
+    "name": "cut_tin_stairs_recipe",
+    "namespace": "mod"
+  }
+}

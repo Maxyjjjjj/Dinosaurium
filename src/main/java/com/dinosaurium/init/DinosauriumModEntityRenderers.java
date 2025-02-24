@@ -53,6 +53,7 @@ import com.dinosaurium.client.renderer.KolRenderer;
 import com.dinosaurium.client.renderer.JeholopterusRenderer;
 import com.dinosaurium.client.renderer.IguanodonRenderer;
 import com.dinosaurium.client.renderer.IchthyosaurusRenderer;
+import com.dinosaurium.client.renderer.HorseshoeCrabRenderer;
 import com.dinosaurium.client.renderer.HatzegopteryxRenderer;
 import com.dinosaurium.client.renderer.HalszkaraptorRenderer;
 import com.dinosaurium.client.renderer.GiantCicadRenderer;
@@ -146,5 +147,6 @@ public class DinosauriumModEntityRenderers {
 		event.registerEntityRenderer(DinosauriumModEntities.DSUNGARIPTERUS.get(), DsungaripterusRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.PTERODAUSTRO.get(), PterodaustroRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.LISOWICIA.get(), LisowiciaRenderer::new);
+		event.registerEntityRenderer(DinosauriumModEntities.HORSESHOE_CRAB.get(), HorseshoeCrabRenderer::new);
 	}
 }

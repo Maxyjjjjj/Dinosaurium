@@ -82,17 +82,17 @@ public class DNARecreatorGUIMenu extends AbstractContainerMenu implements Suppli
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 33, 37) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 20) {
 			private final int slot = 0;
 			private int x = DNARecreatorGUIMenu.this.x;
 			private int y = DNARecreatorGUIMenu.this.y;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 33, 73) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 26, 56) {
 			private final int slot = 1;
 			private int x = DNARecreatorGUIMenu.this.x;
 			private int y = DNARecreatorGUIMenu.this.y;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 141, 54) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 134, 38) {
 			private final int slot = 2;
 			private int x = DNARecreatorGUIMenu.this.x;
 			private int y = DNARecreatorGUIMenu.this.y;
@@ -104,9 +104,9 @@ public class DNARecreatorGUIMenu extends AbstractContainerMenu implements Suppli
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 7 + 8 + sj * 18, 24 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 7 + 8 + si * 18, 24 + 142));
+			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
 	}
 
 	@Override

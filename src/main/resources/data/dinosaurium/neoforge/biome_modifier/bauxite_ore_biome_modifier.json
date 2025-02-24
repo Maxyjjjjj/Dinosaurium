@@ -1,6 +1,8 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "#dinosaurium:overworld_and_mesozoic",
+  "biomes": {
+    "type": "neoforge:any"
+  },
   "features": "dinosaurium:bauxite_ore",
   "step": "underground_ores"
 }
