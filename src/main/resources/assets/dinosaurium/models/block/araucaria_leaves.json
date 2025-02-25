@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dinosaurium:block/araucaria_leaves",
+    "particle": "dinosaurium:block/araucaria_leaves"
+  }
+}

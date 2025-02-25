@@ -59,6 +59,16 @@ import com.dinosaurium.block.BenettitalesBlock;
 import com.dinosaurium.block.BauxiteOreBlock;
 import com.dinosaurium.block.BauxiteBlockBlock;
 import com.dinosaurium.block.AsphaltBlock;
+import com.dinosaurium.block.AraucariaWoodBlock;
+import com.dinosaurium.block.AraucariaStairsBlock;
+import com.dinosaurium.block.AraucariaSlabBlock;
+import com.dinosaurium.block.AraucariaPressurePlateBlock;
+import com.dinosaurium.block.AraucariaPlanksBlock;
+import com.dinosaurium.block.AraucariaLogBlock;
+import com.dinosaurium.block.AraucariaLeavesBlock;
+import com.dinosaurium.block.AraucariaFenceGateBlock;
+import com.dinosaurium.block.AraucariaFenceBlock;
+import com.dinosaurium.block.AraucariaButtonBlock;
 import com.dinosaurium.block.AmberOreBlock;
 import com.dinosaurium.block.AmberBlockBlock;
 import com.dinosaurium.block.AluminiumBlockBlock;
@@ -119,6 +129,16 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> CUT_TIN_SLAB = REGISTRY.register("cut_tin_slab", CutTinSlabBlock::new);
 	public static final DeferredBlock<Block> CHISELED_TIN = REGISTRY.register("chiseled_tin", ChiseledTinBlock::new);
 	public static final DeferredBlock<Block> DNA_RECREATOR = REGISTRY.register("dna_recreator", DNARecreatorBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_WOOD = REGISTRY.register("araucaria_wood", AraucariaWoodBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_LOG = REGISTRY.register("araucaria_log", AraucariaLogBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_PLANKS = REGISTRY.register("araucaria_planks", AraucariaPlanksBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_LEAVES = REGISTRY.register("araucaria_leaves", AraucariaLeavesBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_STAIRS = REGISTRY.register("araucaria_stairs", AraucariaStairsBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_SLAB = REGISTRY.register("araucaria_slab", AraucariaSlabBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_FENCE = REGISTRY.register("araucaria_fence", AraucariaFenceBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_FENCE_GATE = REGISTRY.register("araucaria_fence_gate", AraucariaFenceGateBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_PRESSURE_PLATE = REGISTRY.register("araucaria_pressure_plate", AraucariaPressurePlateBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_BUTTON = REGISTRY.register("araucaria_button", AraucariaButtonBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

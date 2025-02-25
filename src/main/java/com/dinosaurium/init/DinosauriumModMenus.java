@@ -14,6 +14,7 @@ import net.minecraft.core.registries.Registries;
 import com.dinosaurium.world.inventory.PaleontologyGUIMenu;
 import com.dinosaurium.world.inventory.DNARecreatorGUIMenu;
 import com.dinosaurium.world.inventory.DNAAnalyzerGUIMenu;
+import com.dinosaurium.world.inventory.AnchiornisGUIMenu;
 import com.dinosaurium.DinosauriumMod;
 
 public class DinosauriumModMenus {
@@ -21,4 +22,5 @@ public class DinosauriumModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<PaleontologyGUIMenu>> PALEONTOLOGY_GUI = REGISTRY.register("paleontology_gui", () -> IMenuTypeExtension.create(PaleontologyGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<DNAAnalyzerGUIMenu>> DNA_ANALYZER_GUI = REGISTRY.register("dna_analyzer_gui", () -> IMenuTypeExtension.create(DNAAnalyzerGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<DNARecreatorGUIMenu>> DNA_RECREATOR_GUI = REGISTRY.register("dna_recreator_gui", () -> IMenuTypeExtension.create(DNARecreatorGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<AnchiornisGUIMenu>> ANCHIORNIS_GUI = REGISTRY.register("anchiornis_gui", () -> IMenuTypeExtension.create(AnchiornisGUIMenu::new));
 }

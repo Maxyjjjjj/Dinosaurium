@@ -6,15 +6,20 @@ package com.dinosaurium.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import com.dinosaurium.DinosauriumMod;
 
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class DinosauriumModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DinosauriumMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_TAB = REGISTRY.register("dinosaurium_tab",
@@ -133,6 +138,9 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.TIN_INGOT.get());
 				tabData.accept(DinosauriumModBlocks.BRONZE_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModItems.HORSESHOE_CRAB_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.ANCHIORNIS_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.HERRERASAURUS_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_SPAWN_EGG.get());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOSSILS = REGISTRY.register("dinosaurium_fossils",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_fossils")).icon(() -> new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get())).displayItems((parameters, tabData) -> {
@@ -198,12 +206,14 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.PTERODAUSTRO_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.ANCHIORNIS_FOSSIL.get());
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_GENETICS = REGISTRY.register("dinosaurium_genetics",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_genetics")).icon(() -> new ItemStack(DinosauriumModItems.EMPTY_VIAL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DinosauriumModBlocks.DNA_ANALYZER.get().asItem());
 				tabData.accept(DinosauriumModBlocks.DNA_RECREATOR.get().asItem());
 				tabData.accept(DinosauriumModItems.AMBER_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.HORSESHOE_CRAB_BLOOD.get());
 				tabData.accept(DinosauriumModItems.EMPTY_VIAL.get());
 				tabData.accept(DinosauriumModItems.VELOCIRAPTOR_DNA.get());
 				tabData.accept(DinosauriumModItems.SHUVUUIA_DNA.get());
@@ -269,6 +279,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_DNA.get());
 				tabData.accept(DinosauriumModItems.PTERODAUSTRO_DNA.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_DNA.get());
+				tabData.accept(DinosauriumModItems.ANCHIORNIS_DNA.get());
 			}).withTabsBefore(DINOSAURIUM_FOSSILS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_WEAPONRY_AND_TOOLS = REGISTRY.register("dinosaurium_weaponry_and_tools",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_weaponry_and_tools")).icon(() -> new ItemStack(DinosauriumModItems.SAWFISH_SWORD.get())).displayItems((parameters, tabData) -> {
@@ -326,4 +337,21 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.LAUROZAMITES.get().asItem());
 				tabData.accept(DinosauriumModBlocks.BENETTITALES.get().asItem());
 			}).withTabsBefore(DINOSAURIUM_FOODSTUFFS.getId()).build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_WOOD.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_LOG.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_PLANKS.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_STAIRS.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_SLAB.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_FENCE.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_FENCE_GATE.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_PRESSURE_PLATE.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_BUTTON.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_LEAVES.get().asItem());
+		}
+	}
 }

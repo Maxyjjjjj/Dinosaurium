@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dinosaurium:block/araucaria_log_top",
+    "up": "dinosaurium:block/araucaria_log_top",
+    "north": "dinosaurium:block/araucaria_log",
+    "east": "dinosaurium:block/araucaria_log",
+    "south": "dinosaurium:block/araucaria_log",
+    "west": "dinosaurium:block/araucaria_log",
+    "particle": "dinosaurium:block/araucaria_log_top"
+  },
+  "render_type": "solid"
+}

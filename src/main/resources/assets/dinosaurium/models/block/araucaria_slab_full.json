@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "dinosaurium:block/araucaria_planks",
+    "bottom": "dinosaurium:block/araucaria_planks",
+    "top": "dinosaurium:block/araucaria_planks",
+    "side": "dinosaurium:block/araucaria_planks"
+  },
+  "render_type": "solid"
+}

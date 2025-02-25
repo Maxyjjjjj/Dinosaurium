@@ -65,7 +65,7 @@ public class PaleontologyGUIScreen extends AbstractContainerScreen<PaleontologyG
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.paleontology_gui.label_palaeontology_table"), 41, 5, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.paleontology_gui.label_palaeontology_table"), 7, 7, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.paleontology_gui.label_inventory"), 7, 72, -12829636, false);
 	}
 

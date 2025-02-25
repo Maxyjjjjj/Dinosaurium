@@ -113,6 +113,7 @@ import com.dinosaurium.item.IguanodonFossilItem;
 import com.dinosaurium.item.IguanodonDNAItem;
 import com.dinosaurium.item.IchthyosaurusFossilItem;
 import com.dinosaurium.item.IchthyosaurusDNAItem;
+import com.dinosaurium.item.HorseshoeCrabBloodItem;
 import com.dinosaurium.item.HatzegopteryxFossilItem;
 import com.dinosaurium.item.HatzegopteryxDNAItem;
 import com.dinosaurium.item.HalszkaraptorFossilItem;
@@ -171,6 +172,8 @@ import com.dinosaurium.item.AnzuFossilItem;
 import com.dinosaurium.item.AnzuDNAItem;
 import com.dinosaurium.item.AnkylosaurusFossilItem;
 import com.dinosaurium.item.AnkylosaurusDNAItem;
+import com.dinosaurium.item.AnchiornisFossilItem;
+import com.dinosaurium.item.AnchiornisDNAItem;
 import com.dinosaurium.item.AmberItem;
 import com.dinosaurium.item.AmberFossilItem;
 import com.dinosaurium.item.AmargasaurusFossilItem;
@@ -466,6 +469,22 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> EDMONTOSAURUS_DNA = REGISTRY.register("edmontosaurus_dna", EdmontosaurusDNAItem::new);
 	public static final DeferredItem<Item> HALSZKARAPTOR_DNA = REGISTRY.register("halszkaraptor_dna", HalszkaraptorDNAItem::new);
 	public static final DeferredItem<Item> HORSESHOE_CRAB_SPAWN_EGG = REGISTRY.register("horseshoe_crab_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.HORSESHOE_CRAB, -12041678, -12962260, new Item.Properties()));
+	public static final DeferredItem<Item> HORSESHOE_CRAB_BLOOD = REGISTRY.register("horseshoe_crab_blood", HorseshoeCrabBloodItem::new);
+	public static final DeferredItem<Item> ANCHIORNIS_SPAWN_EGG = REGISTRY.register("anchiornis_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.ANCHIORNIS, -13421773, -5492719, new Item.Properties()));
+	public static final DeferredItem<Item> ANCHIORNIS_FOSSIL = REGISTRY.register("anchiornis_fossil", AnchiornisFossilItem::new);
+	public static final DeferredItem<Item> ANCHIORNIS_DNA = REGISTRY.register("anchiornis_dna", AnchiornisDNAItem::new);
+	public static final DeferredItem<Item> HERRERASAURUS_SPAWN_EGG = REGISTRY.register("herrerasaurus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.HERRERASAURUS, -1787527, -10728647, new Item.Properties()));
+	public static final DeferredItem<Item> SHAROVIPTERYX_SPAWN_EGG = REGISTRY.register("sharovipteryx_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.SHAROVIPTERYX, -6710785, -10066177, new Item.Properties()));
+	public static final DeferredItem<Item> ARAUCARIA_WOOD = block(DinosauriumModBlocks.ARAUCARIA_WOOD);
+	public static final DeferredItem<Item> ARAUCARIA_LOG = block(DinosauriumModBlocks.ARAUCARIA_LOG);
+	public static final DeferredItem<Item> ARAUCARIA_PLANKS = block(DinosauriumModBlocks.ARAUCARIA_PLANKS);
+	public static final DeferredItem<Item> ARAUCARIA_LEAVES = block(DinosauriumModBlocks.ARAUCARIA_LEAVES);
+	public static final DeferredItem<Item> ARAUCARIA_STAIRS = block(DinosauriumModBlocks.ARAUCARIA_STAIRS);
+	public static final DeferredItem<Item> ARAUCARIA_SLAB = block(DinosauriumModBlocks.ARAUCARIA_SLAB);
+	public static final DeferredItem<Item> ARAUCARIA_FENCE = block(DinosauriumModBlocks.ARAUCARIA_FENCE);
+	public static final DeferredItem<Item> ARAUCARIA_FENCE_GATE = block(DinosauriumModBlocks.ARAUCARIA_FENCE_GATE);
+	public static final DeferredItem<Item> ARAUCARIA_PRESSURE_PLATE = block(DinosauriumModBlocks.ARAUCARIA_PRESSURE_PLATE);
+	public static final DeferredItem<Item> ARAUCARIA_BUTTON = block(DinosauriumModBlocks.ARAUCARIA_BUTTON);
 
 	// Start of user code block custom items
 	// End of user code block custom items

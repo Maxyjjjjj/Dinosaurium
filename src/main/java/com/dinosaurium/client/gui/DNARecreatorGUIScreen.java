@@ -62,7 +62,7 @@ public class DNARecreatorGUIScreen extends AbstractContainerScreen<DNARecreatorG
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_recreator_gui.label_dna_recreator"), 55, 3, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_recreator_gui.label_dna_recreator"), 6, 6, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.dinosaurium.dna_recreator_gui.label_inventory"), 6, 73, -12829636, false);
 	}
 

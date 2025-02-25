@@ -1,0 +1,17 @@
+{
+    "name": "Sharovipteryx",
+    "icon": "dinosaurium:sharovipteryx_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sharovipteryx is a genus of gliding reptile from the Late Triassic period, approximately 230 million years ago. Discovered in Kyrgyzstan, Sharovipteryx is known for its unique adaptations for aerial locomotion, including elongated forelimbs with skin membranes that allowed it to glide between trees. With a wingspan of around 25 centimeters and a body length of 30 centimeters, Sharovipteryx was likely an arboreal species that used its gliding abilities to escape predators and find food in forested environments."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:sharovipteryx",
+            "rotate": false,
+            "text": "Glidey boi"
+        }
+    ]
+}

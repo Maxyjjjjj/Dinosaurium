@@ -12,6 +12,7 @@ import net.neoforged.api.distmarker.Dist;
 import com.dinosaurium.client.gui.PaleontologyGUIScreen;
 import com.dinosaurium.client.gui.DNARecreatorGUIScreen;
 import com.dinosaurium.client.gui.DNAAnalyzerGUIScreen;
+import com.dinosaurium.client.gui.AnchiornisGUIScreen;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DinosauriumModScreens {
@@ -20,5 +21,6 @@ public class DinosauriumModScreens {
 		event.register(DinosauriumModMenus.PALEONTOLOGY_GUI.get(), PaleontologyGUIScreen::new);
 		event.register(DinosauriumModMenus.DNA_ANALYZER_GUI.get(), DNAAnalyzerGUIScreen::new);
 		event.register(DinosauriumModMenus.DNA_RECREATOR_GUI.get(), DNARecreatorGUIScreen::new);
+		event.register(DinosauriumModMenus.ANCHIORNIS_GUI.get(), AnchiornisGUIScreen::new);
 	}
 }

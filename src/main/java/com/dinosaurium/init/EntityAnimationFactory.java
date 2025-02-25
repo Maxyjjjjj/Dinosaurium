@@ -16,6 +16,7 @@ import com.dinosaurium.entity.SpinosaurusEntity;
 import com.dinosaurium.entity.SpinofaarusEntity;
 import com.dinosaurium.entity.SinosauropteryxEntity;
 import com.dinosaurium.entity.ShuvuuiaEntity;
+import com.dinosaurium.entity.SharovipteryxEntity;
 import com.dinosaurium.entity.RepenomamusEntity;
 import com.dinosaurium.entity.QuetzalcoatlusEntity;
 import com.dinosaurium.entity.PterodaustroEntity;
@@ -49,6 +50,7 @@ import com.dinosaurium.entity.JeholopterusEntity;
 import com.dinosaurium.entity.IguanodonEntity;
 import com.dinosaurium.entity.IchthyosaurusEntity;
 import com.dinosaurium.entity.HorseshoeCrabEntity;
+import com.dinosaurium.entity.HerrerasaurusEntity;
 import com.dinosaurium.entity.HatzegopteryxEntity;
 import com.dinosaurium.entity.HalszkaraptorEntity;
 import com.dinosaurium.entity.GiantCicadEntity;
@@ -70,6 +72,7 @@ import com.dinosaurium.entity.ArchaeopteryxEntity;
 import com.dinosaurium.entity.ArambourgianiaEntity;
 import com.dinosaurium.entity.AnzuEntity;
 import com.dinosaurium.entity.AnkylosaurusEntity;
+import com.dinosaurium.entity.AnchiornisEntity;
 import com.dinosaurium.entity.AmargasaurusEntity;
 
 @EventBusSubscriber
@@ -540,6 +543,27 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof HorseshoeCrabEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof AnchiornisEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof HerrerasaurusEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof SharovipteryxEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

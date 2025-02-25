@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:araucaria_fence",
     "dinosaurium:zamites_fence",
     "dinosaurium:zamites_fence_gate"
   ]

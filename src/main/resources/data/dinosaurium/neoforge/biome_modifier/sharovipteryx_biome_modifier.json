@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dinosaurium:mesozoic_bog",
+    "dinosaurium:mesozoic_desert",
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_forest_steppe",
+    "dinosaurium:mesozoic_horsetail_fields",
+    "dinosaurium:mesozoic_jungle"
+  ],
+  "spawners": {
+    "type": "dinosaurium:sharovipteryx",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

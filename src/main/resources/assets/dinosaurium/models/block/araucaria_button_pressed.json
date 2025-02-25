@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "particle": "dinosaurium:block/araucaria_planks",
+    "texture": "dinosaurium:block/araucaria_planks"
+  },
+  "render_type": "solid"
+}

@@ -17,7 +17,7 @@
               "value": "Items.COPPER_INGOT"
             },
             "weight": 1,
-            "minCount": 0,
+            "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -28,7 +28,7 @@
         ]
       }
     ],
-    "name": "entities/hoseshoe_crab",
+    "name": "entities/horseshoe_crab",
     "namespace": "mod"
   }
 }

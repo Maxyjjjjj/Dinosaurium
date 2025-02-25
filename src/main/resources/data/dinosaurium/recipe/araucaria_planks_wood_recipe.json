@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "dinosaurium:araucaria_wood"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:araucaria_planks",
+    "count": 4
+  }
+}

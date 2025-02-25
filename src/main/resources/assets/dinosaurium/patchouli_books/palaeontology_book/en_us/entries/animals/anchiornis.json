@@ -1,0 +1,17 @@
+{
+    "name": "Anchiornis",
+    "icon": "dinosaurium:anchiornis_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Anchiornis huxleyi is a small, feathered dinosaur from the Late Jurassic period, approximately 160 million years ago. Discovered in China, Anchiornis is known for its well-preserved fossil specimens that provide valuable insights into the evolution of feathers and flight in theropod dinosaurs. With a body length of around 50 centimeters and a wingspan of 60-70 centimeters, Anchiornis was likely an arboreal species that used its feathered limbs for gliding and climbing in forested environments."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:anchiornis",
+            "rotate": false,
+            "text": "Birb"
+        }
+    ]
+}

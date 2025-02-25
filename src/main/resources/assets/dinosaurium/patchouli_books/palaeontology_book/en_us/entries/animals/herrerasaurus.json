@@ -1,0 +1,17 @@
+{
+    "name": "Herrerasaurus",
+    "icon": "dinosaurium:herrerasaurus_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Herrerasaurus is a genus of early dinosaur from the Late Triassic period, approximately 231-220 million years ago. Discovered in Argentina, Herrerasaurus is one of the oldest known dinosaurs and represents an important stage in the evolution of dinosaurs. With a length of around 3-4 meters and a bipedal stance, Herrerasaurus was a carnivorous predator that likely hunted small to medium-sized prey in its arid, semi-desert environment."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:herrerasaurus",
+            "rotate": false,
+            "text": "He go grr"
+        }
+    ]
+}

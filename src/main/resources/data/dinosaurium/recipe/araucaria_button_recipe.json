@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "dinosaurium:araucaria_planks"
+    }
+  ],
+  "result": {
+    "id": "dinosaurium:araucaria_button",
+    "count": 1
+  }
+}

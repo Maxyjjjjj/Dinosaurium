@@ -8,8 +8,11 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.bus.api.EventPriority;
 
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
@@ -28,6 +31,7 @@ import com.dinosaurium.entity.SpinosaurusEntity;
 import com.dinosaurium.entity.SpinofaarusEntity;
 import com.dinosaurium.entity.SinosauropteryxEntity;
 import com.dinosaurium.entity.ShuvuuiaEntity;
+import com.dinosaurium.entity.SharovipteryxEntity;
 import com.dinosaurium.entity.RepenomamusEntity;
 import com.dinosaurium.entity.QuetzalcoatlusEntity;
 import com.dinosaurium.entity.PterodaustroEntity;
@@ -61,6 +65,7 @@ import com.dinosaurium.entity.JeholopterusEntity;
 import com.dinosaurium.entity.IguanodonEntity;
 import com.dinosaurium.entity.IchthyosaurusEntity;
 import com.dinosaurium.entity.HorseshoeCrabEntity;
+import com.dinosaurium.entity.HerrerasaurusEntity;
 import com.dinosaurium.entity.HatzegopteryxEntity;
 import com.dinosaurium.entity.HalszkaraptorEntity;
 import com.dinosaurium.entity.GiantCicadEntity;
@@ -82,6 +87,7 @@ import com.dinosaurium.entity.ArchaeopteryxEntity;
 import com.dinosaurium.entity.ArambourgianiaEntity;
 import com.dinosaurium.entity.AnzuEntity;
 import com.dinosaurium.entity.AnkylosaurusEntity;
+import com.dinosaurium.entity.AnchiornisEntity;
 import com.dinosaurium.entity.AmargasaurusEntity;
 import com.dinosaurium.DinosauriumMod;
 
@@ -355,11 +361,28 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<HorseshoeCrabEntity>of(HorseshoeCrabEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.3f));
+	public static final DeferredHolder<EntityType<?>, EntityType<AnchiornisEntity>> ANCHIORNIS = register("anchiornis",
+			EntityType.Builder.<AnchiornisEntity>of(AnchiornisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 0.6f));
+	public static final DeferredHolder<EntityType<?>, EntityType<HerrerasaurusEntity>> HERRERASAURUS = register("herrerasaurus",
+			EntityType.Builder.<HerrerasaurusEntity>of(HerrerasaurusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(1f, 1.6f));
+	public static final DeferredHolder<EntityType<?>, EntityType<SharovipteryxEntity>> SHAROVIPTERYX = register("sharovipteryx",
+			EntityType.Builder.<SharovipteryxEntity>of(SharovipteryxEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 0.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
+	}
+
+	@SubscribeEvent(priority = EventPriority.HIGHEST)
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerEntity(Capabilities.ItemHandler.ENTITY, ANCHIORNIS.get(), (living, context) -> living.getInventory());
 	}
 
 	@SubscribeEvent
@@ -431,6 +454,9 @@ public class DinosauriumModEntities {
 		PterodaustroEntity.init(event);
 		LisowiciaEntity.init(event);
 		HorseshoeCrabEntity.init(event);
+		AnchiornisEntity.init(event);
+		HerrerasaurusEntity.init(event);
+		SharovipteryxEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -502,5 +528,8 @@ public class DinosauriumModEntities {
 		event.put(PTERODAUSTRO.get(), PterodaustroEntity.createAttributes().build());
 		event.put(LISOWICIA.get(), LisowiciaEntity.createAttributes().build());
 		event.put(HORSESHOE_CRAB.get(), HorseshoeCrabEntity.createAttributes().build());
+		event.put(ANCHIORNIS.get(), AnchiornisEntity.createAttributes().build());
+		event.put(HERRERASAURUS.get(), HerrerasaurusEntity.createAttributes().build());
+		event.put(SHAROVIPTERYX.get(), SharovipteryxEntity.createAttributes().build());
 	}
 }

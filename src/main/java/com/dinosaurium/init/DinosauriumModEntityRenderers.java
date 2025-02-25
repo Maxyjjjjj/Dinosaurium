@@ -21,6 +21,7 @@ import com.dinosaurium.client.renderer.SpinosaurusRenderer;
 import com.dinosaurium.client.renderer.SpinofaarusRenderer;
 import com.dinosaurium.client.renderer.SinosauropteryxRenderer;
 import com.dinosaurium.client.renderer.ShuvuuiaRenderer;
+import com.dinosaurium.client.renderer.SharovipteryxRenderer;
 import com.dinosaurium.client.renderer.RepenomamusRenderer;
 import com.dinosaurium.client.renderer.QuetzalcoatlusRenderer;
 import com.dinosaurium.client.renderer.PterodaustroRenderer;
@@ -54,6 +55,7 @@ import com.dinosaurium.client.renderer.JeholopterusRenderer;
 import com.dinosaurium.client.renderer.IguanodonRenderer;
 import com.dinosaurium.client.renderer.IchthyosaurusRenderer;
 import com.dinosaurium.client.renderer.HorseshoeCrabRenderer;
+import com.dinosaurium.client.renderer.HerrerasaurusRenderer;
 import com.dinosaurium.client.renderer.HatzegopteryxRenderer;
 import com.dinosaurium.client.renderer.HalszkaraptorRenderer;
 import com.dinosaurium.client.renderer.GiantCicadRenderer;
@@ -75,6 +77,7 @@ import com.dinosaurium.client.renderer.ArchaeopteryxRenderer;
 import com.dinosaurium.client.renderer.ArambourgianiaRenderer;
 import com.dinosaurium.client.renderer.AnzuRenderer;
 import com.dinosaurium.client.renderer.AnkylosaurusRenderer;
+import com.dinosaurium.client.renderer.AnchiornisRenderer;
 import com.dinosaurium.client.renderer.AmargasaurusRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -148,5 +151,8 @@ public class DinosauriumModEntityRenderers {
 		event.registerEntityRenderer(DinosauriumModEntities.PTERODAUSTRO.get(), PterodaustroRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.LISOWICIA.get(), LisowiciaRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.HORSESHOE_CRAB.get(), HorseshoeCrabRenderer::new);
+		event.registerEntityRenderer(DinosauriumModEntities.ANCHIORNIS.get(), AnchiornisRenderer::new);
+		event.registerEntityRenderer(DinosauriumModEntities.HERRERASAURUS.get(), HerrerasaurusRenderer::new);
+		event.registerEntityRenderer(DinosauriumModEntities.SHAROVIPTERYX.get(), SharovipteryxRenderer::new);
 	}
 }
