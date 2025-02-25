@@ -6729,6 +6729,58 @@
           "src/main/resources/data/dinosaurium/recipe/araucaria_stick_recipe.json"
         ]
       }
+    },
+    {
+      "name": "HerrerasaurusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herrerasaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/HerrerasaurusFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/herrerasaurus_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "SharovipteryxFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharovipteryx_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/sharovipteryx_fossil.json",
+          "src/main/java/com/dinosaurium/item/SharovipteryxFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HerrerasaurusDNA",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herrerasaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/herrerasaurus_dna.json",
+          "src/main/java/com/dinosaurium/item/HerrerasaurusDNAItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SharovipteryxDNA",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharovipteryx_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/sharovipteryx_dna.json",
+          "src/main/java/com/dinosaurium/item/SharovipteryxDNAItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6880,7 +6932,9 @@
       "CUSTOM:PterodaustroFossil",
       "CUSTOM:DsungaripterusFossil",
       "CUSTOM:LisowiciaFossil",
-      "CUSTOM:AnchiornisFossil"
+      "CUSTOM:AnchiornisFossil",
+      "CUSTOM:HerrerasaurusFossil",
+      "CUSTOM:SharovipteryxFossil"
     ],
     "ITEMS:minecraft:beacon_payment_items": [
       "CUSTOM:Amber",
@@ -7123,7 +7177,10 @@
       "CUSTOM:PterodaustroDNA",
       "CUSTOM:LisowiciaDNA",
       "CUSTOM:EdmontosaurusDNA",
-      "CUSTOM:HalszkaraptorDNA"
+      "CUSTOM:HalszkaraptorDNA",
+      "CUSTOM:AnchiornisDNA",
+      "CUSTOM:HerrerasaurusDNA",
+      "CUSTOM:SharovipteryxDNA"
     ],
     "ITEMS:minecraft:meat": [
       "~CUSTOM:CookedOrnithomimosaur",
@@ -7354,7 +7411,9 @@
       "PterodaustroFossil",
       "DsungaripterusFossil",
       "LisowiciaFossil",
-      "AnchiornisFossil"
+      "AnchiornisFossil",
+      "HerrerasaurusFossil",
+      "SharovipteryxFossil"
     ],
     "CUSTOM:DinosauriumGenetics": [
       "DNAAnalyzer",
@@ -7426,7 +7485,9 @@
       "DsungaripterusDNA",
       "PterodaustroDNA",
       "LisowiciaDNA",
-      "AnchiornisDNA"
+      "AnchiornisDNA",
+      "HerrerasaurusDNA",
+      "SharovipteryxDNA"
     ],
     "CUSTOM:DinosauriumWeaponryAndTools": [
       "SawfishSword",
@@ -7472,6 +7533,7 @@
       "item.dinosaurium.sharovipteryx_spawn_egg": "Sharovipteryx Spawn Egg",
       "entity.dinosaurium.pteranodon": "Pteranodon",
       "item.dinosaurium.kol_dna": "Kol DNA",
+      "item.dinosaurium.sharovipteryx_dna": "Sharovipteryx DNA",
       "block.dinosaurium.zamites_trapdoor": "Zamites Trapdoor",
       "item.dinosaurium.pachycephalosaurus_spawn_egg": "Pachycephalosaurus Spawn Egg",
       "entity.dinosaurium.iguanodon": "Iguanodon",
@@ -7537,6 +7599,7 @@
       "block.dinosaurium.bronze_block": "Block of Bronze",
       "block.dinosaurium.stripped_zamites_log": "Stripped Zamites Log",
       "gui.dinosaurium.paleontology_gui.label_palaeontology_table": "Palaeontology Table",
+      "item.dinosaurium.herrerasaurus_dna": "Herrerasaurus DNA",
       "advancements.enigma_found.title": "Bruh Moment",
       "block.dinosaurium.osmundacaulis": "Osmundacaulis",
       "item.dinosaurium.nannogomphus_spawn_egg": "Nannogomphus Spawn Egg",
@@ -7603,6 +7666,7 @@
       "item.dinosaurium.bronze_armor_boots": "Bronze Boots",
       "item.dinosaurium.brachytrachelopan_fossil": "Brachytrachelopan Fossil",
       "painting.dinosaurium.in_the_bog.title": "In The Bog",
+      "item.dinosaurium.herrerasaurus_fossil": "Herrerasaurus Fossil",
       "biome.dinosaurium.mesozoic_desert": "Mesozoic Desert",
       "biome.dinosaurium.mesozoic_forest": "Mesozoic Forest",
       "item.dinosaurium.compsognathus_dna": "Compsognathus DNA",
@@ -7669,6 +7733,7 @@
       "block.dinosaurium.deepslate_amber_ore": "Deepslate Amber Ore",
       "item.dinosaurium.omma_spawn_egg": "Omma Spawn Egg",
       "item.dinosaurium.halszkaraptor_spawn_egg": "Halszkaraptor Spawn Egg",
+      "item.dinosaurium.sharovipteryx_fossil": "Sharovipteryx Fossil",
       "item.dinosaurium.microraptor_fossil": "Microraptor Fossil",
       "item.dinosaurium.therizinosaurus_fossil": "Therizinosaurus Fossil",
       "gui.dinosaurium.dna_analyzer_gui.label_inventory": "Inventory",
@@ -7903,6 +7968,7 @@
       "item.dinosaurium.sharovipteryx_spawn_egg": "Шаровітерикс — яйце виклику",
       "entity.dinosaurium.pteranodon": "Птеранодон",
       "item.dinosaurium.kol_dna": "ДНК кола",
+      "item.dinosaurium.sharovipteryx_dna": "Sharovipteryx DNA",
       "block.dinosaurium.zamites_trapdoor": "Замітовий лаз",
       "item.dinosaurium.pachycephalosaurus_spawn_egg": "Пахіцефалозавр — яйце виклику",
       "entity.dinosaurium.iguanodon": "Іґуанодон",
@@ -7968,6 +8034,7 @@
       "block.dinosaurium.bronze_block": "Блок бронзи",
       "block.dinosaurium.stripped_zamites_log": "Обтесана замітова колода",
       "gui.dinosaurium.paleontology_gui.label_palaeontology_table": "Стіл палеонтолога",
+      "item.dinosaurium.herrerasaurus_dna": "Herrerasaurus DNA",
       "advancements.enigma_found.title": "У пошуках відповіді",
       "block.dinosaurium.osmundacaulis": "Осмундакауліс",
       "item.dinosaurium.nannogomphus_spawn_egg": "Нанногомф — яйце виклику",
@@ -8034,6 +8101,7 @@
       "item.dinosaurium.bronze_armor_boots": "Бронзові чоботи",
       "item.dinosaurium.brachytrachelopan_fossil": "Скам\u0027янілість брахітрахелопана",
       "painting.dinosaurium.in_the_bog.title": "В Болоті",
+      "item.dinosaurium.herrerasaurus_fossil": "Herrerasaurus Fossil",
       "biome.dinosaurium.mesozoic_desert": "Мезозойська пустеля",
       "biome.dinosaurium.mesozoic_forest": "Мезозойський ліс",
       "item.dinosaurium.compsognathus_dna": "ДНК компсогната",
@@ -8100,6 +8168,7 @@
       "block.dinosaurium.deepslate_amber_ore": "Глибосланцева бурштинова руда",
       "item.dinosaurium.omma_spawn_egg": "Ома — яйце виклику",
       "item.dinosaurium.halszkaraptor_spawn_egg": "Гальшкараптор — яйце виклику",
+      "item.dinosaurium.sharovipteryx_fossil": "Sharovipteryx Fossil",
       "item.dinosaurium.therizinosaurus_fossil": "Скам\u0027янілість теризинозавра",
       "item.dinosaurium.microraptor_fossil": "Скам\u0027янілість мікрораптора",
       "gui.dinosaurium.dna_analyzer_gui.label_inventory": "Інвентар",

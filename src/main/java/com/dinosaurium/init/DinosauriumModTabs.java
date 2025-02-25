@@ -207,6 +207,8 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.ANCHIORNIS_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.HERRERASAURUS_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_FOSSIL.get());
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_GENETICS = REGISTRY.register("dinosaurium_genetics",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_genetics")).icon(() -> new ItemStack(DinosauriumModItems.EMPTY_VIAL.get())).displayItems((parameters, tabData) -> {
@@ -280,6 +282,8 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.PTERODAUSTRO_DNA.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_DNA.get());
 				tabData.accept(DinosauriumModItems.ANCHIORNIS_DNA.get());
+				tabData.accept(DinosauriumModItems.HERRERASAURUS_DNA.get());
+				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_DNA.get());
 			}).withTabsBefore(DINOSAURIUM_FOSSILS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_WEAPONRY_AND_TOOLS = REGISTRY.register("dinosaurium_weaponry_and_tools",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_weaponry_and_tools")).icon(() -> new ItemStack(DinosauriumModItems.SAWFISH_SWORD.get())).displayItems((parameters, tabData) -> {

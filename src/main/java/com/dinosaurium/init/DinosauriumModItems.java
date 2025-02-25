@@ -41,6 +41,8 @@ import com.dinosaurium.item.SinosauropteryxDNAItem;
 import com.dinosaurium.item.SinewItem;
 import com.dinosaurium.item.ShuvuuiaFossilItem;
 import com.dinosaurium.item.ShuvuuiaDNAItem;
+import com.dinosaurium.item.SharovipteryxFossilItem;
+import com.dinosaurium.item.SharovipteryxDNAItem;
 import com.dinosaurium.item.SawfishSwordItem;
 import com.dinosaurium.item.RepenomamusFossilItem;
 import com.dinosaurium.item.RepenomamusDNAItem;
@@ -114,6 +116,8 @@ import com.dinosaurium.item.IguanodonDNAItem;
 import com.dinosaurium.item.IchthyosaurusFossilItem;
 import com.dinosaurium.item.IchthyosaurusDNAItem;
 import com.dinosaurium.item.HorseshoeCrabBloodItem;
+import com.dinosaurium.item.HerrerasaurusFossilItem;
+import com.dinosaurium.item.HerrerasaurusDNAItem;
 import com.dinosaurium.item.HatzegopteryxFossilItem;
 import com.dinosaurium.item.HatzegopteryxDNAItem;
 import com.dinosaurium.item.HalszkaraptorFossilItem;
@@ -485,6 +489,10 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> ARAUCARIA_FENCE_GATE = block(DinosauriumModBlocks.ARAUCARIA_FENCE_GATE);
 	public static final DeferredItem<Item> ARAUCARIA_PRESSURE_PLATE = block(DinosauriumModBlocks.ARAUCARIA_PRESSURE_PLATE);
 	public static final DeferredItem<Item> ARAUCARIA_BUTTON = block(DinosauriumModBlocks.ARAUCARIA_BUTTON);
+	public static final DeferredItem<Item> HERRERASAURUS_FOSSIL = REGISTRY.register("herrerasaurus_fossil", HerrerasaurusFossilItem::new);
+	public static final DeferredItem<Item> SHAROVIPTERYX_FOSSIL = REGISTRY.register("sharovipteryx_fossil", SharovipteryxFossilItem::new);
+	public static final DeferredItem<Item> HERRERASAURUS_DNA = REGISTRY.register("herrerasaurus_dna", HerrerasaurusDNAItem::new);
+	public static final DeferredItem<Item> SHAROVIPTERYX_DNA = REGISTRY.register("sharovipteryx_dna", SharovipteryxDNAItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
