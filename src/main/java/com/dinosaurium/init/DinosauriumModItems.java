@@ -361,7 +361,6 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> DSUNGARIPTERUS_SPAWN_EGG = REGISTRY.register("dsungaripterus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.DSUNGARIPTERUS, -13030369, -4081760, new Item.Properties()));
 	public static final DeferredItem<Item> OYSTER_SOUP = REGISTRY.register("oyster_soup", OysterSoupItem::new);
 	public static final DeferredItem<Item> RAW_OYSTER = REGISTRY.register("raw_oyster", RawOysterItem::new);
-	public static final DeferredItem<Item> CRASSOSTREA_OYSTER_BLOCK = block(DinosauriumModBlocks.CRASSOSTREA_OYSTER_BLOCK);
 	public static final DeferredItem<Item> PTERODAUSTRO_SPAWN_EGG = REGISTRY.register("pterodaustro_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.PTERODAUSTRO, -6201505, -12632257, new Item.Properties()));
 	public static final DeferredItem<Item> PTERODAUSTRO_FOSSIL = REGISTRY.register("pterodaustro_fossil", PterodaustroFossilItem::new);
 	public static final DeferredItem<Item> DSUNGARIPTERUS_FOSSIL = REGISTRY.register("dsungaripterus_fossil", DsungaripterusFossilItem::new);
@@ -456,13 +455,11 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> BRONZE_ARMOR_LEGGINGS = REGISTRY.register("bronze_armor_leggings", BronzeArmorItem.Leggings::new);
 	public static final DeferredItem<Item> BRONZE_ARMOR_BOOTS = REGISTRY.register("bronze_armor_boots", BronzeArmorItem.Boots::new);
 	public static final DeferredItem<Item> FRAMED_GLASS = block(DinosauriumModBlocks.FRAMED_GLASS);
-	public static final DeferredItem<Item> DNA_ANALYZER = block(DinosauriumModBlocks.DNA_ANALYZER);
 	public static final DeferredItem<Item> TIN_TILES = block(DinosauriumModBlocks.TIN_TILES);
 	public static final DeferredItem<Item> CUT_TIN = block(DinosauriumModBlocks.CUT_TIN);
 	public static final DeferredItem<Item> CUT_TIN_STAIRS = block(DinosauriumModBlocks.CUT_TIN_STAIRS);
 	public static final DeferredItem<Item> CUT_TIN_SLAB = block(DinosauriumModBlocks.CUT_TIN_SLAB);
 	public static final DeferredItem<Item> CHISELED_TIN = block(DinosauriumModBlocks.CHISELED_TIN);
-	public static final DeferredItem<Item> DNA_RECREATOR = block(DinosauriumModBlocks.DNA_RECREATOR);
 	public static final DeferredItem<Item> WOODEN_KNIFE = REGISTRY.register("wooden_knife", WoodenKnifeItem::new);
 	public static final DeferredItem<Item> STONE_KNIFE = REGISTRY.register("stone_knife", StoneKnifeItem::new);
 	public static final DeferredItem<Item> GOLDEN_KNIFE = REGISTRY.register("golden_knife", GoldenKnifeItem::new);
@@ -493,6 +490,9 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> SHAROVIPTERYX_FOSSIL = REGISTRY.register("sharovipteryx_fossil", SharovipteryxFossilItem::new);
 	public static final DeferredItem<Item> HERRERASAURUS_DNA = REGISTRY.register("herrerasaurus_dna", HerrerasaurusDNAItem::new);
 	public static final DeferredItem<Item> SHAROVIPTERYX_DNA = REGISTRY.register("sharovipteryx_dna", SharovipteryxDNAItem::new);
+	public static final DeferredItem<Item> ARAUCARIA_DOOR = doubleBlock(DinosauriumModBlocks.ARAUCARIA_DOOR);
+	public static final DeferredItem<Item> ARAUCARIA_TRAPDOOR = block(DinosauriumModBlocks.ARAUCARIA_TRAPDOOR);
+	public static final DeferredItem<Item> ARAUCARIA_SAPLING = block(DinosauriumModBlocks.ARAUCARIA_SAPLING);
 
 	// Start of user code block custom items
 	// End of user code block custom items

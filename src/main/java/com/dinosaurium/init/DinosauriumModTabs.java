@@ -115,7 +115,6 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.BUG_NET.get());
 				tabData.accept(DinosauriumModItems.SINEW.get());
 				tabData.accept(DinosauriumModItems.PYCNOFIBER.get());
-				tabData.accept(DinosauriumModBlocks.CRASSOSTREA_OYSTER_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModItems.ALUMINIUM_NUGGET.get());
 				tabData.accept(DinosauriumModItems.ALUMINIUM_INGOT.get());
 				tabData.accept(DinosauriumModBlocks.BAUXITE_ORE.get().asItem());
@@ -212,8 +211,6 @@ public class DinosauriumModTabs {
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_GENETICS = REGISTRY.register("dinosaurium_genetics",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_genetics")).icon(() -> new ItemStack(DinosauriumModItems.EMPTY_VIAL.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(DinosauriumModBlocks.DNA_ANALYZER.get().asItem());
-				tabData.accept(DinosauriumModBlocks.DNA_RECREATOR.get().asItem());
 				tabData.accept(DinosauriumModItems.AMBER_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.HORSESHOE_CRAB_BLOOD.get());
 				tabData.accept(DinosauriumModItems.EMPTY_VIAL.get());
@@ -356,6 +353,7 @@ public class DinosauriumModTabs {
 			tabData.accept(DinosauriumModBlocks.ARAUCARIA_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DinosauriumModBlocks.ARAUCARIA_LEAVES.get().asItem());
+			tabData.accept(DinosauriumModBlocks.ARAUCARIA_SAPLING.get().asItem());
 		}
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "dinosaurium:mesozoic_bog",
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_jungle",
+    "dinosaurium:araucaria_forest"
+  ],
+  "features": "dinosaurium:araucaria_tree",
+  "step": "surface_structures"
+}

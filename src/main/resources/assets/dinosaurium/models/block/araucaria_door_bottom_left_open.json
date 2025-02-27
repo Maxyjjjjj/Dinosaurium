@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "dinosaurium:block/araucaria_door_bottom",
+    "bottom": "dinosaurium:block/araucaria_door_bottom",
+    "top": "dinosaurium:block/araucaria_door_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dinosaurium:block/crassostrea_oysters_2",
-    "particle": "dinosaurium:block/crassostrea_oysters_2"
-  },
-  "render_type": "cutout"
-}

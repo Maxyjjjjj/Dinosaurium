@@ -47,12 +47,9 @@ import com.dinosaurium.block.DeepslateTinOreBlock;
 import com.dinosaurium.block.DeepslateFossilBlockBlock;
 import com.dinosaurium.block.DeepslateBauxiteOreBlock;
 import com.dinosaurium.block.DeepslateAmberOreBlock;
-import com.dinosaurium.block.DNARecreatorBlock;
-import com.dinosaurium.block.DNAAnalyzerBlock;
 import com.dinosaurium.block.CutTinStairsBlock;
 import com.dinosaurium.block.CutTinSlabBlock;
 import com.dinosaurium.block.CutTinBlock;
-import com.dinosaurium.block.CrassostreaOysterBlockBlock;
 import com.dinosaurium.block.ChiseledTinBlock;
 import com.dinosaurium.block.BronzeBlockBlock;
 import com.dinosaurium.block.BenettitalesBlock;
@@ -60,14 +57,17 @@ import com.dinosaurium.block.BauxiteOreBlock;
 import com.dinosaurium.block.BauxiteBlockBlock;
 import com.dinosaurium.block.AsphaltBlock;
 import com.dinosaurium.block.AraucariaWoodBlock;
+import com.dinosaurium.block.AraucariaTrapdoorBlock;
 import com.dinosaurium.block.AraucariaStairsBlock;
 import com.dinosaurium.block.AraucariaSlabBlock;
+import com.dinosaurium.block.AraucariaSaplingBlock;
 import com.dinosaurium.block.AraucariaPressurePlateBlock;
 import com.dinosaurium.block.AraucariaPlanksBlock;
 import com.dinosaurium.block.AraucariaLogBlock;
 import com.dinosaurium.block.AraucariaLeavesBlock;
 import com.dinosaurium.block.AraucariaFenceGateBlock;
 import com.dinosaurium.block.AraucariaFenceBlock;
+import com.dinosaurium.block.AraucariaDoorBlock;
 import com.dinosaurium.block.AraucariaButtonBlock;
 import com.dinosaurium.block.AmberOreBlock;
 import com.dinosaurium.block.AmberBlockBlock;
@@ -111,7 +111,6 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> OSMUNDACAULIS = REGISTRY.register("osmundacaulis", OsmundacaulisBlock::new);
 	public static final DeferredBlock<Block> LAUROZAMITES = REGISTRY.register("laurozamites", LaurozamitesBlock::new);
 	public static final DeferredBlock<Block> BENETTITALES = REGISTRY.register("benettitales", BenettitalesBlock::new);
-	public static final DeferredBlock<Block> CRASSOSTREA_OYSTER_BLOCK = REGISTRY.register("crassostrea_oyster_block", CrassostreaOysterBlockBlock::new);
 	public static final DeferredBlock<Block> ALUMINIUM_BLOCK = REGISTRY.register("aluminium_block", AluminiumBlockBlock::new);
 	public static final DeferredBlock<Block> BAUXITE_ORE = REGISTRY.register("bauxite_ore", BauxiteOreBlock::new);
 	public static final DeferredBlock<Block> TIN_ORE = REGISTRY.register("tin_ore", TinOreBlock::new);
@@ -122,13 +121,11 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = REGISTRY.register("deepslate_tin_ore", DeepslateTinOreBlock::new);
 	public static final DeferredBlock<Block> BRONZE_BLOCK = REGISTRY.register("bronze_block", BronzeBlockBlock::new);
 	public static final DeferredBlock<Block> FRAMED_GLASS = REGISTRY.register("framed_glass", FramedGlassBlock::new);
-	public static final DeferredBlock<Block> DNA_ANALYZER = REGISTRY.register("dna_analyzer", DNAAnalyzerBlock::new);
 	public static final DeferredBlock<Block> TIN_TILES = REGISTRY.register("tin_tiles", TinTilesBlock::new);
 	public static final DeferredBlock<Block> CUT_TIN = REGISTRY.register("cut_tin", CutTinBlock::new);
 	public static final DeferredBlock<Block> CUT_TIN_STAIRS = REGISTRY.register("cut_tin_stairs", CutTinStairsBlock::new);
 	public static final DeferredBlock<Block> CUT_TIN_SLAB = REGISTRY.register("cut_tin_slab", CutTinSlabBlock::new);
 	public static final DeferredBlock<Block> CHISELED_TIN = REGISTRY.register("chiseled_tin", ChiseledTinBlock::new);
-	public static final DeferredBlock<Block> DNA_RECREATOR = REGISTRY.register("dna_recreator", DNARecreatorBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_WOOD = REGISTRY.register("araucaria_wood", AraucariaWoodBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_LOG = REGISTRY.register("araucaria_log", AraucariaLogBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_PLANKS = REGISTRY.register("araucaria_planks", AraucariaPlanksBlock::new);
@@ -139,6 +136,9 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> ARAUCARIA_FENCE_GATE = REGISTRY.register("araucaria_fence_gate", AraucariaFenceGateBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_PRESSURE_PLATE = REGISTRY.register("araucaria_pressure_plate", AraucariaPressurePlateBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_BUTTON = REGISTRY.register("araucaria_button", AraucariaButtonBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_DOOR = REGISTRY.register("araucaria_door", AraucariaDoorBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_TRAPDOOR = REGISTRY.register("araucaria_trapdoor", AraucariaTrapdoorBlock::new);
+	public static final DeferredBlock<Block> ARAUCARIA_SAPLING = REGISTRY.register("araucaria_sapling", AraucariaSaplingBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

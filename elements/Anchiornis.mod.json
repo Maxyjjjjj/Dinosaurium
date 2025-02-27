@@ -67,7 +67,7 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
-    "guiBoundTo": "AnchiornisGUI",
+    "guiBoundTo": "<NONE>",
     "inventorySize": 7,
     "inventoryStackSize": 64,
     "deathTime": 20,
