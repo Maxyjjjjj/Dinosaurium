@@ -89,6 +89,10 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.DSUNGARIPTERUS_SPAWN_EGG.get());
 				tabData.accept(DinosauriumModItems.PTERODAUSTRO_SPAWN_EGG.get());
 				tabData.accept(DinosauriumModItems.LISOWICIA_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.HORSESHOE_CRAB_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.ANCHIORNIS_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.HERRERASAURUS_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_SPAWN_EGG.get());
 				tabData.accept(DinosauriumModBlocks.MESOZOIC_PORTAL_FRAME_BLOCK.get().asItem());
 				tabData.accept(DinosauriumModItems.MESOZOIC.get());
 				tabData.accept(DinosauriumModBlocks.DEEPSLATE_AMBER_ORE.get().asItem());
@@ -136,10 +140,8 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.TIN_ORE.get().asItem());
 				tabData.accept(DinosauriumModItems.TIN_INGOT.get());
 				tabData.accept(DinosauriumModBlocks.BRONZE_BLOCK.get().asItem());
-				tabData.accept(DinosauriumModItems.HORSESHOE_CRAB_SPAWN_EGG.get());
-				tabData.accept(DinosauriumModItems.ANCHIORNIS_SPAWN_EGG.get());
-				tabData.accept(DinosauriumModItems.HERRERASAURUS_SPAWN_EGG.get());
-				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.UNFIRED_TEACUP.get());
+				tabData.accept(DinosauriumModItems.TEACUP.get());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOSSILS = REGISTRY.register("dinosaurium_fossils",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_fossils")).icon(() -> new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get())).displayItems((parameters, tabData) -> {
@@ -162,6 +164,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.STEGOSAURUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.TRICEPATOPS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.TYRANNOSAURUS_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.ONCHOPRISTIS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.SPINOSAURUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.AMARGASAURUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.THERIZINOSAURUS_FOSSIL.get());
@@ -208,6 +211,11 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.ANCHIORNIS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.HERRERASAURUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.CEPHALOLEICHNITES_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.CRETARANEUS_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.MONGOLARACHNE_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.NANNOGOMPHUS_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.GIANT_CICADA_FOSSIL.get());
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_GENETICS = REGISTRY.register("dinosaurium_genetics",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_genetics")).icon(() -> new ItemStack(DinosauriumModItems.EMPTY_VIAL.get())).displayItems((parameters, tabData) -> {
@@ -317,6 +325,12 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.CRASSOSTREA_OYSTER.get());
 				tabData.accept(DinosauriumModItems.OYSTER_SOUP.get());
 				tabData.accept(DinosauriumModItems.RAW_OYSTER.get());
+				tabData.accept(DinosauriumModItems.OSMUNDA_ROOT.get());
+				tabData.accept(DinosauriumModItems.OSMUNDA_BREAD.get());
+				tabData.accept(DinosauriumModItems.WATER_CUP.get());
+				tabData.accept(DinosauriumModItems.LAUROZAMITES_LEAVES.get());
+				tabData.accept(DinosauriumModItems.UNBOILED_LAUROZAMITES_TEA.get());
+				tabData.accept(DinosauriumModItems.LAUROZAMITES_TEA.get());
 			}).withTabsBefore(DINOSAURIUM_WEAPONRY_AND_TOOLS.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_PLANTS = REGISTRY.register("dinosaurium_plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_plants")).icon(() -> new ItemStack(DinosauriumModBlocks.HORSETAIL.get())).displayItems((parameters, tabData) -> {

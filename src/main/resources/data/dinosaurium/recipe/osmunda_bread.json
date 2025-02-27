@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:osmunda_root"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:osmunda_bread",
+    "count": 1
+  }
+}

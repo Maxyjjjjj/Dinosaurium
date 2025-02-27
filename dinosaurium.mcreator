@@ -6737,6 +6737,224 @@
           "src/main/resources/data/dinosaurium/loot_table/blocks/araucaria_sapling.json"
         ]
       }
+    },
+    {
+      "name": "OsmundaRoot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmunda_root",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/osmunda_root.json",
+          "src/main/java/com/dinosaurium/item/OsmundaRootItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OsmundaBread",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmunda_bread",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/OsmundaBreadItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/osmunda_bread.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfiredTeacup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_teacup",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/UnfiredTeacupItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/unfired_teacup.json"
+        ]
+      }
+    },
+    {
+      "name": "Teacup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teacup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/teacup.json",
+          "src/main/java/com/dinosaurium/item/TeacupItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WaterCup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_cup",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/WaterCupItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/water_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "LaurozamitesLeaves",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laurozamites_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/LaurozamitesLeavesItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/laurozamites_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "UnboiledLaurozamitesTea",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unboiled_laurozamites_tea",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/UnboiledLaurozamitesTeaItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/unboiled_laurozamites_tea.json"
+        ]
+      }
+    },
+    {
+      "name": "LaurozamitesTea",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laurozamites_tea",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/LaurozamitesTeaItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/laurozamites_tea.json"
+        ]
+      }
+    },
+    {
+      "name": "BakeOsmundaBread",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bake_osmunda_bread",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/osmunda_bread.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTeacup",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_teacup",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/unfired_teacup.json"
+        ]
+      }
+    },
+    {
+      "name": "FireCup",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_cup",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/recipe/teacup.json"
+        ]
+      }
+    },
+    {
+      "name": "OnchopristisFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onchopristis_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/OnchopristisFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/onchopristis_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "CephaloleichnitesFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cephaloleichnites_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/cephaloleichnites_fossil.json",
+          "src/main/java/com/dinosaurium/item/CephaloleichnitesFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CretaraneusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cretaraneus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/cretaraneus_fossil.json",
+          "src/main/java/com/dinosaurium/item/CretaraneusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MongolarachneFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mongolarachne_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/mongolarachne_fossil.json",
+          "src/main/java/com/dinosaurium/item/MongolarachneFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NannogomphusFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nannogomphus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/nannogomphus_fossil.json",
+          "src/main/java/com/dinosaurium/item/NannogomphusFossilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GiantCicadaFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_cicada_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dinosaurium/models/item/giant_cicada_fossil.json",
+          "src/main/java/com/dinosaurium/item/GiantCicadaFossilItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7032,10 +7250,6 @@
       "CUSTOM:Deinocheirus",
       "CUSTOM:Therizinosaurus"
     ],
-    "ITEMS:mod:anchiornis_grabbables": [
-      "TAG:minecraft:meat",
-      "TAG:mod:mashable_bugs"
-    ],
     "ITEMS:minecraft:wolf_food": [
       "CUSTOM:RawOrnithomimosaur",
       "CUSTOM:CookedOrnithomimosaur"
@@ -7248,6 +7462,10 @@
       "Dsungaripterus",
       "Pterodaustro",
       "Lisowicia",
+      "HorseshoeCrab",
+      "Anchiornis",
+      "Herrerasaurus",
+      "Sharovipteryx",
       "MesozoicPortalFrameBlock",
       "Mesozoic",
       "DeepslateAmberOre",
@@ -7274,7 +7492,6 @@
       "BugNet",
       "Sinew",
       "Pycnofiber",
-      "CrassostreaOysterBlock",
       "AluminiumNugget",
       "AluminiumIngot",
       "BauxiteOre",
@@ -7296,10 +7513,8 @@
       "TinOre",
       "TinIngot",
       "BronzeBlock",
-      "HorseshoeCrab",
-      "Anchiornis",
-      "Herrerasaurus",
-      "Sharovipteryx"
+      "UnfiredTeacup",
+      "Teacup"
     ],
     "CUSTOM:DinosauriumFossils": [
       "AmberFossil",
@@ -7321,6 +7536,7 @@
       "StegosaurusFossil",
       "TricepatopsFossil",
       "TyrannosaurusFossil",
+      "OnchopristisFossil",
       "SpinosaurusFossil",
       "AmargasaurusFossil",
       "TherizinosaurusFossil",
@@ -7366,7 +7582,12 @@
       "LisowiciaFossil",
       "AnchiornisFossil",
       "HerrerasaurusFossil",
-      "SharovipteryxFossil"
+      "SharovipteryxFossil",
+      "CephaloleichnitesFossil",
+      "CretaraneusFossil",
+      "MongolarachneFossil",
+      "NannogomphusFossil",
+      "GiantCicadaFossil"
     ],
     "CUSTOM:DinosauriumGenetics": [
       "DNAAnalyzer",
@@ -7466,6 +7687,7 @@
       "biome.dinosaurium.mesozoic_jungle": "Mesozoic Jungle",
       "item.dinosaurium.cretaraneus_item": "Cretaraneus",
       "item.dinosaurium.mashed_bugs": "Mashed Bugs",
+      "item.dinosaurium.teacup": "Teacup",
       "entity.dinosaurium.bruhathkayosaurus": "Bruhathkayosaurus",
       "item_group.dinosaurium.dinosaurium_tab": "Dinosaurium",
       "advancements.palaeontology.descr": "Let adventures of fossil study begin!",
@@ -7493,6 +7715,7 @@
       "item.dinosaurium.raw_oyster": "Raw Oyster",
       "entity.dinosaurium.magyarosaurus": "Magyarosaurus",
       "entity.dinosaurium.triceratops": "Triceratops",
+      "item.dinosaurium.cretaraneus_fossil": "Cretaraneus Fossil",
       "advancements.welcome_to_cambodia.title": "Welcome To Cambodia",
       "entity.dinosaurium.austroraptor": "Austroraptor",
       "item.dinosaurium.velociraptor_dna": "Velociraptor DNA",
@@ -7552,9 +7775,10 @@
       "block.dinosaurium.bronze_block": "Block of Bronze",
       "block.dinosaurium.stripped_zamites_log": "Stripped Zamites Log",
       "gui.dinosaurium.paleontology_gui.label_palaeontology_table": "Palaeontology Table",
+      "item.dinosaurium.nannogomphus_fossil": "Nannogomphus Fossil",
       "item.dinosaurium.herrerasaurus_dna": "Herrerasaurus DNA",
-      "advancements.enigma_found.title": "Bruh Moment",
       "block.dinosaurium.osmundacaulis": "Osmundacaulis",
+      "advancements.enigma_found.title": "Bruh Moment",
       "item.dinosaurium.nannogomphus_spawn_egg": "Nannogomphus Spawn Egg",
       "item.dinosaurium.amber": "Amber",
       "advancements.whack_a_mole.title": "Whack-A-Mole",
@@ -7565,6 +7789,7 @@
       "entity.dinosaurium.orodromeus": "Orodromeus",
       "item.dinosaurium.aluminium_nugget": "Aluminium Nugget",
       "item.dinosaurium.protoceratops_fossil": "Protoceratops Fossil",
+      "item.dinosaurium.unfired_teacup": "Unfired Teacup",
       "item.dinosaurium.psittacosaurus_fossil": "Psittacosaurus Fossil",
       "entity.dinosaurium.pachyrhinosaurus": "Pachyrhinosaurus",
       "item.dinosaurium.edmontosaurus_dna": "Edmontosaurus DNA",
@@ -7600,6 +7825,7 @@
       "item.dinosaurium.coelophysis_fossil": "Coelophysis Fossil",
       "item.dinosaurium.nemegtosaurus_fossil": "Nemegtosaurus Fossil",
       "entity.dinosaurium.omma": "Omma",
+      "item.dinosaurium.cephaloleichnites_fossil": "Cephaloleichnites Fossil",
       "block.dinosaurium.araucaria_door": "Araucaria Door",
       "item.dinosaurium.amber_fossil": "Amber Fossil",
       "item.dinosaurium.sawfish_sword": "Sawfish Sword",
@@ -7615,6 +7841,7 @@
       "item.dinosaurium.mamenchisaurus_spawn_egg": "Mamenchisaurus Spawn Egg",
       "item.dinosaurium.ankylosaurus_spawn_egg": "Ankylosaurus Spawn Egg",
       "item.dinosaurium.repenomamus_fossil": "Repenomamus Fossil",
+      "item.dinosaurium.mongolarachne_fossil": "Mongolarachne Fossil",
       "item.dinosaurium.parapuzosia_fossil": "Parapuzosia Fossil",
       "entity.dinosaurium.nannogomphus": "Nannogomphus",
       "item.dinosaurium.bronze_armor_boots": "Bronze Boots",
@@ -7639,6 +7866,7 @@
       "painting.dinosaurium.laelaps.title": "Laelaps",
       "item.dinosaurium.halszkaraptor_dna": "Halszkaraptor DNA",
       "entity.dinosaurium.jeholopterus": "Jeholopterus",
+      "item.dinosaurium.osmunda_root": "Osmunda Root",
       "item.dinosaurium.hatzegopteryx_spawn_egg": "Hatzegopteryx Spawn Egg",
       "block.dinosaurium.cut_tin_stairs": "Cut Tin Stairs",
       "item.dinosaurium.magyarosaurus_fossil": "Magyarosaurus Fossil",
@@ -7672,6 +7900,7 @@
       "item.dinosaurium.pteranodon_fossil": "Pteranodon Fossil",
       "item.dinosaurium.tricepatops_fossil": "Tricepatops Fossil",
       "item.dinosaurium.shuvuuia_dna": "Shuvuuia DNA",
+      "item.dinosaurium.giant_cicada_fossil": "Giant Cicada Fossil",
       "block.dinosaurium.dna_analyzer": "DNA Analyzer",
       "block.dinosaurium.cut_tin_slab": "Cut Tin Slab",
       "item.dinosaurium.bauxite": "Bauxite",
@@ -7690,9 +7919,11 @@
       "item.dinosaurium.sharovipteryx_fossil": "Sharovipteryx Fossil",
       "item.dinosaurium.microraptor_fossil": "Microraptor Fossil",
       "item.dinosaurium.therizinosaurus_fossil": "Therizinosaurus Fossil",
+      "item.dinosaurium.laurozamites_tea": "Laurozamites Tea",
       "entity.dinosaurium.edmontosaurus": "Edmontosaurus",
       "block.dinosaurium.chiseled_tin": "Chiseled Tin",
       "entity.dinosaurium.spinosaurus": "Spinosaurus",
+      "item.dinosaurium.onchopristis_fossil": "Onchopristis Fossil",
       "block.dinosaurium.zamites_fence": "Zamites Fence",
       "item.dinosaurium.bruhathkayosaurus_dna": "Bruhathkayosaurus DNA",
       "advancements.fancy_time_travel.descr": "Enter the Mesozoic",
@@ -7721,6 +7952,7 @@
       "entity.dinosaurium.dilophosaurus": "Dilophosaurus",
       "item.dinosaurium.raw_ornithomimosaur": "Raw Ornithomimosaur",
       "item.dinosaurium.beipiaosaurus_spawn_egg": "Beipiaosaurus Spawn Egg",
+      "item.dinosaurium.water_cup": "Teacup of Water",
       "item.dinosaurium.psittacosaurus_dna": "Psittacosaurus DNA",
       "item.dinosaurium.gallimimus_spawn_egg": "Gallimimus Spawn Egg",
       "entity.dinosaurium.nyctosaurus": "Nyctosaurus",
@@ -7779,6 +8011,8 @@
       "item.dinosaurium.pycnofiber": "Pycnofiber",
       "item.dinosaurium.protoceratops_dna": "Protoceratops DNA",
       "item.dinosaurium.herrerasaurus_spawn_egg": "Herrerasaurus Spawn Egg",
+      "item.dinosaurium.osmunda_bread": "Osmunda Bread",
+      "item.dinosaurium.laurozamites_leaves": "Laurozamites Leaves",
       "item.dinosaurium.hatzegopteryx_dna": "Hatzegopteryx DNA",
       "item.dinosaurium.nyctosaurus_dna": "Nyctosaurus DNA",
       "item.dinosaurium.austroraptor_spawn_egg": "Austroraptor Spawn Egg",
@@ -7857,6 +8091,7 @@
       "entity.dinosaurium.microraptor": "Microraptor",
       "entity.dinosaurium.yutyrannus": "Yutyrannus",
       "item.dinosaurium.mongolarachne_item": "Mongolarachne",
+      "item.dinosaurium.unboiled_laurozamites_tea": "Unboiled Laurozamites Tea",
       "item.dinosaurium.ouranosaurus_fossil": "Ouranosaurus Fossil",
       "block.dinosaurium.crassostrea_oyster_block": "Crassostrea Oyster",
       "item.dinosaurium.nyctosaurus_fossil": "Nyctosaurus Fossil",
@@ -7894,14 +8129,15 @@
     },
     "uk_ua": {
       "item.dinosaurium.deinocheirus_dna": "ДНК дейнохейра",
-      "biome.dinosaurium.mesozoic_jungle": "Мезозойські джунглі",
-      "item.dinosaurium.onchopristis_spawn_egg": "Онхопрістіс — яйце виклику",
       "item.dinosaurium.cretaraneus_item": "Кретараней",
+      "item.dinosaurium.onchopristis_spawn_egg": "Онхопрістіс — яйце виклику",
+      "biome.dinosaurium.mesozoic_jungle": "Мезозойські джунглі",
       "item.dinosaurium.mashed_bugs": "Пюре з жуків",
+      "item.dinosaurium.teacup": "Кружка",
       "entity.dinosaurium.bruhathkayosaurus": "Бругаткайозавр",
       "item_group.dinosaurium.dinosaurium_tab": "Динозаври та інші вимерлі істоти",
-      "advancements.palaeontology.descr": "Почніть свої пригоди скам\u0027янілих решток",
       "item.dinosaurium.cretaraneus_dna": "ДНК кретаранея",
+      "advancements.palaeontology.descr": "Почніть свої пригоди скам\u0027янілих решток",
       "advancements.poaching_in_its_finest.descr": "Отримайте меч... з онхопрістіса?",
       "biome.dinosaurium.mesozoic_horsetail_fields": "Мезозойські хвощеві поля",
       "item.dinosaurium.zhenyuanlong_dna": "ДНК чженьюаньлуня",
@@ -7910,26 +8146,27 @@
       "item.dinosaurium.olorotitan_dna": "ДНК олоротитана",
       "item.dinosaurium.stone_knife": "Кам\u0027яний ніж",
       "block.dinosaurium.aluminium_block": "Блок алюмінію",
-      "item.dinosaurium.pachycephalosaurus_fossil": "Скам\u0027янілість пахіцефалозавра",
       "entity.dinosaurium.onchopristis": "Онхопрістіс",
+      "item.dinosaurium.pachycephalosaurus_fossil": "Скам\u0027янілість пахіцефалозавра",
       "item.dinosaurium.protoceratops_spawn_egg": "Протоцератопс — яйце виклику",
-      "entity.dinosaurium.diplodocus": "Диплодок",
       "item.dinosaurium.bronze_ingot": "Бронзовий злиток",
+      "entity.dinosaurium.diplodocus": "Диплодок",
       "item.dinosaurium.sharovipteryx_spawn_egg": "Шаровітерикс — яйце виклику",
       "entity.dinosaurium.pteranodon": "Птеранодон",
       "item.dinosaurium.kol_dna": "ДНК кола",
-      "item.dinosaurium.sharovipteryx_dna": "Sharovipteryx DNA",
+      "item.dinosaurium.sharovipteryx_dna": "ДНК шаровіптерикса",
       "block.dinosaurium.zamites_trapdoor": "Замітовий лаз",
       "item.dinosaurium.pachycephalosaurus_spawn_egg": "Пахіцефалозавр — яйце виклику",
       "entity.dinosaurium.iguanodon": "Іґуанодон",
       "item.dinosaurium.raw_oyster": "Сира устриця",
       "entity.dinosaurium.magyarosaurus": "Мадярозавр",
       "entity.dinosaurium.triceratops": "Трицератопс",
-      "advancements.welcome_to_cambodia.title": "Ласкаво просимо до Камбоджі",
+      "item.dinosaurium.cretaraneus_fossil": "Cretaraneus Fossil",
       "entity.dinosaurium.austroraptor": "Австрораптор",
-      "item.dinosaurium.velociraptor_dna": "ДНК велоцираптора",
-      "block.dinosaurium.zamites_planks": "Замітові дошки",
+      "advancements.welcome_to_cambodia.title": "Ласкаво просимо до Камбоджі",
       "item.dinosaurium.bronze_pickaxe": "Бронзове кайло",
+      "block.dinosaurium.zamites_planks": "Замітові дошки",
+      "item.dinosaurium.velociraptor_dna": "ДНК велоцираптора",
       "item.dinosaurium.anchiornis_fossil": "Скам\u0027янілість анхіорніса",
       "block.dinosaurium.tin_ore": "Олов\u0027яна руда",
       "item.dinosaurium.mamenchisaurus_fossil": "Скам\u0027янілість маменсізавра",
@@ -7948,7 +8185,7 @@
       "item.dinosaurium.pteranodon_dna": "ДНК птеранодона",
       "item.dinosaurium.compsognathus_spawn_egg": "Компсогнат — яйце виклику",
       "item.dinosaurium.dsungaripterus_fossil": "Скам\u0027янілість дзунґаріптера",
-      "block.dinosaurium.araucaria_pressure_plate": "Araucaria Pressure Plate",
+      "block.dinosaurium.araucaria_pressure_plate": "Араукарієва натискна плита",
       "item.dinosaurium.repenomamus_spawn_egg": "Репеномам — яйце виклику",
       "entity.dinosaurium.dsungaripterus": "Дзунґаріптер",
       "item.dinosaurium.magyarosaurus_spawn_egg": "Мадярозавр — яйце виклику",
@@ -7984,7 +8221,8 @@
       "block.dinosaurium.bronze_block": "Блок бронзи",
       "block.dinosaurium.stripped_zamites_log": "Обтесана замітова колода",
       "gui.dinosaurium.paleontology_gui.label_palaeontology_table": "Стіл палеонтолога",
-      "item.dinosaurium.herrerasaurus_dna": "Herrerasaurus DNA",
+      "item.dinosaurium.nannogomphus_fossil": "Nannogomphus Fossil",
+      "item.dinosaurium.herrerasaurus_dna": "ДНК гереразавра",
       "advancements.enigma_found.title": "У пошуках відповіді",
       "block.dinosaurium.osmundacaulis": "Осмундакауліс",
       "item.dinosaurium.nannogomphus_spawn_egg": "Нанногомф — яйце виклику",
@@ -7997,6 +8235,7 @@
       "entity.dinosaurium.orodromeus": "Ородромей",
       "item.dinosaurium.aluminium_nugget": "Алюмінієвий самородок",
       "item.dinosaurium.protoceratops_fossil": "Скам\u0027янілість протоцератопса",
+      "item.dinosaurium.unfired_teacup": "Необпалена кружка",
       "item.dinosaurium.psittacosaurus_fossil": "Скам\u0027янілість псітакозавра",
       "entity.dinosaurium.pachyrhinosaurus": "Пахирінозавр",
       "item.dinosaurium.edmontosaurus_dna": "ДНК едмонтозавра",
@@ -8005,7 +8244,7 @@
       "entity.dinosaurium.parasaurolophus": "Паразауролоф",
       "item.dinosaurium.arambourgiania_spawn_egg": "Арамбургіанія — яйце виклику",
       "block.dinosaurium.zamites_pressure_plate": "Замітова натискна плита",
-      "block.dinosaurium.araucaria_fence_gate": "Araucaria Fence Gate",
+      "block.dinosaurium.araucaria_fence_gate": "Араукарієва хвіртка",
       "entity.dinosaurium.ouranosaurus": "Уранозавр",
       "item.dinosaurium.archaeopteryx_fossil": "Скам\u0027янілість першоптаха",
       "item.dinosaurium.coelophysis_spawn_egg": "Целофіз — яйце виклику",
@@ -8021,8 +8260,8 @@
       "block.dinosaurium.cut_tin": "Тесане олово",
       "item.dinosaurium.unidentified_fossil": "Неідентифікована скам\u0027янілість",
       "item.dinosaurium.jeholopterus_dna": "ДНК жеголоптера",
-      "item.dinosaurium.gallimimus_fossil": "Скам\u0027янілість галіміма",
       "item.dinosaurium.miragaia_spawn_egg": "Міраґайя — яйце виклику",
+      "item.dinosaurium.gallimimus_fossil": "Скам\u0027янілість галіміма",
       "item.dinosaurium.stegosaurus_fossil": "Скам\u0027янілість стегозавра",
       "entity.dinosaurium.amargasaurus": "Амарґазавр",
       "entity.dinosaurium.olorotitan": "Олоротитан",
@@ -8032,7 +8271,8 @@
       "item.dinosaurium.coelophysis_fossil": "Скам\u0027янілість целофіза",
       "item.dinosaurium.nemegtosaurus_fossil": "Скам\u0027янілість немеґтозавра",
       "entity.dinosaurium.omma": "Ома",
-      "block.dinosaurium.araucaria_door": "Araucaria Door",
+      "item.dinosaurium.cephaloleichnites_fossil": "Cephaloleichnites Fossil",
+      "block.dinosaurium.araucaria_door": "Араукарієві двері",
       "item.dinosaurium.amber_fossil": "Бурштинова скам\u0027янілість",
       "item.dinosaurium.sawfish_sword": "Меч із риби-пилки",
       "item.dinosaurium.pachyrhinosaurus_dna": "ДНК пахирінозавра",
@@ -8047,12 +8287,13 @@
       "item.dinosaurium.mamenchisaurus_spawn_egg": "Маменсізавр — яйце виклику",
       "item.dinosaurium.ankylosaurus_spawn_egg": "Анкілозавр — яйце виклику",
       "item.dinosaurium.repenomamus_fossil": "Скам\u0027янілість репеномама",
+      "item.dinosaurium.mongolarachne_fossil": "Mongolarachne Fossil",
       "item.dinosaurium.parapuzosia_fossil": "Скам\u0027янілість парапузосії",
       "entity.dinosaurium.nannogomphus": "Нанногомф",
       "item.dinosaurium.bronze_armor_boots": "Бронзові чоботи",
       "item.dinosaurium.brachytrachelopan_fossil": "Скам\u0027янілість брахітрахелопана",
+      "item.dinosaurium.herrerasaurus_fossil": "Скам\u0027янілість гереразавра",
       "painting.dinosaurium.in_the_bog.title": "В Болоті",
-      "item.dinosaurium.herrerasaurus_fossil": "Herrerasaurus Fossil",
       "biome.dinosaurium.mesozoic_desert": "Мезозойська пустеля",
       "biome.dinosaurium.mesozoic_forest": "Мезозойський ліс",
       "item.dinosaurium.compsognathus_dna": "ДНК компсогната",
@@ -8061,7 +8302,7 @@
       "block.dinosaurium.zamites_button": "Замітова кнопка",
       "item.dinosaurium.aluminium_ingot": "Алюмінієвий злиток",
       "item.dinosaurium.miragaia_fossil": "Скам\u0027янілість міраґайї",
-      "biome.dinosaurium.araucaria_forest": "Araucaria Forest",
+      "biome.dinosaurium.araucaria_forest": "Араукарієвий ліс",
       "item.dinosaurium.pachycephalosaurus_dna": "ДНК пахіцефалозавра",
       "item.dinosaurium.archaeopteryx_spawn_egg": "Першоптах — яйце виклику",
       "advancements.palaeontology.title": "Палеонтологія",
@@ -8071,6 +8312,7 @@
       "painting.dinosaurium.laelaps.title": "Лелапси",
       "item.dinosaurium.halszkaraptor_dna": "ДНК гальшкараптора",
       "entity.dinosaurium.jeholopterus": "Жеголоптер",
+      "item.dinosaurium.osmunda_root": "Корінь осмунди",
       "item.dinosaurium.hatzegopteryx_spawn_egg": "Гацегоптерикс — яйце виклику",
       "block.dinosaurium.cut_tin_stairs": "Сходи з тесаного олова",
       "item.dinosaurium.lambeosaurus_spawn_egg": "Ламбеозавр — яйце виклику",
@@ -8078,7 +8320,7 @@
       "item.dinosaurium.tuojiangosaurus_spawn_egg": "Тоцзянозавр — яйце виклику",
       "item.dinosaurium.amargasaurus_fossil": "Скам\u0027янілість амарґазавра",
       "item.dinosaurium.pachyrhinosaurus_spawn_egg": "Пахирінозавр — яйце виклику",
-      "block.dinosaurium.araucaria_slab": "Araucaria Slab",
+      "block.dinosaurium.araucaria_slab": "Араукарієва плита",
       "biome.dinosaurium.mesozoic_bog": "Мезозойське болото",
       "entity.dinosaurium.shuvuuia": "Шувуйя",
       "item.dinosaurium.deinocheirus_spawn_egg": "Дейнохейр — яйце виклику",
@@ -8095,15 +8337,16 @@
       "block.dinosaurium.laurozamites": "Лаурозаміт",
       "item.dinosaurium.ouranosaurus_dna": "ДНК уранозавра",
       "block.dinosaurium.zamites_sapling": "Паросток заміта",
-      "block.dinosaurium.araucaria_button": "Araucaria Button",
+      "block.dinosaurium.araucaria_button": "Араукарієва кнопка",
       "item.dinosaurium.oviraptor_fossil": "Скам\u0027янілість овіраптора",
       "item.dinosaurium.giant_cicada_spawn_egg": "Гігантська цикада — яйце виклику",
-      "block.dinosaurium.araucaria_stairs": "Araucaria Stairs",
+      "block.dinosaurium.araucaria_stairs": "Араукарієві сходи",
       "item.dinosaurium.diplodocus_fossil": "Скам\u0027янілість диплодока  ",
       "item.dinosaurium.diplodocus_spawn_egg": "Диплодок — яйце виклику",
       "item.dinosaurium.pteranodon_fossil": "Скам\u0027янілість птеранодона",
       "item.dinosaurium.tricepatops_fossil": "Скам\u0027янілість трицератопса",
       "item.dinosaurium.shuvuuia_dna": "ДНК шувуйї",
+      "item.dinosaurium.giant_cicada_fossil": "Giant Cicada Fossil",
       "block.dinosaurium.dna_analyzer": "Аналізатор ДНК",
       "block.dinosaurium.cut_tin_slab": "Плита з тесаного олова",
       "item.dinosaurium.bauxite": "Боксит",
@@ -8119,17 +8362,19 @@
       "block.dinosaurium.deepslate_amber_ore": "Глибосланцева бурштинова руда",
       "item.dinosaurium.omma_spawn_egg": "Ома — яйце виклику",
       "item.dinosaurium.halszkaraptor_spawn_egg": "Гальшкараптор — яйце виклику",
-      "item.dinosaurium.sharovipteryx_fossil": "Sharovipteryx Fossil",
+      "item.dinosaurium.sharovipteryx_fossil": "Скам\u0027янілість шаровіптерикса",
       "item.dinosaurium.therizinosaurus_fossil": "Скам\u0027янілість теризинозавра",
       "item.dinosaurium.microraptor_fossil": "Скам\u0027янілість мікрораптора",
+      "item.dinosaurium.laurozamites_tea": "Лаурозамітовий чай",
       "entity.dinosaurium.edmontosaurus": "Едмонтозавр",
       "block.dinosaurium.chiseled_tin": "Різьблене олово",
       "entity.dinosaurium.spinosaurus": "Спінозавр",
+      "item.dinosaurium.onchopristis_fossil": "Onchopristis Fossil",
       "block.dinosaurium.zamites_fence": "Замітовий паркан",
       "item.dinosaurium.bruhathkayosaurus_dna": "ДНК бругаткайозавра",
       "advancements.fancy_time_travel.descr": "Зайдіть в мезозой",
       "advancements.brush_fossil.title": "Так, то звір!",
-      "block.dinosaurium.araucaria_sapling": "Araucaria Sapling",
+      "block.dinosaurium.araucaria_sapling": "Паросток араукарії",
       "item.dinosaurium.netherite_knife": "Незеритовий ніж",
       "entity.dinosaurium.repenomamus": "Репеномам",
       "block.dinosaurium.bauxite_block": "Блок баукситу",
@@ -8139,12 +8384,12 @@
       "painting.dinosaurium.archaeopteryx_painting.author": "Матінка Природа",
       "item.dinosaurium.kol_fossil": "Скам\u0027янілість кола",
       "entity.dinosaurium.gallimimus": "Галімім",
-      "block.dinosaurium.araucaria_wood": "Araucaria Wood",
+      "block.dinosaurium.araucaria_wood": "Араукарієва деревина",
       "item.dinosaurium.spinofaarus_spawn_egg": "Спінофаарус — яйце виклику",
       "item.dinosaurium.lisowicia_fossil": "Скам\u0027янілість лісовіціЇ",
       "item_group.dinosaurium.dinosaurium_weaponry_and_tools": "Зброя та інструменти",
       "item.dinosaurium.ichthyosaurus_spawn_egg": "Іхтіозавр — яйце виклику",
-      "block.dinosaurium.araucaria_fence": "Araucaria Fence",
+      "block.dinosaurium.araucaria_fence": "Араукарієвий паркан",
       "block.dinosaurium.mesozoic_portal_frame_block": "Рамка порталу в мезозой",
       "item.dinosaurium.oviraptor_spawn_egg": "Овіраптор — яйце виклику",
       "item.dinosaurium.nemegtosaurus_dna": "ДНК немеґтозавра",
@@ -8153,6 +8398,7 @@
       "entity.dinosaurium.dilophosaurus": "Дилофозавр",
       "item.dinosaurium.raw_ornithomimosaur": "Сирий орнітомімозавр",
       "item.dinosaurium.beipiaosaurus_spawn_egg": "Бейпяозавр — яйце виклику",
+      "item.dinosaurium.water_cup": "Кружка води",
       "item.dinosaurium.psittacosaurus_dna": "ДНК псітакозавра",
       "item.dinosaurium.gallimimus_spawn_egg": "Галімім — яйце виклику",
       "entity.dinosaurium.nyctosaurus": "Ніктозавр",
@@ -8164,7 +8410,7 @@
       "item.dinosaurium.ankylosaurus_dna": "ДНК анкілозавра",
       "item.dinosaurium.golden_knife": "Золотий ніж",
       "item.dinosaurium.orodromeus_spawn_egg": "Ородромей — яйце виклику",
-      "block.dinosaurium.araucaria_log": "Araucaria Log",
+      "block.dinosaurium.araucaria_log": "Араукарієва колода",
       "entity.dinosaurium.anchiornis": "Анхіорніс",
       "item.dinosaurium.bronze_armor_leggings": "Бронзові наголінники",
       "item.dinosaurium.anzu_fossil": "Скам\u0027янілість анзу",
@@ -8211,6 +8457,8 @@
       "item.dinosaurium.pycnofiber": "Пікноволокно",
       "item.dinosaurium.protoceratops_dna": "ДНК протоцератопса",
       "item.dinosaurium.herrerasaurus_spawn_egg": "Гереразавр — яйце виклику",
+      "item.dinosaurium.osmunda_bread": "Хліб із осмунодового кореня",
+      "item.dinosaurium.laurozamites_leaves": "Лаурозамітова заварка",
       "item.dinosaurium.hatzegopteryx_dna": "ДНК гацегоптерикса",
       "item.dinosaurium.nyctosaurus_dna": "ДНК ніктозавра",
       "item.dinosaurium.austroraptor_spawn_egg": "Австрораптор — яйце виклику",
@@ -8237,7 +8485,7 @@
       "block.dinosaurium.deepslate_bauxite_ore": "Глибосланцева баукситова руда",
       "item.dinosaurium.nanuqsaurus_spawn_egg": "Нанукзавр — яйце виклику",
       "painting.dinosaurium.diplodocus_painting.title": "Диплодок",
-      "block.dinosaurium.araucaria_trapdoor": "Araucaria Trapdoor",
+      "block.dinosaurium.araucaria_trapdoor": "Араукарієвий лаз",
       "item.dinosaurium.austroraptor_fossil": "Скам\u0027янілість австрораптора",
       "item.dinosaurium.jeholopterus_fossil": "Скам\u0027янілість жеголоптера",
       "item.dinosaurium.amargasaurus_dna": "ДНК амарґазавра",
@@ -8254,9 +8502,9 @@
       "item.dinosaurium.ichthyosaurus_dna": "ДНК іхтіозавра",
       "item.dinosaurium.cephaloleichnites_spawn_egg": "Цефалолеїхнітес — яйце виклику",
       "item.dinosaurium.pterodaustro_spawn_egg": "Птеродавстро — яйце виклику",
-      "block.dinosaurium.araucaria_planks": "Araucaria Planks",
+      "block.dinosaurium.araucaria_planks": "Араукарієві дошки",
       "entity.dinosaurium.lisowicia": "Лісовіція",
-      "block.dinosaurium.araucaria_leaves": "Araucaria Leaves",
+      "block.dinosaurium.araucaria_leaves": "Араукарієве листя",
       "advancements.collect_bugs.descr": "Зберіть всіх (доісторичних) жуків та павуків",
       "item.dinosaurium.cephaloleichnites_item": "Цефалолеїхнітес",
       "item.dinosaurium.sinosauropteryx_dna": "ДНК сінозавроптерикса",
@@ -8289,6 +8537,7 @@
       "entity.dinosaurium.microraptor": "Мікрораптор",
       "entity.dinosaurium.yutyrannus": "Ютиран",
       "item.dinosaurium.mongolarachne_item": "Монголарахна",
+      "item.dinosaurium.unboiled_laurozamites_tea": "Некип\u0027ячений лаурозамітовий чай",
       "item.dinosaurium.ouranosaurus_fossil": "Скам\u0027янілість уранозавра",
       "block.dinosaurium.crassostrea_oyster_block": "Устриці",
       "item.dinosaurium.nyctosaurus_fossil": "Скам\u0027янілість ніктозавра",

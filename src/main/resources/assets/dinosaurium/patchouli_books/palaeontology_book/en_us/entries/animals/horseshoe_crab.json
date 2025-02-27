@@ -1,0 +1,17 @@
+{
+    "name": "Horseshoe Crab",
+    "icon": "dinosaurium:horseshoe_crab_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Horseshoe crabs are marine and brackish water arthropods of the family Limulidae, suborder Xiphosurida, and order Xiphosura. Their popular name is a misnomer, for they are not true crabs. Horseshoe crabs live primarily in and around shallow coastal waters on soft sandy or muddy bottoms. They occasionally come onto shore to mate. They are commonly used as bait and in fertilizer. In recent years, a decline in the number of individuals has occurred as a consequence of coastal habitat destruction in Japan and overharvesting along the east coast of North America."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:horseshoe_crab",
+            "rotate": false,
+            "text": "Crab Rave Time"
+        }
+    ]
+}
