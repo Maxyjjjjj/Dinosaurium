@@ -1,0 +1,20 @@
+{
+    "name": "Вівтар воскресіння",
+    "icon": "dinosaurium:resurrection_altar",
+    "category": "dinosaurium:blocks",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Вівтар воскресіння - це блок, який можна використовувати для воскресіння скам'янілостей. Щоб використати його, покладіть скам'янілість у лівий слот, кістку в середній слот і тотем безсмертя у правий слот, це призведе до появи моба зі скам'янілості."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "dinosaurium:resurrection_altar"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dinosaurium:altar_recipe",
+            "text": "Рецепт крафту вівтаря воскресіння"
+        }
+    ]
+}

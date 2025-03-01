@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dinosaurium:zamites_planks"
+    "dinosaurium:zamites_planks",
+    "dinosaurium:araucaria_planks"
   ]
 }

@@ -12,9 +12,6 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:DinosauriumFossils"
-      },
-      {
-        "value": "CUSTOM:DinosauriumGenetics"
       }
     ],
     "stackSize": 64,

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:mossy_dirt",
     "minecraft:sand",
     "minecraft:stone",
     "minecraft:dirt",

@@ -16,16 +16,14 @@
 				"head": {
 					"rotation": {
 						"vector": [-30, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0.86603, 0.5]
 					}
 				},
 				"tail": {
 					"rotation": {
 						"vector": [-40, 0, 0]
-					}
-				},
-				"neck_base": {
-					"position": {
-						"vector": [0, 0, 1]
 					}
 				}
 			}
@@ -113,7 +111,7 @@
 						}
 					},
 					"position": {
-						"vector": [0, 0, 1]
+						"vector": [0, 1.36603, 0.63397]
 					}
 				},
 				"tail": {
@@ -181,11 +179,6 @@
 						"0.5": {
 							"vector": [0, 0, 0]
 						}
-					}
-				},
-				"neck_base": {
-					"position": {
-						"vector": [0, 1, 0]
 					}
 				}
 			}
@@ -353,11 +346,6 @@
 						"0.5": {
 							"vector": [60, 0, 0]
 						}
-					}
-				},
-				"neck_base": {
-					"position": {
-						"vector": [0, 0, 0]
 					}
 				}
 			}

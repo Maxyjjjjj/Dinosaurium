@@ -6,6 +6,10 @@ package com.dinosaurium.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -31,13 +35,16 @@ import com.dinosaurium.block.TinBlockBlock;
 import com.dinosaurium.block.TallHorsetailBlock;
 import com.dinosaurium.block.StrippedZamitesWoodBlock;
 import com.dinosaurium.block.StrippedZamitesLogBlock;
+import com.dinosaurium.block.ResurrectionAltarBlock;
 import com.dinosaurium.block.RawTinBlockBlock;
 import com.dinosaurium.block.PalaeontologyTableBlock;
 import com.dinosaurium.block.OtozamitesBlock;
 import com.dinosaurium.block.OsmundacaulisBlock;
 import com.dinosaurium.block.OsmundaBlock;
+import com.dinosaurium.block.MossyDirtBlock;
 import com.dinosaurium.block.MesozoicPortalFrameBlockBlock;
 import com.dinosaurium.block.MesozoicPortalBlock;
+import com.dinosaurium.block.LiverwortsBlock;
 import com.dinosaurium.block.LaurozamitesBlock;
 import com.dinosaurium.block.HorsetailBlock;
 import com.dinosaurium.block.FramedGlassBlock;
@@ -50,12 +57,12 @@ import com.dinosaurium.block.DeepslateAmberOreBlock;
 import com.dinosaurium.block.CutTinStairsBlock;
 import com.dinosaurium.block.CutTinSlabBlock;
 import com.dinosaurium.block.CutTinBlock;
+import com.dinosaurium.block.CrassostreaOystersBlock;
 import com.dinosaurium.block.ChiseledTinBlock;
 import com.dinosaurium.block.BronzeBlockBlock;
 import com.dinosaurium.block.BenettitalesBlock;
 import com.dinosaurium.block.BauxiteOreBlock;
 import com.dinosaurium.block.BauxiteBlockBlock;
-import com.dinosaurium.block.AsphaltBlock;
 import com.dinosaurium.block.AraucariaWoodBlock;
 import com.dinosaurium.block.AraucariaTrapdoorBlock;
 import com.dinosaurium.block.AraucariaStairsBlock;
@@ -81,7 +88,6 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> AMBER_ORE = REGISTRY.register("amber_ore", AmberOreBlock::new);
 	public static final DeferredBlock<Block> AMBER_BLOCK = REGISTRY.register("amber_block", AmberBlockBlock::new);
 	public static final DeferredBlock<Block> DEEPSLATE_AMBER_ORE = REGISTRY.register("deepslate_amber_ore", DeepslateAmberOreBlock::new);
-	public static final DeferredBlock<Block> ASPHALT = REGISTRY.register("asphalt", AsphaltBlock::new);
 	public static final DeferredBlock<Block> PALAEONTOLOGY_TABLE = REGISTRY.register("palaeontology_table", PalaeontologyTableBlock::new);
 	public static final DeferredBlock<Block> DEEPSLATE_FOSSIL_BLOCK = REGISTRY.register("deepslate_fossil_block", DeepslateFossilBlockBlock::new);
 	public static final DeferredBlock<Block> FOSSIL_BLOCK = REGISTRY.register("fossil_block", FossilBlockBlock::new);
@@ -139,6 +145,23 @@ public class DinosauriumModBlocks {
 	public static final DeferredBlock<Block> ARAUCARIA_DOOR = REGISTRY.register("araucaria_door", AraucariaDoorBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_TRAPDOOR = REGISTRY.register("araucaria_trapdoor", AraucariaTrapdoorBlock::new);
 	public static final DeferredBlock<Block> ARAUCARIA_SAPLING = REGISTRY.register("araucaria_sapling", AraucariaSaplingBlock::new);
+	public static final DeferredBlock<Block> RESURRECTION_ALTAR = REGISTRY.register("resurrection_altar", ResurrectionAltarBlock::new);
+	public static final DeferredBlock<Block> MOSSY_DIRT = REGISTRY.register("mossy_dirt", MossyDirtBlock::new);
+	public static final DeferredBlock<Block> LIVERWORTS = REGISTRY.register("liverworts", LiverwortsBlock::new);
+	public static final DeferredBlock<Block> CRASSOSTREA_OYSTERS = REGISTRY.register("crassostrea_oysters", CrassostreaOystersBlock::new);
+
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
+	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			MossyDirtBlock.blockColorLoad(event);
+		}
+
+		@SubscribeEvent
+		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+			MossyDirtBlock.itemColorLoad(event);
+		}
+	}
 }

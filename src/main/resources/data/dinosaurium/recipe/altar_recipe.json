@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "tag": "dinosaurium:resurrectable_material"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "d": {
+      "item": "dinosaurium:bronze_ingot"
+    },
+    "e": {
+      "item": "dinosaurium:tin_ingot"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:resurrection_altar",
+    "count": 1
+  }
+}

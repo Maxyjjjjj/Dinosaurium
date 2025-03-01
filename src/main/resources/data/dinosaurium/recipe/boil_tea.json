@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "dinosaurium:unboiled_laurozamites_tea"
+  },
+  "result": {
+    "id": "dinosaurium:laurozamites_tea"
+  }
+}

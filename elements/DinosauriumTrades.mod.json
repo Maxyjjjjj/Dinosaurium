@@ -204,7 +204,7 @@
           },
           {
             "price1": {
-              "value": "Blocks.GLASS_PANE"
+              "value": "CUSTOM:UnboiledLaurozamitesTea"
             },
             "countPrice1": 1,
             "price2": {
@@ -212,7 +212,7 @@
             },
             "countPrice2": 6,
             "offer": {
-              "value": "CUSTOM:EmptyVial"
+              "value": "CUSTOM:LaurozamitesTea"
             },
             "countOffer": 1,
             "level": 5,

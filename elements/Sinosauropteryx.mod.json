@@ -168,6 +168,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:MesozoicForest"
+      },
+      {
+        "value": "CUSTOM:MesozoicForestSteppe"
       }
     ],
     "spawnInDungeons": false

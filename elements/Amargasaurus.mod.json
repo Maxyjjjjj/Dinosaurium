@@ -174,7 +174,16 @@
         "value": "CUSTOM:MesozoicForest"
       },
       {
-        "value": "CUSTOM:MesozoicDesert"
+        "value": "CUSTOM:MesozoicForestSteppe"
+      },
+      {
+        "value": "CUSTOM:MesozoicHorsetailFields"
+      },
+      {
+        "value": "CUSTOM:MesozoicPlains"
+      },
+      {
+        "value": "CUSTOM:MesozoicJungle"
       }
     ],
     "spawnInDungeons": false

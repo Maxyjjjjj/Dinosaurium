@@ -12,9 +12,11 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.core.registries.Registries;
 
 import com.dinosaurium.world.inventory.PaleontologyGUIMenu;
+import com.dinosaurium.world.inventory.AltarGUIMenu;
 import com.dinosaurium.DinosauriumMod;
 
 public class DinosauriumModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, DinosauriumMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<PaleontologyGUIMenu>> PALEONTOLOGY_GUI = REGISTRY.register("paleontology_gui", () -> IMenuTypeExtension.create(PaleontologyGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<AltarGUIMenu>> ALTAR_GUI = REGISTRY.register("altar_gui", () -> IMenuTypeExtension.create(AltarGUIMenu::new));
 }

@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "dinosaurium:mesozoic_forest",
+  "biomes": [
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_forest_steppe"
+  ],
   "spawners": {
     "type": "dinosaurium:sinosauropteryx",
     "weight": 20,

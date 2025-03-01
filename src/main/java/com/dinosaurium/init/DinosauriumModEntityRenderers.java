@@ -72,6 +72,7 @@ import com.dinosaurium.client.renderer.CephaloleichnitesRenderer;
 import com.dinosaurium.client.renderer.BruhathkayosaurusRenderer;
 import com.dinosaurium.client.renderer.BrachytrachelopanRenderer;
 import com.dinosaurium.client.renderer.BeipiaosaurusRenderer;
+import com.dinosaurium.client.renderer.BaryonyxRenderer;
 import com.dinosaurium.client.renderer.AustroraptorRenderer;
 import com.dinosaurium.client.renderer.ArchaeopteryxRenderer;
 import com.dinosaurium.client.renderer.ArambourgianiaRenderer;
@@ -154,5 +155,6 @@ public class DinosauriumModEntityRenderers {
 		event.registerEntityRenderer(DinosauriumModEntities.ANCHIORNIS.get(), AnchiornisRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.HERRERASAURUS.get(), HerrerasaurusRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.SHAROVIPTERYX.get(), SharovipteryxRenderer::new);
+		event.registerEntityRenderer(DinosauriumModEntities.BARYONYX.get(), BaryonyxRenderer::new);
 	}
 }

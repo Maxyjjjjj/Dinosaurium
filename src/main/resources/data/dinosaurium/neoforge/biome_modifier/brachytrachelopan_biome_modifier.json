@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "dinosaurium:mesozoic_plains",
+  "biomes": [
+    "dinosaurium:mesozoic_plains",
+    "dinosaurium:mesozoic_horsetail_fields"
+  ],
   "spawners": {
     "type": "dinosaurium:brachytrachelopan",
     "weight": 20,

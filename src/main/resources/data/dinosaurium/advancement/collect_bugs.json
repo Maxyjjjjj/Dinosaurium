@@ -24,7 +24,7 @@
               "dinosaurium:cephaloleichnites_item"
             ],
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }
@@ -40,7 +40,7 @@
               "dinosaurium:cretaraneus_item"
             ],
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }
@@ -56,7 +56,7 @@
               "dinosaurium:mongolarachne_item"
             ],
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }
@@ -72,7 +72,7 @@
               "dinosaurium:omma_item"
             ],
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }
@@ -88,7 +88,7 @@
               "dinosaurium:nannogomphus_item"
             ],
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }
@@ -104,7 +104,7 @@
               "dinosaurium:giant_cicada_item"
             ],
             "count": {
-              "min": 64,
+              "min": 1,
               "max": 64
             }
           }

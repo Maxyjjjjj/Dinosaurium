@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dinosaurium:cephaloleichnites_fossil",
+    "dinosaurium:cretaraneus_fossil",
+    "dinosaurium:mongolarachne_fossil",
+    "dinosaurium:nannogomphus_fossil",
+    "dinosaurium:giant_cicada_fossil"
+  ]
+}

@@ -171,6 +171,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:MesozoicPlains"
+      },
+      {
+        "value": "CUSTOM:MesozoicHorsetailFields"
       }
     ],
     "spawnInDungeons": false

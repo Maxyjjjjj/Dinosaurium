@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#dinosaurium:forested_areas",
+  "features": "dinosaurium:liverworts",
+  "step": "vegetal_decoration"
+}

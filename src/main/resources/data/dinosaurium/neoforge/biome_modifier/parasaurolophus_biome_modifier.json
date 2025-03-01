@@ -2,8 +2,11 @@
   "type": "neoforge:add_spawns",
   "biomes": [
     "dinosaurium:mesozoic_bog",
-    "dinosaurium:mesozoic_desert",
-    "dinosaurium:mesozoic_forest"
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_forest_steppe",
+    "dinosaurium:mesozoic_horsetail_fields",
+    "dinosaurium:mesozoic_jungle",
+    "dinosaurium:mesozoic_plains"
   ],
   "spawners": {
     "type": "dinosaurium:parasaurolophus",

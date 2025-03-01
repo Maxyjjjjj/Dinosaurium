@@ -3,6 +3,8 @@
   "values": [
     "dinosaurium:amber",
     "dinosaurium:bronze_ingot",
-    "dinosaurium:aluminium_ingot"
+    "dinosaurium:aluminium_ingot",
+    "minecraft:copper_ingot",
+    "dinosaurium:tin_ingot"
   ]
 }

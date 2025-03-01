@@ -177,10 +177,19 @@
         "value": "CUSTOM:MesozoicBog"
       },
       {
-        "value": "CUSTOM:MesozoicDesert"
+        "value": "CUSTOM:MesozoicForest"
       },
       {
-        "value": "CUSTOM:MesozoicForest"
+        "value": "CUSTOM:MesozoicForestSteppe"
+      },
+      {
+        "value": "CUSTOM:MesozoicHorsetailFields"
+      },
+      {
+        "value": "CUSTOM:MesozoicJungle"
+      },
+      {
+        "value": "CUSTOM:MesozoicPlains"
       }
     ],
     "spawnInDungeons": false

@@ -46,6 +46,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
@@ -63,6 +64,7 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.EnumSet;
 
+import com.dinosaurium.procedures.FlyingConditionProcedure;
 import com.dinosaurium.init.DinosauriumModEntities;
 
 public class HatzegopteryxEntity extends Animal implements GeoEntity {
@@ -163,6 +165,27 @@ public class HatzegopteryxEntity extends Animal implements GeoEntity {
 				double dir_z = HatzegopteryxEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
+
+			@Override
+			public boolean canUse() {
+				double x = HatzegopteryxEntity.this.getX();
+				double y = HatzegopteryxEntity.this.getY();
+				double z = HatzegopteryxEntity.this.getZ();
+				Entity entity = HatzegopteryxEntity.this;
+				Level world = HatzegopteryxEntity.this.level();
+				return super.canUse() && FlyingConditionProcedure.execute(world, x, y, z);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = HatzegopteryxEntity.this.getX();
+				double y = HatzegopteryxEntity.this.getY();
+				double z = HatzegopteryxEntity.this.getZ();
+				Entity entity = HatzegopteryxEntity.this;
+				Level world = HatzegopteryxEntity.this.level();
+				return super.canContinueToUse() && FlyingConditionProcedure.execute(world, x, y, z);
+			}
+
 		});
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Pufferfish.class, false, false));
 		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Bat.class, false, false));

@@ -3,7 +3,10 @@
   "biomes": [
     "dinosaurium:mesozoic_bog",
     "dinosaurium:mesozoic_forest",
-    "dinosaurium:mesozoic_desert"
+    "dinosaurium:mesozoic_forest_steppe",
+    "dinosaurium:mesozoic_horsetail_fields",
+    "dinosaurium:mesozoic_plains",
+    "dinosaurium:mesozoic_jungle"
   ],
   "spawners": {
     "type": "dinosaurium:amargasaurus",

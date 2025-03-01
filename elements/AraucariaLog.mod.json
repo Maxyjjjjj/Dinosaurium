@@ -44,7 +44,10 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:DinosauriumTab"
+      },
+      {
+        "value": "CUSTOM:DinosauriumPlants"
       }
     ],
     "destroyTool": "axe",

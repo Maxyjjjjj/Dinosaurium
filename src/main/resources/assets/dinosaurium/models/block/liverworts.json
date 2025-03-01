@@ -1,0 +1,9 @@
+{
+  "parent": "dinosaurium:custom/liverworts",
+  "textures": {
+    "all": "dinosaurium:block/liverworts",
+    "particle": "dinosaurium:block/liverworts",
+    "0": "dinosaurium:block/liverworts"
+  },
+  "render_type": "cutout"
+}

@@ -79,6 +79,7 @@ import com.dinosaurium.entity.CephaloleichnitesEntity;
 import com.dinosaurium.entity.BruhathkayosaurusEntity;
 import com.dinosaurium.entity.BrachytrachelopanEntity;
 import com.dinosaurium.entity.BeipiaosaurusEntity;
+import com.dinosaurium.entity.BaryonyxEntity;
 import com.dinosaurium.entity.AustroraptorEntity;
 import com.dinosaurium.entity.ArchaeopteryxEntity;
 import com.dinosaurium.entity.ArambourgianiaEntity;
@@ -370,6 +371,10 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<SharovipteryxEntity>of(SharovipteryxEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.6f));
+	public static final DeferredHolder<EntityType<?>, EntityType<BaryonyxEntity>> BARYONYX = register("baryonyx",
+			EntityType.Builder.<BaryonyxEntity>of(BaryonyxEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.8f, 2.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -449,6 +454,7 @@ public class DinosauriumModEntities {
 		AnchiornisEntity.init(event);
 		HerrerasaurusEntity.init(event);
 		SharovipteryxEntity.init(event);
+		BaryonyxEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -523,5 +529,6 @@ public class DinosauriumModEntities {
 		event.put(ANCHIORNIS.get(), AnchiornisEntity.createAttributes().build());
 		event.put(HERRERASAURUS.get(), HerrerasaurusEntity.createAttributes().build());
 		event.put(SHAROVIPTERYX.get(), SharovipteryxEntity.createAttributes().build());
+		event.put(BARYONYX.get(), BaryonyxEntity.createAttributes().build());
 	}
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dinosaurium:resurrection_altar",
     "dinosaurium:chiseled_tin",
     "dinosaurium:cut_tin_slab",
     "dinosaurium:cut_tin_stairs",
@@ -16,7 +17,6 @@
     "dinosaurium:aluminium_block",
     "dinosaurium:fossil_block",
     "dinosaurium:deepslate_fossil_block",
-    "dinosaurium:asphalt",
     "dinosaurium:deepslate_amber_ore",
     "dinosaurium:amber_block",
     "dinosaurium:amber_ore",

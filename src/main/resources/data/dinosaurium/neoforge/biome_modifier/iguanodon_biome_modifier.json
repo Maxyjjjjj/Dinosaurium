@@ -1,6 +1,11 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": "dinosaurium:mesozoic_forest",
+  "biomes": [
+    "dinosaurium:mesozoic_forest",
+    "dinosaurium:mesozoic_forest_steppe",
+    "dinosaurium:mesozoic_horsetail_fields",
+    "dinosaurium:mesozoic_plains"
+  ],
   "spawners": {
     "type": "dinosaurium:iguanodon",
     "weight": 20,

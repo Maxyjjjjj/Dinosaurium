@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "dinosaurium:laurozamites_tea"
+    },
+    "title": {
+      "translate": "advancements.collaborationist_to_british_imperialism.title"
+    },
+    "description": {
+      "translate": "advancements.collaborationist_to_british_imperialism.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collaborationist_to_british_imperialism_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "dinosaurium:laurozamites_tea"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "dinosaurium:collect_bugs"
+}

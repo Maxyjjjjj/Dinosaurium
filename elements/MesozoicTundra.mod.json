@@ -4,7 +4,7 @@
   "definition": {
     "name": "Mesozoic Tundra",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:MossyDirt"
     },
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"

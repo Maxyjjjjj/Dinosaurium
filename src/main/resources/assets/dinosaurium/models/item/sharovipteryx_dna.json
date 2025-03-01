@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "dinosaurium:item/amphibian_and_reptile_dna_vial"
-  }
-}

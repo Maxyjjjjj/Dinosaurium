@@ -67,6 +67,7 @@ import com.dinosaurium.entity.CephaloleichnitesEntity;
 import com.dinosaurium.entity.BruhathkayosaurusEntity;
 import com.dinosaurium.entity.BrachytrachelopanEntity;
 import com.dinosaurium.entity.BeipiaosaurusEntity;
+import com.dinosaurium.entity.BaryonyxEntity;
 import com.dinosaurium.entity.AustroraptorEntity;
 import com.dinosaurium.entity.ArchaeopteryxEntity;
 import com.dinosaurium.entity.ArambourgianiaEntity;
@@ -564,6 +565,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof SharovipteryxEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BaryonyxEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

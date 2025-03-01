@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "dinosaurium:zamites_cone"
+  },
+  "result": {
+    "id": "dinosaurium:roasted_zamites_cone"
+  }
+}

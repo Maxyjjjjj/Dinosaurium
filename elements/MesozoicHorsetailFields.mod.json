@@ -4,7 +4,7 @@
   "definition": {
     "name": "Mesozoic Horsetail Fields",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:MossyDirt"
     },
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
@@ -63,7 +63,7 @@
       "min": 0.0,
       "max": 1.0
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Mega pine trees",
     "treeType": 0,
     "minHeight": 7,

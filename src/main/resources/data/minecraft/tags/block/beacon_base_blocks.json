@@ -3,6 +3,11 @@
   "values": [
     "dinosaurium:amber_block",
     "dinosaurium:bronze_block",
-    "dinosaurium:aluminium_block"
+    "dinosaurium:aluminium_block",
+    "minecraft:copper_block",
+    "minecraft:exposed_copper",
+    "minecraft:weathered_copper",
+    "minecraft:oxidized_copper",
+    "dinosaurium:tin_block"
   ]
 }

@@ -77,7 +77,7 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:ZamitesSapling"
     },
     "dropAmount": 1,
     "forceTicking": false,
