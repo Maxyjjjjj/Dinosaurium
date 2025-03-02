@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "dinosaurium:mesozoic_forest",
-    "dinosaurium:mesozoic_forest_steppe"
-  ],
-  "features": "dinosaurium:otozamites",
-  "step": "vegetal_decoration"
-}

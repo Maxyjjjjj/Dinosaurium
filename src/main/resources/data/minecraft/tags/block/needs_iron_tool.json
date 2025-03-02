@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "dinosaurium:resurrection_altar",
-    "dinosaurium:bronze_block",
-    "dinosaurium:mesozoic_portal_frame_block"
+    "dinosaurium:bronze_block"
   ]
 }

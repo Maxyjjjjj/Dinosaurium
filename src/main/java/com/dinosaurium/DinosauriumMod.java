@@ -29,7 +29,6 @@ import com.dinosaurium.world.features.StructureFeature;
 import com.dinosaurium.init.DinosauriumModVillagerProfessions;
 import com.dinosaurium.init.DinosauriumModTabs;
 import com.dinosaurium.init.DinosauriumModSounds;
-import com.dinosaurium.init.DinosauriumModParticleTypes;
 import com.dinosaurium.init.DinosauriumModMenus;
 import com.dinosaurium.init.DinosauriumModItems;
 import com.dinosaurium.init.DinosauriumModEntities;
@@ -56,7 +55,7 @@ public class DinosauriumMod {
 		StructureFeature.REGISTRY.register(modEventBus);
 
 		DinosauriumModMenus.REGISTRY.register(modEventBus);
-		DinosauriumModParticleTypes.REGISTRY.register(modEventBus);
+
 		DinosauriumModVillagerProfessions.PROFESSIONS.register(modEventBus);
 
 		// Start of user code block mod init

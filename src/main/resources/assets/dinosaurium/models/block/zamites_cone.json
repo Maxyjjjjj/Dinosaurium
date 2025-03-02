@@ -1,9 +1,0 @@
-{
-  "parent": "dinosaurium:custom/zamites_cone",
-  "textures": {
-    "all": "dinosaurium:block/zamites_cone",
-    "particle": "dinosaurium:block/zamites_cone",
-    "1": "dinosaurium:block/zamites_cone"
-  },
-  "render_type": "cutout"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dinosaurium:block/otozamites",
-    "particle": "dinosaurium:block/otozamites"
-  },
-  "render_type": "cutout"
-}

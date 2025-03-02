@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dinosaurium:block/plant_bennettitales_small",
-    "particle": "dinosaurium:block/plant_bennettitales_small"
-  },
-  "render_type": "cutout"
-}

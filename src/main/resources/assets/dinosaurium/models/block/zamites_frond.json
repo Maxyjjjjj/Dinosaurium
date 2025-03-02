@@ -1,9 +1,0 @@
-{
-  "parent": "dinosaurium:custom/zamites_frond",
-  "textures": {
-    "all": "dinosaurium:block/zamites_frond",
-    "particle": "dinosaurium:block/zamites_frond",
-    "2": "dinosaurium:block/zamites_frond"
-  },
-  "render_type": "cutout"
-}

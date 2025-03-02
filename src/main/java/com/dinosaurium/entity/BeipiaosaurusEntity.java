@@ -139,7 +139,7 @@ public class BeipiaosaurusEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(DinosauriumModBlocks.OTOZAMITES.get().asItem(), DinosauriumModBlocks.HORSETAIL.get().asItem()).contains(stack.getItem());
+		return List.of(DinosauriumModBlocks.HORSETAIL.get().asItem()).contains(stack.getItem());
 	}
 
 	@Override

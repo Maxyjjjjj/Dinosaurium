@@ -21,11 +21,11 @@
     "stepHeight": 0.6,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -4687806,
+      "value": -1,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -7708618,
+      "value": -13421773,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -137,9 +137,6 @@
     "headMovement": false,
     "eyeHeight": false,
     "breedTriggerItems": [
-      {
-        "value": "CUSTOM:Otozamites"
-      },
       {
         "value": "CUSTOM:Horsetail"
       }

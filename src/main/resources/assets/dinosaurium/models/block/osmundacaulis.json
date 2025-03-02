@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dinosaurium:block/osmundacaulis_short",
-    "particle": "dinosaurium:block/osmundacaulis_short"
-  },
-  "render_type": "cutout"
-}

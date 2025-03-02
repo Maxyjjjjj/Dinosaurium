@@ -89,8 +89,6 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.HERRERASAURUS_SPAWN_EGG.get());
 				tabData.accept(DinosauriumModItems.SHAROVIPTERYX_SPAWN_EGG.get());
 				tabData.accept(DinosauriumModItems.BARYONYX_SPAWN_EGG.get());
-				tabData.accept(DinosauriumModBlocks.MESOZOIC_PORTAL_FRAME_BLOCK.get().asItem());
-				tabData.accept(DinosauriumModItems.MESOZOIC.get());
 				tabData.accept(DinosauriumModBlocks.DEEPSLATE_AMBER_ORE.get().asItem());
 				tabData.accept(DinosauriumModBlocks.AMBER_ORE.get().asItem());
 				tabData.accept(DinosauriumModBlocks.AMBER_BLOCK.get().asItem());
@@ -151,6 +149,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.ARAUCARIA_TRAPDOOR.get().asItem());
 				tabData.accept(DinosauriumModBlocks.MOSSY_DIRT.get().asItem());
 				tabData.accept(DinosauriumModItems.ZBY_SPAWN_EGG.get());
+				tabData.accept(DinosauriumModItems.TIME_MACHINE.get());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOSSILS = REGISTRY.register("dinosaurium_fossils",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_fossils")).icon(() -> new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get())).displayItems((parameters, tabData) -> {
@@ -232,21 +231,15 @@ public class DinosauriumModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_plants")).icon(() -> new ItemStack(DinosauriumModBlocks.HORSETAIL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DinosauriumModBlocks.HORSETAIL.get().asItem());
 				tabData.accept(DinosauriumModBlocks.TALL_HORSETAIL.get().asItem());
-				tabData.accept(DinosauriumModBlocks.OTOZAMITES.get().asItem());
 				tabData.accept(DinosauriumModBlocks.EPHEDRA.get().asItem());
 				tabData.accept(DinosauriumModBlocks.WELWITSCHIA.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ZAMITES_WOOD.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ZAMITES_LOG.get().asItem());
-				tabData.accept(DinosauriumModBlocks.ZAMITES_CONE.get().asItem());
-				tabData.accept(DinosauriumModBlocks.ZAMITES_CROWN.get().asItem());
-				tabData.accept(DinosauriumModBlocks.ZAMITES_FROND.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ZAMITES_SAPLING.get().asItem());
 				tabData.accept(DinosauriumModBlocks.STRIPPED_ZAMITES_LOG.get().asItem());
 				tabData.accept(DinosauriumModBlocks.STRIPPED_ZAMITES_WOOD.get().asItem());
 				tabData.accept(DinosauriumModBlocks.OSMUNDA.get().asItem());
-				tabData.accept(DinosauriumModBlocks.OSMUNDACAULIS.get().asItem());
 				tabData.accept(DinosauriumModBlocks.LAUROZAMITES.get().asItem());
-				tabData.accept(DinosauriumModBlocks.BENETTITALES.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ARAUCARIA_WOOD.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ARAUCARIA_LOG.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ARAUCARIA_LEAVES.get().asItem());
@@ -295,6 +288,5 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.LAUROZAMITES_LEAVES.get());
 				tabData.accept(DinosauriumModItems.UNBOILED_LAUROZAMITES_TEA.get());
 				tabData.accept(DinosauriumModItems.LAUROZAMITES_TEA.get());
-				tabData.accept(DinosauriumModItems.ROASTED_ZAMITES_CONE.get());
 			}).withTabsBefore(DINOSAURIUM_WEAPONRY_AND_TOOLS.getId()).build());
 }

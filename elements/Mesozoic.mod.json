@@ -66,25 +66,21 @@
       "value": "CUSTOM:MesozoicPortalFrameBlock"
     },
     "portalParticles": {
-      "value": "CUSTOM:PortalParticle"
+      "value": "PORTAL"
     },
     "portalLuminance": 0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": true,
+    "enableIgniter": false,
     "igniterName": "Firesticks",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:DinosauriumTab"
-      }
-    ],
+    "creativeTabs": [],
     "texture": "firesticks",
     "portalTexture": "portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

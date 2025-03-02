@@ -5,7 +5,7 @@
     "achievementName": "Fancy Time Travel",
     "achievementDescription": "Enter the Mesozoic",
     "achievementIcon": {
-      "value": "CUSTOM:MesozoicPortalFrameBlock"
+      "value": "CUSTOM:MossyDirt"
     },
     "background": "portalframe_top.png",
     "disableDisplay": false,

@@ -98,24 +98,6 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 5,
-            "price2": {
-              "value": "CUSTOM:Amber"
-            },
-            "countPrice2": 2,
-            "offer": {
-              "value": "CUSTOM:MesozoicPortalFrameBlock"
-            },
-            "countOffer": 3,
-            "level": 2,
-            "maxTrades": 10,
-            "xp": 10,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "Items.EMERALD"
-            },
             "countPrice1": 6,
             "price2": {
               "value": "Items.STICK"
@@ -128,24 +110,6 @@
             "level": 2,
             "maxTrades": 10,
             "xp": 10,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "CUSTOM:Benettitales"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": "Items.EMERALD"
-            },
-            "countPrice2": 3,
-            "offer": {
-              "value": "Items.DYE#15"
-            },
-            "countOffer": 6,
-            "level": 3,
-            "maxTrades": 10,
-            "xp": 15,
             "priceMultiplier": 0.05
           },
           {
@@ -327,6 +291,24 @@
             "maxTrades": 10,
             "xp": 100,
             "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": "CUSTOM:Amber"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AmberFossil"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
           }
         ]
       },
@@ -425,6 +407,24 @@
             "countPrice2": 1,
             "offer": {
               "value": "CUSTOM:Horsetail"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Osmunda"
             },
             "countOffer": 1,
             "level": 1,

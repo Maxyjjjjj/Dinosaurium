@@ -138,7 +138,10 @@
     "eyeHeight": false,
     "breedTriggerItems": [
       {
-        "value": "CUSTOM:Benettitales"
+        "value": "CUSTOM:Osmunda"
+      },
+      {
+        "value": "CUSTOM:Laurozamites"
       }
     ],
     "ranged": false,

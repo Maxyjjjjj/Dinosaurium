@@ -3,15 +3,15 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pachyrhinosaurus_skull",
+    "texture": "time_machine",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Protoceratops Fossil",
+    "name": "Time Remote",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:DinosauriumFossils"
+        "value": "CUSTOM:DinosauriumTab"
       }
     ],
     "stackSize": 64,

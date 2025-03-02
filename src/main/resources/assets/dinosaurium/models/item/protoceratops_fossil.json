@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dinosaurium:item/protoceratops_skull"
+    "layer0": "dinosaurium:item/pachyrhinosaurus_skull"
   }
 }

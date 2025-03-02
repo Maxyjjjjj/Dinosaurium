@@ -142,7 +142,7 @@ public class AnzuEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(DinosauriumModBlocks.HORSETAIL.get().asItem(), Blocks.FERN.asItem(), DinosauriumModBlocks.OTOZAMITES.get().asItem()).contains(stack.getItem());
+		return List.of(DinosauriumModBlocks.HORSETAIL.get().asItem(), Blocks.FERN.asItem()).contains(stack.getItem());
 	}
 
 	@Override

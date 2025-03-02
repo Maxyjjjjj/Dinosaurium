@@ -27,6 +27,7 @@ import com.dinosaurium.item.TyrannosaurusFossilItem;
 import com.dinosaurium.item.TuojiangosaurusFossilItem;
 import com.dinosaurium.item.TricepatopsFossilItem;
 import com.dinosaurium.item.TinIngotItem;
+import com.dinosaurium.item.TimeMachineItem;
 import com.dinosaurium.item.TherizinosaurusFossilItem;
 import com.dinosaurium.item.TeacupItem;
 import com.dinosaurium.item.StoneKnifeItem;
@@ -37,7 +38,6 @@ import com.dinosaurium.item.SinewItem;
 import com.dinosaurium.item.ShuvuuiaFossilItem;
 import com.dinosaurium.item.SharovipteryxFossilItem;
 import com.dinosaurium.item.SawfishSwordItem;
-import com.dinosaurium.item.RoastedZamitesConeItem;
 import com.dinosaurium.item.RepenomamusFossilItem;
 import com.dinosaurium.item.RawTinItem;
 import com.dinosaurium.item.RawOysterItem;
@@ -72,7 +72,6 @@ import com.dinosaurium.item.MongolarachneItemItem;
 import com.dinosaurium.item.MongolarachneFossilItem;
 import com.dinosaurium.item.MiragaiaFossilItem;
 import com.dinosaurium.item.MicroraptorFossilItem;
-import com.dinosaurium.item.MesozoicItem;
 import com.dinosaurium.item.MashedBugsItem;
 import com.dinosaurium.item.MamenchisaurusFossilItem;
 import com.dinosaurium.item.MagyarosaurusFossilItem;
@@ -137,8 +136,6 @@ import com.dinosaurium.DinosauriumMod;
 
 public class DinosauriumModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DinosauriumMod.MODID);
-	public static final DeferredItem<Item> MESOZOIC = REGISTRY.register("mesozoic", MesozoicItem::new);
-	public static final DeferredItem<Item> MESOZOIC_PORTAL_FRAME_BLOCK = block(DinosauriumModBlocks.MESOZOIC_PORTAL_FRAME_BLOCK);
 	public static final DeferredItem<Item> VELOCIRAPTOR_SPAWN_EGG = REGISTRY.register("velociraptor_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.VELOCIRAPTOR, -5400466, -2697514, new Item.Properties()));
 	public static final DeferredItem<Item> SHUVUUIA_SPAWN_EGG = REGISTRY.register("shuvuuia_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.SHUVUUIA, -14671840, -3623793, new Item.Properties()));
 	public static final DeferredItem<Item> AUSTRORAPTOR_SPAWN_EGG = REGISTRY.register("austroraptor_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.AUSTRORAPTOR, -11318853, -2434342, new Item.Properties()));
@@ -220,7 +217,6 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> ARCHAEOPTERYX_FOSSIL = REGISTRY.register("archaeopteryx_fossil", ArchaeopteryxFossilItem::new);
 	public static final DeferredItem<Item> OLOROTITAN_SPAWN_EGG = REGISTRY.register("olorotitan_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.OLOROTITAN, -9346495, -1, new Item.Properties()));
 	public static final DeferredItem<Item> OLOROTITAN_FOSSIL = REGISTRY.register("olorotitan_fossil", OlorotitanFossilItem::new);
-	public static final DeferredItem<Item> OTOZAMITES = block(DinosauriumModBlocks.OTOZAMITES);
 	public static final DeferredItem<Item> EPHEDRA = block(DinosauriumModBlocks.EPHEDRA);
 	public static final DeferredItem<Item> WELWITSCHIA = block(DinosauriumModBlocks.WELWITSCHIA);
 	public static final DeferredItem<Item> MAGYAROSAURUS_SPAWN_EGG = REGISTRY.register("magyarosaurus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.MAGYAROSAURUS, -39322, -1, new Item.Properties()));
@@ -236,9 +232,6 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> ZAMITES_FENCE_GATE = block(DinosauriumModBlocks.ZAMITES_FENCE_GATE);
 	public static final DeferredItem<Item> ZAMITES_PRESSURE_PLATE = block(DinosauriumModBlocks.ZAMITES_PRESSURE_PLATE);
 	public static final DeferredItem<Item> ZAMITES_BUTTON = block(DinosauriumModBlocks.ZAMITES_BUTTON);
-	public static final DeferredItem<Item> ZAMITES_CONE = block(DinosauriumModBlocks.ZAMITES_CONE);
-	public static final DeferredItem<Item> ZAMITES_CROWN = block(DinosauriumModBlocks.ZAMITES_CROWN);
-	public static final DeferredItem<Item> ZAMITES_FROND = block(DinosauriumModBlocks.ZAMITES_FROND);
 	public static final DeferredItem<Item> ZAMITES_SAPLING = block(DinosauriumModBlocks.ZAMITES_SAPLING);
 	public static final DeferredItem<Item> PACHYRHINOSAURUS_SPAWN_EGG = REGISTRY.register("pachyrhinosaurus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.PACHYRHINOSAURUS, -8160935, -1, new Item.Properties()));
 	public static final DeferredItem<Item> PACHYRHINOSAURUS_FOSSIL = REGISTRY.register("pachyrhinosaurus_fossil", PachyrhinosaurusFossilItem::new);
@@ -256,7 +249,7 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> KOL_SPAWN_EGG = REGISTRY.register("kol_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.KOL, -6749953, -1, new Item.Properties()));
 	public static final DeferredItem<Item> KOL_FOSSIL = REGISTRY.register("kol_fossil", KolFossilItem::new);
 	public static final DeferredItem<Item> ANZU_SPAWN_EGG = REGISTRY.register("anzu_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.ANZU, -10203593, -13145524, new Item.Properties()));
-	public static final DeferredItem<Item> BEIPIAOSAURUS_SPAWN_EGG = REGISTRY.register("beipiaosaurus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.BEIPIAOSAURUS, -4687806, -7708618, new Item.Properties()));
+	public static final DeferredItem<Item> BEIPIAOSAURUS_SPAWN_EGG = REGISTRY.register("beipiaosaurus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.BEIPIAOSAURUS, -1, -13421773, new Item.Properties()));
 	public static final DeferredItem<Item> ANZU_FOSSIL = REGISTRY.register("anzu_fossil", AnzuFossilItem::new);
 	public static final DeferredItem<Item> BEIPIAOSAURUS_FOSSIL = REGISTRY.register("beipiaosaurus_fossil", BeipiaosaurusFossilItem::new);
 	public static final DeferredItem<Item> ZHENYUANLONG_SPAWN_EGG = REGISTRY.register("zhenyuanlong_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.ZHENYUANLONG, -2203904, -1, new Item.Properties()));
@@ -275,10 +268,8 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> COELOPHYSIS_FOSSIL = REGISTRY.register("coelophysis_fossil", CoelophysisFossilItem::new);
 	public static final DeferredItem<Item> CRETARANEUS_ITEM = REGISTRY.register("cretaraneus_item", CretaraneusItemItem::new);
 	public static final DeferredItem<Item> MONGOLARACHNE_ITEM = REGISTRY.register("mongolarachne_item", MongolarachneItemItem::new);
-	public static final DeferredItem<Item> OSMUNDACAULIS = block(DinosauriumModBlocks.OSMUNDACAULIS);
 	public static final DeferredItem<Item> LAUROZAMITES = block(DinosauriumModBlocks.LAUROZAMITES);
 	public static final DeferredItem<Item> FRIED_SPIDER = REGISTRY.register("fried_spider", FriedSpiderItem::new);
-	public static final DeferredItem<Item> BENETTITALES = block(DinosauriumModBlocks.BENETTITALES);
 	public static final DeferredItem<Item> SINEW = REGISTRY.register("sinew", SinewItem::new);
 	public static final DeferredItem<Item> PYCNOFIBER = REGISTRY.register("pycnofiber", PycnofiberItem::new);
 	public static final DeferredItem<Item> JEHOLOPTERUS_SPAWN_EGG = REGISTRY.register("jeholopterus_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.JEHOLOPTERUS, -12109269, -3637120, new Item.Properties()));
@@ -387,15 +378,14 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> MONGOLARACHNE_FOSSIL = REGISTRY.register("mongolarachne_fossil", MongolarachneFossilItem::new);
 	public static final DeferredItem<Item> NANNOGOMPHUS_FOSSIL = REGISTRY.register("nannogomphus_fossil", NannogomphusFossilItem::new);
 	public static final DeferredItem<Item> GIANT_CICADA_FOSSIL = REGISTRY.register("giant_cicada_fossil", GiantCicadaFossilItem::new);
-	public static final DeferredItem<Item> ROASTED_ZAMITES_CONE = REGISTRY.register("roasted_zamites_cone", RoastedZamitesConeItem::new);
 	public static final DeferredItem<Item> RESURRECTION_ALTAR = block(DinosauriumModBlocks.RESURRECTION_ALTAR);
 	public static final DeferredItem<Item> BARYONYX_SPAWN_EGG = REGISTRY.register("baryonyx_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.BARYONYX, -10591673, -14079965, new Item.Properties()));
 	public static final DeferredItem<Item> BARYONYX_FOSSIL = REGISTRY.register("baryonyx_fossil", BaryonyxFossilItem::new);
 	public static final DeferredItem<Item> MOSSY_DIRT = block(DinosauriumModBlocks.MOSSY_DIRT);
 	public static final DeferredItem<Item> LIVERWORTS = block(DinosauriumModBlocks.LIVERWORTS);
-	public static final DeferredItem<Item> CRASSOSTREA_OYSTERS = block(DinosauriumModBlocks.CRASSOSTREA_OYSTERS);
 	public static final DeferredItem<Item> ZBY_SPAWN_EGG = REGISTRY.register("zby_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.ZBY, -7048615, -1, new Item.Properties()));
 	public static final DeferredItem<Item> ZBY_FOSSIL = REGISTRY.register("zby_fossil", ZbyFossilItem::new);
+	public static final DeferredItem<Item> TIME_MACHINE = REGISTRY.register("time_machine", TimeMachineItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

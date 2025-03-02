@@ -141,7 +141,7 @@ public class ZbyEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(DinosauriumModBlocks.BENETTITALES.get().asItem()).contains(stack.getItem());
+		return List.of(DinosauriumModBlocks.OSMUNDA.get().asItem(), DinosauriumModBlocks.LAUROZAMITES.get().asItem()).contains(stack.getItem());
 	}
 
 	@Override
