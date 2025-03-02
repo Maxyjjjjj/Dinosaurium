@@ -6448,6 +6448,47 @@
           }
         ]
       }
+    },
+    {
+      "name": "Zby",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zby",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/entity/ZbyEntity.java",
+          "src/main/java/com/dinosaurium/client/renderer/ZbyRenderer.java",
+          "src/main/resources/assets/dinosaurium/models/item/zby_spawn_egg.json",
+          "src/main/resources/data/dinosaurium/neoforge/biome_modifier/zby_biome_modifier.json",
+          "src/main/java/com/dinosaurium/entity/model/ZbyModel.java"
+        ]
+      }
+    },
+    {
+      "name": "ZbyFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zby_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/dinosaurium/item/ZbyFossilItem.java",
+          "src/main/resources/assets/dinosaurium/models/item/zby_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "FarmOysters",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_oysters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dinosaurium/loot_table/blocks/crassostrea_oysters.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6462,12 +6503,12 @@
     }
   ],
   "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:BronzeArmor.body"
+    ],
     "ITEMS:mod:anchiornis_theft_targets": [
       "TAG:minecraft:meat",
       "TAG:mod:mashable_bugs"
-    ],
-    "ITEMS:minecraft:chest_armor": [
-      "~CUSTOM:BronzeArmor.body"
     ],
     "ITEMS:farmersdelight:tools/knives": [
       "TAG:mod:opening_knives"
@@ -6521,6 +6562,11 @@
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:AraucariaSapling",
       "~CUSTOM:ZamitesSapling"
+    ],
+    "BLOCKS:minecraft:enderman_holdable": [
+      "CUSTOM:Horsetail",
+      "CUSTOM:Ephedra",
+      "CUSTOM:MossyDirt"
     ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:AraucariaLeaves"
@@ -6620,7 +6666,8 @@
       "CUSTOM:HerrerasaurusFossil",
       "CUSTOM:SharovipteryxFossil",
       "CUSTOM:OnchopristisFossil",
-      "CUSTOM:BaryonyxFossil"
+      "CUSTOM:BaryonyxFossil",
+      "CUSTOM:ZbyFossil"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:ResurrectionAltar",
@@ -6662,8 +6709,7 @@
       "~CUSTOM:MossyDirt",
       "~Blocks.SAND#0",
       "~Blocks.STONE#0",
-      "~Blocks.DIRT#0",
-      "~Blocks.GRASS"
+      "~Blocks.DIRT#0"
     ],
     "BIOMES:mod:is_mesozoic": [
       "CUSTOM:MesozoicBog",
@@ -6998,7 +7044,8 @@
       "AraucariaButton",
       "AraucariaDoor",
       "AraucariaTrapdoor",
-      "MossyDirt"
+      "MossyDirt",
+      "Zby"
     ],
     "CUSTOM:DinosauriumFossils": [
       "AmberFossil",
@@ -7072,7 +7119,8 @@
       "MongolarachneFossil",
       "NannogomphusFossil",
       "GiantCicadaFossil",
-      "BaryonyxFossil"
+      "BaryonyxFossil",
+      "ZbyFossil"
     ],
     "CUSTOM:DinosauriumPlants": [
       "Horsetail",
@@ -7206,6 +7254,7 @@
       "entity.dinosaurium.oviraptor": "Oviraptor",
       "entity.dinosaurium.brachytrachelopan": "Brachytrachelopan",
       "advancements.collaborationist_to_british_imperialism.descr": "Drink some Laurozamites Tea",
+      "entity.dinosaurium.zby": "Zby",
       "entity.dinosaurium.quetzalcoatlus": "Quetzalcoatlus",
       "item.dinosaurium.stegosaurus_spawn_egg": "Stegosaurus Spawn Egg",
       "block.dinosaurium.amber_block": "Block of Amber",
@@ -7248,6 +7297,7 @@
       "item.dinosaurium.archaeopteryx_fossil": "Archaeopteryx Fossil",
       "item.dinosaurium.coelophysis_spawn_egg": "Coelophysis Spawn Egg",
       "entity.dinosaurium.anzu": "Anzu",
+      "item.dinosaurium.zby_spawn_egg": "Zby Spawn Egg",
       "item.dinosaurium.microraptor_spawn_egg": "Microraptor Spawn Egg",
       "item.dinosaurium.jeholopterus_spawn_egg": "Jeholopterus Spawn Egg",
       "block.dinosaurium.dna_recreator": "DNA Recreator",
@@ -7504,6 +7554,7 @@
       "entity.dinosaurium.yutyrannus": "Yutyrannus",
       "item.dinosaurium.mongolarachne_item": "Mongolarachne",
       "item.dinosaurium.unboiled_laurozamites_tea": "Unboiled Laurozamites Tea",
+      "item.dinosaurium.zby_fossil": "Zby Fossil",
       "item.dinosaurium.ouranosaurus_fossil": "Ouranosaurus Fossil",
       "block.dinosaurium.crassostrea_oyster_block": "Crassostrea Oyster",
       "item.dinosaurium.nyctosaurus_fossil": "Nyctosaurus Fossil",
@@ -7600,6 +7651,7 @@
       "entity.dinosaurium.oviraptor": "Овіраптор",
       "entity.dinosaurium.brachytrachelopan": "Брахітрахелопан",
       "advancements.collaborationist_to_british_imperialism.descr": "Випийте трохи доісторичного чаю",
+      "entity.dinosaurium.zby": "Збі",
       "entity.dinosaurium.quetzalcoatlus": "Кетцалькоатль",
       "item.dinosaurium.stegosaurus_spawn_egg": "Стегозавр — яйце виклику",
       "block.dinosaurium.amber_block": "Блок бурштину",
@@ -7642,6 +7694,7 @@
       "item.dinosaurium.archaeopteryx_fossil": "Скам\u0027янілість першоптаха",
       "item.dinosaurium.coelophysis_spawn_egg": "Целофіз — яйце виклику",
       "entity.dinosaurium.anzu": "Анзу",
+      "item.dinosaurium.zby_spawn_egg": "Збі — яйце виклику",
       "item.dinosaurium.microraptor_spawn_egg": "Мікрораптор — яйце виклику",
       "item.dinosaurium.jeholopterus_spawn_egg": "Жеголоптер — яйце виклику",
       "block.dinosaurium.dna_recreator": "Відтворювач ДНК",
@@ -7865,7 +7918,7 @@
       "item.dinosaurium.pteranodon_spawn_egg": "Птеранодон — яйце виклику",
       "item.dinosaurium.raw_tin": "Необроблене олово",
       "item.dinosaurium.cephaloleichnites_spawn_egg": "Цефалолеїхнітес — яйце виклику",
-      "block.dinosaurium.crassostrea_oysters": "Crassostrea Oysters",
+      "block.dinosaurium.crassostrea_oysters": "Устриці",
       "item.dinosaurium.pterodaustro_spawn_egg": "Птеродавстро — яйце виклику",
       "block.dinosaurium.araucaria_planks": "Араукарієві дошки",
       "entity.dinosaurium.lisowicia": "Лісовіція",
@@ -7898,6 +7951,7 @@
       "entity.dinosaurium.yutyrannus": "Ютиран",
       "item.dinosaurium.mongolarachne_item": "Монголарахна",
       "item.dinosaurium.unboiled_laurozamites_tea": "Некип\u0027ячений лаурозамітовий чай",
+      "item.dinosaurium.zby_fossil": "Zby Fossil",
       "item.dinosaurium.ouranosaurus_fossil": "Скам\u0027янілість уранозавра",
       "block.dinosaurium.crassostrea_oyster_block": "Устриці",
       "item.dinosaurium.nyctosaurus_fossil": "Скам\u0027янілість ніктозавра",

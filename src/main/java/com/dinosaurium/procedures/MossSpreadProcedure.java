@@ -2,6 +2,7 @@ package com.dinosaurium.procedures;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LightLayer;
 import net.minecraft.world.level.LevelAccessor;
@@ -56,7 +57,7 @@ public class MossSpreadProcedure {
 				world.setBlock(_bp, _bs, 3);
 			}
 		}
-		if (world.getBlockState(BlockPos.containing(x, y + 1, z)).canOcclude()) {
+		if (world.getBlockState(BlockPos.containing(x, y + 1, z)).canOcclude() || (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() instanceof LiquidBlock) {
 			{
 				BlockPos _bp = BlockPos.containing(sX, sY, sZ);
 				BlockState _bs = Blocks.DIRT.defaultBlockState();

@@ -10,6 +10,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import com.dinosaurium.client.renderer.ZhenyuanlongRenderer;
+import com.dinosaurium.client.renderer.ZbyRenderer;
 import com.dinosaurium.client.renderer.YutyrannusRenderer;
 import com.dinosaurium.client.renderer.VelociraptorRenderer;
 import com.dinosaurium.client.renderer.TyrannosaurusRenderer;
@@ -156,5 +157,6 @@ public class DinosauriumModEntityRenderers {
 		event.registerEntityRenderer(DinosauriumModEntities.HERRERASAURUS.get(), HerrerasaurusRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.SHAROVIPTERYX.get(), SharovipteryxRenderer::new);
 		event.registerEntityRenderer(DinosauriumModEntities.BARYONYX.get(), BaryonyxRenderer::new);
+		event.registerEntityRenderer(DinosauriumModEntities.ZBY.get(), ZbyRenderer::new);
 	}
 }

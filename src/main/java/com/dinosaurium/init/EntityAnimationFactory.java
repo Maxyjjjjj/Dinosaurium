@@ -5,6 +5,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import com.dinosaurium.entity.ZhenyuanlongEntity;
+import com.dinosaurium.entity.ZbyEntity;
 import com.dinosaurium.entity.YutyrannusEntity;
 import com.dinosaurium.entity.VelociraptorEntity;
 import com.dinosaurium.entity.TyrannosaurusEntity;
@@ -572,6 +573,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof BaryonyxEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ZbyEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

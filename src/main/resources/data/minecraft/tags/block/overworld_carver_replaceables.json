@@ -4,7 +4,6 @@
     "dinosaurium:mossy_dirt",
     "minecraft:sand",
     "minecraft:stone",
-    "minecraft:dirt",
-    "minecraft:grass_block"
+    "minecraft:dirt"
   ]
 }

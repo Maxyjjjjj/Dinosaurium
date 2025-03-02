@@ -4,10 +4,10 @@
   "definition": {
     "texture": "paleo_table_bottom",
     "textureTop": "paleo_table_top",
-    "textureLeft": "paleo_table_side_4",
+    "textureLeft": "paleo_table_side_3",
     "textureFront": "paleo_table_side_1",
     "textureRight": "paleo_table_side_2",
-    "textureBack": "paleo_table_side_3",
+    "textureBack": "paleo_table_side_4",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,

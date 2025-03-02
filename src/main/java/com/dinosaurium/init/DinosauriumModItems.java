@@ -15,6 +15,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import com.dinosaurium.item.ZhenyuanlongFossilItem;
+import com.dinosaurium.item.ZbyFossilItem;
 import com.dinosaurium.item.YutyrannusFossilItem;
 import com.dinosaurium.item.WoodenKnifeItem;
 import com.dinosaurium.item.WaterCupItem;
@@ -393,6 +394,8 @@ public class DinosauriumModItems {
 	public static final DeferredItem<Item> MOSSY_DIRT = block(DinosauriumModBlocks.MOSSY_DIRT);
 	public static final DeferredItem<Item> LIVERWORTS = block(DinosauriumModBlocks.LIVERWORTS);
 	public static final DeferredItem<Item> CRASSOSTREA_OYSTERS = block(DinosauriumModBlocks.CRASSOSTREA_OYSTERS);
+	public static final DeferredItem<Item> ZBY_SPAWN_EGG = REGISTRY.register("zby_spawn_egg", () -> new DeferredSpawnEggItem(DinosauriumModEntities.ZBY, -7048615, -1, new Item.Properties()));
+	public static final DeferredItem<Item> ZBY_FOSSIL = REGISTRY.register("zby_fossil", ZbyFossilItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

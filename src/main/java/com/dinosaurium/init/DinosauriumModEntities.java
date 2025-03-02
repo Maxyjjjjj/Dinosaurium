@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import com.dinosaurium.entity.ZhenyuanlongEntity;
+import com.dinosaurium.entity.ZbyEntity;
 import com.dinosaurium.entity.YutyrannusEntity;
 import com.dinosaurium.entity.VelociraptorEntity;
 import com.dinosaurium.entity.TyrannosaurusEntity;
@@ -375,6 +376,9 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<BaryonyxEntity>of(BaryonyxEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.8f, 2.3f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ZbyEntity>> ZBY = register("zby", EntityType.Builder.<ZbyEntity>of(ZbyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+			.sized(1.7f, 4f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -455,6 +459,7 @@ public class DinosauriumModEntities {
 		HerrerasaurusEntity.init(event);
 		SharovipteryxEntity.init(event);
 		BaryonyxEntity.init(event);
+		ZbyEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -530,5 +535,6 @@ public class DinosauriumModEntities {
 		event.put(HERRERASAURUS.get(), HerrerasaurusEntity.createAttributes().build());
 		event.put(SHAROVIPTERYX.get(), SharovipteryxEntity.createAttributes().build());
 		event.put(BARYONYX.get(), BaryonyxEntity.createAttributes().build());
+		event.put(ZBY.get(), ZbyEntity.createAttributes().build());
 	}
 }

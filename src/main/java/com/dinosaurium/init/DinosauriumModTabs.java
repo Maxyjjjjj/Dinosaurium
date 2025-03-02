@@ -150,6 +150,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModBlocks.ARAUCARIA_DOOR.get().asItem());
 				tabData.accept(DinosauriumModBlocks.ARAUCARIA_TRAPDOOR.get().asItem());
 				tabData.accept(DinosauriumModBlocks.MOSSY_DIRT.get().asItem());
+				tabData.accept(DinosauriumModItems.ZBY_SPAWN_EGG.get());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_FOSSILS = REGISTRY.register("dinosaurium_fossils",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_fossils")).icon(() -> new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get())).displayItems((parameters, tabData) -> {
@@ -225,6 +226,7 @@ public class DinosauriumModTabs {
 				tabData.accept(DinosauriumModItems.NANNOGOMPHUS_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.GIANT_CICADA_FOSSIL.get());
 				tabData.accept(DinosauriumModItems.BARYONYX_FOSSIL.get());
+				tabData.accept(DinosauriumModItems.ZBY_FOSSIL.get());
 			}).withSearchBar().withTabsBefore(DINOSAURIUM_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DINOSAURIUM_PLANTS = REGISTRY.register("dinosaurium_plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dinosaurium.dinosaurium_plants")).icon(() -> new ItemStack(DinosauriumModBlocks.HORSETAIL.get())).displayItems((parameters, tabData) -> {
