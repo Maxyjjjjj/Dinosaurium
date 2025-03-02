@@ -6285,12 +6285,12 @@
     }
   ],
   "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:BronzeArmor.body"
+    ],
     "ITEMS:mod:anchiornis_theft_targets": [
       "TAG:minecraft:meat",
       "TAG:mod:mashable_bugs"
-    ],
-    "ITEMS:minecraft:chest_armor": [
-      "~CUSTOM:BronzeArmor.body"
     ],
     "ITEMS:farmersdelight:tools/knives": [
       "TAG:mod:opening_knives"
@@ -6448,11 +6448,9 @@
       "CUSTOM:BaryonyxFossil",
       "CUSTOM:ZbyFossil"
     ],
-    "ITEMS:minecraft:piglin_safe_armor": [
-      "CUSTOM:BronzeArmor.helmet",
-      "CUSTOM:BronzeArmor.body",
-      "CUSTOM:BronzeArmor.legs",
-      "CUSTOM:BronzeArmor.boots"
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ResurrectionAltar",
+      "~CUSTOM:BronzeBlock"
     ],
     "ITEMS:minecraft:beacon_payment_items": [
       "CUSTOM:Amber",
@@ -6461,9 +6459,11 @@
       "Items.COPPER_INGOT",
       "CUSTOM:TinIngot"
     ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:ResurrectionAltar",
-      "~CUSTOM:BronzeBlock"
+    "ITEMS:minecraft:piglin_safe_armor": [
+      "CUSTOM:BronzeArmor.helmet",
+      "CUSTOM:BronzeArmor.body",
+      "CUSTOM:BronzeArmor.legs",
+      "CUSTOM:BronzeArmor.boots"
     ],
     "BLOCKS:minecraft:wooden_fences": [
       "CUSTOM:ZamitesFence",
@@ -6959,14 +6959,14 @@
   "language_map": {
     "en_us": {
       "item.dinosaurium.tricepatops_fossil": "Tricepatops Fossil",
-      "item.dinosaurium.cretaraneus_item": "Cretaraneus",
-      "biome.dinosaurium.mesozoic_jungle": "Mesozoic Jungle",
       "item.dinosaurium.onchopristis_spawn_egg": "Onchopristis Spawn Egg",
+      "biome.dinosaurium.mesozoic_jungle": "Mesozoic Jungle",
+      "item.dinosaurium.cretaraneus_item": "Cretaraneus",
       "item.dinosaurium.giant_cicada_fossil": "Giant Cicada Fossil",
       "block.dinosaurium.cut_tin_slab": "Cut Tin Slab",
       "item.dinosaurium.mashed_bugs": "Mashed Bugs",
-      "item.dinosaurium.bauxite": "Bauxite",
       "entity.dinosaurium.baryonyx": "Baryonyx",
+      "item.dinosaurium.bauxite": "Bauxite",
       "item.dinosaurium.teacup": "Teacup",
       "entity.dinosaurium.bruhathkayosaurus": "Bruhathkayosaurus",
       "item.dinosaurium.orodromeus_fossil": "Orodromeus Fossil",
@@ -7341,14 +7341,14 @@
     },
     "uk_ua": {
       "item.dinosaurium.tricepatops_fossil": "Скам\u0027янілість трицератопса",
-      "item.dinosaurium.cretaraneus_item": "Кретараней",
-      "item.dinosaurium.onchopristis_spawn_egg": "Онхопрістіс — яйце виклику",
       "biome.dinosaurium.mesozoic_jungle": "Мезозойські джунглі",
+      "item.dinosaurium.onchopristis_spawn_egg": "Онхопрістіс — яйце виклику",
+      "item.dinosaurium.cretaraneus_item": "Кретараней",
       "item.dinosaurium.giant_cicada_fossil": "Скам\u0027янілість гігантської цикади",
       "block.dinosaurium.cut_tin_slab": "Плита з тесаного олова",
       "item.dinosaurium.mashed_bugs": "Пюре з жуків",
-      "entity.dinosaurium.baryonyx": "Баріонікс",
       "item.dinosaurium.bauxite": "Боксит",
+      "entity.dinosaurium.baryonyx": "Баріонікс",
       "item.dinosaurium.teacup": "Кружка",
       "entity.dinosaurium.bruhathkayosaurus": "Бругаткайозавр",
       "item.dinosaurium.orodromeus_fossil": "Скам\u0027янілість ородромея",
