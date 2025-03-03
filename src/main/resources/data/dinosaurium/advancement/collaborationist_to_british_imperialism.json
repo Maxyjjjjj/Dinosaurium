@@ -26,5 +26,5 @@
       }
     }
   },
-  "parent": "dinosaurium:collect_bugs"
+  "parent": "dinosaurium:open_season"
 }

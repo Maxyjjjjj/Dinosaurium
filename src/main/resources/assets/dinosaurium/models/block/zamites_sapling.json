@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dinosaurium:block/zamites_sapling",
-    "particle": "dinosaurium:block/zamites_sapling"
-  },
-  "render_type": "cutout"
-}

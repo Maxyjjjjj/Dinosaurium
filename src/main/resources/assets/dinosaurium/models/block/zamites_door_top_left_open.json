@@ -1,9 +1,0 @@
-{
-  "parent": "block/door_top_left_open",
-  "textures": {
-    "particle": "dinosaurium:block/zamites_door_bottom",
-    "bottom": "dinosaurium:block/zamites_door_bottom",
-    "top": "dinosaurium:block/zamites_door_top"
-  },
-  "render_type": "cutout"
-}

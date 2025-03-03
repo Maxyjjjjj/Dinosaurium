@@ -16,11 +16,11 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
@@ -54,7 +54,6 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 
 import com.dinosaurium.procedures.FlyingConditionProcedure;
-import com.dinosaurium.init.DinosauriumModItems;
 import com.dinosaurium.init.DinosauriumModEntities;
 
 public class SharovipteryxEntity extends Animal implements GeoEntity {
@@ -101,13 +100,7 @@ public class SharovipteryxEntity extends Animal implements GeoEntity {
 		this.goalSelector.addGoal(1, new BreedGoal(this, 1));
 		this.goalSelector.addGoal(2, new FollowParentGoal(this, 0.8));
 		this.goalSelector.addGoal(3, new PanicGoal(this, 1.2));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, GiantCicadEntity.class, false, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, CephaloleichnitesEntity.class, false, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, MongolarachneEntity.class, false, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, CretaraneusEntity.class, false, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, NannogomphusEntity.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, OmmaEntity.class, false, false));
-		this.goalSelector.addGoal(10, new RandomStrollGoal(this, 0.8, 20) {
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 0.8, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = SharovipteryxEntity.this.getRandom();
@@ -138,9 +131,9 @@ public class SharovipteryxEntity extends Animal implements GeoEntity {
 			}
 
 		});
-		this.goalSelector.addGoal(11, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(12, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(13, new FloatGoal(this));
+		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(7, new FloatGoal(this));
 	}
 
 	@Override
@@ -191,8 +184,7 @@ public class SharovipteryxEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(DinosauriumModItems.CEPHALOLEICHNITES_ITEM.get(), DinosauriumModItems.CRETARANEUS_ITEM.get(), DinosauriumModItems.MONGOLARACHNE_ITEM.get(), DinosauriumModItems.OMMA_ITEM.get(), DinosauriumModItems.NANNOGOMPHUS_ITEM.get(),
-				DinosauriumModItems.GIANT_CICADA_ITEM.get()).contains(stack.getItem());
+		return List.of(Items.WHEAT_SEEDS).contains(stack.getItem());
 	}
 
 	@Override

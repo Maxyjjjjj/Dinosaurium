@@ -763,23 +763,6 @@ public class ResurrectAnimalProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.KOL_FOSSIL.get()) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = DinosauriumModEntities.KOL.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-					}
-				}
-			}
-			if ((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					if (world instanceof ILevelExtension _ext) {
-						IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
-						if (_itemHandler != null)
-							return _itemHandler.getStackInSlot(slotid).copy();
-					}
-					return ItemStack.EMPTY;
-				}
 			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.ANZU_FOSSIL.get()) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = DinosauriumModEntities.ANZU.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
@@ -1140,91 +1123,6 @@ public class ResurrectAnimalProcedure {
 			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.ZBY_FOSSIL.get()) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = DinosauriumModEntities.ZBY.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-					}
-				}
-			}
-			if ((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					if (world instanceof ILevelExtension _ext) {
-						IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
-						if (_itemHandler != null)
-							return _itemHandler.getStackInSlot(slotid).copy();
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.CEPHALOLEICHNITES_FOSSIL.get()) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = DinosauriumModEntities.CEPHALOLEICHNITES.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-					}
-				}
-			}
-			if ((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					if (world instanceof ILevelExtension _ext) {
-						IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
-						if (_itemHandler != null)
-							return _itemHandler.getStackInSlot(slotid).copy();
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.CRETARANEUS_FOSSIL.get()) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = DinosauriumModEntities.CRETARANEUS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-					}
-				}
-			}
-			if ((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					if (world instanceof ILevelExtension _ext) {
-						IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
-						if (_itemHandler != null)
-							return _itemHandler.getStackInSlot(slotid).copy();
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.MONGOLARACHNE_FOSSIL.get()) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = DinosauriumModEntities.MONGOLARACHNE.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-					}
-				}
-			}
-			if ((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					if (world instanceof ILevelExtension _ext) {
-						IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
-						if (_itemHandler != null)
-							return _itemHandler.getStackInSlot(slotid).copy();
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.NANNOGOMPHUS_FOSSIL.get()) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = DinosauriumModEntities.NANNOGOMPHUS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-					if (entityToSpawn != null) {
-						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-					}
-				}
-			}
-			if ((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					if (world instanceof ILevelExtension _ext) {
-						IItemHandler _itemHandler = _ext.getCapability(Capabilities.ItemHandler.BLOCK, pos, null);
-						if (_itemHandler != null)
-							return _itemHandler.getStackInSlot(slotid).copy();
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() == DinosauriumModItems.GIANT_CICADA_FOSSIL.get()) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = DinosauriumModEntities.GIANT_CICADA.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 					if (entityToSpawn != null) {
 						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 					}

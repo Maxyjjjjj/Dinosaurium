@@ -1,0 +1,17 @@
+{
+    "name": "Baryonyx",
+    "icon": "dinosaurium:baryonyx_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Baryonyx was a large, fish-eating dinosaur from the Early Cretaceous Period. It had a long, crocodile-like snout filled with sharp teeth, and a large, curved claw on each hand. Baryonyx likely used its claws to catch fish and other prey, and its long snout to help it hunt in the water. Fossil remains of Baryonyx have been found in England and Spain."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:baryonyx",
+            "rotate": false,
+            "text": "Spinosaurus no sail."
+        }
+    ]
+}

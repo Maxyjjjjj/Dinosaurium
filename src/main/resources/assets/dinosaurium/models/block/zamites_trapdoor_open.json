@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "dinosaurium:block/zamites_trapdoor",
-    "particle": "dinosaurium:block/zamites_trapdoor"
-  },
-  "render_type": "cutout"
-}

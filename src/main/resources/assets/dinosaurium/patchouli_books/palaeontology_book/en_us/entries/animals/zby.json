@@ -1,0 +1,17 @@
+{
+    "name": "Zby",
+    "icon": "dinosaurium:zby_spawn_egg",
+    "category": "dinosaurium:animals",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Zby is an extinct genus of turiasaurian sauropod dinosaur known from the Late Jurassic (late Kimmeridgian stage) of the Lourinhã Formation, central west Portugal."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dinosaurium:zby",
+            "rotate": false,
+            "text": "Funy name"
+        }
+    ]
+}

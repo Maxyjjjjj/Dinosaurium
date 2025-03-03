@@ -3,11 +3,6 @@
   "values": [
     "dinosaurium:araucaria_planks",
     "dinosaurium:araucaria_log",
-    "dinosaurium:araucaria_wood",
-    "dinosaurium:stripped_zamites_wood",
-    "dinosaurium:stripped_zamites_log",
-    "dinosaurium:zamites_planks",
-    "dinosaurium:zamites_log",
-    "dinosaurium:zamites_wood"
+    "dinosaurium:araucaria_wood"
   ]
 }

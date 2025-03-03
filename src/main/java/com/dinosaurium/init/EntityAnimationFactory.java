@@ -32,21 +32,17 @@ import com.dinosaurium.entity.OviraptorEntity;
 import com.dinosaurium.entity.OuranosaurusEntity;
 import com.dinosaurium.entity.OrodromeusEntity;
 import com.dinosaurium.entity.OnchopristisEntity;
-import com.dinosaurium.entity.OmmaEntity;
 import com.dinosaurium.entity.OlorotitanEntity;
 import com.dinosaurium.entity.NyctosaurusEntity;
 import com.dinosaurium.entity.NigersaurusEntity;
 import com.dinosaurium.entity.NemegtosaurusEntity;
 import com.dinosaurium.entity.NanuqsaurusEntity;
-import com.dinosaurium.entity.NannogomphusEntity;
-import com.dinosaurium.entity.MongolarachneEntity;
 import com.dinosaurium.entity.MiragaiaEntity;
 import com.dinosaurium.entity.MicroraptorEntity;
 import com.dinosaurium.entity.MamenchisaurusEntity;
 import com.dinosaurium.entity.MagyarosaurusEntity;
 import com.dinosaurium.entity.LisowiciaEntity;
 import com.dinosaurium.entity.LambeosaurusEntity;
-import com.dinosaurium.entity.KolEntity;
 import com.dinosaurium.entity.JeholopterusEntity;
 import com.dinosaurium.entity.IguanodonEntity;
 import com.dinosaurium.entity.IchthyosaurusEntity;
@@ -54,17 +50,14 @@ import com.dinosaurium.entity.HorseshoeCrabEntity;
 import com.dinosaurium.entity.HerrerasaurusEntity;
 import com.dinosaurium.entity.HatzegopteryxEntity;
 import com.dinosaurium.entity.HalszkaraptorEntity;
-import com.dinosaurium.entity.GiantCicadEntity;
 import com.dinosaurium.entity.GallimimusEntity;
 import com.dinosaurium.entity.EdmontosaurusEntity;
 import com.dinosaurium.entity.DsungaripterusEntity;
 import com.dinosaurium.entity.DiplodocusEntity;
 import com.dinosaurium.entity.DilophosaurusEntity;
 import com.dinosaurium.entity.DeinocheirusEntity;
-import com.dinosaurium.entity.CretaraneusEntity;
 import com.dinosaurium.entity.CompsognathusEntity;
 import com.dinosaurium.entity.CoelophysisEntity;
-import com.dinosaurium.entity.CephaloleichnitesEntity;
 import com.dinosaurium.entity.BruhathkayosaurusEntity;
 import com.dinosaurium.entity.BrachytrachelopanEntity;
 import com.dinosaurium.entity.BeipiaosaurusEntity;
@@ -362,20 +355,6 @@ public class EntityAnimationFactory {
 					syncable.animationprocedure = animation;
 				}
 			}
-			if (event.getEntity() instanceof CephaloleichnitesEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof KolEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
 			if (event.getEntity() instanceof AnzuEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
@@ -412,20 +391,6 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof PachycephalosaurusEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof CretaraneusEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof MongolarachneEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
@@ -482,27 +447,6 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof SpinofaarusEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof OmmaEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof NannogomphusEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof GiantCicadEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

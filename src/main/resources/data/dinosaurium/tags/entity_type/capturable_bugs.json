@@ -1,11 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "dinosaurium:cephaloleichnites",
-    "dinosaurium:cretaraneus",
-    "dinosaurium:mongolarachne",
-    "dinosaurium:omma",
-    "dinosaurium:nannogomphus",
-    "dinosaurium:giant_cicada"
-  ]
+  "values": []
 }

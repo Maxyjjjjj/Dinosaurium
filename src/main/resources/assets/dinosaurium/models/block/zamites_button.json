@@ -1,8 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "particle": "dinosaurium:block/zamites_planks",
-    "texture": "dinosaurium:block/zamites_planks"
-  },
-  "render_type": "solid"
-}

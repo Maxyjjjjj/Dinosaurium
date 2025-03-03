@@ -44,21 +44,17 @@ import com.dinosaurium.entity.OviraptorEntity;
 import com.dinosaurium.entity.OuranosaurusEntity;
 import com.dinosaurium.entity.OrodromeusEntity;
 import com.dinosaurium.entity.OnchopristisEntity;
-import com.dinosaurium.entity.OmmaEntity;
 import com.dinosaurium.entity.OlorotitanEntity;
 import com.dinosaurium.entity.NyctosaurusEntity;
 import com.dinosaurium.entity.NigersaurusEntity;
 import com.dinosaurium.entity.NemegtosaurusEntity;
 import com.dinosaurium.entity.NanuqsaurusEntity;
-import com.dinosaurium.entity.NannogomphusEntity;
-import com.dinosaurium.entity.MongolarachneEntity;
 import com.dinosaurium.entity.MiragaiaEntity;
 import com.dinosaurium.entity.MicroraptorEntity;
 import com.dinosaurium.entity.MamenchisaurusEntity;
 import com.dinosaurium.entity.MagyarosaurusEntity;
 import com.dinosaurium.entity.LisowiciaEntity;
 import com.dinosaurium.entity.LambeosaurusEntity;
-import com.dinosaurium.entity.KolEntity;
 import com.dinosaurium.entity.JeholopterusEntity;
 import com.dinosaurium.entity.IguanodonEntity;
 import com.dinosaurium.entity.IchthyosaurusEntity;
@@ -66,17 +62,14 @@ import com.dinosaurium.entity.HorseshoeCrabEntity;
 import com.dinosaurium.entity.HerrerasaurusEntity;
 import com.dinosaurium.entity.HatzegopteryxEntity;
 import com.dinosaurium.entity.HalszkaraptorEntity;
-import com.dinosaurium.entity.GiantCicadEntity;
 import com.dinosaurium.entity.GallimimusEntity;
 import com.dinosaurium.entity.EdmontosaurusEntity;
 import com.dinosaurium.entity.DsungaripterusEntity;
 import com.dinosaurium.entity.DiplodocusEntity;
 import com.dinosaurium.entity.DilophosaurusEntity;
 import com.dinosaurium.entity.DeinocheirusEntity;
-import com.dinosaurium.entity.CretaraneusEntity;
 import com.dinosaurium.entity.CompsognathusEntity;
 import com.dinosaurium.entity.CoelophysisEntity;
-import com.dinosaurium.entity.CephaloleichnitesEntity;
 import com.dinosaurium.entity.BruhathkayosaurusEntity;
 import com.dinosaurium.entity.BrachytrachelopanEntity;
 import com.dinosaurium.entity.BeipiaosaurusEntity;
@@ -253,13 +246,6 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<OrodromeusEntity>of(OrodromeusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.5f, 0.5f));
-	public static final DeferredHolder<EntityType<?>, EntityType<CephaloleichnitesEntity>> CEPHALOLEICHNITES = register("cephaloleichnites",
-			EntityType.Builder.<CephaloleichnitesEntity>of(CephaloleichnitesEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.3f, 0.3f));
-	public static final DeferredHolder<EntityType<?>, EntityType<KolEntity>> KOL = register("kol", EntityType.Builder.<KolEntity>of(KolEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-			.sized(0.7f, 0.7f));
 	public static final DeferredHolder<EntityType<?>, EntityType<AnzuEntity>> ANZU = register("anzu",
 			EntityType.Builder.<AnzuEntity>of(AnzuEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -284,14 +270,6 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<PachycephalosaurusEntity>of(PachycephalosaurusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1.5f));
-	public static final DeferredHolder<EntityType<?>, EntityType<CretaraneusEntity>> CRETARANEUS = register("cretaraneus",
-			EntityType.Builder.<CretaraneusEntity>of(CretaraneusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.3f, 0.3f));
-	public static final DeferredHolder<EntityType<?>, EntityType<MongolarachneEntity>> MONGOLARACHNE = register("mongolarachne",
-			EntityType.Builder.<MongolarachneEntity>of(MongolarachneEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.3f, 0.3f));
 	public static final DeferredHolder<EntityType<?>, EntityType<CoelophysisEntity>> COELOPHYSIS = register("coelophysis",
 			EntityType.Builder.<CoelophysisEntity>of(CoelophysisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -324,18 +302,6 @@ public class DinosauriumModEntities {
 			EntityType.Builder.<SpinofaarusEntity>of(SpinofaarusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1.3f, 2.1f));
-	public static final DeferredHolder<EntityType<?>, EntityType<OmmaEntity>> OMMA = register("omma",
-			EntityType.Builder.<OmmaEntity>of(OmmaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.3f, 0.3f));
-	public static final DeferredHolder<EntityType<?>, EntityType<NannogomphusEntity>> NANNOGOMPHUS = register("nannogomphus",
-			EntityType.Builder.<NannogomphusEntity>of(NannogomphusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.3f, 0.3f));
-	public static final DeferredHolder<EntityType<?>, EntityType<GiantCicadEntity>> GIANT_CICADA = register("giant_cicada",
-			EntityType.Builder.<GiantCicadEntity>of(GiantCicadEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.3f, 0.3f));
 	public static final DeferredHolder<EntityType<?>, EntityType<LambeosaurusEntity>> LAMBEOSAURUS = register("lambeosaurus",
 			EntityType.Builder.<LambeosaurusEntity>of(LambeosaurusEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -428,16 +394,12 @@ public class DinosauriumModEntities {
 		NanuqsaurusEntity.init(event);
 		ParapuzosiaEntity.init(event);
 		OrodromeusEntity.init(event);
-		CephaloleichnitesEntity.init(event);
-		KolEntity.init(event);
 		AnzuEntity.init(event);
 		BeipiaosaurusEntity.init(event);
 		ZhenyuanlongEntity.init(event);
 		DilophosaurusEntity.init(event);
 		EdmontosaurusEntity.init(event);
 		PachycephalosaurusEntity.init(event);
-		CretaraneusEntity.init(event);
-		MongolarachneEntity.init(event);
 		CoelophysisEntity.init(event);
 		JeholopterusEntity.init(event);
 		HalszkaraptorEntity.init(event);
@@ -446,9 +408,6 @@ public class DinosauriumModEntities {
 		RepenomamusEntity.init(event);
 		MamenchisaurusEntity.init(event);
 		SpinofaarusEntity.init(event);
-		OmmaEntity.init(event);
-		NannogomphusEntity.init(event);
-		GiantCicadEntity.init(event);
 		LambeosaurusEntity.init(event);
 		OuranosaurusEntity.init(event);
 		DsungaripterusEntity.init(event);
@@ -504,16 +463,12 @@ public class DinosauriumModEntities {
 		event.put(NANUQSAURUS.get(), NanuqsaurusEntity.createAttributes().build());
 		event.put(PARAPUZOSIA.get(), ParapuzosiaEntity.createAttributes().build());
 		event.put(ORODROMEUS.get(), OrodromeusEntity.createAttributes().build());
-		event.put(CEPHALOLEICHNITES.get(), CephaloleichnitesEntity.createAttributes().build());
-		event.put(KOL.get(), KolEntity.createAttributes().build());
 		event.put(ANZU.get(), AnzuEntity.createAttributes().build());
 		event.put(BEIPIAOSAURUS.get(), BeipiaosaurusEntity.createAttributes().build());
 		event.put(ZHENYUANLONG.get(), ZhenyuanlongEntity.createAttributes().build());
 		event.put(DILOPHOSAURUS.get(), DilophosaurusEntity.createAttributes().build());
 		event.put(EDMONTOSAURUS.get(), EdmontosaurusEntity.createAttributes().build());
 		event.put(PACHYCEPHALOSAURUS.get(), PachycephalosaurusEntity.createAttributes().build());
-		event.put(CRETARANEUS.get(), CretaraneusEntity.createAttributes().build());
-		event.put(MONGOLARACHNE.get(), MongolarachneEntity.createAttributes().build());
 		event.put(COELOPHYSIS.get(), CoelophysisEntity.createAttributes().build());
 		event.put(JEHOLOPTERUS.get(), JeholopterusEntity.createAttributes().build());
 		event.put(HALSZKARAPTOR.get(), HalszkaraptorEntity.createAttributes().build());
@@ -522,9 +477,6 @@ public class DinosauriumModEntities {
 		event.put(REPENOMAMUS.get(), RepenomamusEntity.createAttributes().build());
 		event.put(MAMENCHISAURUS.get(), MamenchisaurusEntity.createAttributes().build());
 		event.put(SPINOFAARUS.get(), SpinofaarusEntity.createAttributes().build());
-		event.put(OMMA.get(), OmmaEntity.createAttributes().build());
-		event.put(NANNOGOMPHUS.get(), NannogomphusEntity.createAttributes().build());
-		event.put(GIANT_CICADA.get(), GiantCicadEntity.createAttributes().build());
 		event.put(LAMBEOSAURUS.get(), LambeosaurusEntity.createAttributes().build());
 		event.put(OURANOSAURUS.get(), OuranosaurusEntity.createAttributes().build());
 		event.put(DSUNGARIPTERUS.get(), DsungaripterusEntity.createAttributes().build());

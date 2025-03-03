@@ -25,7 +25,6 @@ import java.util.HashMap;
 import java.util.Collection;
 import java.util.ArrayList;
 
-import com.dinosaurium.world.features.StructureFeature;
 import com.dinosaurium.init.DinosauriumModVillagerProfessions;
 import com.dinosaurium.init.DinosauriumModTabs;
 import com.dinosaurium.init.DinosauriumModSounds;
@@ -51,8 +50,6 @@ public class DinosauriumMod {
 		DinosauriumModItems.REGISTRY.register(modEventBus);
 		DinosauriumModEntities.REGISTRY.register(modEventBus);
 		DinosauriumModTabs.REGISTRY.register(modEventBus);
-
-		StructureFeature.REGISTRY.register(modEventBus);
 
 		DinosauriumModMenus.REGISTRY.register(modEventBus);
 

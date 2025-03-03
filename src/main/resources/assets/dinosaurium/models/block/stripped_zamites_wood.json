@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dinosaurium:block/stripped_zamites_log",
-    "particle": "dinosaurium:block/stripped_zamites_log"
-  },
-  "render_type": "solid"
-}

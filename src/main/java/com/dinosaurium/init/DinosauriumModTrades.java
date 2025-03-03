@@ -37,7 +37,7 @@ public class DinosauriumModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(Items.STICK), new ItemStack(Items.BRUSH), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2), new ItemStack(Items.COPPER_INGOT, 2), new ItemStack(Items.SPYGLASS), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 6), new ItemStack(Items.STICK, 3), new ItemStack(DinosauriumModItems.BUG_NET.get()), 10, 10, 0.05f));
-			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(DinosauriumModBlocks.ZAMITES_SAPLING.get()), new ItemStack(Items.EMERALD, 6), new ItemStack(DinosauriumModBlocks.ZAMITES_LOG.get()), 10, 15, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(DinosauriumModBlocks.OSMUNDA.get()), new ItemStack(Items.EMERALD, 6), new ItemStack(DinosauriumModItems.OSMUNDA_ROOT.get(), 3), 10, 15, 0.05f));
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNIDENTIFIED_FOSSIL.get()), new ItemStack(Items.EMERALD, 10), new ItemStack(DinosauriumModItems.VELOCIRAPTOR_FOSSIL.get()), 10, 50, 0.05f));
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNIDENTIFIED_FOSSIL.get()), new ItemStack(Items.EMERALD, 10), new ItemStack(DinosauriumModItems.SHUVUUIA_FOSSIL.get()), 10, 50, 0.05f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(DinosauriumModItems.UNBOILED_LAUROZAMITES_TEA.get()), new ItemStack(Items.EMERALD, 6), new ItemStack(DinosauriumModItems.LAUROZAMITES_TEA.get()), 10, 100, 0.05f));

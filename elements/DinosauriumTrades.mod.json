@@ -114,7 +114,7 @@
           },
           {
             "price1": {
-              "value": "CUSTOM:ZamitesSapling"
+              "value": "CUSTOM:Osmunda"
             },
             "countPrice1": 1,
             "price2": {
@@ -122,9 +122,9 @@
             },
             "countPrice2": 6,
             "offer": {
-              "value": "CUSTOM:ZamitesLog"
+              "value": "CUSTOM:OsmundaRoot"
             },
-            "countOffer": 1,
+            "countOffer": 3,
             "level": 3,
             "maxTrades": 10,
             "xp": 15,

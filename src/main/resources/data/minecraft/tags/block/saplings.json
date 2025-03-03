@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "dinosaurium:araucaria_sapling",
-    "dinosaurium:zamites_sapling"
+    "dinosaurium:araucaria_sapling"
   ]
 }

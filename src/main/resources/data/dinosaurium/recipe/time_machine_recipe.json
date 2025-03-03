@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "dinosaurium:bronze_ingot"
+    },
+    "b": {
+      "item": "dinosaurium:aluminium_ingot"
+    },
+    "c": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "id": "dinosaurium:time_machine",
+    "count": 1
+  }
+}
